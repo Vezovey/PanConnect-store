@@ -170,12 +170,13 @@ export async function getProducts(params: {
   }
 
   if (params.search) {
-    const q = params.search.toLowerCase();
-    filtered = filtered.filter(p =>
-      p.name.toLowerCase().includes(q) ||
-      p.brand.toLowerCase().includes(q) ||
-      p.short_description.toLowerCase().includes(q)
-    );
+    const words = params.search.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+    filtered = filtered.filter(p => {
+      const name = p.name.toLowerCase();
+      const brand = p.brand.toLowerCase();
+      const desc = p.short_description.toLowerCase();
+      return words.every(w => name.includes(w) || brand.includes(w) || desc.includes(w));
+    });
   }
 
   if (params.price_min !== undefined) {
