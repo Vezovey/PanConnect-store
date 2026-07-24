@@ -43,7 +43,7 @@ export default function Footer() {
               <li className="text-sm text-gray-500">+375 (29) 159-45-97</li>
               <li className="text-sm text-gray-500">Минск, ул. Тимирязева 127</li>
               <li className="flex gap-3 pt-2">
-                <a href="https://t.me/375291594597" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-black transition-colors">
+                <a href="https://t.me/+375291594597" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-black transition-colors">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 8.16l-1.832 8.64c-.14.62-.508.78-1.024.48l-2.816-2.072-1.36 1.3c-.152.152-.28.28-.576.28l.2-2.88 5.2-4.7c.224-.2-.048-.312-.344-.12l-6.432 4.04-2.776-.868c-.6-.188-.612-.6.124-.888l10.856-4.192c.504-.184.944.124.776.888z"/></svg>
                 </a>
                 <a href="https://wa.me/375291594597" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-black transition-colors">

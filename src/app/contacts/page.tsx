@@ -37,7 +37,7 @@ export default function ContactsPage() {
           </div>
           <h3 className="font-medium mb-3">Мессенджеры</h3>
           <div className="flex gap-3">
-            <a href="https://t.me/375291594597" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-500 text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition-colors">
+            <a href="https://t.me/+375291594597" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-blue-500 text-white text-sm font-medium rounded-lg hover:bg-blue-600 transition-colors">
               Telegram
             </a>
             <a href="https://wa.me/375291594597" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-green-500 text-white text-sm font-medium rounded-lg hover:bg-green-600 transition-colors">
@@ -77,7 +77,7 @@ export default function ContactsPage() {
         <h2 className="text-xl font-semibold mb-2">Есть вопросы?</h2>
         <p className="text-gray-400 mb-6">Напишите нам — ответим за 5 минут в рабочее время</p>
         <a
-          href="https://t.me/375291594597"
+          href="https://t.me/+375291594597"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 bg-white text-gray-900 text-sm font-medium rounded-full hover:bg-gray-100 transition-colors"

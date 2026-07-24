@@ -165,7 +165,7 @@ export default function Header() {
 
             {/* Мессенджеры */}
             <div className="hidden lg:flex items-center gap-1">
-              <a href="https://t.me/375291594597" target="_blank" rel="noopener noreferrer"
+              <a href="https://t.me/+375291594597" target="_blank" rel="noopener noreferrer"
                  className="w-7 h-7 flex items-center justify-center rounded-full text-gray-400 hover:text-[#0088cc] hover:bg-blue-50 transition-colors" title="Telegram">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 8.16l-1.832 8.64c-.14.62-.508.78-1.024.48l-2.816-2.072-1.36 1.3c-.152.152-.28.28-.576.28l.2-2.88 5.2-4.7c.224-.2-.048-.312-.344-.12l-6.432 4.04-2.776-.868c-.6-.188-.612-.6.124-.888l10.856-4.192c.504-.184.944.124.776.888z"/></svg>
               </a>
