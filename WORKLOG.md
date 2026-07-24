@@ -1199,3 +1199,44 @@ const productById = new Map(allProducts.map(...));
 - `.gitignore` — обновлён
 
 **Статус:** Выполнено. TypeScript компилируется без ошибок. Проект готов к git push.
+
+---
+
+### Git push и тестирование сайта
+
+**Git push:**
+- Репозиторий: `https://github.com/Vezovey/PanConnect-store.git`
+- Ветка: `master`
+- Коммит: `Initial-commit-PanConnect-store`
+- Статус: `working tree clean`, `up to date with origin/master`
+
+**Тестирование (localhost:3000, production build):**
+
+| Страница/API | HTTP | Статус |
+|-------------|------|--------|
+| `/` (главная) | 200 | OK |
+| `/catalog` | 200 | OK |
+| `/catalog?category=samsung` | 200 | OK |
+| `/catalog?search=xiaomi` | 200 | OK |
+| `/product/samsung-galaxy-s25` | 200 | OK |
+| `/product/iphone-16-pro` | 200 | OK |
+| `/product/nonexistent` | 404 | OK |
+| `/cart` | 200 | OK |
+| `/checkout` | 200 | OK |
+| `/compare` | 200 | OK |
+| `/delivery` | 200 | OK |
+| `/warranty` | 200 | OK |
+| `/contacts` | 200 | OK |
+| `/admin` | 200 | OK |
+| `/sitemap.xml` | 200 | OK |
+| `/robots.txt` | 200 | OK |
+| `/nonexistent-page` | 404 | OK |
+| `/api/search?q=samsung` | 200 | OK (возвращает товары) |
+| `/api/admin/products` (без auth) | 401 | OK (защищён) |
+| `/api/export/csv` (без auth) | 401 | OK (защищён) |
+| `/api/export/yml` (без auth) | 401 | OK (защищён) |
+| `next build` | OK | Сборка успешна, все страницы компилируются |
+
+**Доставка:** подтверждена цена 20 Br по Беларуси (соответствует коду в `checkout/page.tsx` и `delivery/page.tsx`).
+
+**Статус:** Все тесты пройдены. Сайт готов к деплою на VPS.
