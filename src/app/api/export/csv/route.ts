@@ -17,8 +17,8 @@ function csvEscape(s: string): string {
 function stripHtml(html: string): string {
   if (!html) return '';
   return html
-    .replace(/<br\s*\/?>/gi, '\n')
-    .replace(/<\/li>/gi, '\n')
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<\/li>/gi, ' ')
     .replace(/<[^>]*>/g, '')
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
@@ -26,7 +26,7 @@ function stripHtml(html: string): string {
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, ' ')
-    .replace(/\n{3,}/g, '\n\n')
+    .replace(/\s+/g, ' ')
     .trim();
 }
 
