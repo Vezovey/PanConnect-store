@@ -28203,5 +28203,1016 @@
     "model": "(4a) Pro",
     "typePrefix": "Смартфон",
     "deliveryDays": 21
+  },
+  {
+    "id": 11974,
+    "name": "Tecno Pova 8 5G",
+    "slug": "tecno-pova-8-5g",
+    "type": "variable",
+    "price": "1349",
+    "sale_price": "",
+    "short_description": "Android, экран 6.76\" IPS (1080x2344) 144 Гц, MediaTek Dimensity 7100, ОЗУ 6/8 ГБ, память 128/256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 8000 мАч, моноблок, влагозащита IP64",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\">6.76\"</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">1080x2344</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\">IPS</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">144 Гц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">16 млн</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">382 ppi</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">19.5:9</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Защита от царапин</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">165.66 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">78.46 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.8 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">225 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 16</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\">8 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">256 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Mediatek Dimensity</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">MediaTek Dimensity 7100</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">2 400 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">8 (4+4)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM Cortex-A78 2400 МГц + ARM Cortex-A55 2000 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">6 нм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Графический ускоритель</div>\n\\n<div class=\"my_item2\">ARM Mali-G610 MC2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">AnTuTu v9 Total Score</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Характеристики камер</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество точек матрицы</div>\n\\n<div class=\"my_item2\">50 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Характеристики камеры</div>\n\\n<div class=\"my_item2\">50 Мп, 23 мм, f/1.8, 1/1.95\", 0.8 мкм, PDAF, Sony Lytia 600, широкоугольный</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество основных камер</div>\n\\n<div class=\"my_item2\">1</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Дополнительные модули камеры</div>\n\\n<div class=\"my_item2\">широкоугольный</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Диафрагма основной камеры</div>\n\\n<div class=\"my_item2\">f/1.8</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное количество кадров в секунду</div>\n\\n<div class=\"my_item2\">30 кадров/с</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">13 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Диафрагма</div>\n\\n<div class=\"my_item2\">f/2.2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">2560x1440 (30 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Материал корпуса</div>\n\\n<div class=\"my_item2\">пластик</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Материал задней крышки</div>\n\\n<div class=\"my_item2\">пластик</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP64</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\n\\n<div class=\"my_item2\">в экране</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Раздельные слоты</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Расположение сканера отпечатка пальца</div>\n\\n<div class=\"my_item2\">на боковом торце</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Формат SIM-карты</div>\n\\n<div class=\"my_item2\">nano-SIM</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество SIM-карт</div>\n\\n<div class=\"my_item2\">2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Поддержка карт памяти</div>\n\\n<div class=\"my_item2\">microSDHC, microSDXC</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Максимальная емкость карты памяти</div>\n\\n<div class=\"my_item2\">2 ТБ</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Передача данных</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Передача данных</div>\n\\n<div class=\"my_item2\">EDGE HSPA HSPA+ LTE 5G</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Интерфейсы</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Bluetooth</div>\n\\n<div class=\"my_item2\">5.4</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Аудиовыход</div>\n\\n<div class=\"my_item2\">USB Type-C</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Wi-Fi</div>\n\\n<div class=\"my_item2\">802.11ac (Wi-Fi 5)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разъём подключения</div>\n\\n<div class=\"my_item2\">USB Type-C 2.0</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Беспроводная зарядка/Быстрая зарядка</div>\n\\n<div class=\"my_item2\">- / 45 Вт</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Si-C</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Емкость аккумулятора</div>\n\\n<div class=\"my_item2\">8 000 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Аккумулятор</div>\n\\n<div class=\"my_item2\">несъёмный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Комплектация</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Комплект поставки</div>\n\\n<div class=\"my_item2\">адаптер питания, кабель USB-A – USB-C, скрепка, документация</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">-</div>\n\\n</div>\n\\n<div class=\"my_div2\"></div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"></div>\n\\n</div>",
+    "local_images": [
+      "/images/tecno-pova-8-5g-1.webp",
+      "/images/tecno-pova-8-5g-2.webp",
+      "/images/tecno-pova-8-5g-3.webp",
+      "/images/tecno-pova-8-5g-4.webp"
+    ],
+    "categories": [
+      "Смартфоны > Tecno",
+      "Смартфоны"
+    ],
+    "brand": "Tecno",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Белый",
+          "Черный"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "128 ГБ",
+          "256 ГБ"
+        ]
+      },
+      {
+        "name": "Оперативная память",
+        "options": [
+          "6 ГБ",
+          "8 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Tecno Pova 8 5G - 256 ГБ",
+        "price": "1349",
+        "regular_price": "1349",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tecno Pova 8 5G - 128 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Tecno",
+    "model": "Pova 8 5G",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
+  },
+  {
+    "id": 11975,
+    "name": "Google Pixel 11",
+    "slug": "google-pixel-11",
+    "type": "variable",
+    "price": "3300",
+    "sale_price": "",
+    "short_description": "Android, экран 6.3\" OLED 120 Гц, (1080x2424) Google Tensor G6, ОЗУ 12 ГБ, память 256/512 ГБ, камера 48 Мп, аккумулятор 4985 мАч Li-ion, моноблок, влагозащита IP68",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\"><b>6,3</b>\"</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">1080x2424</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\"><span class=\"value__text\">OLED (Actua)</span></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">120 Гц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">16 млн</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">422 ppi</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">20:9</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Яркость экрана (пиковая)</div>\n\\n<div class=\"my_item2\">3000 нит</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Защита от царапин</div>\n\\n<div class=\"my_item2\">Gorilla Glass Victus 2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">152.8 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">72 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.6 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">197 г</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 17</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Оболочка</div>\n\\n<div class=\"my_item2\">Android без оболочки</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\"><span class=\"value__text\">12 ГБ (LPDDR5X)</span></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">256 ГБ (UFS 4.0)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Google Tensor</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">Google Tensor G6</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">4 110 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">7 (1+4+2)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM C1-Ultra 4110 МГц + ARM C1-Pro 3380 МГц + ARM C1-Pro 2650 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">2 нм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Графический ускоритель</div>\n\\n<div class=\"my_item2\">IMG PowerVR CXTP-48-1536</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Модем</div>\n\\n<div class=\"my_item2\">MediaTek M90</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Характеристики камер</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество точек матрицы</div>\n\\n<div class=\"my_item2\">48 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Характеристики камеры</div>\n\\n<div class=\"my_item2\">48 Мп, 25 мм, f/1.7, FOV 85°, 1/1.56\", 0.8 мкм, PDAF, оптическая стабилизация, широкоугольный\n\\n13 Мп, f/2.2, FOV 120°, 1/3.1\", PDAF, сверхширокоугольный\n\\n10.8 Мп, 112 мм, f/3.1, FOV 23°, 1/3.2\", 5x оптический зум, PDAF, оптическая стабилизация, телеобъектив</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Основной блок камер</div>\n\\n<div class=\"my_item2\">48 Мп + 10.8 Мп + 13 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество основных камер</div>\n\\n<div class=\"my_item2\">3</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дополнительные модули камеры</div>\n\\n<div class=\"my_item2\">телеобъектив, широкоугольный, сверхширокоугольный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип стабилизации</div>\n\\n<div class=\"my_item2\">оптическая (OIS), цифровая (EIS)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оптический зум</div>\n\\n<div class=\"my_item2\">5X (на увеличение)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Цифровой зум</div>\n\\n<div class=\"my_item2\">30X (на увеличение)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Диафрагма основной камеры</div>\n\\n<div class=\"my_item2\">f/1.7</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное количество кадров в секунду</div>\n\\n<div class=\"my_item2\">240 кадров/с (Slo-mo)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">3840x2160 (60 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">10.5 Мп</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Характеристики фронтальной камеры</div>\n\\n<div class=\"my_item2\">10.5 Мп, f/2.2, FOV 95°, AF, широкоугольный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Диафрагма</div>\n\\n<div class=\"my_item2\">f/2.2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\n\\n<div class=\"my_item2\">в экране</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">3840x2160 (4K UHD)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Материал граней</div>\n\\n<div class=\"my_item2\">алюминий</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Материал задней крышки</div>\n\\n<div class=\"my_item2\">стекло</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Цвет граней</div>\n\\n<div class=\"my_item2\">черный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Цвет задней крышки</div>\n\\n<div class=\"my_item2\">черный</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Цвет фронтальной панели</div>\n\\n<div class=\"my_item2\">черный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP68</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Встроенные магниты</div>\n\\n<div class=\"my_item2\">Google PixelSnap</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Расположение сканера отпечатка пальца</div>\n\\n<div class=\"my_item2\">встроен в дисплей</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тип сканера отпечатка пальца</div>\n\\n<div class=\"my_item2\">ультразвуковой</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Функциональные особенности</div>\n\\n<div class=\"my_item2\">симметричные рамки экрана, электронный компас, спутниковая связь</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Формат SIM-карты</div>\n\\n<div class=\"my_item2\">nano-SIM, eSIM</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество SIM-карт</div>\n\\n<div class=\"my_item2\">1</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Поддержка карт памяти</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Передача данных</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Передача данных</div>\n\\n<div class=\"my_item2\">EDGE HSPA HSPA+ LTE 5G</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Поддерживаемые частоты и полосы</div>\n\\n<div class=\"my_item2\">GSM/EDGE: Quad-band (850, 900, 1800, 1900 MHz)\n\\nUMTS/HSPA+/HSDPA: Bands: 1, 2, 4, 5, 8\n\\nLTE: Bands 1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 14 / 17 / 18 / 19 / 20 / 21 / 25 / 26 / 28 / 29 / 30 / 32 / 38 / 39 / 40 / 41 / 42 / 48 / 66 / 71 / 75\n\\n5G Sub-6:45 Bands 1 / 2 / 3 / 5 / 7 / 8 / 12 / 13 / 14 / 20 / 25 / 26 / 28 / 30 / 38 / 40 / 41 / 66 / 71 / 75 / 77 / 78 / 79</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Интерфейсы</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Bluetooth</div>\n\\n<div class=\"my_item2\">6.0</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Аудиовыход</div>\n\\n<div class=\"my_item2\">USB Type-C</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Wi-Fi</div>\n\\n<div class=\"my_item2\">802.11ax (Wi-Fi 6E)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Разъём подключения</div>\n\\n<div class=\"my_item2\">USB Type-C 3.2 Gen2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">NFC</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Li-ion</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Емкость аккумулятора</div>\n\\n<div class=\"my_item2\">4 985 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Аккумулятор</div>\n\\n<div class=\"my_item2\">несъемный</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Беспроводная зарядка</div>\n\\n<div class=\"my_item2\">25 Вт</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Безопасность</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">SAR голова</div>\n\\n<div class=\"my_item2\">0.95 Вт/кг</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">SAR тело</div>\n\\n<div class=\"my_item2\">1.38 Вт/кг</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Комплектация</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Комплект поставки</div>\n\\n<div class=\"my_item2\">кабель USB-C - USB-C, скрепка, документация</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Метки</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Модель</div>\n\\n<div class=\"my_item2\">Google Pixel 11</div>\n\\n</div>",
+    "local_images": [
+      "/images/google-pixel-11-1.webp",
+      "/images/google-pixel-11-2.webp",
+      "/images/google-pixel-11-3.webp",
+      "/images/google-pixel-11-4.webp",
+      "/images/google-pixel-11-5.webp"
+    ],
+    "categories": [
+      "Смартфоны > Google",
+      "Смартфоны"
+    ],
+    "brand": "Google",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Морозный",
+          "Обсидиан",
+          "Розовый",
+          "Фисташковый"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "256 ГБ",
+          "512 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Google Pixel 11 - 512 ГБ",
+        "price": "3900",
+        "regular_price": "3900",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "512 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Google Pixel 11 - 256 ГБ",
+        "price": "3300",
+        "regular_price": "3300",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Google",
+    "model": "Pixel 11",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
+  },
+  {
+    "id": 11976,
+    "name": "Google Pixel 11 Pro",
+    "slug": "google-pixel-11-pro",
+    "type": "variable",
+    "price": "4610",
+    "sale_price": "",
+    "short_description": "Android, экран 6.3\" OLED 120 Гц, (1280x2856) Google Tensor G6, ОЗУ 12/16 ГБ, память 256/512/1024 ГБ, камера 50 Мп, аккумулятор 4850 мАч Li-ion, моноблок, влагозащита IP68",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\"><b>6,3</b>\"</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">1280x2856</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\"><span class=\"value__text\">OLED</span></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">120 Гц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">16 млн</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">495 ppi</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">20:9</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Яркость экрана (типичная)</div>\n\\n<div class=\"my_item2\">2400 нит</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Яркость экрана (пиковая)</div>\n\\n<div class=\"my_item2\">3600 нит</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Защита от царапин</div>\n\\n<div class=\"my_item2\">Gorilla Glass Victus 2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">152.7 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">71.9 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.4 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">204 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 17</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оболочка</div>\n\\n<div class=\"my_item2\">Android без оболочки</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\"><span class=\"value__text\">16 ГБ (LPDDR5X)</span></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">512 ГБ (Zoned UFS 4.0)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Google Tensor</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">Google Tensor G6</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">4 110 МГц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">7 (1+4+2)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM C1-Ultra 4110 МГц + ARM C1-Pro 3380 МГц + ARM C1-Pro 2650 МГц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">2 нм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Графический ускоритель</div>\n\\n<div class=\"my_item2\">IMG PowerVR CXTP-48-1536</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Характеристики камер</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество точек матрицы</div>\n\\n<div class=\"my_item2\">50 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Характеристики камеры</div>\n\\n<div class=\"my_item2\">50 Мп, f/1.68, 25мм, 1/1.3\", 82°, 1.2мкм, dual pixel PDAF, оптическая стабилизация, широкоугольный\n\\n48 Мп, f/1.7, 1/2.51\", 123°, dual pixel PDAF, сверхширокоугольный\n\\n48 Мп, f/2.8, 113мм, 1/2.55\", 23°, dual pixel PDAF, оптическая стабилизация, 5x оптический зум, телеобъектив</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Основной блок камер</div>\n\\n<div class=\"my_item2\">50 Мп + 48 Мп + 48 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество основных камер</div>\n\\n<div class=\"my_item2\">3</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дополнительные модули камеры</div>\n\\n<div class=\"my_item2\">телеобъектив, широкоугольный, сверхширокоугольный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип стабилизации</div>\n\\n<div class=\"my_item2\">оптическая (OIS), цифровая (EIS)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оптический зум</div>\n\\n<div class=\"my_item2\">5X (на увеличение)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Цифровой зум</div>\n\\n<div class=\"my_item2\">120X (на увеличение)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Диафрагма основной камеры</div>\n\\n<div class=\"my_item2\">f/1.68</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное количество кадров в секунду</div>\n\\n<div class=\"my_item2\">240 кадров/с</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">7680x4320 (30 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">42 Мп</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Характеристики фронтальной камеры</div>\n\\n<div class=\"my_item2\">42 Мп, f/2.2, 103°, сверхширокоугольный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Диафрагма</div>\n\\n<div class=\"my_item2\">f/2.2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\n\\n<div class=\"my_item2\">в экране</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">3840x2160 (4K UHD)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Материал граней</div>\n\\n<div class=\"my_item2\">алюминий</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Материал задней крышки</div>\n\\n<div class=\"my_item2\">стекло</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Цвет граней</div>\n\\n<div class=\"my_item2\">черный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Цвет задней крышки</div>\n\\n<div class=\"my_item2\">черный</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Цвет фронтальной панели</div>\n\\n<div class=\"my_item2\">черный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP68</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Встроенные магниты</div>\n\\n<div class=\"my_item2\">Google PixelSnap</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Расположение сканера отпечатка пальца</div>\n\\n<div class=\"my_item2\">встроен в дисплей</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тип сканера отпечатка пальца</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Функциональные особенности</div>\n\\n<div class=\"my_item2\">симметричные рамки экрана, электронный компас, спутниковая связь, линейный вибромотор, обратная проводная зарядка</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Формат SIM-карты</div>\n\\n<div class=\"my_item2\">nano-SIM, eSIM</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество SIM-карт</div>\n\\n<div class=\"my_item2\">1</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Поддержка карт памяти</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Передача данных</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Передача данных</div>\n\\n<div class=\"my_item2\">EDGE HSPA HSPA+ LTE 5G</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Поддерживаемые частоты и полосы</div>\n\\n<div class=\"my_item2\">GSM/EDGE:850, 900, 1800, 1900 МГц;\n\\nUMTS/HSPA+:1, 2, 4, 5, 8;\n\\nLTE:1/2/3/4/5/7/8/12/13/14/17/18/19/20/21/25/26/28/29/30/32/38/39/40/41/42/48/66/71/75; 5G:1/2/3/5/7/8/12/13/14/20/25/26/28/30/38/40/41/66/71/75/77/78/79</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Интерфейсы</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Bluetooth</div>\n\\n<div class=\"my_item2\">6.0</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Аудиокодеки Bluetooth</div>\n\\n<div class=\"my_item2\">SBC, AAC, LC3</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Аудиовыход</div>\n\\n<div class=\"my_item2\">USB Type-C</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Wi-Fi</div>\n\\n<div class=\"my_item2\">802.11be (Wi-Fi 7)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разъём подключения</div>\n\\n<div class=\"my_item2\">USB Type-C 3.2 Gen1</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">NFC</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Li-ion</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Емкость аккумулятора</div>\n\\n<div class=\"my_item2\">4 850 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Аккумулятор</div>\n\\n<div class=\"my_item2\">несъемный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Мощность зарядки</div>\n\\n<div class=\"my_item2\">30 Вт</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Беспроводная зарядка</div>\n\\n<div class=\"my_item2\">25 Вт</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Комплектация</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Комплект поставки</div>\n\\n<div class=\"my_item2\">кабель USB-C - USB-C, скрепка, документация</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Метки</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Модель</div>\n\\n<div class=\"my_item2\">Google Pixel 11 Pro</div>\n\\n</div>",
+    "local_images": [
+      "/images/google-pixel-11-pro-1.webp",
+      "/images/google-pixel-11-pro-2.webp",
+      "/images/google-pixel-11-pro-3.webp",
+      "/images/google-pixel-11-pro-4.webp",
+      "/images/google-pixel-11-pro-5.webp"
+    ],
+    "categories": [
+      "Смартфоны > Google",
+      "Смартфоны"
+    ],
+    "brand": "Google",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Обсидиан",
+          "Оливковый",
+          "Персик",
+          "Туман"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "1 ТБ",
+          "256 ГБ",
+          "512 ГБ"
+        ]
+      },
+      {
+        "name": "Оперативная память",
+        "options": [
+          "12 ГБ",
+          "16 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Google Pixel 11 Pro - Обсидиан",
+        "price": "6240",
+        "regular_price": "6240",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Цвет корпуса",
+            "option": "Обсидиан"
+          },
+          {
+            "name": "Встроенная память",
+            "option": "1 ТБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "16 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Google Pixel 11 Pro - 512 ГБ",
+        "price": "5310",
+        "regular_price": "5310",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "512 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "16 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Google Pixel 11 Pro - 256 ГБ",
+        "price": "4610",
+        "regular_price": "4610",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "12 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Google",
+    "model": "Pixel 11 Pro",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
+  },
+  {
+    "id": 11977,
+    "name": "Xiaomi Redmi Note 17 5G",
+    "slug": "xiaomi-redmi-note-17-5g",
+    "type": "variable",
+    "price": "1190",
+    "sale_price": "",
+    "short_description": "Android, экран 6.99\" AMOLED 120 Гц, (1080x2392) Qualcomm Snapdragon 4 Gen 4, ОЗУ 6/8 ГБ, память 128/256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 7700 мАч Si-C, моноблок, влагозащита IP65",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\">6.99\"</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">1080x2392</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\">AMOLED</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">120 Гц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">16 млн</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">375 ppi</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">19.97:9</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Защита от царапин</div>\n\\n<div class=\"my_item2\">Gorilla Glass 7i</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">169.7 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">79.14 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.45 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">225 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 16</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\">6 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">256 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Qualcomm Snapdragon</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">Qualcomm Snapdragon 4 Gen 4</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">2 300 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">8 (2+6)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM Cortex-A78 2300 МГц + ARM Cortex-A55 1950 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">4 нм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Графический ускоритель</div>\n\\n<div class=\"my_item2\">Qualcomm Adreno 613</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Камеры</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Основная камера</div>\n\\n<div class=\"my_item2\">50 Мп</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество модулей камеры</div>\n\\n<div class=\"my_item2\">1</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">1920x1080 (30 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">16 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Материал корпуса</div>\n\\n<div class=\"my_item2\">пластик</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP65</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Сканер отпечатка пальца</div>\n\\n<div class=\"my_item2\">оптический, встроен в дисплей</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество SIM-карт</div>\n\\n<div class=\"my_item2\">2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Формат SIM-карты</div>\n\\n<div class=\"my_item2\">nano-SIM</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Si-C</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Емкость аккумулятора</div>\n\\n<div class=\"my_item2\">7 700 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Мощность зарядки</div>\n\\n<div class=\"my_item2\">45 Вт</div>\n\\n</div>",
+    "local_images": [
+      "/images/xiaomi-redmi-note-17-5g-1.webp",
+      "/images/xiaomi-redmi-note-17-5g-2.webp",
+      "/images/xiaomi-redmi-note-17-5g-3.webp",
+      "/images/xiaomi-redmi-note-17-5g-4.webp"
+    ],
+    "categories": [
+      "Смартфоны > Xiaomi > Redmi Note",
+      "Смартфоны > Xiaomi",
+      "Смартфоны"
+    ],
+    "brand": "Xiaomi",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Голубой",
+          "Фиолетовый",
+          "Черный"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "128 ГБ",
+          "256 ГБ"
+        ]
+      },
+      {
+        "name": "Оперативная память",
+        "options": [
+          "6 ГБ",
+          "8 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Xiaomi Redmi Note 17 5G - 256 ГБ",
+        "price": "1190",
+        "regular_price": "1190",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Xiaomi Redmi Note 17 5G - 256 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Xiaomi Redmi Note 17 5G - 128 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 17 5G",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
+  },
+  {
+    "id": 11978,
+    "name": "Xiaomi Redmi Note 17 Pro 5G",
+    "slug": "xiaomi-redmi-note-17-pro-5g",
+    "type": "variable",
+    "price": "1180",
+    "sale_price": "",
+    "short_description": "Android, экран 6.83\" AMOLED 120 Гц, (1280x2772) Qualcomm Snapdragon 6s Gen 4, ОЗУ 6/8/12 ГБ, память 128/256/512 ГБ, камера 50 Мп, аккумулятор 8340 мАч Si-C, моноблок, влагозащита IP66/IP68/IP69/IP69K",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\">6.83\"</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">1280x2772</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\">AMOLED</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">120 Гц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">68 млрд</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">447 ppi</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">19.5:9</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Защита от царапин</div>\n\\n<div class=\"my_item2\">Gorilla Glass Victus 2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">163.45 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">78.27 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.6 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">223 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 16</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\">8 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">256 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Qualcomm Snapdragon</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">Qualcomm Snapdragon 6s Gen 4</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">2 400 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">8 (4+4)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM Cortex-A78 2400 МГц + ARM Cortex-A55 1800 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">4 нм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Графический ускоритель</div>\n\\n<div class=\"my_item2\">Qualcomm Adreno 710</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Камеры</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Основная камера</div>\n\\n<div class=\"my_item2\">50 Мп + 8 Мп</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество модулей камеры</div>\n\\n<div class=\"my_item2\">2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">1920x1080 (30 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">16 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Материал корпуса</div>\n\\n<div class=\"my_item2\">пластик</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP66, IP68, IP69, IP69K</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Сканер отпечатка пальца</div>\n\\n<div class=\"my_item2\">оптический, встроен в дисплей</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество SIM-карт</div>\n\\n<div class=\"my_item2\">2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Формат SIM-карты</div>\n\\n<div class=\"my_item2\">nano-SIM, eSIM</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Si-C</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Емкость аккумулятора</div>\n\\n<div class=\"my_item2\">8 340 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Мощность зарядки</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>",
+    "local_images": [
+      "/images/xiaomi-redmi-note-17-pro-5g-1.webp",
+      "/images/xiaomi-redmi-note-17-pro-5g-2.webp",
+      "/images/xiaomi-redmi-note-17-pro-5g-3.webp",
+      "/images/xiaomi-redmi-note-17-pro-5g-4.webp",
+      "/images/xiaomi-redmi-note-17-pro-5g-5.webp"
+    ],
+    "categories": [
+      "Смартфоны > Xiaomi > Redmi Note",
+      "Смартфоны > Xiaomi",
+      "Смартфоны"
+    ],
+    "brand": "Xiaomi",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Голубой",
+          "Оранжевый",
+          "Сиреневый",
+          "Черный"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "128 ГБ",
+          "256 ГБ",
+          "512 ГБ"
+        ]
+      },
+      {
+        "name": "Оперативная память",
+        "options": [
+          "12 ГБ",
+          "6 ГБ",
+          "8 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Xiaomi Redmi Note 17 Pro 5G - 512 ГБ",
+        "price": "1550",
+        "regular_price": "1550",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "512 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Xiaomi Redmi Note 17 Pro 5G - 256 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "12 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Xiaomi Redmi Note 17 Pro 5G - 256 ГБ",
+        "price": "1300",
+        "regular_price": "1300",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Xiaomi Redmi Note 17 Pro 5G - 256 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Xiaomi Redmi Note 17 Pro 5G - 128 ГБ",
+        "price": "1180",
+        "regular_price": "1180",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 17 Pro 5G",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
+  },
+  {
+    "id": 11979,
+    "name": "Xiaomi Redmi 17",
+    "slug": "xiaomi-redmi-17",
+    "type": "variable",
+    "price": "590",
+    "sale_price": "",
+    "short_description": "Android, экран 6.9\" IPS 120 Гц, (720x1600)  Mediatek Helio G91 Ultra, ОЗУ 4/6/8 ГБ, память 128/256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 7500 мАч Li-ion, моноблок, влагозащита IP64",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\">6.9\"</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">720x1600</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\">IPS</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">120 Гц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">16 млн</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">254 ppi</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">20:9</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Защита от царапин</div>\n\\n<div class=\"my_item2\">Gorilla Glass 7i</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">170.12 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">78.42 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.8 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">232 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 16</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\">6 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">256 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Mediatek Helio</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">Mediatek Helio G91 Ultra</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">2 000 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">8 (2+6)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM Cortex-A75 2000 МГц + ARM Cortex-A55 1800 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">12 нм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Графический ускоритель</div>\n\\n<div class=\"my_item2\">ARM Mali-G52 MC2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Камеры</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Основная камера</div>\n\\n<div class=\"my_item2\">50 Мп</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество модулей камеры</div>\n\\n<div class=\"my_item2\">1</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">1920x1080 (30 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">8 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Материал корпуса</div>\n\\n<div class=\"my_item2\">пластик</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP64</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Сканер отпечатка пальца</div>\n\\n<div class=\"my_item2\">на боковом торце</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество SIM-карт</div>\n\\n<div class=\"my_item2\">2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Формат SIM-карты</div>\n\\n<div class=\"my_item2\">nano-SIM</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Li-ion</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Емкость аккумулятора</div>\n\\n<div class=\"my_item2\">7 500 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Мощность зарядки</div>\n\\n<div class=\"my_item2\">45 Вт</div>\n\\n</div>",
+    "local_images": [
+      "/images/xiaomi-redmi-17-1.webp",
+      "/images/xiaomi-redmi-17-2.webp",
+      "/images/xiaomi-redmi-17-3.webp",
+      "/images/xiaomi-redmi-17-4.webp",
+      "/images/xiaomi-redmi-17-5.webp"
+    ],
+    "categories": [
+      "Смартфоны > Xiaomi > Redmi",
+      "Смартфоны > Xiaomi",
+      "Смартфоны"
+    ],
+    "brand": "Xiaomi",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Зеленый",
+          "Темно-синий",
+          "Фиолетовый",
+          "Чёрный"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "128 ГБ",
+          "256 ГБ"
+        ]
+      },
+      {
+        "name": "Оперативная память",
+        "options": [
+          "4 ГБ",
+          "6 ГБ",
+          "8 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Xiaomi Redmi 17 - 256 ГБ",
+        "price": "790",
+        "regular_price": "790",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Xiaomi Redmi 17 - 256 ГБ",
+        "price": "815",
+        "regular_price": "815",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Xiaomi Redmi 17 - 256 ГБ",
+        "price": "700",
+        "regular_price": "700",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "4 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Xiaomi Redmi 17 - 128 ГБ",
+        "price": "739",
+        "regular_price": "739",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Xiaomi Redmi 17 - 128 ГБ",
+        "price": "590",
+        "regular_price": "590",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "4 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Xiaomi",
+    "model": "Redmi 17",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
+  },
+  {
+    "id": 11980,
+    "name": "Xiaomi Redmi Note 17",
+    "slug": "xiaomi-redmi-note-17",
+    "type": "variable",
+    "price": "790",
+    "sale_price": "",
+    "short_description": "Android, экран 6.99\" 120 Гц, AMOLED (1080x2392) Qualcomm Snapdragon 6s 4G Gen 2, ОЗУ 4/6/8 ГБ, память 128/256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 7700 мАч Si-C, моноблок, влагозащита IP65",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\">6.99\"</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">1080x2392</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\">AMOLED</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">120 Гц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">16 млн</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">375 ppi</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">19.97:9</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Защита от царапин</div>\n\\n<div class=\"my_item2\">Gorilla Glass 7i</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">169.7 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">79.14 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.45 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">224 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 16</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\">4 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">128 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Qualcomm Snapdragon</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">Qualcomm Snapdragon 6s 4G Gen 2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">2 900 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">8 (4+4)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM Cortex-A73 2900 МГц + ARM Cortex-A53 1900 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">6 нм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Графический ускоритель</div>\n\\n<div class=\"my_item2\">Qualcomm Adreno 610</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Камеры</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Основная камера</div>\n\\n<div class=\"my_item2\">50 Мп</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество модулей камеры</div>\n\\n<div class=\"my_item2\">1</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">1920x1080 (30 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">16 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Материал корпуса</div>\n\\n<div class=\"my_item2\">пластик</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP65</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Сканер отпечатка пальца</div>\n\\n<div class=\"my_item2\">оптический, встроен в дисплей</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество SIM-карт</div>\n\\n<div class=\"my_item2\">2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Формат SIM-карты</div>\n\\n<div class=\"my_item2\">nano-SIM</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Si-C</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Емкость аккумулятора</div>\n\\n<div class=\"my_item2\">7 700 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Мощность зарядки</div>\n\\n<div class=\"my_item2\">45 Вт</div>\n\\n</div>",
+    "local_images": [
+      "/images/xiaomi-redmi-note-17-1.webp",
+      "/images/xiaomi-redmi-note-17-2.webp",
+      "/images/xiaomi-redmi-note-17-3.webp",
+      "/images/xiaomi-redmi-note-17-4.webp"
+    ],
+    "categories": [
+      "Смартфоны > Xiaomi > Redmi Note",
+      "Смартфоны > Xiaomi",
+      "Смартфоны"
+    ],
+    "brand": "Xiaomi",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Голубой",
+          "Фиолетовый",
+          "Черный"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "128 ГБ",
+          "256 ГБ"
+        ]
+      },
+      {
+        "name": "Оперативная память",
+        "options": [
+          "4 ГБ",
+          "6 ГБ",
+          "8 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Xiaomi Redmi Note 17 - 256 ГБ",
+        "price": "930",
+        "regular_price": "930",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Xiaomi Redmi Note 17 - 256 ГБ",
+        "price": "890",
+        "regular_price": "890",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Xiaomi Redmi Note 17 - 128 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Xiaomi Redmi Note 17 - 128 ГБ",
+        "price": "790",
+        "regular_price": "790",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "4 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 17",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
+  },
+  {
+    "id": 11981,
+    "name": "Honor X6e",
+    "slug": "honor-x6e",
+    "type": "variable",
+    "price": "",
+    "sale_price": "",
+    "short_description": "Android, экран 6.61\" TFT 120 Гц, (720x1604) Mediatek Helio G81 Ultra, ОЗУ 4/6 ГБ, память 128/256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 7000 мАч Li-ion, моноблок, влагозащита IP64",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Основные характеристики</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тип</div>\n\\n<div class=\"my_item2\">смартфон</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 16</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Оболочка</div>\n\\n<div class=\"my_item2\">Magic OS</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\">6.61\"</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">720×1604</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\">TFT</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">120 Гц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">16 млн</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">266 ppi</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">20:9</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Mediatek Helio</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">Mediatek Helio G81 Ultra</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">2 000 МГц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">8 (2+6)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM Cortex-A75 2000 МГц + ARM Cortex-A55 1800 МГц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">12 нм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Память</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\">4 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">256 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Основная камера</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Характеристики камеры</div>\n\\n<div class=\"my_item2\">50 Мп, f/1.8, широкоугольный</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество основных камер</div>\n\\n<div class=\"my_item2\">1</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">1920×1080 (30 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Фронтальная камера</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">5 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\n\\n<div class=\"my_item2\">в экране</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Корпус и размеры</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP64</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">163.9 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">75.9 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.29 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">204 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Расположение сканера отпечатка пальца</div>\n\\n<div class=\"my_item2\">на боковом торце</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Li-ion</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ёмкость аккумулятора</div>\n\\n<div class=\"my_item2\">7 000 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Быстрая зарядка</div>\n\\n<div class=\"my_item2\">45 Вт</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Аккумулятор</div>\n\\n<div class=\"my_item2\">несъёмный</div>\n\\n</div>",
+    "local_images": [
+      "/images/honor-x6e-1.webp",
+      "/images/honor-x6e-2.webp",
+      "/images/honor-x6e-3.webp"
+    ],
+    "categories": [
+      "Смартфоны > Honor",
+      "Смартфоны"
+    ],
+    "brand": "Honor",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Золото",
+          "Черный"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "128 ГБ",
+          "256 ГБ"
+        ]
+      },
+      {
+        "name": "Оперативная память",
+        "options": [
+          "6 ГБ",
+          "8 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Honor X6e - 256 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Honor X6e - 256 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Honor X6e - 128 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "6 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Honor",
+    "model": "X6e",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
+  },
+  {
+    "id": 11982,
+    "name": "Xiaomi Redmi Note 17 Pro Max 5G",
+    "slug": "xiaomi-redmi-note-17-pro-max-5g",
+    "type": "variable",
+    "price": "",
+    "sale_price": "",
+    "short_description": "Android, экран 6.83\" AMOLED 120 Гц, (1280x2772) Qualcomm Snapdragon 6 Gen 5, ОЗУ 8/12 ГБ, память 128/256/512 ГБ, камера 50 Мп, аккумулятор 10000 мАч Si-C, моноблок, влагозащита IP66/IP68/IP69/IP69K",
+    "description": "<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Дата выхода на рынок</div>\n\\n<div class=\"my_item2\">2026г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Экран</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Размер экрана</div>\n\\n<div class=\"my_item2\">6.83\"</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешение экрана</div>\n\\n<div class=\"my_item2\">1280x2772</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Технология экрана</div>\n\\n<div class=\"my_item2\">AMOLED</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Частота обновления экрана</div>\n\\n<div class=\"my_item2\">120 Гц</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество цветов экрана</div>\n\\n<div class=\"my_item2\">68 млрд</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\n\\n<div class=\"my_item2\">447 ppi</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Соотношение сторон</div>\n\\n<div class=\"my_item2\">19.5:9</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Защита от царапин</div>\n\\n<div class=\"my_item2\">Gorilla Glass Victus 2</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Длина</div>\n\\n<div class=\"my_item2\">163.44 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Ширина</div>\n\\n<div class=\"my_item2\">78.27 мм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Толщина</div>\n\\n<div class=\"my_item2\">8.65 мм</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Вес</div>\n\\n<div class=\"my_item2\">229.5 г</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Операционная система</div>\n\\n<div class=\"my_item2\">Android</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\n\\n<div class=\"my_item2\">Android 16</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Оперативная память</div>\n\\n<div class=\"my_item2\">8 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Встроенная память</div>\n\\n<div class=\"my_item2\">256 ГБ</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Платформа</div>\n\\n<div class=\"my_item2\">Qualcomm Snapdragon</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Процессор</div>\n\\n<div class=\"my_item2\">Qualcomm Snapdragon 6 Gen 5</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Тактовая частота процессора</div>\n\\n<div class=\"my_item2\">2 600 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Количество ядер</div>\n\\n<div class=\"my_item2\">8 (4+4)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\n\\n<div class=\"my_item2\">ARM Cortex-A78 2600 МГц + ARM Cortex-A55 2000 МГц</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Разрядность процессора</div>\n\\n<div class=\"my_item2\">64 бита</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Техпроцесс</div>\n\\n<div class=\"my_item2\">4 нм</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Графический ускоритель</div>\n\\n<div class=\"my_item2\">Qualcomm Adreno 812</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Камеры</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Основная камера</div>\n\\n<div class=\"my_item2\">50 Мп + 8 Мп</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество модулей камеры</div>\n\\n<div class=\"my_item2\">2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\n\\n<div class=\"my_item2\">3840x2160 (30 кадров/с)</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Фронтальная камера</div>\n\\n<div class=\"my_item2\">32 Мп</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Конструкция корпуса</div>\n\\n<div class=\"my_item2\">моноблок</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Материал корпуса</div>\n\\n<div class=\"my_item2\">пластик</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\n\\n<div class=\"my_item2\">IP66, IP68, IP69, IP69K</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Сканер отпечатка пальца</div>\n\\n<div class=\"my_item2\">оптический, встроен в дисплей</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Количество SIM-карт</div>\n\\n<div class=\"my_item2\">2</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Формат SIM-карты</div>\n\\n<div class=\"my_item2\">nano-SIM, eSIM</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Тип аккумулятора</div>\n\\n<div class=\"my_item2\">Si-C</div>\n\\n</div>\n\\n<div class=\"my_div2\">\n\\n<div class=\"my_item1\">Емкость аккумулятора</div>\n\\n<div class=\"my_item2\">10 000 мА·ч</div>\n\\n</div>\n\\n<div class=\"my_div1\">\n\\n<div class=\"my_item1\">Мощность зарядки</div>\n\\n<div class=\"my_item2\">-</div>\n\\n</div>",
+    "local_images": [
+      "/images/xiaomi-redmi-note-17-pro-max-5g-1.webp",
+      "/images/xiaomi-redmi-note-17-pro-max-5g-2.webp",
+      "/images/xiaomi-redmi-note-17-pro-max-5g-3.webp",
+      "/images/xiaomi-redmi-note-17-pro-max-5g-4.webp",
+      "/images/xiaomi-redmi-note-17-pro-max-5g-5.webp"
+    ],
+    "categories": [
+      "Смартфоны > Xiaomi > Redmi Note",
+      "Смартфоны > Xiaomi",
+      "Смартфоны"
+    ],
+    "brand": "Xiaomi",
+    "attributes": [
+      {
+        "name": "Цвет корпуса",
+        "options": [
+          "Белый",
+          "Зеленый",
+          "Сиреневый",
+          "Черный"
+        ]
+      },
+      {
+        "name": "Встроенная память",
+        "options": [
+          "128 ГБ",
+          "256 ГБ",
+          "512 ГБ"
+        ]
+      },
+      {
+        "name": "Оперативная память",
+        "options": [
+          "12 ГБ",
+          "8 ГБ"
+        ]
+      }
+    ],
+    "variations": [
+      {
+        "id": 1,
+        "name": "Xiaomi Redmi Note 17 Pro Max 5G - 128 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "12 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Xiaomi Redmi Note 17 Pro Max 5G - 512 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "512 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Xiaomi Redmi Note 17 Pro Max 5G - 256 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "256 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Xiaomi Redmi Note 17 Pro Max 5G - 128 ГБ",
+        "price": "",
+        "regular_price": "",
+        "sale_price": "",
+        "attributes": [
+          {
+            "name": "Встроенная память",
+            "option": "128 ГБ"
+          },
+          {
+            "name": "Оперативная память",
+            "option": "8 ГБ"
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "specs": [],
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 17 Pro Max 5G",
+    "typePrefix": "Смартфон",
+    "deliveryDays": 21
   }
 ]

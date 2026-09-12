@@ -50,3 +50,17 @@ My document/
 
 # import/diagnostic scripts (not needed in production)
 scripts/
+
+# deploy / server scripts
+*.bat
+*.sh
+*.ps1
+ssh-debug.log
+
+# worklog and backups
+WORKLOG.md
+*.bak
+
+# mimocode / agent files
+AGENTS.md
+.mimocode/
