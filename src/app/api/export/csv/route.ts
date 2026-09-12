@@ -95,7 +95,7 @@ function productToRows(p: LocalProduct): CsvRow[] {
 
   const rows: CsvRow[] = [];
   const shopId = p.shopById || p.slug;
-  const url = `${SITE_URL}/shop/${p.slug}/`;
+  const url = `${SITE_URL}/product/${p.slug}/`;
   const imgUrl = p.local_images?.[0] ? `${SITE_URL}${p.local_images[0]}` : '';
   const description = stripHtml(p.short_description || '');
 
