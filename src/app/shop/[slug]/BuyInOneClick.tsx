@@ -37,6 +37,7 @@ export default function BuyInOneClick({ product, variation }: BuyInOneClickProps
             variation: variantName || undefined,
             quantity: 1,
             price: parseFloat(price),
+            attributes: variation?.attributes?.map(a => ({ name: a.name, option: a.option })) || [],
           }],
           subtotal: parseFloat(price),
           delivery: 0,
