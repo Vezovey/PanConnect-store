@@ -34,7 +34,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   };
 
   return (
-    <Link href={`/product/${product.slug}`} className="group block grid grid-rows-[1fr_auto] h-full">
+    <Link href={`/shop/${product.slug}`} className="group block grid grid-rows-[1fr_auto] h-full">
       <div className="relative aspect-square bg-gray-50 rounded-2xl overflow-hidden mb-3">
         {/* Изображение */}
         <div className="absolute inset-0 transition-all duration-300 group-hover:brightness-75">
@@ -59,6 +59,13 @@ export default function ProductCard({ product }: ProductCardProps) {
         {hasDiscount && (
           <span className="absolute top-3 left-3 z-10 bg-red-500 text-white text-[10px] font-medium px-2 py-1 rounded-full">
             -{Math.round(((parseFloat(product.regular_price) - parseFloat(product.sale_price)) / parseFloat(product.regular_price)) * 100)}%
+          </span>
+        )}
+
+        {/* Под заказ */}
+        {product.preorder && (
+          <span className="absolute top-3 right-12 z-10 bg-amber-100 text-amber-700 text-[10px] font-medium px-2 py-1 rounded-full">
+            Под заказ
           </span>
         )}
 

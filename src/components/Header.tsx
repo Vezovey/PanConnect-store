@@ -119,7 +119,7 @@ export default function Header() {
                 {searchResults.map((item) => (
                   <Link
                     key={item.slug}
-                    href={`/product/${item.slug}`}
+                    href={`/shop/${item.slug}`}
                     onClick={() => { setSearchOpen(false); setSearchQuery(''); }}
                     className="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors"
                   >

@@ -49,6 +49,7 @@ export interface Product {
   variations: number[];
   type: 'simple' | 'variable';
   in_stock: boolean;
+  preorder?: boolean;
   stock_quantity: number | null;
   rating_count: number;
   average_rating: string;

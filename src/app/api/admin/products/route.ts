@@ -21,6 +21,7 @@ export async function GET() {
     specs: p.specs || [],
     in_stock: true,
     enabled: p.enabled !== false,
+    preorder: p.preorder || false,
     variations_count: p.variations?.length || 0,
     attributes: p.attributes || [],
     variations: p.variations || [],
@@ -36,7 +37,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { name, price, sale_price, short_description, description, categories, type, attributes, variations, local_images, specs } = body;
+    const { name, price, sale_price, short_description, description, categories, type, attributes, variations, local_images, specs, preorder } = body;
 
     if (!name || !price) {
       return NextResponse.json({ error: 'Название и цена обязательны' }, { status: 400 });
@@ -57,6 +58,7 @@ export async function POST(req: NextRequest) {
       variations: variations || [],
       enabled: true,
       specs: specs || [],
+      preorder: preorder || false,
     });
 
     return NextResponse.json({ id: product.id, slug: product.slug, ok: true });

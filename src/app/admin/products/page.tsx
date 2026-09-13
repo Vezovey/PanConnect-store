@@ -19,6 +19,7 @@ interface AdminProduct {
   specs: { label: string; value: string }[];
   in_stock: boolean;
   enabled: boolean;
+  preorder: boolean;
   variations_count: number;
   attributes: { name: string; options: string[] }[];
   variations: { id: number; name: string; price: string; regular_price: string; sale_price: string; attributes: { name: string; option: string }[] }[];
@@ -83,6 +84,7 @@ export default function AdminProductsPage() {
   const [fShortDesc, setFShortDesc] = useState('');
   const [fCategories, setFCategories] = useState<string[]>([]);
   const [fImages, setFImages] = useState<string[]>([]);
+  const [fPreorder, setFPreorder] = useState(false);
 
   // Характеристики (HTML-код)
   const [fSpecsHtml, setFSpecsHtml] = useState('');
@@ -132,6 +134,7 @@ export default function AdminProductsPage() {
       setFShortDesc(product.short_description || '');
       setFCategories(product.categories || []);
       setFImages(product.local_images || []);
+      setFPreorder(product.preorder || false);
 
       // Характеристики — конвертируем HTML в простой текст для редактирования
       setFSpecsHtml(convertHtmlToPlainText(product.description || ''));
@@ -167,6 +170,7 @@ export default function AdminProductsPage() {
       setFShortDesc('');
       setFCategories([]);
       setFImages([]);
+      setFPreorder(false);
       setFSpecsHtml('');
       setFAttrRam([]);
       setFAttrStorage([]);
@@ -233,6 +237,7 @@ export default function AdminProductsPage() {
           attributes: Object.entries(v.attributes).map(([name, option]) => ({ name, option })),
         })),
         specs: [],
+        preorder: fPreorder,
       };
 
       if (editingId) {
@@ -569,6 +574,13 @@ export default function AdminProductsPage() {
                         <option value="simple">Простой</option>
                         <option value="variable">Вариативный</option>
                       </select>
+                    </div>
+                    <div className="flex items-center gap-3 pt-6">
+                      <button type="button" onClick={() => setFPreorder(!fPreorder)}
+                              className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${fPreorder ? 'bg-amber-500' : 'bg-gray-300'}`}>
+                        <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${fPreorder ? 'translate-x-6' : 'translate-x-1'}`} />
+                      </button>
+                      <span className="text-sm text-gray-600">{fPreorder ? 'Под заказ' : 'В наличии'}</span>
                     </div>
                   </div>
                   <div>

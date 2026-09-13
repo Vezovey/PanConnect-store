@@ -3,7 +3,7 @@ import path from 'path';
 
 export interface Order {
   id: string;
-  items: { name: string; variation?: string; quantity: number; price: number }[];
+  items: { name: string; variation?: string; quantity: number; price: number; attributes?: { name: string; option: string }[] }[];
   subtotal: number;
   delivery: number;
   total: number;

@@ -141,7 +141,7 @@ export default function ComparePage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                   </button>
-                  <Link href={`/product/${p.slug}`} className="block">
+                  <Link href={`/shop/${p.slug}`} className="block">
                     <div className="w-24 h-24 sm:w-28 sm:h-28 bg-white rounded-xl overflow-hidden relative mx-auto mb-2">
                       {p.images[0] && (
                         <Image src={p.images[0].src} alt={p.name} fill className="object-contain p-2" sizes="112px" />

@@ -90,6 +90,7 @@ export default function CheckoutPage() {
             variation: item.variation?.name,
             quantity: item.quantity,
             price: item.variation ? parseFloat(item.variation.price) : parseFloat(item.product.price),
+            attributes: item.variation?.attributes?.map(a => ({ name: a.name, option: a.option })) || [],
           })),
           subtotal,
           delivery: deliveryCost,

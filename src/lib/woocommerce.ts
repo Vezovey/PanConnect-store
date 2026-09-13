@@ -41,6 +41,7 @@ export interface LocalProduct {
   variations: LocalVariation[];
   enabled?: boolean;
   specs?: ProductSpec[];
+  preorder?: boolean;
   // shop.by export fields
   vendor?: string;
   model?: string;
@@ -137,11 +138,12 @@ function toProduct(p: LocalProduct): Product {
     attributes,
     variations: variations.map(v => v.id),
     type: p.type as 'simple' | 'variable',
-    in_stock: true,
+    in_stock: !p.preorder,
+    preorder: p.preorder || false,
     stock_quantity: null,
     rating_count: 0,
     average_rating: '0',
-    permalink: `/product/${p.slug}`,
+    permalink: `/shop/${p.slug}`,
     specs: p.specs || [],
   };
 }

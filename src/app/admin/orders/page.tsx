@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 
 interface Order {
   id: string;
-  items: { name: string; variation?: string; quantity: number; price: number }[];
+  items: { name: string; variation?: string; quantity: number; price: number; attributes?: { name: string; option: string }[] }[];
   total: number;
   delivery: number;
   subtotal: number;
@@ -155,7 +155,16 @@ export default function AdminOrdersPage() {
                   <div>
                     <p className="text-xs text-gray-400 mb-1">Товары</p>
                     {order.items.map((item, i) => (
-                      <p key={i} className="text-xs text-gray-600">{item.name}{item.variation ? ` (${item.variation})` : ''} × {item.quantity} — {item.price * item.quantity} Br</p>
+                      <div key={i} className="mb-1.5">
+                        <p className="text-xs text-gray-600">{item.name} × {item.quantity} — {item.price * item.quantity} Br</p>
+                        {item.attributes && item.attributes.length > 0 && (
+                          <div className="flex flex-wrap gap-1 mt-0.5">
+                            {item.attributes.map((attr, j) => (
+                              <span key={j} className="inline-block px-1.5 py-0.5 text-[10px] bg-gray-100 text-gray-600 rounded">{attr.name}: {attr.option}</span>
+                            ))}
+                          </div>
+                        )}
+                      </div>
                     ))}
                     {order.delivery > 0 && <p className="text-xs text-gray-500 mt-1">Доставка: {order.delivery} Br</p>}
                   </div>

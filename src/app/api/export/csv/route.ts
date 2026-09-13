@@ -4,7 +4,7 @@ import { getAllProducts } from '@/lib/admin-products';
 import type { LocalProduct } from '@/lib/woocommerce';
 
 const SITE_URL = 'https://panconnect.by';
-const DELIVERY_DAYS = '21';
+const PREORDER_DELIVERY_DAYS = '21';
 
 function csvEscape(s: string): string {
   if (!s) return '';
@@ -91,11 +91,10 @@ interface CsvRow {
 }
 
 function productToRows(p: LocalProduct): CsvRow[] {
-  if (!p.enabled && p.enabled !== undefined) return [];
+  if (p.enabled === false) return [];
 
   const rows: CsvRow[] = [];
-  const shopId = p.shopById || p.slug;
-  const url = `${SITE_URL}/product/${p.slug}/`;
+  const url = `${SITE_URL}/shop/${p.slug}/`;
   const imgUrl = p.local_images?.[0] ? `${SITE_URL}${p.local_images[0]}` : '';
   const description = stripHtml(p.short_description || '');
 
@@ -106,17 +105,16 @@ function productToRows(p: LocalProduct): CsvRow[] {
         attrs[a.name] = a.option;
       }
       const varName = buildVariationName(p, attrs);
-      const varId = `${shopId}-${v.id}`;
       const varPrice = v.sale_price || v.price || p.price;
 
       rows.push({
-        id: varId,
-        available: 'true',
+        id: String(v.id),
+        available: p.preorder ? 'false' : 'true',
         url,
         price: String(varPrice),
         oldprice: v.sale_price ? (v.price || p.price) : '',
         currencyId: 'BYN',
-        delivery_days: DELIVERY_DAYS,
+        delivery_days: p.preorder ? PREORDER_DELIVERY_DAYS : '',
         category: 'Телефоны',
         picture: imgUrl,
         name: varName,
@@ -126,13 +124,13 @@ function productToRows(p: LocalProduct): CsvRow[] {
   } else {
     const simpleName = buildVariationName(p, {});
     rows.push({
-      id: shopId,
-      available: 'true',
+      id: String(p.id),
+      available: p.preorder ? 'false' : 'true',
       url,
       price: p.price,
       oldprice: p.sale_price || '',
       currencyId: 'BYN',
-      delivery_days: DELIVERY_DAYS,
+      delivery_days: p.preorder ? PREORDER_DELIVERY_DAYS : '',
       category: 'Телефоны',
       picture: imgUrl,
       name: simpleName,

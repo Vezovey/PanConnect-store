@@ -74,9 +74,10 @@ function buildOffer(
   description: string,
   deliveryDays: number,
   orderBefore: number,
-  params: string
+  params: string,
+  available: boolean = true
 ): string {
-  let xml = '      <offer id="' + escapeXml(id) + '" available="true">\n';
+  let xml = '      <offer id="' + escapeXml(id) + '" available="' + (available ? 'true' : 'false') + '">\n';
   xml += '        <url>' + escapeXml(url) + '</url>\n';
   xml += '        <delivery-options>\n';
   xml += '          <option days="' + deliveryDays + '" order-before="' + orderBefore + '"/>\n';
@@ -97,14 +98,14 @@ function buildOffer(
 }
 
 function productToOffers(p: LocalProduct): string[] {
-  if (!p.enabled && p.enabled !== undefined) return [];
+  if (p.enabled === false) return [];
 
   const offers: string[] = [];
-  const shopId = p.shopById || p.slug;
-  const url = SITE_URL + '/product/' + p.slug + '/';
+  const shopId = String(p.id);
+  const url = SITE_URL + '/shop/' + p.slug + '/';
   const imgUrl = p.local_images?.[0] ? SITE_URL + p.local_images[0] : '';
   const description = stripHtml(p.short_description || '');
-  const deliveryDays = p.deliveryDays ?? 1;
+  const deliveryDays = p.preorder ? 21 : (p.deliveryDays ?? 1);
   const orderBefore = p.orderBefore ?? 18;
   const catId = p.shopByCategory ?? 1;
   const marketCat = MARKET_CATEGORY_MAP[catId] || 'Мобильные телефоны';
@@ -116,7 +117,7 @@ function productToOffers(p: LocalProduct): string[] {
         attrs[a.name] = a.option;
       }
       const varName = buildVariationName(p, attrs);
-      const varId = shopId + '-' + v.id;
+      const varId = String(v.id);
       const varPrice = v.sale_price || v.price || p.price;
       const oldprice = v.sale_price ? (v.price || p.price) : '';
 
@@ -126,7 +127,7 @@ function productToOffers(p: LocalProduct): string[] {
         params += '        <param name="' + escapeXml(a.name) + '">' + escapeXml(a.option) + '</param>\n';
       }
 
-      offers.push(buildOffer(varId, url, imgUrl, varPrice, oldprice, catId, marketCat, varName, description, deliveryDays, orderBefore, params));
+      offers.push(buildOffer(varId, url, imgUrl, varPrice, oldprice, catId, marketCat, varName, description, deliveryDays, orderBefore, params, !p.preorder));
     }
   } else {
     const simpleName = buildVariationName(p, {});
@@ -138,7 +139,7 @@ function productToOffers(p: LocalProduct): string[] {
       }
     }
 
-    offers.push(buildOffer(shopId, url, imgUrl, p.price, p.sale_price || '', catId, marketCat, simpleName, description, deliveryDays, orderBefore, params));
+    offers.push(buildOffer(shopId, url, imgUrl, p.price, p.sale_price || '', catId, marketCat, simpleName, description, deliveryDays, orderBefore, params, !p.preorder));
   }
 
   return offers;

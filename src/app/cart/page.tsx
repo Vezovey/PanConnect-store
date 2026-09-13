@@ -85,7 +85,7 @@ export default function CartPage() {
                 </div>
 
                 <div className="flex-1 min-w-0">
-                  <Link href={`/product/${item.product.slug}`} className="text-sm font-medium hover:text-black transition-colors line-clamp-1">
+                  <Link href={`/shop/${item.product.slug}`} className="text-sm font-medium hover:text-black transition-colors line-clamp-1">
                     {item.product.name}
                   </Link>
                   {item.variation && (
