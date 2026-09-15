@@ -22,29 +22,6 @@ export default async function Home() {
 
   return (
     <div>
-      <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-20 md:py-32">
-          <div className="max-w-2xl">
-            <p className="text-xs sm:text-sm font-medium text-gray-400 mb-3 sm:mb-4 tracking-wide uppercase">Новый смартфон с доставкой и гарантией</p>
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-semibold tracking-tight leading-[1.1] mb-4 sm:mb-6">
-              Мобильные телефоны<br />
-              <span className="text-gray-400">с доставкой на дом</span>
-            </h1>
-            <p className="text-base sm:text-lg text-gray-500 mb-6 sm:mb-8 max-w-md">
-              Доставка по Минску бесплатно. По Беларуси 20 руб до 2 дней. Гарантия 12 месяцев.
-            </p>
-            <div className="flex gap-4">
-              <Link
-                href="/catalog"
-                className="px-8 py-3.5 bg-gray-900 text-white text-sm font-medium rounded-full hover:bg-black transition-colors"
-              >
-                Смотреть каталог
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-16">
         <div className="flex items-center justify-between mb-6 sm:mb-8">
           <h2 className="text-xl sm:text-2xl font-semibold tracking-tight">Популярные товары</h2>
