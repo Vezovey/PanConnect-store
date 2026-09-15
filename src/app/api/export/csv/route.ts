@@ -90,6 +90,15 @@ interface CsvRow {
   description: string;
 }
 
+function getCsvCategory(p: LocalProduct): string {
+  const root = p.categories?.[0] || '';
+  const map: Record<string, string> = {
+    'Смартфоны': 'Телефоны', 'Планшеты': 'Планшеты',
+    'Наушники и аксессуары': 'Наушники и гарнитуры', 'Электронные книги': 'Электронные книги',
+  };
+  return map[root] || 'Телефоны';
+}
+
 function productToRows(p: LocalProduct): CsvRow[] {
   if (p.enabled === false) return [];
 
@@ -97,6 +106,8 @@ function productToRows(p: LocalProduct): CsvRow[] {
   const url = `${SITE_URL}/shop/${p.slug}/`;
   const imgUrl = p.local_images?.[0] ? `${SITE_URL}${p.local_images[0]}` : '';
   const description = stripHtml(p.short_description || '');
+  const csvCategory = getCsvCategory(p);
+  const deliveryDays = String(p.deliveryDays || '');
 
   if (p.type === 'variable' && p.variations && p.variations.length > 0) {
     for (const v of p.variations) {
@@ -114,8 +125,8 @@ function productToRows(p: LocalProduct): CsvRow[] {
         price: String(varPrice),
         oldprice: v.sale_price ? (v.price || p.price) : '',
         currencyId: 'BYN',
-        delivery_days: p.preorder ? PREORDER_DELIVERY_DAYS : '',
-        category: 'Телефоны',
+        delivery_days: deliveryDays,
+        category: csvCategory,
         picture: imgUrl,
         name: varName,
         description,
@@ -130,8 +141,8 @@ function productToRows(p: LocalProduct): CsvRow[] {
       price: p.price,
       oldprice: p.sale_price || '',
       currencyId: 'BYN',
-      delivery_days: p.preorder ? PREORDER_DELIVERY_DAYS : '',
-      category: 'Телефоны',
+      delivery_days: deliveryDays,
+      category: csvCategory,
       picture: imgUrl,
       name: simpleName,
       description,
@@ -143,7 +154,7 @@ function productToRows(p: LocalProduct): CsvRow[] {
 
 function sanitizeForWin1251(str: string): string {
   return str
-    .replace(/[\u201C\u201D\u201E\u201F\u2033]/g, '"')
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
     .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
     .replace(/\u00D7/g, 'x')
     .replace(/\u2026/g, '...')
@@ -202,7 +213,7 @@ const WIN1251_MAP: Record<number, number> = {
   0x0444: 0xF4, 0x0445: 0xF5, 0x0446: 0xF6, 0x0447: 0xF7, 0x0448: 0xF8,
   0x0449: 0xF9, 0x044A: 0xFA, 0x044B: 0xFB, 0x044C: 0xFC, 0x044D: 0xFD,
   0x044E: 0xFE, 0x044F: 0xFF,
-  0x00D7: 0x3F, 0x2033: 0x22, 0x2032: 0x27,
+  0x00D7: 0x3F, 0x2032: 0x27,
 };
 
 export async function GET() {
