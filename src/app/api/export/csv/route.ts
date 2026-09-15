@@ -104,7 +104,7 @@ function productToRows(p: LocalProduct): CsvRow[] {
       for (const a of v.attributes) {
         attrs[a.name] = a.option;
       }
-      const varName = buildVariationName(p, attrs);
+      const varName = v.csvName || buildVariationName(p, attrs);
       const varPrice = v.sale_price || v.price || p.price;
 
       rows.push({
@@ -232,7 +232,7 @@ export async function GET() {
   return new NextResponse(new Uint8Array(buf), {
     headers: {
       'Content-Type': 'text/csv; charset=windows-1251',
-      'Content-Disposition': `attachment; filename="pricelist_${now.toISOString().slice(0, 10)}.csv"`,
+      'Content-Disposition': 'attachment; filename="price_list_panconnect.csv"',
     },
   });
 }
