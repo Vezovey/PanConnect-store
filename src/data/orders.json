@@ -1,25 +1,29 @@
 [
   {
-    "items": [
-      {
-        "name": "Google Pixel 10",
-        "variation": "Google Pixel 10 - 128 ГБ (Обсидиан)",
-        "quantity": 1,
-        "price": 1940
-      }
-    ],
-    "subtotal": 1940,
-    "delivery": 0,
-    "total": 1940,
-    "customer": {
-      "name": "1",
-      "phone": "+375336355623",
-      "city": "Минск",
-      "address": "1"
-    },
-    "source": "Корзина",
-    "date": "2026-09-13T15:03:50.227Z",
-    "id": "PC-MTZY2CB7",
-    "status": "confirmed"
+    "items": [{"name": "Google Pixel 10", "variation": "Google Pixel 10 - 128 ГБ (Обсидиан)", "quantity": 1, "price": 1940}],
+    "subtotal": 1940, "delivery": 0, "total": 1940,
+    "customer": {"name": "1", "phone": "+375336355623", "city": "Минск", "address": "1"},
+    "source": "Корзина", "date": "2026-09-13T15:03:50.227Z", "id": "PC-MTZY2CB7", "status": "confirmed"
+  },
+  {
+    "items": [{"name": "Samsung Galaxy A57 SM-A576B 8GB/128GB (голубой)", "variation": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (голубой)", "quantity": 1, "price": 1050}],
+    "subtotal": 1050, "delivery": 0, "total": 1050,
+    "customer": {"name": "Олег", "phone": "+375296364262", "city": "Минск", "address": "Заказ в 1 клик"},
+    "comment": "Заказ в 1 клик. Вариант: Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (голубой)",
+    "source": "1 клик", "date": "2026-09-16T14:06:24.470Z", "id": "PC-MU46C1JQ", "status": "new"
+  },
+  {
+    "items": [{"name": "Tecno Pova 7 5G 8GB/128GB (волшебный серебристый)", "variation": "Смартфон Tecno Pova 7 5G 8GB/128GB (волшебный серебристый)", "quantity": 1, "price": 599}],
+    "subtotal": 599, "delivery": 0, "total": 599,
+    "customer": {"name": "Сергей", "phone": "+375259527661", "city": "Минск", "address": "Заказ в 1 клик"},
+    "comment": "Заказ в 1 клик. Вариант: Смартфон Tecno Pova 7 5G 8GB/128GB (волшебный серебристый)",
+    "source": "1 клик", "date": "2026-09-16T19:51:19.894Z", "id": "PC-MU4INM8M", "status": "new"
+  },
+  {
+    "items": [{"name": "Realme 16 Pro+ 5G 8GB/256GB международная версия (бежевый)", "variation": "Смартфон Realme 16 Pro+ 5G 8GB/256GB международная версия (бежевый)", "quantity": 1, "price": 1320}],
+    "subtotal": 1320, "delivery": 0, "total": 1320,
+    "customer": {"name": "анатолий", "phone": "+375292233235", "city": "Минск", "address": "Заказ в 1 клик"},
+    "comment": "Заказ в 1 клик. Вариант: Смартфон Realme 16 Pro+ 5G 8GB/256GB международная версия (бежевый)",
+    "source": "1 клик", "date": "2026-09-17T07:00:23.654Z", "id": "PC-MU56K1D2", "status": "new"
   }
 ]
