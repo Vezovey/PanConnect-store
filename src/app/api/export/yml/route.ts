@@ -112,6 +112,7 @@ function productToOffers(p: LocalProduct): string[] {
 
   if (p.type === 'variable' && p.variations && p.variations.length > 0) {
     for (const v of p.variations) {
+      if (v.enabled === false) continue;
       const attrs: Record<string, string> = {};
       for (const a of v.attributes) {
         attrs[a.name] = a.option;

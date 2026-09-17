@@ -78,4 +78,5 @@ export interface LocalVariation {
   sale_price: string;
   attributes: { name: string; option: string }[];
   csvName?: string;
+  enabled?: boolean;
 }

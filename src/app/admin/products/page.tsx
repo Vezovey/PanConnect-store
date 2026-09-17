@@ -22,7 +22,7 @@ interface AdminProduct {
   preorder: boolean;
   variations_count: number;
   attributes: { name: string; options: string[] }[];
-  variations: { id: number; name: string; price: string; regular_price: string; sale_price: string; attributes: { name: string; option: string }[] }[];
+  variations: { id: number; name: string; price: string; regular_price: string; sale_price: string; attributes: { name: string; option: string }[]; enabled?: boolean }[];
   local_images: string[];
 }
 
@@ -32,6 +32,7 @@ interface Variation {
   price: string;
   sale_price: string;
   in_stock: boolean;
+  enabled: boolean;
 }
 
 /* ── Константы ─────────────────────────────────────────── */
@@ -158,6 +159,7 @@ export default function AdminProductsPage() {
           price: v.price || '',
           sale_price: v.sale_price || '',
           in_stock: true,
+          enabled: v.enabled !== false,
         };
       });
       setFVariations(vars);
@@ -235,6 +237,7 @@ export default function AdminProductsPage() {
           regular_price: v.price || fPrice,
           sale_price: '',
           attributes: Object.entries(v.attributes).map(([name, option]) => ({ name, option })),
+          enabled: v.enabled !== false,
         })),
         specs: [],
         preorder: fPreorder,
@@ -294,6 +297,7 @@ export default function AdminProductsPage() {
             price: basePrice,
             sale_price: '',
             in_stock: true,
+            enabled: true,
           });
         }
       }
@@ -881,7 +885,7 @@ export default function AdminProductsPage() {
                           if (fAttrRam.length > 0) newAttrs['Оперативная память'] = fAttrRam[0];
                           if (fAttrStorage.length > 0) newAttrs['Встроенная память'] = fAttrStorage[0];
                           if (fAttrColor.length > 0) newAttrs['Цвет корпуса'] = fAttrColor[0];
-                          setFVariations([...fVariations, { id: Date.now(), attributes: newAttrs, price: fPrice, sale_price: '', in_stock: true }]);
+                          setFVariations([...fVariations, { id: Date.now(), attributes: newAttrs, price: fPrice, sale_price: '', in_stock: true, enabled: true }]);
                         }} className="text-xs text-gray-400 hover:text-black transition-colors">+ Вручную</button>
                       </div>
                     </div>
@@ -897,8 +901,13 @@ export default function AdminProductsPage() {
                     {fVariations.length > 0 && (
                       <div className="space-y-2 max-h-96 overflow-y-auto">
                         {fVariations.map((v, vi) => (
-                          <div key={vi} className="bg-gray-50 rounded-xl p-3 flex items-center gap-3 border border-gray-100">
+                          <div key={vi} className={`bg-gray-50 rounded-xl p-3 flex items-center gap-3 border ${v.enabled === false ? 'border-red-200 opacity-60' : 'border-gray-100'}`}>
                             <span className="text-xs text-gray-400 shrink-0">#{vi + 1}</span>
+                            {/* Toggle вкл/выкл */}
+                            <button type="button" onClick={() => updateVariation(vi, { enabled: v.enabled === false ? true : false })}
+                                    className={`shrink-0 w-9 h-5 rounded-full transition-colors relative ${v.enabled === false ? 'bg-red-300' : 'bg-green-400'}`}>
+                              <span className={`absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform ${v.enabled === false ? 'left-0.5' : 'left-4'}`} />
+                            </button>
                             {/* Атрибуты (только чтение) */}
                             <div className="flex-1 flex flex-wrap gap-2">
                               {Object.entries(v.attributes).map(([name, value]) => (

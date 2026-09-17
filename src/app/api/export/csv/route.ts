@@ -26,6 +26,7 @@ function stripHtml(html: string): string {
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, ' ')
+    .replace(/\s*\n\s*/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -49,17 +50,31 @@ function getModel(p: LocalProduct, brand: string): string {
   return p.name;
 }
 
+function normalizeMemory(s: string): string {
+  return s.replace(/(\d+)\s*ГБ/g, '$1GB').replace(/(\d+)\s*ТБ/g, '$1TB');
+}
+
 function buildVariationName(p: LocalProduct, attrs: Record<string, string>): string {
   const typePrefix = p.typePrefix || 'Смартфон';
   const brand = getBrand(p);
-  const model = getModel(p, brand);
+  let model = getModel(p, brand);
+
+  // Strip existing memory and trailing color from model to avoid duplication with attributes
+  model = model
+    .replace(/\d+GB\/\d+GB/gi, '')
+    .replace(/\d+TB\/\d+TB/gi, '')
+    .replace(/\d+TB/gi, '')
+    .replace(/\d+GB(?!\s*\/)/gi, '')
+    .replace(/\s*\([^)]+\)\s*$/, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 
   const parts: string[] = [typePrefix];
   if (brand) parts.push(brand);
   if (model) parts.push(model);
 
-  const ram = attrs['Оперативная память'] || '';
-  const storage = attrs['Встроенная память'] || '';
+  const ram = normalizeMemory(attrs['Оперативная память'] || '');
+  const storage = normalizeMemory(attrs['Встроенная память'] || '');
   if (ram && storage) {
     parts.push(`${ram}/${storage}`);
   } else if (storage) {
@@ -111,6 +126,7 @@ function productToRows(p: LocalProduct): CsvRow[] {
 
   if (p.type === 'variable' && p.variations && p.variations.length > 0) {
     for (const v of p.variations) {
+      if (v.enabled === false) continue;
       const attrs: Record<string, string> = {};
       for (const a of v.attributes) {
         attrs[a.name] = a.option;

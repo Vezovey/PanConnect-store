@@ -90,7 +90,9 @@ function toProduct(p: LocalProduct): Product {
     options: a.options,
   }));
 
-  const variations: ProductVariation[] = (p.variations || []).map((v) => ({
+  const variations: ProductVariation[] = (p.variations || [])
+    .filter(v => v.enabled !== false)
+    .map((v) => ({
     id: v.id,
     name: v.name,
     price: v.price,
@@ -258,20 +260,22 @@ export async function getProductVariations(slug: string): Promise<ProductVariati
   const found = findBySlug(slug);
   if (!found) return [];
 
-  return (found.variations || []).map((v) => ({
-    id: v.id,
-    name: v.name,
-    price: v.price,
-    regular_price: v.regular_price,
-    sale_price: v.sale_price,
-    image: { id: 0, src: '', name: '', alt: '' },
-    attributes: v.attributes.map((a, i) => ({
-      id: i,
-      name: a.name,
-      options: [],
-      option: a.option,
-    })),
-  }));
+  return (found.variations || [])
+    .filter(v => v.enabled !== false)
+    .map((v) => ({
+      id: v.id,
+      name: v.name,
+      price: v.price,
+      regular_price: v.regular_price,
+      sale_price: v.sale_price,
+      image: { id: 0, src: '', name: '', alt: '' },
+      attributes: v.attributes.map((a, i) => ({
+        id: i,
+        name: a.name,
+        options: [],
+        option: a.option,
+      })),
+    }));
 }
 
 export async function getCategories(): Promise<{ id: number; name: string; slug: string; count: number }[]> {
