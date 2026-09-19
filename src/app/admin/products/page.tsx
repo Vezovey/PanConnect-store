@@ -558,6 +558,7 @@ export default function AdminProductsPage() {
                 {/* ── 1. Основная информация ── */}
                 <section className="space-y-4">
                   <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">Основная информация</h3>
+
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
                       <label className="text-sm text-gray-500 mb-1 block">Название *</label>
