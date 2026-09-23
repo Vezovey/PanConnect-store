@@ -3,7 +3,7 @@ import path from 'path';
 import type { LocalProduct } from '@/lib/woocommerce';
 
 const PRODUCTS_FILE = path.join(process.cwd(), 'src', 'data', 'products.json');
-const IMAGES_DIR = path.join(process.cwd(), 'public', 'images');
+const UPLOADS_DIR = process.env.UPLOADS_DIR || path.join(process.cwd(), 'uploads');
 
 function readProducts(): LocalProduct[] {
   try {
@@ -84,7 +84,8 @@ export function slugify(s: string): string {
 
 export function saveProductImage(slug: string, index: number, buffer: Buffer): string {
   const filename = `${slug}-${index + 1}.webp`;
-  const filepath = path.join(IMAGES_DIR, filename);
-  fs.writeFileSync(filepath, buffer);
-  return `/images/${filename}`;
+  const dir = path.join(UPLOADS_DIR, 'images');
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, filename), buffer);
+  return `/api/uploads/images/${filename}`;
 }

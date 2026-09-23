@@ -64,3 +64,12 @@ WORKLOG.md
 # mimocode / agent files
 AGENTS.md
 .mimocode/
+
+# uploaded images (persist across deploys, not in git)
+/uploads/
+
+# uploaded images (persist across deploys, not in git)
+/uploads/
+
+# uploaded images (persist across deploys, not in git)
+/uploads/

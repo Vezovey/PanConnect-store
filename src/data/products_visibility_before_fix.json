@@ -1,0 +1,1979 @@
+[
+  {
+    "id": 1,
+    "name": "Google Pixel 10 12GB/128GB (фрост)",
+    "slug": "google-pixel-10",
+    "enabled": true,
+    "price": "1940",
+    "typePrefix": "Смартфон",
+    "vendor": "Google",
+    "model": "Pixel 10",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Google"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Google Pixel 10 Pro 16GB/128GB (фарфор)",
+    "slug": "google-pixel-10-pro",
+    "enabled": true,
+    "price": "2550",
+    "typePrefix": "Смартфон",
+    "vendor": "Google",
+    "model": "Pixel 10 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Google"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Google Pixel 10 Pro XL 16GB/256GB (фарфор)",
+    "slug": "pixel-10-pro-xl",
+    "enabled": true,
+    "price": "2940",
+    "typePrefix": "Смартфон",
+    "vendor": "",
+    "model": "Google Pixel 10 Pro XL",
+    "categories": [
+      "Смартфоны"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Google Pixel 11 12GB/256GB (фисташковый)",
+    "slug": "google-pixel-11",
+    "enabled": true,
+    "price": "2600",
+    "typePrefix": "Смартфон",
+    "vendor": "Google",
+    "model": "Pixel 11",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Google"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Google Pixel 11 Pro 12GB/256GB (оливковый)",
+    "slug": "google-pixel-11-pro",
+    "enabled": true,
+    "price": "4610",
+    "typePrefix": "Смартфон",
+    "vendor": "Google",
+    "model": "Pixel 11 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Google"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Apple AirPods Pro 2 (с разъемом USB Type-C)",
+    "slug": "apple-airpods-2-pro-type-c",
+    "enabled": true,
+    "price": "615",
+    "typePrefix": "Наушники",
+    "vendor": "Apple",
+    "model": "AirPods Pro 2",
+    "categories": [
+      "Наушники и аксессуары"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Apple AirPods Pro 3",
+    "slug": "apple-airpods-pro-3",
+    "enabled": true,
+    "price": "750",
+    "typePrefix": "Наушники",
+    "vendor": "Apple",
+    "model": "AirPods Pro 3",
+    "categories": [
+      "Наушники и аксессуары"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Apple AirPods 4 (с активным шумоподавлением)",
+    "slug": "apple-airpods-4",
+    "enabled": true,
+    "price": "545",
+    "typePrefix": "Наушники",
+    "vendor": "Apple",
+    "model": "AirPods 4",
+    "categories": [
+      "Наушники и аксессуары"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Apple AirPods 4 (без активного шумоподавления)",
+    "slug": "apple-airpods-4-2",
+    "enabled": true,
+    "price": "420",
+    "typePrefix": "Наушники",
+    "vendor": "Apple",
+    "model": "AirPods 4",
+    "categories": [
+      "Наушники и аксессуары"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Apple iPhone 15 128GB (голубой)",
+    "slug": "apple-iphone-15",
+    "enabled": true,
+    "price": "1940",
+    "typePrefix": "Смартфон",
+    "vendor": "Apple",
+    "model": "iPhone 15",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Apple"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Apple iPhone 16 128GB (белый)",
+    "slug": "iphone-16",
+    "enabled": true,
+    "price": "2200",
+    "typePrefix": "Смартфон",
+    "vendor": "",
+    "model": "Apple iPhone 16",
+    "categories": [
+      "Смартфоны"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Apple iPhone 16 Pro 128GB (природный титан)",
+    "slug": "iphone-16-pro",
+    "enabled": false,
+    "price": "2950",
+    "typePrefix": "Смартфон",
+    "vendor": "",
+    "model": "Apple iPhone 16 Pro",
+    "categories": [
+      "Смартфоны"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Apple iPhone 16 Pro Max 256GB (природный титан)",
+    "slug": "iphone-16-pro-max",
+    "enabled": false,
+    "price": "4150",
+    "typePrefix": "Смартфон",
+    "vendor": "",
+    "model": "Apple iPhone 16 Pro Max",
+    "categories": [
+      "Смартфоны"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Apple iPhone 16e 128GB (белый)",
+    "slug": "apple-iphone-16e",
+    "enabled": false,
+    "price": "1800",
+    "typePrefix": "Смартфон",
+    "vendor": "Apple",
+    "model": "iPhone 16e",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Apple"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Apple iPhone 17 256GB (белый)",
+    "slug": "apple-iphone-17",
+    "enabled": true,
+    "price": "3050",
+    "typePrefix": "Смартфон",
+    "vendor": "Apple",
+    "model": "iPhone 17",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Apple"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Apple iPhone 17 Pro 256GB (космический оранжевый)",
+    "slug": "apple-iphone-17-pro",
+    "enabled": true,
+    "price": "3850",
+    "typePrefix": "Смартфон",
+    "vendor": "Apple",
+    "model": "iPhone 17 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Apple"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Apple iPhone 17 Pro Max 256GB (космический оранжевый)",
+    "slug": "apple-iphone-17-pro-max",
+    "enabled": true,
+    "price": "4200",
+    "typePrefix": "Смартфон",
+    "vendor": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Apple"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Apple iPhone 17e 256GB (белый)",
+    "slug": "iphone-17e",
+    "enabled": true,
+    "price": "2200",
+    "typePrefix": "Смартфон",
+    "vendor": "",
+    "model": "Apple iPhone 17e",
+    "categories": [
+      "Смартфоны"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Apple iPhone Air 256GB (облачный белый)",
+    "slug": "apple-iphone-air",
+    "enabled": true,
+    "price": "3000",
+    "typePrefix": "Смартфон",
+    "vendor": "Apple",
+    "model": "iPhone Air",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Apple"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Apple iPad Air 11\" 2024 128GB (звездный)",
+    "slug": "apple-ipad-air-11-2024",
+    "enabled": true,
+    "price": "2330",
+    "typePrefix": "Планшет",
+    "vendor": "Apple",
+    "model": "iPad Air 11",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Apple"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Apple iPad Air 13\" 2024 128GB (звездный)",
+    "slug": "apple-ipad-air-13-2024",
+    "enabled": true,
+    "price": "2820",
+    "typePrefix": "Планшет",
+    "vendor": "Apple",
+    "model": "iPad Air 13",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Apple"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Apple iPad Pro 11\" 2024 256GB (серебристый)",
+    "slug": "apple-ipad-pro-11-2024",
+    "enabled": true,
+    "price": "3800",
+    "typePrefix": "Планшет",
+    "vendor": "Apple",
+    "model": "iPad Pro 11",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Apple"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Apple iPad mini 2024 128GB (голубой)",
+    "slug": "apple-ipad-mini-2024",
+    "enabled": true,
+    "price": "1990",
+    "typePrefix": "Планшет",
+    "vendor": "Apple",
+    "model": "iPad mini",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Apple"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "Apple iPad 11\" 2025 128GB (желтый)",
+    "slug": "apple-ipad-11-2025",
+    "enabled": true,
+    "price": "1500",
+    "typePrefix": "Планшет",
+    "vendor": "Apple",
+    "model": "iPad 11",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Apple"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Xiaomi 15 12GB/256GB международная версия (черный)",
+    "slug": "xiaomi-15",
+    "enabled": true,
+    "price": "1900",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "15",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Xiaomi 15 Ultra 16GB/512GB международная версия (черный/серебристый)",
+    "slug": "xiaomi-15-ultra",
+    "enabled": true,
+    "price": "3280",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "15 Ultra",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "Xiaomi 17 12GB/256GB международная версия (голубой)",
+    "slug": "xiaomi-17",
+    "enabled": true,
+    "price": "2590",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "17",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 321,
+    "name": "Xiaomi 17 Ultra 16GB/512GB международная версия (белый)",
+    "slug": "xiaomi-17-ultra",
+    "enabled": true,
+    "price": "3590",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "17 Ultra",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "Xiaomi 15T 12GB/256GB международная версия (розовое золото)",
+    "slug": "xiaomi-15t",
+    "enabled": false,
+    "price": "1400",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "15T",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "Xiaomi 15T Pro 12GB/256GB международная версия (золотистый мокко)",
+    "slug": "xiaomi-15t-pro",
+    "enabled": false,
+    "price": "1900",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "15T Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 342,
+    "name": "Xiaomi 17T 12GB/256GB международная версия (голубой)",
+    "slug": "xiaomi-17t",
+    "enabled": true,
+    "price": "1590",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "17T",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 350,
+    "name": "Xiaomi 17T Pro 12GB/256GB международная версия (темно-синий)",
+    "slug": "xiaomi-17t-pro",
+    "enabled": true,
+    "price": "2070",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "17T Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "Xiaomi Pad 7 8GB/128GB международная версия (голубой)",
+    "slug": "xiaomi-pad-7",
+    "enabled": true,
+    "price": "1000",
+    "typePrefix": "Планшет",
+    "vendor": "Xiaomi",
+    "model": "Pad 7",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Xiaomi"
+    ]
+  },
+  {
+    "id": 367,
+    "name": "Xiaomi Pad 7 Pro 8GB/128GB международная версия голубой",
+    "slug": "xiaomi-pad-7-pro",
+    "enabled": false,
+    "price": "1389",
+    "typePrefix": "Планшет",
+    "vendor": "Xiaomi",
+    "model": "Pad 7 Pro голубой",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Xiaomi"
+    ]
+  },
+  {
+    "id": 379,
+    "name": "Xiaomi Pad Mini 8GB/256GB международная версия (серый)",
+    "slug": "xiaomi-pad-mini",
+    "enabled": true,
+    "price": "1650",
+    "typePrefix": "Планшет",
+    "vendor": "Xiaomi",
+    "model": "Pad Mini",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Xiaomi"
+    ]
+  },
+  {
+    "id": 383,
+    "name": "Xiaomi Pad 8 8GB/128GB международная версия (зеленый)",
+    "slug": "xiaomi-pad-8",
+    "enabled": true,
+    "price": "1350",
+    "typePrefix": "Планшет",
+    "vendor": "Xiaomi",
+    "model": "Pad 8",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Xiaomi"
+    ]
+  },
+  {
+    "id": 392,
+    "name": "Xiaomi Pad 8 Pro 8GB/128GB международная версия (серый)",
+    "slug": "xiaomi-pad-8-pro",
+    "enabled": true,
+    "price": "1700",
+    "typePrefix": "Планшет",
+    "vendor": "Xiaomi",
+    "model": "Pad 8 Pro",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Xiaomi"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "Redmi 15C 4G 4GB/128GB европейская версия (зеленый)",
+    "slug": "redmi-15c",
+    "enabled": false,
+    "price": "360",
+    "typePrefix": "Смартфон",
+    "vendor": "Redmi",
+    "model": "15C 4G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Redmi"
+    ]
+  },
+  {
+    "id": 410,
+    "name": "Redmi 15 4G 6GB/128GB международная версия (титановый)",
+    "slug": "xiaomi-redmi-15-4g",
+    "enabled": false,
+    "price": "530",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi 15 4G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 416,
+    "name": "Redmi Note 15 6GB/128GB международная версия (синий)",
+    "slug": "xiaomi-redmi-note-15",
+    "enabled": true,
+    "price": "610",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 15",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 428,
+    "name": "Redmi Note 15 Pro 8GB/256GB международная версия (бежевый)",
+    "slug": "xiaomi-redmi-note-15-pro",
+    "enabled": true,
+    "price": "910",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 15 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 437,
+    "name": "Redmi Note 15 Pro 5G 8GB/256GB международная версия (синий)",
+    "slug": "xiaomi-redmi-note-15-pro-5g-2",
+    "enabled": true,
+    "price": "1040",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 15 Pro 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 449,
+    "name": "Redmi Note 15 Pro+ 5G 8GB/256GB международная версия (коричневый)",
+    "slug": "xiaomi-redmi-note-15-pro-5g",
+    "enabled": true,
+    "price": "1130",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 15 Pro+ 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 455,
+    "name": "Redmi 17 4GB/128GB международная версия (зеленый)",
+    "slug": "xiaomi-redmi-17",
+    "enabled": true,
+    "price": "590",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi 17",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 475,
+    "name": "Redmi Note 17 4GB/128GB международная версия (голубой)",
+    "slug": "xiaomi-redmi-note-17",
+    "enabled": true,
+    "price": "760",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 17",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 484,
+    "name": "Redmi Note 17 5G 8GB/256GB международная версия (голубой)",
+    "slug": "redmi-note-17-5g",
+    "enabled": true,
+    "price": "1190",
+    "typePrefix": "Смартфон",
+    "vendor": "Redmi",
+    "model": "Note 17 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Redmi"
+    ]
+  },
+  {
+    "id": 487,
+    "name": "Redmi Note 17 Pro 5G 6GB/128GB международная версия (голубой)",
+    "slug": "xiaomi-redmi-note-17-pro",
+    "enabled": true,
+    "price": "1060",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 17 Pro 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 499,
+    "name": "Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (белый)",
+    "slug": "xiaomi-redmi-note-17-pro-max-5g",
+    "enabled": true,
+    "price": "1500",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "Redmi Note 17 Pro Max 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 511,
+    "name": "Xiaomi Redmi Pad 2 4GB/128GB международная версия (темно-серый)",
+    "slug": "xiaomi-redmi-pad-2",
+    "enabled": true,
+    "price": "600",
+    "typePrefix": "Планшет",
+    "vendor": "Xiaomi",
+    "model": "Redmi Pad 2",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Xiaomi"
+    ]
+  },
+  {
+    "id": 529,
+    "name": "Xiaomi Redmi Pad 2 Pro 6GB/128GB международная версия (серебристый)",
+    "slug": "xiaomi-redmi-pad-2-pro",
+    "enabled": true,
+    "price": "880",
+    "typePrefix": "Планшет",
+    "vendor": "Xiaomi",
+    "model": "Redmi Pad 2 Pro",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Xiaomi"
+    ]
+  },
+  {
+    "id": 537,
+    "name": "OnePlus 15 12GB/256GB международная версия (песчаная дюна)",
+    "slug": "oneplus-15",
+    "enabled": true,
+    "price": "2550",
+    "typePrefix": "Смартфон",
+    "vendor": "OnePlus",
+    "model": "15",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > OnePlus"
+    ]
+  },
+  {
+    "id": 543,
+    "name": "OnePlus 15R 12GB/256GB международная версия (мятный бриз)",
+    "slug": "oneplus-15r",
+    "enabled": true,
+    "price": "1800",
+    "typePrefix": "Смартфон",
+    "vendor": "OnePlus",
+    "model": "15R",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > OnePlus"
+    ]
+  },
+  {
+    "id": 549,
+    "name": "OnePlus Nord 5 8GB/256GB международная версия (белый)",
+    "slug": "oneplus-nord-5",
+    "enabled": true,
+    "price": "1250",
+    "typePrefix": "Смартфон",
+    "vendor": "OnePlus",
+    "model": "Nord 5",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > OnePlus"
+    ]
+  },
+  {
+    "id": 564,
+    "name": "OnePlus Nord 6 8GB/256GB европейская версия (свежая мята)",
+    "slug": "oneplus-nord-6",
+    "enabled": true,
+    "price": "1550",
+    "typePrefix": "Смартфон",
+    "vendor": "OnePlus",
+    "model": "Nord 6",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > OnePlus"
+    ]
+  },
+  {
+    "id": 568,
+    "name": "OnePlus Nord CE5 8GB/128GB международная версия (белый)",
+    "slug": "oneplus-nord-ce-5",
+    "enabled": true,
+    "price": "999",
+    "typePrefix": "Смартфон",
+    "vendor": "OnePlus",
+    "model": "Nord CE5",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > OnePlus"
+    ]
+  },
+  {
+    "id": 572,
+    "name": "POCO C81 Pro 4GB/64GB международная версия (зеленый)",
+    "slug": "poco-c81-pro",
+    "enabled": true,
+    "price": "450",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "C81 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 581,
+    "name": "POCO C85 6GB/128GB международная версия (мятный)",
+    "slug": "poco-c85",
+    "enabled": false,
+    "price": "535",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "C85",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 587,
+    "name": "POCO X7 Pro 8GB/256GB Желтый (международная версия)",
+    "slug": "poco-x7-pro",
+    "enabled": false,
+    "price": "1000",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "X7 Pro Желтый",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 596,
+    "name": "POCO X8 Pro 8GB/256GB международная версия (белый)",
+    "slug": "poco-x8-pro",
+    "enabled": true,
+    "price": "1175",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "X8 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 605,
+    "name": "POCO X8 Pro Max 12GB/256GB международная версия (белый)",
+    "slug": "xiaomi-poco-x8-pro-max",
+    "enabled": true,
+    "price": "1550",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "POCO X8 Pro Max",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 613,
+    "name": "POCO M7 4G 8GB/256GB международная версия (серебристый)",
+    "slug": "poco-m7-4g",
+    "enabled": false,
+    "price": "585",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "M7 4G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 616,
+    "name": "POCO M7 Pro 5G 8GB/256GB международная версия (серебристый)",
+    "slug": "poco-m7-pro-5g",
+    "enabled": false,
+    "price": "685",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "M7 Pro 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 628,
+    "name": "POCO M8 5G 8GB/256GB международная версия (серебристый)",
+    "slug": "poco-m8-5g",
+    "enabled": true,
+    "price": "799",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "M8 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 637,
+    "name": "POCO M8 Pro 5G 8GB/256GB международная версия (серебристый)",
+    "slug": "poco-m8-pro-5g",
+    "enabled": true,
+    "price": "930",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "M8 Pro 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 643,
+    "name": "POCO F6 12GB/512GB международная версия (черный)",
+    "slug": "poco-f6",
+    "enabled": false,
+    "price": "965",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "F6",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 646,
+    "name": "POCO F6 Pro 12GB/256GB с NFC международная версия (черный)",
+    "slug": "xiaomi-poco-f6-pro",
+    "enabled": false,
+    "price": "1030",
+    "typePrefix": "Смартфон",
+    "vendor": "Xiaomi",
+    "model": "POCO F6 Pro с NFC",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Xiaomi"
+    ]
+  },
+  {
+    "id": 654,
+    "name": "POCO F7 12GB/256GB международная версия (серебристый)",
+    "slug": "poco-f7",
+    "enabled": false,
+    "price": "1250",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "F7",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 660,
+    "name": "POCO F8 Pro 12GB/256GB международная версия (голубой)",
+    "slug": "poco-f8-pro",
+    "enabled": true,
+    "price": "1510",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "F8 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 666,
+    "name": "POCO F8 Ultra 12GB/256GB международная версия (синий джинс)",
+    "slug": "poco-f8-ultra",
+    "enabled": true,
+    "price": "2150",
+    "typePrefix": "Смартфон",
+    "vendor": "POCO",
+    "model": "F8 Ultra",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > POCO"
+    ]
+  },
+  {
+    "id": 670,
+    "name": "POCO Pad C1 4GB/64GB международная версия (серый)",
+    "slug": "poco-pad-c1",
+    "enabled": true,
+    "price": "650",
+    "typePrefix": "Планшет",
+    "vendor": "POCO",
+    "model": "Pad C1",
+    "categories": [
+      "Планшеты",
+      "Планшеты > POCO"
+    ]
+  },
+  {
+    "id": 674,
+    "name": "POCO Pad M1 8GB/256GB международная версия (синий)",
+    "slug": "poco-pad-m1",
+    "enabled": true,
+    "price": "945",
+    "typePrefix": "Планшет",
+    "vendor": "POCO",
+    "model": "Pad M1",
+    "categories": [
+      "Планшеты",
+      "Планшеты > POCO"
+    ]
+  },
+  {
+    "id": 678,
+    "name": "POCO Pad X1 8GB/512GB международная версия (синий)",
+    "slug": "poco-pad-x1",
+    "enabled": true,
+    "price": "1100",
+    "typePrefix": "Планшет",
+    "vendor": "POCO",
+    "model": "Pad X1",
+    "categories": [
+      "Планшеты",
+      "Планшеты > POCO"
+    ]
+  },
+  {
+    "id": 680,
+    "name": "Realme C85 6GB/128GB международная версия (темно-серый)",
+    "slug": "realme-c85",
+    "enabled": false,
+    "price": "510",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "C85",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 689,
+    "name": "Realme C85 Pro 6GB/128GB международная версия (темно-зеленый)",
+    "slug": "realme-c85-pro",
+    "enabled": false,
+    "price": "530",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "C85 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 693,
+    "name": "Realme 15 5G RMX5106 8GB/256GB международная версия (розовый)",
+    "slug": "realme-15",
+    "enabled": false,
+    "price": "950",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "15 5G RMX5106",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 699,
+    "name": "Realme 15 Pro 5G RMX5101 8GB/256GB международная версия (зеленый)",
+    "slug": "realme-15-pro-5g",
+    "enabled": false,
+    "price": "1230",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "15 Pro 5G RMX5101",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 703,
+    "name": "Realme 15T RMX5111 8GB/128GB международная версия (белый)",
+    "slug": "realme-15t",
+    "enabled": false,
+    "price": "740",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "15T RMX5111",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 712,
+    "name": "Realme 16 5G RMX5171 8GB/128GB международная версия (белый)",
+    "slug": "realme-16-5g",
+    "enabled": true,
+    "price": "1050",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "16 5G RMX5171",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 720,
+    "name": "Realme 16 Pro 5G 8GB/256GB международная версия (бежевый)",
+    "slug": "realme-16-pro",
+    "enabled": true,
+    "price": "1100",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "16 Pro 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 729,
+    "name": "Realme 16 Pro+ 5G 8GB/256GB международная версия (бежевый)",
+    "slug": "realme-16-pro-5g",
+    "enabled": true,
+    "price": "1320",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "16 Pro+ 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 733,
+    "name": "Realme GT7 RMX5061 8GB/256GB международная версия (ледяной синий)",
+    "slug": "realme-gt7",
+    "enabled": true,
+    "price": "1570",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "GT7 RMX5061",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 739,
+    "name": "Realme GT7 Pro RMX5011 12GB/256GB международная версия (марсианский песок)",
+    "slug": "realme-gt7-pro",
+    "enabled": true,
+    "price": "2380",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "GT7 Pro RMX5011",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 743,
+    "name": "Realme GT8 Pro RMX5210 12GB/256GB международная версия (белый)",
+    "slug": "realme-gt8-pro",
+    "enabled": true,
+    "price": "2570",
+    "typePrefix": "Смартфон",
+    "vendor": "Realme",
+    "model": "GT8 Pro RMX5210",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Realme"
+    ]
+  },
+  {
+    "id": 747,
+    "name": "HONOR X6e LBU-LX1 4GB/256GB международная версия (золотистый)",
+    "slug": "honor-x6e",
+    "enabled": true,
+    "price": "700",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "X6e",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 749,
+    "name": "HONOR X7d LGN-LX1 6GB/128GB международная версия (пустынное золото)",
+    "slug": "honor-x7d",
+    "enabled": true,
+    "price": "550",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "X7d",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 758,
+    "name": "HONOR X8d 8GB/128GB международная версия (голубой)",
+    "slug": "honor-x8d",
+    "enabled": true,
+    "price": "700",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "X8d",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 764,
+    "name": "HONOR X9d 8GB/256GB международная версия (полуночный черный)",
+    "slug": "honor-x9d",
+    "enabled": true,
+    "price": "970",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "X9d",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 776,
+    "name": "HONOR 400 8GB/256GB международная версия (голубой)",
+    "slug": "honor-400",
+    "enabled": true,
+    "price": "1160",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "400",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 788,
+    "name": "HONOR 400 Pro 12GB/256GB международная версия (голубой)",
+    "slug": "honor-400-pro",
+    "enabled": true,
+    "price": "1660",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "400 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 794,
+    "name": "HONOR 600 Lite 8GB/256GB международная версия (пустынное золото)",
+    "slug": "honor-600-lite",
+    "enabled": true,
+    "price": "960",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "600 Lite",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 802,
+    "name": "HONOR 600 Dual SIM 8GB/256GB международная версия (бежевый)",
+    "slug": "honor-600",
+    "enabled": true,
+    "price": "1420",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "600",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 814,
+    "name": "HONOR 600 Pro Dual SIM 12GB/256GB международная версия (бежевый)",
+    "slug": "honor-600-pro",
+    "enabled": true,
+    "price": "2250",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "600 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 820,
+    "name": "HONOR Magic7 Pro 12GB/512GB международная версия (белый)",
+    "slug": "honor-magic-7-pro",
+    "enabled": false,
+    "price": "2400",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "Magic7 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 828,
+    "name": "HONOR Magic8 Pro 12GB/512GB международная версия (голубой)",
+    "slug": "honor-magic-8-pro",
+    "enabled": true,
+    "price": "3000",
+    "typePrefix": "Смартфон",
+    "vendor": "HONOR",
+    "model": "Magic8 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > HONOR"
+    ]
+  },
+  {
+    "id": 837,
+    "name": "Samsung Galaxy S26 Ultra SM-S948B 12GB/256GB (белый)",
+    "slug": "samsung-galaxy-s26-ultra",
+    "enabled": true,
+    "price": "3000",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S26 Ultra",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 855,
+    "name": "Samsung Galaxy S26+ SM-S947B 12GB/256GB (белый)",
+    "slug": "samsung-galaxy-s26-2",
+    "enabled": true,
+    "price": "2620",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S26+",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 867,
+    "name": "Samsung Galaxy S26 SM-S942B 12GB/256GB (белый)",
+    "slug": "samsung-galaxy-s26",
+    "enabled": true,
+    "price": "2350",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S26",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 879,
+    "name": "Samsung Galaxy S25 Ultra SM-S938B 12GB/256GB (синий титан)",
+    "slug": "samsung-galaxy-s25-ultra",
+    "enabled": true,
+    "price": "2450",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S25 Ultra",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 900,
+    "name": "Samsung Galaxy S25+ SM-S936B 12GB/256GB (голубой)",
+    "slug": "samsung-galaxy-s25-2",
+    "enabled": false,
+    "price": "2330",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S25+",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 910,
+    "name": "Samsung Galaxy S25 SM-S931B 12GB/128GB (голубой)",
+    "slug": "samsung-galaxy-s25",
+    "enabled": true,
+    "price": "1785",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S25",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 922,
+    "name": "Samsung Galaxy S25 FE SM-S731B 8GB/128GB (белый)",
+    "slug": "samsung-galaxy-s25-fe",
+    "enabled": true,
+    "price": "1490",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S25 FE",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 934,
+    "name": "Samsung Galaxy S25 Edge SM-S937B 12GB/256GB (титановый ледяной синий)",
+    "slug": "samsung-galaxy-s25-edge",
+    "enabled": true,
+    "price": "1990",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S25 Edge",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 940,
+    "name": "Samsung Galaxy S24 Ultra SM-S928B 256GB (титановый желтый)",
+    "slug": "samsung-galaxy-s24-ultra",
+    "enabled": false,
+    "price": "2620",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 952,
+    "name": "Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (желтый)",
+    "slug": "samsung-galaxy-s24-plus",
+    "enabled": false,
+    "price": "1950",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S24+ Exynos",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 960,
+    "name": "Samsung Galaxy S24 8GB/128GB SM-S921B Exynos (черный)",
+    "slug": "samsung-galaxy-s24",
+    "enabled": false,
+    "price": "1410",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S24 Exynos",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 984,
+    "name": "Samsung Galaxy S23 Ultra 8GB/256GB бежевый (SM-S918B/DS)",
+    "slug": "samsung-galaxy-s23-ultra",
+    "enabled": false,
+    "price": "2400",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S23 Ultra бежевый",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1006,
+    "name": "Samsung Galaxy S23 8GB/128GB бежевый (SM-S911B/DS)",
+    "slug": "samsung-galaxy-s23",
+    "enabled": true,
+    "price": "1250",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy S23 бежевый",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1014,
+    "name": "Samsung Galaxy A26 SM-A266B 6GB/128GB (белый)",
+    "slug": "samsung-galaxy-a26",
+    "enabled": false,
+    "price": "660",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy A26",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1022,
+    "name": "Samsung Galaxy A36 SM-A366B 6GB/128GB (белый)",
+    "slug": "samsung-galaxy-a36",
+    "enabled": false,
+    "price": "755",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy A36",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1050,
+    "name": "Samsung Galaxy A56 SM-A566E 8GB/128GB (зеленый)",
+    "slug": "samsung-galaxy-a56",
+    "enabled": false,
+    "price": "1100",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy A56",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1062,
+    "name": "Samsung Galaxy A07 SM-A075F 4GB/64GB (зеленый)",
+    "slug": "galaxy-a07",
+    "enabled": true,
+    "price": "440",
+    "typePrefix": "Смартфон",
+    "vendor": "",
+    "model": "Samsung Galaxy A07",
+    "categories": [
+      "Смартфоны"
+    ]
+  },
+  {
+    "id": 1071,
+    "name": "Samsung Galaxy A17 4G SM-A175F 4GB/128GB (серый)",
+    "slug": "samsung-galaxy-a17",
+    "enabled": true,
+    "price": "530",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy A17 4G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1083,
+    "name": "Samsung Galaxy A37 SM-A376E 8GB/128GB (белый)",
+    "slug": "samsung-galaxy-a37",
+    "enabled": true,
+    "price": "900",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy A37",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1095,
+    "name": "Samsung Galaxy A57 SM-A576B 8GB/128GB (голубой)",
+    "slug": "samsung-galaxy-a57",
+    "enabled": true,
+    "price": "1050",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy A57",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1111,
+    "name": "Samsung Galaxy Z Flip7 SM-F766B 12GB/256GB (коралловый)",
+    "slug": "samsung-galaxy-z-flip7",
+    "enabled": true,
+    "price": "2590",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy Z Flip7",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1117,
+    "name": "Samsung Galaxy Z Fold7 SM-F966B/DS 12GB/256GB (серебристый)",
+    "slug": "samsung-galaxy-z-fold7",
+    "enabled": true,
+    "price": "4420",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy Z Fold7/DS",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1126,
+    "name": "Samsung Galaxy Z Flip7 FE SM-F761B 8GB/128GB (белый)",
+    "slug": "samsung-galaxy-z-flip7-fe",
+    "enabled": true,
+    "price": "2070",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy Z Flip7 FE",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1130,
+    "name": "Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (бежевый)",
+    "slug": "samsung-z-flip8",
+    "enabled": true,
+    "price": "3200",
+    "typePrefix": "Смартфон",
+    "vendor": "Samsung",
+    "model": "Galaxy Z Flip8",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Samsung"
+    ]
+  },
+  {
+    "id": 1138,
+    "name": "Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (серебристый)",
+    "slug": "samsung-tab-a9",
+    "enabled": false,
+    "price": "450",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab A9",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1150,
+    "name": "Samsung Galaxy Tab A9+ Wi-Fi SM-X210 4GB/64GB (серебристый)",
+    "slug": "samsung-tab-a9",
+    "enabled": false,
+    "price": "554",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab A9+",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1162,
+    "name": "Samsung Galaxy Tab A11 4GB/64GB Wi-Fi (серебристый)",
+    "slug": "samsung-tab-a11",
+    "enabled": true,
+    "price": "460",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab A11",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1170,
+    "name": "Samsung Galaxy Tab A11+ Wi-Fi SM-X230 6GB/128GB (серебристый)",
+    "slug": "samsung-tab-a11-2",
+    "enabled": true,
+    "price": "799",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab A11+",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1178,
+    "name": "Samsung Galaxy Tab S9 Wi-Fi SM-X710 8GB/128GB (бежевый)",
+    "slug": "samsung-galaxy-tab-s9",
+    "enabled": true,
+    "price": "2040",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab S9",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1186,
+    "name": "Samsung Galaxy Tab S9 FE Wi-Fi SM-X510 6GB/128GB (мятный)",
+    "slug": "samsung-tab-s9-fe",
+    "enabled": true,
+    "price": "1299",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab S9 FE",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1202,
+    "name": "Samsung Galaxy Tab S9 Ultra Wi-Fi SM-X910 12GB/256GB (кремовый)",
+    "slug": "samsung-galaxy-tab-s9-ultra",
+    "enabled": true,
+    "price": "3080",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab S9 Ultra",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1214,
+    "name": "Samsung Galaxy Tab S10 Ultra Wi-Fi SM-X920 12GB/256GB (серебристый)",
+    "slug": "samsung-galaxy-tab-s10-ultra",
+    "enabled": true,
+    "price": "3950",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab S10 Ultra",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1226,
+    "name": "Samsung Galaxy Tab S10+ Wi-Fi SM-X820 12GB/256GB (серебристый)",
+    "slug": "samsung-tab-s10",
+    "enabled": true,
+    "price": "3450",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab S10+",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1234,
+    "name": "Samsung Galaxy Tab S6 Lite 2024 Wi-Fi SM-P620 4GB/64GB (мятный)",
+    "slug": "samsung-tab-s6-lite-2024",
+    "enabled": false,
+    "price": "960",
+    "typePrefix": "Планшет",
+    "vendor": "Samsung",
+    "model": "Galaxy Tab S6 Lite",
+    "categories": [
+      "Планшеты",
+      "Планшеты > Samsung"
+    ]
+  },
+  {
+    "id": 1246,
+    "name": "Amazon Kindle Paperwhite 2024 16GB (черный)",
+    "slug": "amazon-kindle-paperwhite-2024-12th-gen-16gb-7",
+    "enabled": false,
+    "price": "660",
+    "typePrefix": "Электронная книга",
+    "vendor": "Amazon",
+    "model": "Kindle Paperwhite",
+    "categories": [
+      "Электронные книги"
+    ]
+  },
+  {
+    "id": 1249,
+    "name": "Tecno Pova 7 5G 8GB/128GB (волшебный серебристый)",
+    "slug": "tecno-pova-7-5g",
+    "enabled": false,
+    "price": "599",
+    "typePrefix": "Смартфон",
+    "vendor": "Tecno",
+    "model": "Pova 7 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Tecno"
+    ]
+  },
+  {
+    "id": 1256,
+    "name": "Tecno Pova 7 Pro 8GB/128GB (динамичный серый)",
+    "slug": "tecno-pova-7-pro",
+    "enabled": false,
+    "price": "810",
+    "typePrefix": "Смартфон",
+    "vendor": "Tecno",
+    "model": "Pova 7 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Tecno"
+    ]
+  },
+  {
+    "id": 1265,
+    "name": "Tecno Pova 7 Ultra 5G 8GB/256GB (белый)",
+    "slug": "tecno-pova-7-ultra",
+    "enabled": false,
+    "price": "950",
+    "typePrefix": "Смартфон",
+    "vendor": "Tecno",
+    "model": "Pova 7 Ultra 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Tecno"
+    ]
+  },
+  {
+    "id": 1269,
+    "name": "Tecno Pova 7 Neo 8GB/128GB (волшебный серый)",
+    "slug": "tecno-pova-7-neo",
+    "enabled": false,
+    "price": "680",
+    "typePrefix": "Смартфон",
+    "vendor": "Tecno",
+    "model": "Pova 7 Neo",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Tecno"
+    ]
+  },
+  {
+    "id": 1273,
+    "name": "Tecno Pova 8 5G LK6 8GB/256GB (белый)",
+    "slug": "tecno-pova-8-5g",
+    "enabled": true,
+    "price": "1349",
+    "typePrefix": "Смартфон",
+    "vendor": "Tecno",
+    "model": "Pova 8 5G",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Tecno"
+    ]
+  },
+  {
+    "id": 1275,
+    "name": "Tecno Spark 50 KN4n 8GB/256GB (розовый)",
+    "slug": "tecno-spark-50",
+    "enabled": true,
+    "price": "1070",
+    "typePrefix": "Смартфон",
+    "vendor": "Tecno",
+    "model": "Spark 50",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Tecno"
+    ]
+  },
+  {
+    "id": 1280,
+    "name": "Infinix GT 30 Pro X6873 8GB/256GB (серебристый)",
+    "slug": "infinix-gt-30-pro",
+    "enabled": false,
+    "price": "915",
+    "typePrefix": "Смартфон",
+    "vendor": "Infinix",
+    "model": "GT 30 Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Infinix"
+    ]
+  },
+  {
+    "id": 1286,
+    "name": "Infinix Hot 60 Pro+ X6886 8GB/256GB (серебристый)",
+    "slug": "infinix-hot-60-pro",
+    "enabled": true,
+    "price": "649",
+    "typePrefix": "Смартфон",
+    "vendor": "Infinix",
+    "model": "Hot 60 Pro+",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Infinix"
+    ]
+  },
+  {
+    "id": 1288,
+    "name": "Blackview Xplore 1 Walkie Talkie 16GB/512GB (черный)",
+    "slug": "blackview-xplore-1-walkie-talkie",
+    "enabled": true,
+    "price": "1320",
+    "typePrefix": "Смартфон",
+    "vendor": "Blackview",
+    "model": "Xplore 1 Walkie Talkie",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Blackview"
+    ]
+  },
+  {
+    "id": 1289,
+    "name": "Nothing Phone (4a) 8GB/128GB (белый)",
+    "slug": "nothing-phone-4a",
+    "enabled": true,
+    "price": "1200",
+    "typePrefix": "Смартфон",
+    "vendor": "Nothing",
+    "model": "Phone",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Nothing"
+    ]
+  },
+  {
+    "id": 1301,
+    "name": "Nothing Phone (4a) Pro 8GB/128GB (розовый)",
+    "slug": "nothing-phone-4a-pro",
+    "enabled": true,
+    "price": "1860",
+    "typePrefix": "Смартфон",
+    "vendor": "Nothing",
+    "model": "Phone (4a) Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Nothing"
+    ]
+  },
+  {
+    "id": 1307,
+    "name": "Nothing Phone (3a) Lite 8GB/128GB (черный)",
+    "slug": "nothing-phone-3a-lite",
+    "enabled": true,
+    "price": "880",
+    "typePrefix": "Смартфон",
+    "vendor": "Nothing",
+    "model": "Phone (3a) Lite",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Nothing"
+    ]
+  },
+  {
+    "id": 1308,
+    "name": "Huawei Pura 90s Pro MLN-LX9 12GB/256GB (белый, международная версия)",
+    "slug": "huawei-pura-90s-pro",
+    "enabled": true,
+    "price": "2180",
+    "typePrefix": "Смартфон",
+    "vendor": "Huawei",
+    "model": "Pura 90s Pro",
+    "categories": [
+      "Смартфоны",
+      "Смартфоны > Huawei"
+    ]
+  }
+]

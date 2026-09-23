@@ -1,0 +1,996 @@
+[
+  {
+    "id": 1,
+    "name": "Google Pixel 10",
+    "slug": "google-pixel-10",
+    "enabled": true,
+    "price": "1940"
+  },
+  {
+    "id": 9,
+    "name": "Google Pixel 10 Pro",
+    "slug": "google-pixel-10-pro",
+    "enabled": true,
+    "price": "2550"
+  },
+  {
+    "id": 25,
+    "name": "Google Pixel 10 Pro XL",
+    "slug": "pixel-10-pro-xl",
+    "enabled": true,
+    "price": "2940"
+  },
+  {
+    "id": 37,
+    "name": "Google Pixel 11",
+    "slug": "google-pixel-11",
+    "enabled": true,
+    "price": "2600"
+  },
+  {
+    "id": 45,
+    "name": "Google Pixel 11 Pro",
+    "slug": "google-pixel-11-pro",
+    "enabled": true,
+    "price": "4610"
+  },
+  {
+    "id": 54,
+    "name": "Apple AirPods Pro 2",
+    "slug": "apple-airpods-2-pro-type-c",
+    "enabled": true,
+    "price": "615"
+  },
+  {
+    "id": 55,
+    "name": "Apple AirPods Pro 3",
+    "slug": "apple-airpods-pro-3",
+    "enabled": true,
+    "price": "750"
+  },
+  {
+    "id": 56,
+    "name": "Apple AirPods 4",
+    "slug": "apple-airpods-4",
+    "enabled": true,
+    "price": "545"
+  },
+  {
+    "id": 57,
+    "name": "Apple AirPods 4",
+    "slug": "apple-airpods-4-2",
+    "enabled": true,
+    "price": "420"
+  },
+  {
+    "id": 58,
+    "name": "Apple iPhone 15",
+    "slug": "apple-iphone-15",
+    "enabled": true,
+    "price": "1940"
+  },
+  {
+    "id": 73,
+    "name": "Apple iPhone 16",
+    "slug": "iphone-16",
+    "enabled": true,
+    "price": "2200"
+  },
+  {
+    "id": 88,
+    "name": "Apple iPhone 16 Pro",
+    "slug": "iphone-16-pro",
+    "enabled": false,
+    "price": "2950"
+  },
+  {
+    "id": 104,
+    "name": "Apple iPhone 16 Pro Max",
+    "slug": "iphone-16-pro-max",
+    "enabled": false,
+    "price": "4150"
+  },
+  {
+    "id": 116,
+    "name": "Apple iPhone 16e",
+    "slug": "apple-iphone-16e",
+    "enabled": false,
+    "price": "1800"
+  },
+  {
+    "id": 122,
+    "name": "Apple iPhone 17",
+    "slug": "apple-iphone-17",
+    "enabled": true,
+    "price": "3050"
+  },
+  {
+    "id": 132,
+    "name": "Apple iPhone 17 Pro",
+    "slug": "apple-iphone-17-pro",
+    "enabled": true,
+    "price": "3850"
+  },
+  {
+    "id": 141,
+    "name": "Apple iPhone 17 Pro Max",
+    "slug": "apple-iphone-17-pro-max",
+    "enabled": true,
+    "price": "4200"
+  },
+  {
+    "id": 153,
+    "name": "Apple iPhone 17e",
+    "slug": "iphone-17e",
+    "enabled": true,
+    "price": "2200"
+  },
+  {
+    "id": 159,
+    "name": "Apple iPhone Air",
+    "slug": "apple-iphone-air",
+    "enabled": true,
+    "price": "3000"
+  },
+  {
+    "id": 171,
+    "name": "Apple iPad Air 11\"",
+    "slug": "apple-ipad-air-11-2024",
+    "enabled": true,
+    "price": "2330"
+  },
+  {
+    "id": 187,
+    "name": "Apple iPad Air 13\"",
+    "slug": "apple-ipad-air-13-2024",
+    "enabled": true,
+    "price": "2820"
+  },
+  {
+    "id": 203,
+    "name": "Apple iPad Pro 11\"",
+    "slug": "apple-ipad-pro-11-2024",
+    "enabled": true,
+    "price": "3800"
+  },
+  {
+    "id": 211,
+    "name": "Apple iPad mini",
+    "slug": "apple-ipad-mini-2024",
+    "enabled": true,
+    "price": "1990"
+  },
+  {
+    "id": 275,
+    "name": "Apple iPad 11\"",
+    "slug": "apple-ipad-11-2025",
+    "enabled": true,
+    "price": "1500"
+  },
+  {
+    "id": 299,
+    "name": "Xiaomi 15",
+    "slug": "xiaomi-15",
+    "enabled": true,
+    "price": "1900"
+  },
+  {
+    "id": 307,
+    "name": "Xiaomi 15 Ultra",
+    "slug": "xiaomi-15-ultra",
+    "enabled": true,
+    "price": "3280"
+  },
+  {
+    "id": 313,
+    "name": "Xiaomi 17",
+    "slug": "xiaomi-17",
+    "enabled": true,
+    "price": "2590"
+  },
+  {
+    "id": 321,
+    "name": "Xiaomi 17 Ultra",
+    "slug": "xiaomi-17-ultra",
+    "enabled": true,
+    "price": "3590"
+  },
+  {
+    "id": 327,
+    "name": "Xiaomi 15T",
+    "slug": "xiaomi-15t",
+    "enabled": false,
+    "price": "1400"
+  },
+  {
+    "id": 333,
+    "name": "Xiaomi 15T Pro",
+    "slug": "xiaomi-15t-pro",
+    "enabled": false,
+    "price": "1900"
+  },
+  {
+    "id": 342,
+    "name": "Xiaomi 17T",
+    "slug": "xiaomi-17t",
+    "enabled": true,
+    "price": "1590"
+  },
+  {
+    "id": 350,
+    "name": "Xiaomi 17T Pro",
+    "slug": "xiaomi-17t-pro",
+    "enabled": true,
+    "price": "2070"
+  },
+  {
+    "id": 359,
+    "name": "Xiaomi Pad 7",
+    "slug": "xiaomi-pad-7",
+    "enabled": true,
+    "price": "1000"
+  },
+  {
+    "id": 367,
+    "name": "Xiaomi Pad 7 Pro",
+    "slug": "xiaomi-pad-7-pro",
+    "enabled": false,
+    "price": "1389"
+  },
+  {
+    "id": 379,
+    "name": "Xiaomi Pad Mini",
+    "slug": "xiaomi-pad-mini",
+    "enabled": true,
+    "price": "1650"
+  },
+  {
+    "id": 383,
+    "name": "Xiaomi Pad 8",
+    "slug": "xiaomi-pad-8",
+    "enabled": true,
+    "price": "1350"
+  },
+  {
+    "id": 392,
+    "name": "Xiaomi Pad 8 Pro",
+    "slug": "xiaomi-pad-8-pro",
+    "enabled": true,
+    "price": "1700"
+  },
+  {
+    "id": 401,
+    "name": "Redmi 15C 4G",
+    "slug": "redmi-15c",
+    "enabled": false,
+    "price": "360"
+  },
+  {
+    "id": 410,
+    "name": "Redmi 15 4G",
+    "slug": "xiaomi-redmi-15-4g",
+    "enabled": false,
+    "price": "530"
+  },
+  {
+    "id": 416,
+    "name": "Redmi Note 15",
+    "slug": "xiaomi-redmi-note-15",
+    "enabled": true,
+    "price": "610"
+  },
+  {
+    "id": 428,
+    "name": "Redmi Note 15 Pro",
+    "slug": "xiaomi-redmi-note-15-pro",
+    "enabled": true,
+    "price": "910"
+  },
+  {
+    "id": 437,
+    "name": "Redmi Note 15 Pro 5G",
+    "slug": "xiaomi-redmi-note-15-pro-5g-2",
+    "enabled": true,
+    "price": "1040"
+  },
+  {
+    "id": 449,
+    "name": "Redmi Note 15 Pro+ 5G",
+    "slug": "xiaomi-redmi-note-15-pro-5g",
+    "enabled": true,
+    "price": "1130"
+  },
+  {
+    "id": 455,
+    "name": "Redmi 17",
+    "slug": "xiaomi-redmi-17",
+    "enabled": true,
+    "price": "590"
+  },
+  {
+    "id": 475,
+    "name": "Redmi Note 17",
+    "slug": "xiaomi-redmi-note-17",
+    "enabled": true,
+    "price": "760"
+  },
+  {
+    "id": 484,
+    "name": "Redmi Note 17 5G",
+    "slug": "redmi-note-17-5g",
+    "enabled": true,
+    "price": "1190"
+  },
+  {
+    "id": 487,
+    "name": "Redmi Note 17 Pro 5G",
+    "slug": "xiaomi-redmi-note-17-pro",
+    "enabled": true,
+    "price": "1060"
+  },
+  {
+    "id": 499,
+    "name": "Redmi Note 17 Pro Max 5G",
+    "slug": "xiaomi-redmi-note-17-pro-max-5g",
+    "enabled": true,
+    "price": "1500"
+  },
+  {
+    "id": 511,
+    "name": "Xiaomi Redmi Pad 2",
+    "slug": "xiaomi-redmi-pad-2",
+    "enabled": true,
+    "price": "600"
+  },
+  {
+    "id": 529,
+    "name": "Xiaomi Redmi Pad 2 Pro",
+    "slug": "xiaomi-redmi-pad-2-pro",
+    "enabled": true,
+    "price": "880"
+  },
+  {
+    "id": 537,
+    "name": "OnePlus 15",
+    "slug": "oneplus-15",
+    "enabled": true,
+    "price": "2550"
+  },
+  {
+    "id": 543,
+    "name": "OnePlus 15R",
+    "slug": "oneplus-15r",
+    "enabled": true,
+    "price": "1800"
+  },
+  {
+    "id": 549,
+    "name": "OnePlus Nord 5",
+    "slug": "oneplus-nord-5",
+    "enabled": true,
+    "price": "1250"
+  },
+  {
+    "id": 564,
+    "name": "OnePlus Nord 6",
+    "slug": "oneplus-nord-6",
+    "enabled": true,
+    "price": "1550"
+  },
+  {
+    "id": 568,
+    "name": "OnePlus Nord CE5",
+    "slug": "oneplus-nord-ce-5",
+    "enabled": true,
+    "price": "999"
+  },
+  {
+    "id": 572,
+    "name": "POCO C81 Pro",
+    "slug": "poco-c81-pro",
+    "enabled": true,
+    "price": "450"
+  },
+  {
+    "id": 581,
+    "name": "POCO C85",
+    "slug": "poco-c85",
+    "enabled": false,
+    "price": "535"
+  },
+  {
+    "id": 587,
+    "name": "POCO X7 Pro",
+    "slug": "poco-x7-pro",
+    "enabled": false,
+    "price": "1000"
+  },
+  {
+    "id": 596,
+    "name": "POCO X8 Pro",
+    "slug": "poco-x8-pro",
+    "enabled": true,
+    "price": "1175"
+  },
+  {
+    "id": 605,
+    "name": "POCO X8 Pro Max",
+    "slug": "xiaomi-poco-x8-pro-max",
+    "enabled": true,
+    "price": "1550"
+  },
+  {
+    "id": 613,
+    "name": "POCO M7 4G",
+    "slug": "poco-m7-4g",
+    "enabled": false,
+    "price": "585"
+  },
+  {
+    "id": 616,
+    "name": "POCO M7 Pro 5G",
+    "slug": "poco-m7-pro-5g",
+    "enabled": false,
+    "price": "685"
+  },
+  {
+    "id": 628,
+    "name": "POCO M8 5G",
+    "slug": "poco-m8-5g",
+    "enabled": true,
+    "price": "799"
+  },
+  {
+    "id": 637,
+    "name": "POCO M8 Pro 5G",
+    "slug": "poco-m8-pro-5g",
+    "enabled": true,
+    "price": "930"
+  },
+  {
+    "id": 643,
+    "name": "POCO F6",
+    "slug": "poco-f6",
+    "enabled": false,
+    "price": "965"
+  },
+  {
+    "id": 646,
+    "name": "POCO F6 Pro",
+    "slug": "xiaomi-poco-f6-pro",
+    "enabled": false,
+    "price": "1030"
+  },
+  {
+    "id": 654,
+    "name": "POCO F7",
+    "slug": "poco-f7",
+    "enabled": false,
+    "price": "1250"
+  },
+  {
+    "id": 660,
+    "name": "POCO F8 Pro",
+    "slug": "poco-f8-pro",
+    "enabled": true,
+    "price": "1510"
+  },
+  {
+    "id": 666,
+    "name": "POCO F8 Ultra",
+    "slug": "poco-f8-ultra",
+    "enabled": true,
+    "price": "2150"
+  },
+  {
+    "id": 670,
+    "name": "POCO Pad C1",
+    "slug": "poco-pad-c1",
+    "enabled": true,
+    "price": "650"
+  },
+  {
+    "id": 674,
+    "name": "POCO Pad M1",
+    "slug": "poco-pad-m1",
+    "enabled": true,
+    "price": "945"
+  },
+  {
+    "id": 678,
+    "name": "POCO Pad X1",
+    "slug": "poco-pad-x1",
+    "enabled": true,
+    "price": "1100"
+  },
+  {
+    "id": 680,
+    "name": "Realme C85",
+    "slug": "realme-c85",
+    "enabled": false,
+    "price": "510"
+  },
+  {
+    "id": 689,
+    "name": "Realme C85 Pro",
+    "slug": "realme-c85-pro",
+    "enabled": false,
+    "price": "530"
+  },
+  {
+    "id": 693,
+    "name": "Realme 15 5G RMX5106",
+    "slug": "realme-15",
+    "enabled": false,
+    "price": "950"
+  },
+  {
+    "id": 699,
+    "name": "Realme 15 Pro 5G RMX5101",
+    "slug": "realme-15-pro-5g",
+    "enabled": false,
+    "price": "1230"
+  },
+  {
+    "id": 703,
+    "name": "Realme 15T RMX5111",
+    "slug": "realme-15t",
+    "enabled": false,
+    "price": "740"
+  },
+  {
+    "id": 712,
+    "name": "Realme 16 5G RMX5171",
+    "slug": "realme-16-5g",
+    "enabled": true,
+    "price": "1050"
+  },
+  {
+    "id": 720,
+    "name": "Realme 16 Pro 5G",
+    "slug": "realme-16-pro",
+    "enabled": true,
+    "price": "1100"
+  },
+  {
+    "id": 729,
+    "name": "Realme 16 Pro+ 5G",
+    "slug": "realme-16-pro-5g",
+    "enabled": true,
+    "price": "1320"
+  },
+  {
+    "id": 733,
+    "name": "Realme GT7 RMX5061",
+    "slug": "realme-gt7",
+    "enabled": true,
+    "price": "1570"
+  },
+  {
+    "id": 739,
+    "name": "Realme GT7 Pro RMX5011",
+    "slug": "realme-gt7-pro",
+    "enabled": true,
+    "price": "2380"
+  },
+  {
+    "id": 743,
+    "name": "Realme GT8 Pro RMX5210",
+    "slug": "realme-gt8-pro",
+    "enabled": true,
+    "price": "2570"
+  },
+  {
+    "id": 747,
+    "name": "HONOR X6e",
+    "slug": "honor-x6e",
+    "enabled": true,
+    "price": "700"
+  },
+  {
+    "id": 749,
+    "name": "HONOR X7d",
+    "slug": "honor-x7d",
+    "enabled": true,
+    "price": "550"
+  },
+  {
+    "id": 758,
+    "name": "HONOR X8d",
+    "slug": "honor-x8d",
+    "enabled": true,
+    "price": "700"
+  },
+  {
+    "id": 764,
+    "name": "HONOR X9d",
+    "slug": "honor-x9d",
+    "enabled": true,
+    "price": "970"
+  },
+  {
+    "id": 776,
+    "name": "HONOR 400",
+    "slug": "honor-400",
+    "enabled": true,
+    "price": "1160"
+  },
+  {
+    "id": 788,
+    "name": "HONOR 400 Pro",
+    "slug": "honor-400-pro",
+    "enabled": true,
+    "price": "1660"
+  },
+  {
+    "id": 794,
+    "name": "HONOR 600 Lite",
+    "slug": "honor-600-lite",
+    "enabled": true,
+    "price": "960"
+  },
+  {
+    "id": 802,
+    "name": "HONOR 600",
+    "slug": "honor-600",
+    "enabled": true,
+    "price": "1420"
+  },
+  {
+    "id": 814,
+    "name": "HONOR 600 Pro",
+    "slug": "honor-600-pro",
+    "enabled": true,
+    "price": "2250"
+  },
+  {
+    "id": 820,
+    "name": "HONOR Magic7 Pro",
+    "slug": "honor-magic-7-pro",
+    "enabled": false,
+    "price": "2400"
+  },
+  {
+    "id": 828,
+    "name": "HONOR Magic8 Pro",
+    "slug": "honor-magic-8-pro",
+    "enabled": true,
+    "price": "3000"
+  },
+  {
+    "id": 837,
+    "name": "Samsung Galaxy S26 Ultra",
+    "slug": "samsung-galaxy-s26-ultra",
+    "enabled": true,
+    "price": "3000"
+  },
+  {
+    "id": 855,
+    "name": "Samsung Galaxy S26+",
+    "slug": "samsung-galaxy-s26-2",
+    "enabled": true,
+    "price": "2620"
+  },
+  {
+    "id": 867,
+    "name": "Samsung Galaxy S26",
+    "slug": "samsung-galaxy-s26",
+    "enabled": true,
+    "price": "2350"
+  },
+  {
+    "id": 879,
+    "name": "Samsung Galaxy S25 Ultra",
+    "slug": "samsung-galaxy-s25-ultra",
+    "enabled": true,
+    "price": "2450"
+  },
+  {
+    "id": 900,
+    "name": "Samsung Galaxy S25+",
+    "slug": "samsung-galaxy-s25-2",
+    "enabled": false,
+    "price": "2330"
+  },
+  {
+    "id": 910,
+    "name": "Samsung Galaxy S25",
+    "slug": "samsung-galaxy-s25",
+    "enabled": true,
+    "price": "1785"
+  },
+  {
+    "id": 922,
+    "name": "Samsung Galaxy S25 FE",
+    "slug": "samsung-galaxy-s25-fe",
+    "enabled": true,
+    "price": "1490"
+  },
+  {
+    "id": 934,
+    "name": "Samsung Galaxy S25 Edge",
+    "slug": "samsung-galaxy-s25-edge",
+    "enabled": true,
+    "price": "1990"
+  },
+  {
+    "id": 940,
+    "name": "Samsung Galaxy S24 Ultra",
+    "slug": "samsung-galaxy-s24-ultra",
+    "enabled": false,
+    "price": "2620"
+  },
+  {
+    "id": 952,
+    "name": "Samsung Galaxy S24+",
+    "slug": "samsung-galaxy-s24-plus",
+    "enabled": false,
+    "price": "1950"
+  },
+  {
+    "id": 960,
+    "name": "Samsung Galaxy S24",
+    "slug": "samsung-galaxy-s24",
+    "enabled": false,
+    "price": "1410"
+  },
+  {
+    "id": 984,
+    "name": "Samsung Galaxy S23 Ultra",
+    "slug": "samsung-galaxy-s23-ultra",
+    "enabled": false,
+    "price": "2400"
+  },
+  {
+    "id": 1006,
+    "name": "Samsung Galaxy S23",
+    "slug": "samsung-galaxy-s23",
+    "enabled": true,
+    "price": "1250"
+  },
+  {
+    "id": 1014,
+    "name": "Samsung Galaxy A26",
+    "slug": "samsung-galaxy-a26",
+    "enabled": false,
+    "price": "660"
+  },
+  {
+    "id": 1022,
+    "name": "Samsung Galaxy A36",
+    "slug": "samsung-galaxy-a36",
+    "enabled": false,
+    "price": "755"
+  },
+  {
+    "id": 1050,
+    "name": "Samsung Galaxy A56",
+    "slug": "samsung-galaxy-a56",
+    "enabled": false,
+    "price": "1100"
+  },
+  {
+    "id": 1062,
+    "name": "Samsung Galaxy A07",
+    "slug": "galaxy-a07",
+    "enabled": true,
+    "price": "440"
+  },
+  {
+    "id": 1071,
+    "name": "Samsung Galaxy A17 4G",
+    "slug": "samsung-galaxy-a17",
+    "enabled": true,
+    "price": "530"
+  },
+  {
+    "id": 1083,
+    "name": "Samsung Galaxy A37",
+    "slug": "samsung-galaxy-a37",
+    "enabled": true,
+    "price": "900"
+  },
+  {
+    "id": 1095,
+    "name": "Samsung Galaxy A57",
+    "slug": "samsung-galaxy-a57",
+    "enabled": true,
+    "price": "1050"
+  },
+  {
+    "id": 1111,
+    "name": "Samsung Galaxy Z Flip7",
+    "slug": "samsung-galaxy-z-flip7",
+    "enabled": true,
+    "price": "2590"
+  },
+  {
+    "id": 1117,
+    "name": "Samsung Galaxy Z Fold7",
+    "slug": "samsung-galaxy-z-fold7",
+    "enabled": true,
+    "price": "4420"
+  },
+  {
+    "id": 1126,
+    "name": "Samsung Galaxy Z Flip7 FE",
+    "slug": "samsung-galaxy-z-flip7-fe",
+    "enabled": true,
+    "price": "2070"
+  },
+  {
+    "id": 1130,
+    "name": "Samsung Galaxy Z Flip8",
+    "slug": "samsung-z-flip8",
+    "enabled": true,
+    "price": "3200"
+  },
+  {
+    "id": 1138,
+    "name": "Samsung Galaxy Tab A9",
+    "slug": "samsung-tab-a9",
+    "enabled": false,
+    "price": "450"
+  },
+  {
+    "id": 1150,
+    "name": "Samsung Galaxy Tab A9+",
+    "slug": "samsung-tab-a9",
+    "enabled": false,
+    "price": "554"
+  },
+  {
+    "id": 1162,
+    "name": "Samsung Galaxy Tab A11",
+    "slug": "samsung-tab-a11",
+    "enabled": true,
+    "price": "460"
+  },
+  {
+    "id": 1170,
+    "name": "Samsung Galaxy Tab A11+",
+    "slug": "samsung-tab-a11-2",
+    "enabled": true,
+    "price": "799"
+  },
+  {
+    "id": 1178,
+    "name": "Samsung Galaxy Tab S9",
+    "slug": "samsung-galaxy-tab-s9",
+    "enabled": true,
+    "price": "2040"
+  },
+  {
+    "id": 1186,
+    "name": "Samsung Galaxy Tab S9 FE",
+    "slug": "samsung-tab-s9-fe",
+    "enabled": true,
+    "price": "1299"
+  },
+  {
+    "id": 1202,
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "slug": "samsung-galaxy-tab-s9-ultra",
+    "enabled": true,
+    "price": "3080"
+  },
+  {
+    "id": 1214,
+    "name": "Samsung Galaxy Tab S10 Ultra",
+    "slug": "samsung-galaxy-tab-s10-ultra",
+    "enabled": true,
+    "price": "3950"
+  },
+  {
+    "id": 1226,
+    "name": "Samsung Galaxy Tab S10+",
+    "slug": "samsung-tab-s10",
+    "enabled": true,
+    "price": "3450"
+  },
+  {
+    "id": 1234,
+    "name": "Samsung Galaxy Tab S6 Lite",
+    "slug": "samsung-tab-s6-lite-2024",
+    "enabled": false,
+    "price": "960"
+  },
+  {
+    "id": 1246,
+    "name": "Amazon Kindle Paperwhite",
+    "slug": "amazon-kindle-paperwhite-2024-12th-gen-16gb-7",
+    "enabled": false,
+    "price": "660"
+  },
+  {
+    "id": 1249,
+    "name": "Tecno Pova 7 5G",
+    "slug": "tecno-pova-7-5g",
+    "enabled": false,
+    "price": "599"
+  },
+  {
+    "id": 1256,
+    "name": "Tecno Pova 7 Pro",
+    "slug": "tecno-pova-7-pro",
+    "enabled": false,
+    "price": "810"
+  },
+  {
+    "id": 1265,
+    "name": "Tecno Pova 7 Ultra 5G",
+    "slug": "tecno-pova-7-ultra",
+    "enabled": false,
+    "price": "950"
+  },
+  {
+    "id": 1269,
+    "name": "Tecno Pova 7 Neo",
+    "slug": "tecno-pova-7-neo",
+    "enabled": false,
+    "price": "680"
+  },
+  {
+    "id": 1273,
+    "name": "Tecno Pova 8 5G",
+    "slug": "tecno-pova-8-5g",
+    "enabled": true,
+    "price": "1349"
+  },
+  {
+    "id": 1275,
+    "name": "Tecno Spark 50",
+    "slug": "tecno-spark-50",
+    "enabled": true,
+    "price": "1070"
+  },
+  {
+    "id": 1280,
+    "name": "Infinix GT 30 Pro",
+    "slug": "infinix-gt-30-pro",
+    "enabled": false,
+    "price": "915"
+  },
+  {
+    "id": 1286,
+    "name": "Infinix Hot 60 Pro+",
+    "slug": "infinix-hot-60-pro",
+    "enabled": true,
+    "price": "649"
+  },
+  {
+    "id": 1288,
+    "name": "Blackview Xplore 1 Walkie Talkie",
+    "slug": "blackview-xplore-1-walkie-talkie",
+    "enabled": true,
+    "price": "1320"
+  },
+  {
+    "id": 1289,
+    "name": "Nothing Phone (4a)",
+    "slug": "nothing-phone-4a",
+    "enabled": true,
+    "price": "1200"
+  },
+  {
+    "id": 1301,
+    "name": "Nothing Phone (4a) Pro",
+    "slug": "nothing-phone-4a-pro",
+    "enabled": true,
+    "price": "1860"
+  },
+  {
+    "id": 1307,
+    "name": "Nothing Phone (3a) Lite",
+    "slug": "nothing-phone-3a-lite",
+    "enabled": true,
+    "price": "880"
+  },
+  {
+    "id": 1308,
+    "name": "Huawei Pura 90s Pro",
+    "slug": "huawei-pura-90s-pro",
+    "enabled": true,
+    "price": "2180"
+  }
+]
