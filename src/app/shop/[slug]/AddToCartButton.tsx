@@ -147,7 +147,7 @@ export default function AddToCartButton({ product, variations }: AddToCartButton
   };
 
   return (
-    <div className="space-y-4 sm:space-y-5">
+    <div className="space-y-4 sm:space-y-5 overflow-hidden max-w-full">
       {attrNames.map((attrName) => {
         const available = availableValues[attrName] || [];
         return (

@@ -125,7 +125,21 @@ function productToRows(p: LocalProduct): CsvRow[] {
       if (v.enabled === false) continue;
       const attrs: Record<string, string> = {};
       for (const a of v.attributes) attrs[a.name] = a.option;
-      const varName = v.csvName || buildVariationName(p, attrs);
+      // For headphones: always use full card name; for others: csvName || buildVariationName
+      if (v.name?.includes('AirPods') || p?.name?.includes('AirPods')) {
+        console.log('=== AIRPODS DEBUG ===');
+        console.log('csvCategory =', JSON.stringify(csvCategory));
+        console.log('typeof csvCategory =', typeof csvCategory);
+        console.log('v.name =', JSON.stringify(v.name));
+        console.log('v.csvName =', JSON.stringify(v.csvName));
+        console.log('p.name =', JSON.stringify(p?.name));
+        console.log('p.categories =', JSON.stringify(p?.categories));
+        console.log('attrs =', JSON.stringify(attrs));
+        console.log('====================');
+      }
+      const varName = csvCategory === 'Наушники и гарнитуры'
+        ? v.name
+        : (v.csvName || buildVariationName(p, attrs));
       const varPrice = v.sale_price || v.price || p.price;
 
       rows.push({
@@ -143,7 +157,9 @@ function productToRows(p: LocalProduct): CsvRow[] {
       });
     }
   } else {
-    const simpleName = buildVariationName(p, {});
+    const simpleName = csvCategory === 'Наушники и гарнитуры'
+      ? (p.name.startsWith('Наушники') ? p.name : `Наушники ${p.name}`)
+      : buildVariationName(p, {});
     rows.push({
       id: String(p.id),
       available: p.preorder ? 'false' : 'true',
