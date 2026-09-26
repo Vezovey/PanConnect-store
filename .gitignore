@@ -68,8 +68,4 @@ AGENTS.md
 # uploaded images (persist across deploys, not in git)
 /uploads/
 
-# uploaded images (persist across deploys, not in git)
-/uploads/
-
-# uploaded images (persist across deploys, not in git)
-/uploads/
+src/data/orders.json
