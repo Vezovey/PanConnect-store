@@ -26,6 +26,10 @@ export async function GET() {
     attributes: p.attributes || [],
     variations: p.variations || [],
     local_images: p.local_images || [],
+    part_number: p.part_number || '',
+    dual_sim: p.dual_sim || '',
+    network_module: p.network_module || '',
+    model_version: p.model_version || '',
   }));
   return NextResponse.json({ total: summary.length, products: summary });
 }
@@ -37,7 +41,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { name, price, sale_price, short_description, description, categories, type, attributes, variations, local_images, specs, preorder } = body;
+    const { name, price, sale_price, short_description, description, categories, type, attributes, variations, local_images, specs, preorder, part_number, dual_sim, network_module, model_version } = body;
 
     if (!name || !price) {
       return NextResponse.json({ error: 'Название и цена обязательны' }, { status: 400 });
@@ -59,6 +63,10 @@ export async function POST(req: NextRequest) {
       enabled: true,
       specs: specs || [],
       preorder: preorder || false,
+      part_number: part_number || '',
+      dual_sim: dual_sim || '',
+      network_module: network_module || '',
+      model_version: model_version || '',
     });
 
     return NextResponse.json({ id: product.id, slug: product.slug, ok: true });

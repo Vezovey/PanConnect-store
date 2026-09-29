@@ -50,6 +50,11 @@ export interface LocalProduct {
   deliveryDays?: number;
   orderBefore?: number;
   shopByCategory?: number;
+  // New export attributes
+  part_number?: string;
+  dual_sim?: string;
+  network_module?: string;
+  model_version?: string;
 }
 
 function cleanText(text: string): string {

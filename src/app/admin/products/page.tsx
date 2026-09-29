@@ -24,6 +24,10 @@ interface AdminProduct {
   attributes: { name: string; options: string[] }[];
   variations: { id: number; name: string; price: string; regular_price: string; sale_price: string; attributes: { name: string; option: string }[]; enabled?: boolean }[];
   local_images: string[];
+  part_number?: string;
+  dual_sim?: string;
+  network_module?: string;
+  model_version?: string;
 }
 
 interface Variation {
@@ -87,6 +91,12 @@ export default function AdminProductsPage() {
   const [fImages, setFImages] = useState<string[]>([]);
   const [fPreorder, setFPreorder] = useState(false);
 
+  // New export attributes
+  const [fPartNumber, setFPartNumber] = useState('');
+  const [fDualSim, setFDualSim] = useState('');
+  const [fNetworkModule, setFNetworkModule] = useState('');
+  const [fModelVersion, setFModelVersion] = useState('');
+
   // Характеристики (HTML-код)
   const [fSpecsHtml, setFSpecsHtml] = useState('');
 
@@ -136,6 +146,10 @@ export default function AdminProductsPage() {
       setFCategories(product.categories || []);
       setFImages(product.local_images || []);
       setFPreorder(product.preorder || false);
+      setFPartNumber(product.part_number || '');
+      setFDualSim(product.dual_sim || '');
+      setFNetworkModule(product.network_module || '');
+      setFModelVersion(product.model_version || '');
 
       // Характеристики — конвертируем HTML в простой текст для редактирования
       setFSpecsHtml(convertHtmlToPlainText(product.description || ''));
@@ -173,6 +187,18 @@ export default function AdminProductsPage() {
       setFCategories([]);
       setFImages([]);
       setFPreorder(false);
+      setFPartNumber('');
+      setFDualSim('');
+      setFNetworkModule('');
+      setFModelVersion('');
+      setFPartNumber('');
+      setFDualSim('');
+      setFNetworkModule('');
+      setFModelVersion('');
+      setFPartNumber('');
+      setFDualSim('');
+      setFNetworkModule('');
+      setFModelVersion('');
       setFSpecsHtml('');
       setFAttrRam([]);
       setFAttrStorage([]);
@@ -229,6 +255,10 @@ export default function AdminProductsPage() {
         description,
         categories: fCategories,
         local_images: fImages,
+        part_number: fPartNumber,
+        dual_sim: fDualSim,
+        network_module: fNetworkModule,
+        model_version: fModelVersion,
         attributes,
         variations: fVariations.map((v, i) => ({
           id: v.id || Date.now() + i,
@@ -682,7 +712,7 @@ export default function AdminProductsPage() {
                   </p>
                   <textarea value={fSpecsHtml} onChange={e => setFSpecsHtml(e.target.value)} rows={12}
                             placeholder={`Дата выхода на рынок\n2026 г\n\nЭкран\nРазмер экрана\n6.83"\nРазрешение экрана\n1260×2800\nТехнология экрана\nAMOLED\n\nРазмеры и вес\nДлина\n163.6 мм\nШирина\n76.6 мм`}
-                            className="w-full px-4 py-3 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black resize-y" />
+                            className="w-full px-4 py-3 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black resize-y" style={{ maxHeight: '200px', overflowY: 'auto' }} />
                   {fSpecsHtml && (
                     <div className="bg-white rounded-xl p-4 border border-gray-200">
                       <p className="text-xs text-gray-400 mb-2">Предпросмотр (как будет выглядеть на сайте):</p>
@@ -867,9 +897,45 @@ export default function AdminProductsPage() {
                       </button>
                     </div>
                   </div>
-                </section>
 
-                {/* ── 6. Вариации (для вариативного товара) ── */}
+                  {/* Экспортные атрибуты */}
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2">
+                    <div>
+                      <label className="text-sm text-gray-500 mb-1 block">Парт-номер</label>
+                      <input type="text" value={fPartNumber} onChange={e => setFPartNumber(e.target.value)} placeholder="SM-S948B"
+                             className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
+                    </div>
+                    <div>
+                      <label className="text-sm text-gray-500 mb-1 block">Dual SIM</label>
+                      <input type="text" value={fDualSim} onChange={e => setFDualSim(e.target.value)} placeholder="Dual SIM" list="dual-sim-options"
+                             className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
+                      <datalist id="dual-sim-options">
+                        <option value="да" />
+                        <option value="нет" />
+                      </datalist>
+                    </div>
+                    <div>
+                      <label className="text-sm text-gray-500 mb-1 block">Модуль антенны</label>
+                      <input type="text" value={fNetworkModule} onChange={e => setFNetworkModule(e.target.value)} placeholder="4G / 5G / LTE" list="network-options"
+                             className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
+                      <datalist id="network-options">
+                        <option value="4G" />
+                        <option value="5G" />
+                        <option value="LTE" />
+                      </datalist>
+                    </div>
+                    <div>
+                      <label className="text-sm text-gray-500 mb-1 block">Версия</label>
+                      <input type="text" value={fModelVersion} onChange={e => setFModelVersion(e.target.value)} placeholder="международная версия" list="version-options"
+                             className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
+                      <datalist id="version-options">
+                        <option value="международная версия" />
+                        <option value="индийская версия" />
+                        <option value="европейская версия" />
+                      </datalist>
+                    </div>
+                  </div>
+                </section>
                 {fType === 'variable' && (
                   <section className="space-y-3">
                     <div className="flex items-center justify-between">

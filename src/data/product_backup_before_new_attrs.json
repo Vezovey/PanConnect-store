@@ -278,7 +278,7 @@
     "variations": [
       {
         "id": 9,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/128GB (фарфор)",
+        "name": "Google Pixel 10 Pro - Фарфор, 16 ГБ, 128 ГБ",
         "price": "2550",
         "regular_price": "2550",
         "sale_price": "",
@@ -296,12 +296,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/128GB (фарфор)"
+        "enabled": false
       },
       {
         "id": 10,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/128GB (нефрит)",
+        "name": "Google Pixel 10 Pro - Нефрит, 16 ГБ, 128 ГБ",
         "price": "2550",
         "regular_price": "2550",
         "sale_price": "",
@@ -319,12 +318,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/128GB (нефрит)"
+        "enabled": false
       },
       {
         "id": 11,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/128GB (лунный камень)",
+        "name": "Google Pixel 10 Pro - Лунный камень, 16 ГБ, 128 ГБ",
         "price": "2550",
         "regular_price": "2550",
         "sale_price": "",
@@ -342,12 +340,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/128GB (лунный камень)"
+        "enabled": false
       },
       {
         "id": 12,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/128GB (обсидиан)",
+        "name": "Google Pixel 10 Pro - Обсидиан, 16 ГБ, 128 ГБ",
         "price": "2550",
         "regular_price": "2550",
         "sale_price": "",
@@ -365,12 +362,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/128GB (обсидиан)"
+        "enabled": true
       },
       {
         "id": 13,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/256GB (фарфор)",
+        "name": "Google Pixel 10 Pro - Фарфор, 16 ГБ, 256 ГБ",
         "price": "3200",
         "regular_price": "3200",
         "sale_price": "",
@@ -388,12 +384,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/256GB (фарфор)"
+        "enabled": false
       },
       {
         "id": 14,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/256GB (нефрит)",
+        "name": "Google Pixel 10 Pro - Нефрит, 16 ГБ, 256 ГБ",
         "price": "3200",
         "regular_price": "3200",
         "sale_price": "",
@@ -411,12 +406,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/256GB (нефрит)"
+        "enabled": false
       },
       {
         "id": 15,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/256GB (лунный камень)",
+        "name": "Google Pixel 10 Pro - Лунный камень, 16 ГБ, 256 ГБ",
         "price": "3200",
         "regular_price": "3200",
         "sale_price": "",
@@ -434,12 +428,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/256GB (лунный камень)"
+        "enabled": false
       },
       {
         "id": 16,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/256GB (обсидиан)",
+        "name": "Google Pixel 10 Pro - Обсидиан, 16 ГБ, 256 ГБ",
         "price": "3200",
         "regular_price": "3200",
         "sale_price": "",
@@ -457,12 +450,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/256GB (обсидиан)"
+        "enabled": false
       },
       {
         "id": 17,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/512GB (фарфор)",
+        "name": "Google Pixel 10 Pro - Фарфор, 16 ГБ, 512 ГБ",
         "price": "4600",
         "regular_price": "4600",
         "sale_price": "",
@@ -480,12 +472,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/512GB (фарфор)"
+        "enabled": false
       },
       {
         "id": 18,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/512GB (нефрит)",
+        "name": "Google Pixel 10 Pro - Нефрит, 16 ГБ, 512 ГБ",
         "price": "4600",
         "regular_price": "4600",
         "sale_price": "",
@@ -503,12 +494,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/512GB (нефрит)"
+        "enabled": false
       },
       {
         "id": 19,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/512GB (лунный камень)",
+        "name": "Google Pixel 10 Pro - Лунный камень, 16 ГБ, 512 ГБ",
         "price": "4600",
         "regular_price": "4600",
         "sale_price": "",
@@ -526,12 +516,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/512GB (лунный камень)"
+        "enabled": false
       },
       {
         "id": 20,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/512GB (обсидиан)",
+        "name": "Google Pixel 10 Pro - Обсидиан, 16 ГБ, 512 ГБ",
         "price": "4600",
         "regular_price": "4600",
         "sale_price": "",
@@ -549,12 +538,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/512GB (обсидиан)"
+        "enabled": false
       },
       {
         "id": 21,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/128GB (фарфор)",
+        "name": "Google Pixel 10 Pro - Фарфор",
         "price": "5000",
         "regular_price": "5000",
         "sale_price": "",
@@ -564,12 +552,11 @@
             "option": "Фарфор"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/128GB (фарфор)"
+        "enabled": false
       },
       {
         "id": 22,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/128GB (нефрит)",
+        "name": "Google Pixel 10 Pro - Нефрит",
         "price": "5000",
         "regular_price": "5000",
         "sale_price": "",
@@ -579,12 +566,11 @@
             "option": "Нефрит"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/128GB (нефрит)"
+        "enabled": false
       },
       {
         "id": 23,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/128GB (лунный камень)",
+        "name": "Google Pixel 10 Pro - Лунный камень",
         "price": "5000",
         "regular_price": "5000",
         "sale_price": "",
@@ -594,12 +580,11 @@
             "option": "Лунный камень"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/128GB (лунный камень)"
+        "enabled": false
       },
       {
         "id": 24,
-        "name": "Смартфон Google Pixel 10 Pro 16GB/128GB (обсидиан)",
+        "name": "Google Pixel 10 Pro - Обсидиан",
         "price": "5000",
         "regular_price": "5000",
         "sale_price": "",
@@ -609,8 +594,7 @@
             "option": "Обсидиан"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro 16GB/128GB (обсидиан)"
+        "enabled": false
       }
     ],
     "enabled": true,
@@ -667,7 +651,7 @@
     "variations": [
       {
         "id": 25,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (фарфор)",
+        "name": "Google Pixel 10 Pro XL - Фарфор, 16 ГБ, 256 ГБ",
         "price": "2940",
         "regular_price": "2940",
         "sale_price": "",
@@ -685,12 +669,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (фарфор)"
+        "enabled": false
       },
       {
         "id": 26,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (нефрит)",
+        "name": "Google Pixel 10 Pro XL - Нефрит, 16 ГБ, 256 ГБ",
         "price": "2940",
         "regular_price": "2940",
         "sale_price": "",
@@ -708,12 +691,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (нефрит)"
+        "enabled": false
       },
       {
         "id": 27,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (лунный камень)",
+        "name": "Google Pixel 10 Pro XL - Лунный камень, 16 ГБ, 256 ГБ",
         "price": "2940",
         "regular_price": "2940",
         "sale_price": "",
@@ -731,12 +713,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (лунный камень)"
+        "enabled": false
       },
       {
         "id": 28,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (обсидиан)",
+        "name": "Google Pixel 10 Pro XL - Обсидиан, 16 ГБ, 256 ГБ",
         "price": "2940",
         "regular_price": "2940",
         "sale_price": "",
@@ -754,12 +735,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (обсидиан)"
+        "enabled": false
       },
       {
         "id": 29,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (фарфор)",
+        "name": "Google Pixel 10 Pro XL - Фарфор, 16 ГБ, 512 ГБ",
         "price": "3430",
         "regular_price": "3430",
         "sale_price": "",
@@ -777,12 +757,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (фарфор)"
+        "enabled": false
       },
       {
         "id": 30,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (нефрит)",
+        "name": "Google Pixel 10 Pro XL - Нефрит, 16 ГБ, 512 ГБ",
         "price": "3430",
         "regular_price": "3430",
         "sale_price": "",
@@ -800,12 +779,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (нефрит)"
+        "enabled": false
       },
       {
         "id": 31,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (лунный камень)",
+        "name": "Google Pixel 10 Pro XL - Лунный камень, 16 ГБ, 512 ГБ",
         "price": "3430",
         "regular_price": "3430",
         "sale_price": "",
@@ -823,12 +801,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (лунный камень)"
+        "enabled": false
       },
       {
         "id": 32,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (обсидиан)",
+        "name": "Google Pixel 10 Pro XL - Обсидиан, 16 ГБ, 512 ГБ",
         "price": "3430",
         "regular_price": "3430",
         "sale_price": "",
@@ -846,8 +823,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (обсидиан)"
+        "enabled": false
       },
       {
         "id": 33,
@@ -1418,7 +1394,7 @@
     "variations": [
       {
         "id": 54,
-        "name": "Наушники Apple AirPods Pro 2 (с разъемом USB Type-C)",
+        "name": "Наушники Apple AirPods Pro 2 (с разъемом USB Type-C) - С разъемом USB Type-C",
         "price": "615",
         "regular_price": "615",
         "sale_price": "",
@@ -1428,8 +1404,7 @@
             "option": "С разъемом USB Type-C"
           }
         ],
-        "enabled": true,
-        "csvName": "Наушники Apple AirPods Pro 2 (с разъемом USB Type-C)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -1460,13 +1435,12 @@
     "variations": [
       {
         "id": 55,
-        "name": "Наушники Apple AirPods Pro 3",
+        "name": "Наушники Apple AirPods Pro 3 - ",
         "price": "750",
         "regular_price": "750",
         "sale_price": "",
         "attributes": [],
-        "enabled": true,
-        "csvName": "Наушники Apple AirPods Pro 3"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -1504,7 +1478,7 @@
     "variations": [
       {
         "id": 56,
-        "name": "Наушники Apple AirPods 4 (с активным шумоподавлением)",
+        "name": "Наушники Apple AirPods 4 (с активным шумоподавлением) - С активным шумоподавлением",
         "price": "545",
         "regular_price": "545",
         "sale_price": "",
@@ -1514,8 +1488,7 @@
             "option": "С активным шумоподавлением"
           }
         ],
-        "enabled": true,
-        "csvName": "Наушники Apple AirPods 4 (с активным шумоподавлением)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -1553,7 +1526,7 @@
     "variations": [
       {
         "id": 57,
-        "name": "Наушники Apple AirPods 4 (без активного шумоподавления)",
+        "name": "Наушники Apple AirPods 4 (без активного шумоподавления) - Без активного шумоподавления",
         "price": "420",
         "regular_price": "420",
         "sale_price": "",
@@ -1563,8 +1536,7 @@
             "option": "Без активного шумоподавления"
           }
         ],
-        "enabled": true,
-        "csvName": "Наушники Apple AirPods 4 (без активного шумоподавления)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -1956,7 +1928,7 @@
     "variations": [
       {
         "id": 73,
-        "name": "Смартфон Apple iPhone 16 128GB (белый)",
+        "name": "Apple iPhone 16 - Белый, 128 ГБ",
         "price": "2400",
         "regular_price": "2400",
         "sale_price": "",
@@ -1970,12 +1942,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 128GB (белый)"
+        "enabled": true
       },
       {
         "id": 74,
-        "name": "Смартфон Apple iPhone 16 128GB (бирюзовый)",
+        "name": "Apple iPhone 16 - Бирюзовый, 128 ГБ",
         "price": "2400",
         "regular_price": "2400",
         "sale_price": "",
@@ -1989,12 +1960,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 128GB (бирюзовый)"
+        "enabled": true
       },
       {
         "id": 75,
-        "name": "Смартфон Apple iPhone 16 128GB (розовый)",
+        "name": "Apple iPhone 16 - Розовый, 128 ГБ",
         "price": "2400",
         "regular_price": "2400",
         "sale_price": "",
@@ -2008,12 +1978,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 128GB (розовый)"
+        "enabled": true
       },
       {
         "id": 76,
-        "name": "Смартфон Apple iPhone 16 128GB (ультрамарин)",
+        "name": "Apple iPhone 16 - Ультрамарин, 128 ГБ",
         "price": "2400",
         "regular_price": "2400",
         "sale_price": "",
@@ -2027,12 +1996,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 128GB (ультрамарин)"
+        "enabled": true
       },
       {
         "id": 77,
-        "name": "Смартфон Apple iPhone 16 128GB (черный)",
+        "name": "Apple iPhone 16 - Черный, 128 ГБ",
         "price": "2400",
         "regular_price": "2400",
         "sale_price": "",
@@ -2046,12 +2014,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 128GB (черный)"
+        "enabled": true
       },
       {
         "id": 78,
-        "name": "Смартфон Apple iPhone 16 256GB (белый)",
+        "name": "Apple iPhone 16 - Белый, 256 ГБ",
         "price": "2700",
         "regular_price": "2700",
         "sale_price": "",
@@ -2065,12 +2032,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 256GB (белый)"
+        "enabled": true
       },
       {
         "id": 79,
-        "name": "Смартфон Apple iPhone 16 256GB (бирюзовый)",
+        "name": "Apple iPhone 16 - Бирюзовый, 256 ГБ",
         "price": "2700",
         "regular_price": "2700",
         "sale_price": "",
@@ -2084,12 +2050,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 256GB (бирюзовый)"
+        "enabled": true
       },
       {
         "id": 80,
-        "name": "Смартфон Apple iPhone 16 256GB (розовый)",
+        "name": "Apple iPhone 16 - Розовый, 256 ГБ",
         "price": "2700",
         "regular_price": "2700",
         "sale_price": "",
@@ -2103,12 +2068,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 256GB (розовый)"
+        "enabled": true
       },
       {
         "id": 81,
-        "name": "Смартфон Apple iPhone 16 256GB (ультрамарин)",
+        "name": "Apple iPhone 16 - Ультрамарин, 256 ГБ",
         "price": "2700",
         "regular_price": "2700",
         "sale_price": "",
@@ -2122,12 +2086,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 256GB (ультрамарин)"
+        "enabled": true
       },
       {
         "id": 82,
-        "name": "Смартфон Apple iPhone 16 256GB (черный)",
+        "name": "Apple iPhone 16 - Черный, 256 ГБ",
         "price": "2700",
         "regular_price": "2700",
         "sale_price": "",
@@ -2141,12 +2104,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 256GB (черный)"
+        "enabled": true
       },
       {
         "id": 83,
-        "name": "Смартфон Apple iPhone 16 512GB (белый)",
+        "name": "Apple iPhone 16 - Белый, 512 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -2160,12 +2122,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Apple iPhone 16 512GB (белый)"
+        "enabled": false
       },
       {
         "id": 84,
-        "name": "Смартфон Apple iPhone 16 512GB (бирюзовый)",
+        "name": "Apple iPhone 16 - Бирюзовый, 512 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -2179,12 +2140,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Apple iPhone 16 512GB (бирюзовый)"
+        "enabled": false
       },
       {
         "id": 85,
-        "name": "Смартфон Apple iPhone 16 512GB (розовый)",
+        "name": "Apple iPhone 16 - Розовый, 512 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -2198,12 +2158,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Apple iPhone 16 512GB (розовый)"
+        "enabled": false
       },
       {
         "id": 86,
-        "name": "Смартфон Apple iPhone 16 512GB (ультрамарин)",
+        "name": "Apple iPhone 16 - Ультрамарин, 512 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -2217,12 +2176,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Apple iPhone 16 512GB (ультрамарин)"
+        "enabled": false
       },
       {
         "id": 87,
-        "name": "Смартфон Apple iPhone 16 512GB (черный)",
+        "name": "Apple iPhone 16 - Черный, 512 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -2236,8 +2194,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Apple iPhone 16 512GB (черный)"
+        "enabled": false
       }
     ],
     "enabled": true,
@@ -2606,7 +2563,7 @@
     "variations": [
       {
         "id": 104,
-        "name": "Смартфон Apple iPhone 16 Pro Max 256GB (природный титан)",
+        "name": "Apple iPhone 16 Pro Max - Природный титан, 256 ГБ",
         "price": "4150",
         "regular_price": "4150",
         "sale_price": "",
@@ -2620,12 +2577,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 Pro Max 256GB (природный титан)"
+        "enabled": true
       },
       {
         "id": 105,
-        "name": "Смартфон Apple iPhone 16 Pro Max 256GB (белый титан)",
+        "name": "Apple iPhone 16 Pro Max - Белый титан, 256 ГБ",
         "price": "4150",
         "regular_price": "4150",
         "sale_price": "",
@@ -2639,12 +2595,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 Pro Max 256GB (белый титан)"
+        "enabled": true
       },
       {
         "id": 106,
-        "name": "Смартфон Apple iPhone 16 Pro Max 256GB (пустынный титан)",
+        "name": "Apple iPhone 16 Pro Max - Пустынный титан, 256 ГБ",
         "price": "4150",
         "regular_price": "4150",
         "sale_price": "",
@@ -2658,12 +2613,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 Pro Max 256GB (пустынный титан)"
+        "enabled": true
       },
       {
         "id": 107,
-        "name": "Смартфон Apple iPhone 16 Pro Max 256GB (черный титан)",
+        "name": "Apple iPhone 16 Pro Max - Черный титан, 256 ГБ",
         "price": "4150",
         "regular_price": "4150",
         "sale_price": "",
@@ -2677,12 +2631,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 Pro Max 256GB (черный титан)"
+        "enabled": true
       },
       {
         "id": 108,
-        "name": "Смартфон Apple iPhone 16 Pro Max 512GB (природный титан)",
+        "name": "Apple iPhone 16 Pro Max - Природный титан, 512 ГБ",
         "price": "4350",
         "regular_price": "4350",
         "sale_price": "",
@@ -2696,12 +2649,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 Pro Max 512GB (природный титан)"
+        "enabled": true
       },
       {
         "id": 109,
-        "name": "Смартфон Apple iPhone 16 Pro Max 512GB (белый титан)",
+        "name": "Apple iPhone 16 Pro Max - Белый титан, 512 ГБ",
         "price": "4350",
         "regular_price": "4350",
         "sale_price": "",
@@ -2715,12 +2667,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 Pro Max 512GB (белый титан)"
+        "enabled": true
       },
       {
         "id": 110,
-        "name": "Смартфон Apple iPhone 16 Pro Max 512GB (пустынный титан)",
+        "name": "Apple iPhone 16 Pro Max - Пустынный титан, 512 ГБ",
         "price": "4350",
         "regular_price": "4350",
         "sale_price": "",
@@ -2734,12 +2685,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 Pro Max 512GB (пустынный титан)"
+        "enabled": true
       },
       {
         "id": 111,
-        "name": "Смартфон Apple iPhone 16 Pro Max 512GB (черный титан)",
+        "name": "Apple iPhone 16 Pro Max - Черный титан, 512 ГБ",
         "price": "4350",
         "regular_price": "4350",
         "sale_price": "",
@@ -2753,8 +2703,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 16 Pro Max 512GB (черный титан)"
+        "enabled": true
       },
       {
         "id": 112,
@@ -3025,7 +2974,7 @@
     "variations": [
       {
         "id": 122,
-        "name": "Смартфон Apple iPhone 17 256GB (белый)",
+        "name": "Apple iPhone 17 - Белый, 256 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -3039,12 +2988,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 256GB (белый)"
+        "enabled": true
       },
       {
         "id": 123,
-        "name": "Смартфон Apple iPhone 17 256GB (голубой)",
+        "name": "Apple iPhone 17 - Голубой, 256 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -3058,12 +3006,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 256GB (голубой)"
+        "enabled": true
       },
       {
         "id": 124,
-        "name": "Смартфон Apple iPhone 17 256GB (зеленый)",
+        "name": "Apple iPhone 17 - Зеленый, 256 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -3077,12 +3024,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 256GB (зеленый)"
+        "enabled": true
       },
       {
         "id": 125,
-        "name": "Смартфон Apple iPhone 17 256GB (сиреневый)",
+        "name": "Apple iPhone 17 - Сиреневый, 256 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -3096,12 +3042,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 256GB (сиреневый)"
+        "enabled": true
       },
       {
         "id": 126,
-        "name": "Смартфон Apple iPhone 17 256GB (черный)",
+        "name": "Apple iPhone 17 - Черный, 256 ГБ",
         "price": "2950",
         "regular_price": "2950",
         "sale_price": "",
@@ -3115,12 +3060,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 256GB (черный)"
+        "enabled": true
       },
       {
         "id": 127,
-        "name": "Смартфон Apple iPhone 17 512GB (белый)",
+        "name": "Apple iPhone 17 - Белый, 512 ГБ",
         "price": "3500",
         "regular_price": "3500",
         "sale_price": "",
@@ -3134,12 +3078,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 512GB (белый)"
+        "enabled": true
       },
       {
         "id": 128,
-        "name": "Смартфон Apple iPhone 17 512GB (голубой)",
+        "name": "Apple iPhone 17 - Голубой, 512 ГБ",
         "price": "3500",
         "regular_price": "3500",
         "sale_price": "",
@@ -3153,12 +3096,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 512GB (голубой)"
+        "enabled": true
       },
       {
         "id": 129,
-        "name": "Смартфон Apple iPhone 17 512GB (зеленый)",
+        "name": "Apple iPhone 17 - Зеленый, 512 ГБ",
         "price": "3500",
         "regular_price": "3500",
         "sale_price": "",
@@ -3172,12 +3114,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 512GB (зеленый)"
+        "enabled": true
       },
       {
         "id": 130,
-        "name": "Смартфон Apple iPhone 17 512GB (сиреневый)",
+        "name": "Apple iPhone 17 - Сиреневый, 512 ГБ",
         "price": "3500",
         "regular_price": "3500",
         "sale_price": "",
@@ -3191,12 +3132,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 512GB (сиреневый)"
+        "enabled": true
       },
       {
         "id": 131,
-        "name": "Смартфон Apple iPhone 17 512GB (черный)",
+        "name": "Apple iPhone 17 - Черный, 512 ГБ",
         "price": "3500",
         "regular_price": "3500",
         "sale_price": "",
@@ -3210,8 +3150,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Apple iPhone 17 512GB (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -6191,7 +6130,7 @@
     "variations": [
       {
         "id": 299,
-        "name": "Смартфон Xiaomi 15 12GB/256GB международная версия (черный)",
+        "name": "Xiaomi 15 - Черный, 12 ГБ, 256 ГБ",
         "price": "1900",
         "regular_price": "1900",
         "sale_price": "",
@@ -6209,12 +6148,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 15 12GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 300,
-        "name": "Смартфон Xiaomi 15 12GB/256GB международная версия (зеленый)",
+        "name": "Xiaomi 15 - Зеленый, 12 ГБ, 256 ГБ",
         "price": "1900",
         "regular_price": "1900",
         "sale_price": "",
@@ -6232,12 +6170,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 15 12GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 301,
-        "name": "Смартфон Xiaomi 15 12GB/256GB международная версия (серебристый)",
+        "name": "Xiaomi 15 - Серебристый, 12 ГБ, 256 ГБ",
         "price": "1900",
         "regular_price": "1900",
         "sale_price": "",
@@ -6255,12 +6192,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 15 12GB/256GB международная версия (серебристый)"
+        "enabled": true
       },
       {
         "id": 302,
-        "name": "Смартфон Xiaomi 15 12GB/256GB международная версия (белый)",
+        "name": "Xiaomi 15 - Белый, 12 ГБ, 256 ГБ",
         "price": "1900",
         "regular_price": "1900",
         "sale_price": "",
@@ -6278,12 +6214,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 15 12GB/256GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 303,
-        "name": "Смартфон Xiaomi 15 12GB/512GB международная версия (черный)",
+        "name": "Xiaomi 15 - Черный, 12 ГБ, 512 ГБ",
         "price": "2250",
         "regular_price": "2250",
         "sale_price": "",
@@ -6301,12 +6236,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 15 12GB/512GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 304,
-        "name": "Смартфон Xiaomi 15 12GB/512GB международная версия (зеленый)",
+        "name": "Xiaomi 15 - Зеленый, 12 ГБ, 512 ГБ",
         "price": "2250",
         "regular_price": "2250",
         "sale_price": "",
@@ -6324,12 +6258,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 15 12GB/512GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 305,
-        "name": "Смартфон Xiaomi 15 12GB/512GB международная версия (серебристый)",
+        "name": "Xiaomi 15 - Серебристый, 12 ГБ, 512 ГБ",
         "price": "2250",
         "regular_price": "2250",
         "sale_price": "",
@@ -6347,12 +6280,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 15 12GB/512GB международная версия (серебристый)"
+        "enabled": true
       },
       {
         "id": 306,
-        "name": "Смартфон Xiaomi 15 12GB/512GB международная версия (белый)",
+        "name": "Xiaomi 15 - Белый, 12 ГБ, 512 ГБ",
         "price": "2250",
         "regular_price": "2250",
         "sale_price": "",
@@ -6370,8 +6302,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 15 12GB/512GB международная версия (белый)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -7401,7 +7332,7 @@
     "variations": [
       {
         "id": 342,
-        "name": "Смартфон Xiaomi 17T 12GB/256GB международная версия (голубой)",
+        "name": "Xiaomi 17T - Голубой, 12 ГБ, 256 ГБ",
         "price": "1590",
         "regular_price": "1590",
         "sale_price": "",
@@ -7419,12 +7350,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 17T 12GB/256GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 343,
-        "name": "Смартфон Xiaomi 17T 12GB/256GB международная версия (светло-сиреневый)",
+        "name": "Xiaomi 17T - Светло-сиреневый, 12 ГБ, 256 ГБ",
         "price": "1590",
         "regular_price": "1590",
         "sale_price": "",
@@ -7442,12 +7372,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 17T 12GB/256GB международная версия (светло-сиреневый)"
+        "enabled": true
       },
       {
         "id": 344,
-        "name": "Смартфон Xiaomi 17T 12GB/256GB международная версия (черный)",
+        "name": "Xiaomi 17T - Черный, 12 ГБ, 256 ГБ",
         "price": "1590",
         "regular_price": "1590",
         "sale_price": "",
@@ -7465,12 +7394,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 17T 12GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 345,
-        "name": "Смартфон Xiaomi 17T 12GB/256GB международная версия (белый)",
+        "name": "Xiaomi 17T - Белый, 12 ГБ, 256 ГБ",
         "price": "1590",
         "regular_price": "1590",
         "sale_price": "",
@@ -7488,12 +7416,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 17T 12GB/256GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 346,
-        "name": "Смартфон Xiaomi 17T 12GB/512GB международная версия (голубой)",
+        "name": "Xiaomi 17T - Голубой, 12 ГБ, 512 ГБ",
         "price": "1730",
         "regular_price": "1730",
         "sale_price": "",
@@ -7511,12 +7438,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 17T 12GB/512GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 347,
-        "name": "Смартфон Xiaomi 17T 12GB/512GB международная версия (светло-сиреневый)",
+        "name": "Xiaomi 17T - Светло-сиреневый, 12 ГБ, 512 ГБ",
         "price": "1730",
         "regular_price": "1730",
         "sale_price": "",
@@ -7534,12 +7460,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 17T 12GB/512GB международная версия (светло-сиреневый)"
+        "enabled": true
       },
       {
         "id": 348,
-        "name": "Смартфон Xiaomi 17T 12GB/512GB международная версия (черный)",
+        "name": "Xiaomi 17T - Черный, 12 ГБ, 512 ГБ",
         "price": "1730",
         "regular_price": "1730",
         "sale_price": "",
@@ -7557,12 +7482,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 17T 12GB/512GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 349,
-        "name": "Смартфон Xiaomi 17T 12GB/512GB международная версия (белый)",
+        "name": "Xiaomi 17T - Белый, 12 ГБ, 512 ГБ",
         "price": "1730",
         "regular_price": "1730",
         "sale_price": "",
@@ -7580,8 +7504,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Xiaomi 17T 12GB/512GB международная версия (белый)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -8546,7 +8469,7 @@
     "variations": [
       {
         "id": 383,
-        "name": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (зеленый)",
+        "name": "Xiaomi Pad 8 - Зеленый, 8 ГБ, 128 ГБ",
         "price": "1350",
         "regular_price": "1350",
         "sale_price": "",
@@ -8564,12 +8487,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 384,
-        "name": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (синий)",
+        "name": "Xiaomi Pad 8 - Синий, 8 ГБ, 128 ГБ",
         "price": "1350",
         "regular_price": "1350",
         "sale_price": "",
@@ -8587,12 +8509,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 385,
-        "name": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (черный)",
+        "name": "Xiaomi Pad 8 - Черный, 8 ГБ, 128 ГБ",
         "price": "1350",
         "regular_price": "1350",
         "sale_price": "",
@@ -8610,12 +8531,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 386,
-        "name": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (зеленый)",
+        "name": "Xiaomi Pad 8 - Зеленый, 8 ГБ, 256 ГБ",
         "price": "1470",
         "regular_price": "1470",
         "sale_price": "",
@@ -8633,12 +8553,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 387,
-        "name": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (синий)",
+        "name": "Xiaomi Pad 8 - Синий, 8 ГБ, 256 ГБ",
         "price": "1470",
         "regular_price": "1470",
         "sale_price": "",
@@ -8656,12 +8575,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 388,
-        "name": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (черный)",
+        "name": "Xiaomi Pad 8 - Черный, 8 ГБ, 256 ГБ",
         "price": "1470",
         "regular_price": "1470",
         "sale_price": "",
@@ -8679,12 +8597,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 389,
-        "name": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (зеленый)",
+        "name": "Xiaomi Pad 8 - Зеленый, 12 ГБ, 256 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -8702,12 +8619,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 390,
-        "name": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (синий)",
+        "name": "Xiaomi Pad 8 - Синий, 12 ГБ, 256 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -8725,12 +8641,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 391,
-        "name": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (черный)",
+        "name": "Xiaomi Pad 8 - Черный, 12 ГБ, 256 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -8748,8 +8663,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -8809,7 +8723,7 @@
     "variations": [
       {
         "id": 392,
-        "name": "Планшет Xiaomi Pad 8 Pro 8GB/128GB международная версия (серый)",
+        "name": "Xiaomi Pad 8 Pro - Серый, 8 ГБ, 128 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -8827,12 +8741,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 8GB/128GB международная версия (серый)"
+        "enabled": true
       },
       {
         "id": 393,
-        "name": "Планшет Xiaomi Pad 8 Pro 8GB/128GB международная версия (зеленый)",
+        "name": "Xiaomi Pad 8 Pro - Зеленый, 8 ГБ, 128 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -8850,12 +8763,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 8GB/128GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 394,
-        "name": "Планшет Xiaomi Pad 8 Pro 8GB/128GB международная версия (синий)",
+        "name": "Xiaomi Pad 8 Pro - Синий, 8 ГБ, 128 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -8873,12 +8785,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 8GB/128GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 395,
-        "name": "Планшет Xiaomi Pad 8 Pro 8GB/256GB международная версия (серый)",
+        "name": "Xiaomi Pad 8 Pro - Серый, 8 ГБ, 256 ГБ",
         "price": "1700",
         "regular_price": "1700",
         "sale_price": "",
@@ -8896,12 +8807,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 8GB/256GB международная версия (серый)"
+        "enabled": true
       },
       {
         "id": 396,
-        "name": "Планшет Xiaomi Pad 8 Pro 8GB/256GB международная версия (зеленый)",
+        "name": "Xiaomi Pad 8 Pro - Зеленый, 8 ГБ, 256 ГБ",
         "price": "1700",
         "regular_price": "1700",
         "sale_price": "",
@@ -8919,12 +8829,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 8GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 397,
-        "name": "Планшет Xiaomi Pad 8 Pro 8GB/256GB международная версия (синий)",
+        "name": "Xiaomi Pad 8 Pro - Синий, 8 ГБ, 256 ГБ",
         "price": "1700",
         "regular_price": "1700",
         "sale_price": "",
@@ -8942,12 +8851,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 8GB/256GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 398,
-        "name": "Планшет Xiaomi Pad 8 Pro 12GB/512GB международная версия (серый)",
+        "name": "Xiaomi Pad 8 Pro - Серый, 12 ГБ, 512 ГБ",
         "price": "2040",
         "regular_price": "2040",
         "sale_price": "",
@@ -8965,12 +8873,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 12GB/512GB международная версия (серый)"
+        "enabled": true
       },
       {
         "id": 399,
-        "name": "Планшет Xiaomi Pad 8 Pro 12GB/512GB международная версия (зеленый)",
+        "name": "Xiaomi Pad 8 Pro - Зеленый, 12 ГБ, 512 ГБ",
         "price": "2040",
         "regular_price": "2040",
         "sale_price": "",
@@ -8988,12 +8895,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 12GB/512GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 400,
-        "name": "Планшет Xiaomi Pad 8 Pro 12GB/512GB международная версия (синий)",
+        "name": "Xiaomi Pad 8 Pro - Синий, 12 ГБ, 512 ГБ",
         "price": "2040",
         "regular_price": "2040",
         "sale_price": "",
@@ -9011,8 +8917,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 Pro 12GB/512GB международная версия (синий)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -10097,7 +10002,7 @@
     "variations": [
       {
         "id": 437,
-        "name": "Смартфон Redmi Note 15 Pro 5G 8GB/256GB международная версия (синий)",
+        "name": "Redmi Note 15 Pro 5G - Синий, 8 ГБ, 256 ГБ",
         "price": "1110",
         "regular_price": "1110",
         "sale_price": "",
@@ -10115,12 +10020,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 8GB/256GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 438,
-        "name": "Смартфон Redmi Note 15 Pro 5G 8GB/256GB международная версия (титановый)",
+        "name": "Redmi Note 15 Pro 5G - Титановый, 8 ГБ, 256 ГБ",
         "price": "1100",
         "regular_price": "1100",
         "sale_price": "",
@@ -10138,12 +10042,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 8GB/256GB международная версия (титановый)"
+        "enabled": true
       },
       {
         "id": 439,
-        "name": "Смартфон Redmi Note 15 Pro 5G 8GB/256GB международная версия (фиолетовый)",
+        "name": "Redmi Note 15 Pro 5G - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "1110",
         "regular_price": "1110",
         "sale_price": "",
@@ -10161,12 +10064,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 8GB/256GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 440,
-        "name": "Смартфон Redmi Note 15 Pro 5G 8GB/256GB международная версия (черный)",
+        "name": "Redmi Note 15 Pro 5G - Черный, 8 ГБ, 256 ГБ",
         "price": "1110",
         "regular_price": "1110",
         "sale_price": "",
@@ -10184,12 +10086,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 8GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 441,
-        "name": "Смартфон Redmi Note 15 Pro 5G 8GB/512GB международная версия (синий)",
+        "name": "Redmi Note 15 Pro 5G - Синий, 8 ГБ, 512 ГБ",
         "price": "1180",
         "regular_price": "1180",
         "sale_price": "",
@@ -10207,12 +10108,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 8GB/512GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 442,
-        "name": "Смартфон Redmi Note 15 Pro 5G 8GB/512GB международная версия (титановый)",
+        "name": "Redmi Note 15 Pro 5G - Титановый, 8 ГБ, 512 ГБ",
         "price": "1180",
         "regular_price": "1180",
         "sale_price": "",
@@ -10230,12 +10130,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 8GB/512GB международная версия (титановый)"
+        "enabled": true
       },
       {
         "id": 443,
-        "name": "Смартфон Redmi Note 15 Pro 5G 8GB/512GB международная версия (фиолетовый)",
+        "name": "Redmi Note 15 Pro 5G - Фиолетовый, 8 ГБ, 512 ГБ",
         "price": "1180",
         "regular_price": "1180",
         "sale_price": "",
@@ -10253,12 +10152,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 8GB/512GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 444,
-        "name": "Смартфон Redmi Note 15 Pro 5G 8GB/512GB международная версия (черный)",
+        "name": "Redmi Note 15 Pro 5G - Черный, 8 ГБ, 512 ГБ",
         "price": "1180",
         "regular_price": "1180",
         "sale_price": "",
@@ -10276,12 +10174,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 8GB/512GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 445,
-        "name": "Смартфон Redmi Note 15 Pro 5G 12GB/512GB международная версия (синий)",
+        "name": "Redmi Note 15 Pro 5G - Синий, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -10299,12 +10196,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 12GB/512GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 446,
-        "name": "Смартфон Redmi Note 15 Pro 5G 12GB/512GB международная версия (титановый)",
+        "name": "Redmi Note 15 Pro 5G - Титановый, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -10322,12 +10218,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 12GB/512GB международная версия (титановый)"
+        "enabled": true
       },
       {
         "id": 447,
-        "name": "Смартфон Redmi Note 15 Pro 5G 12GB/512GB международная версия (фиолетовый)",
+        "name": "Redmi Note 15 Pro 5G - Фиолетовый, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -10345,12 +10240,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 12GB/512GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 448,
-        "name": "Смартфон Redmi Note 15 Pro 5G 12GB/512GB международная версия (черный)",
+        "name": "Redmi Note 15 Pro 5G - Черный, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -10368,8 +10262,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 15 Pro 5G 12GB/512GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -11116,7 +11009,7 @@
     "variations": [
       {
         "id": 475,
-        "name": "Смартфон Redmi Note 17 4GB/128GB международная версия (голубой)",
+        "name": "Redmi Note 17 - Голубой, 4 ГБ, 128 ГБ",
         "price": "730",
         "regular_price": "730",
         "sale_price": "",
@@ -11134,12 +11027,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 4GB/128GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 476,
-        "name": "Смартфон Redmi Note 17 4GB/128GB международная версия (фиолетовый)",
+        "name": "Redmi Note 17 - Фиолетовый, 4 ГБ, 128 ГБ",
         "price": "730",
         "regular_price": "730",
         "sale_price": "",
@@ -11157,12 +11049,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 4GB/128GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 477,
-        "name": "Смартфон Redmi Note 17 4GB/128GB международная версия (черный)",
+        "name": "Redmi Note 17 - Черный, 4 ГБ, 128 ГБ",
         "price": "730",
         "regular_price": "730",
         "sale_price": "",
@@ -11180,12 +11071,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 4GB/128GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 478,
-        "name": "Смартфон Redmi Note 17 6GB/256GB международная версия (голубой)",
+        "name": "Redmi Note 17 - Голубой, 6 ГБ, 256 ГБ",
         "price": "840",
         "regular_price": "840",
         "sale_price": "",
@@ -11203,12 +11093,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 6GB/256GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 479,
-        "name": "Смартфон Redmi Note 17 6GB/256GB международная версия (фиолетовый)",
+        "name": "Redmi Note 17 - Фиолетовый, 6 ГБ, 256 ГБ",
         "price": "840",
         "regular_price": "840",
         "sale_price": "",
@@ -11226,12 +11115,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 6GB/256GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 480,
-        "name": "Смартфон Redmi Note 17 6GB/256GB международная версия (черный)",
+        "name": "Redmi Note 17 - Черный, 6 ГБ, 256 ГБ",
         "price": "840",
         "regular_price": "840",
         "sale_price": "",
@@ -11249,12 +11137,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 6GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 481,
-        "name": "Смартфон Redmi Note 17 8GB/256GB международная версия (голубой)",
+        "name": "Redmi Note 17 - Голубой, 8 ГБ, 256 ГБ",
         "price": "885",
         "regular_price": "885",
         "sale_price": "",
@@ -11272,12 +11159,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 8GB/256GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 482,
-        "name": "Смартфон Redmi Note 17 8GB/256GB международная версия (фиолетовый)",
+        "name": "Redmi Note 17 - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "885",
         "regular_price": "885",
         "sale_price": "",
@@ -11295,12 +11181,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 8GB/256GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 483,
-        "name": "Смартфон Redmi Note 17 8GB/256GB международная версия (черный)",
+        "name": "Redmi Note 17 - Черный, 8 ГБ, 256 ГБ",
         "price": "885",
         "regular_price": "885",
         "sale_price": "",
@@ -11318,8 +11203,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 8GB/256GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -11373,7 +11257,7 @@
     "variations": [
       {
         "id": 484,
-        "name": "Смартфон Redmi Note 17 5G 8GB/256GB международная версия (голубой)",
+        "name": "Redmi Note 17 5G - Голубой, 8 ГБ, 256 ГБ",
         "price": "1190",
         "regular_price": "1190",
         "sale_price": "",
@@ -11391,12 +11275,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 5G 8GB/256GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 485,
-        "name": "Смартфон Redmi Note 17 5G 8GB/256GB международная версия (фиолетовый)",
+        "name": "Redmi Note 17 5G - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "1190",
         "regular_price": "1190",
         "sale_price": "",
@@ -11414,12 +11297,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 5G 8GB/256GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 486,
-        "name": "Смартфон Redmi Note 17 5G 8GB/256GB международная версия (черный)",
+        "name": "Redmi Note 17 5G - Черный, 8 ГБ, 256 ГБ",
         "price": "1190",
         "regular_price": "1190",
         "sale_price": "",
@@ -11437,8 +11319,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 5G 8GB/256GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -11497,7 +11378,7 @@
     "variations": [
       {
         "id": 487,
-        "name": "Смартфон Redmi Note 17 Pro 5G 6GB/128GB международная версия (голубой)",
+        "name": "Redmi Note 17 Pro 5G - Голубой, 6 ГБ, 128 ГБ",
         "price": "1060",
         "regular_price": "1060",
         "sale_price": "",
@@ -11515,12 +11396,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 6GB/128GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 488,
-        "name": "Смартфон Redmi Note 17 Pro 5G 6GB/128GB международная версия (оранжевый)",
+        "name": "Redmi Note 17 Pro 5G - Оранжевый, 6 ГБ, 128 ГБ",
         "price": "1060",
         "regular_price": "1060",
         "sale_price": "",
@@ -11538,12 +11418,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 6GB/128GB международная версия (оранжевый)"
+        "enabled": true
       },
       {
         "id": 489,
-        "name": "Смартфон Redmi Note 17 Pro 5G 6GB/128GB международная версия (сиреневый)",
+        "name": "Redmi Note 17 Pro 5G - Сиреневый, 6 ГБ, 128 ГБ",
         "price": "1060",
         "regular_price": "1060",
         "sale_price": "",
@@ -11561,12 +11440,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 6GB/128GB международная версия (сиреневый)"
+        "enabled": true
       },
       {
         "id": 490,
-        "name": "Смартфон Redmi Note 17 Pro 5G 6GB/128GB международная версия (черный)",
+        "name": "Redmi Note 17 Pro 5G - Черный, 6 ГБ, 128 ГБ",
         "price": "1060",
         "regular_price": "1060",
         "sale_price": "",
@@ -11584,12 +11462,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 6GB/128GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 491,
-        "name": "Смартфон Redmi Note 17 Pro 5G 8GB/256GB международная версия (голубой)",
+        "name": "Redmi Note 17 Pro 5G - Голубой, 8 ГБ, 256 ГБ",
         "price": "1200",
         "regular_price": "1200",
         "sale_price": "",
@@ -11607,12 +11484,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 8GB/256GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 492,
-        "name": "Смартфон Redmi Note 17 Pro 5G 8GB/256GB международная версия (оранжевый)",
+        "name": "Redmi Note 17 Pro 5G - Оранжевый, 8 ГБ, 256 ГБ",
         "price": "1200",
         "regular_price": "1200",
         "sale_price": "",
@@ -11630,12 +11506,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 8GB/256GB международная версия (оранжевый)"
+        "enabled": true
       },
       {
         "id": 493,
-        "name": "Смартфон Redmi Note 17 Pro 5G 8GB/256GB международная версия (сиреневый)",
+        "name": "Redmi Note 17 Pro 5G - Сиреневый, 8 ГБ, 256 ГБ",
         "price": "1200",
         "regular_price": "1200",
         "sale_price": "",
@@ -11653,12 +11528,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 8GB/256GB международная версия (сиреневый)"
+        "enabled": true
       },
       {
         "id": 494,
-        "name": "Смартфон Redmi Note 17 Pro 5G 8GB/256GB международная версия (черный)",
+        "name": "Redmi Note 17 Pro 5G - Черный, 8 ГБ, 256 ГБ",
         "price": "1200",
         "regular_price": "1200",
         "sale_price": "",
@@ -11676,12 +11550,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 8GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 495,
-        "name": "Смартфон Redmi Note 17 Pro 5G 8GB/512GB международная версия (голубой)",
+        "name": "Redmi Note 17 Pro 5G - Голубой, 8 ГБ, 512 ГБ",
         "price": "1370",
         "regular_price": "1370",
         "sale_price": "",
@@ -11699,12 +11572,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 8GB/512GB международная версия (голубой)"
+        "enabled": true
       },
       {
         "id": 496,
-        "name": "Смартфон Redmi Note 17 Pro 5G 8GB/512GB международная версия (оранжевый)",
+        "name": "Redmi Note 17 Pro 5G - Оранжевый, 8 ГБ, 512 ГБ",
         "price": "1370",
         "regular_price": "1370",
         "sale_price": "",
@@ -11722,12 +11594,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 8GB/512GB международная версия (оранжевый)"
+        "enabled": true
       },
       {
         "id": 497,
-        "name": "Смартфон Redmi Note 17 Pro 5G 8GB/512GB международная версия (сиреневый)",
+        "name": "Redmi Note 17 Pro 5G - Сиреневый, 8 ГБ, 512 ГБ",
         "price": "1370",
         "regular_price": "1370",
         "sale_price": "",
@@ -11745,12 +11616,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 8GB/512GB международная версия (сиреневый)"
+        "enabled": true
       },
       {
         "id": 498,
-        "name": "Смартфон Redmi Note 17 Pro 5G 8GB/512GB международная версия (черный)",
+        "name": "Redmi Note 17 Pro 5G - Черный, 8 ГБ, 512 ГБ",
         "price": "1370",
         "regular_price": "1370",
         "sale_price": "",
@@ -11768,8 +11638,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro 5G 8GB/512GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -11831,7 +11700,7 @@
     "variations": [
       {
         "id": 499,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (белый)",
+        "name": "Redmi Note 17 Pro Max 5G - Белый, 8 ГБ, 128 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -11849,12 +11718,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 500,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (зеленый)",
+        "name": "Redmi Note 17 Pro Max 5G - Зеленый, 8 ГБ, 128 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -11872,12 +11740,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 501,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (сиреневый)",
+        "name": "Redmi Note 17 Pro Max 5G - Сиреневый, 8 ГБ, 128 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -11895,12 +11762,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (сиреневый)"
+        "enabled": true
       },
       {
         "id": 502,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (черный)",
+        "name": "Redmi Note 17 Pro Max 5G - Черный, 8 ГБ, 128 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -11918,12 +11784,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/128GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 503,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/256GB международная версия (белый)",
+        "name": "Redmi Note 17 Pro Max 5G - Белый, 8 ГБ, 256 ГБ",
         "price": "1450",
         "regular_price": "1450",
         "sale_price": "",
@@ -11941,12 +11806,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/256GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 504,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/256GB международная версия (зеленый)",
+        "name": "Redmi Note 17 Pro Max 5G - Зеленый, 8 ГБ, 256 ГБ",
         "price": "1450",
         "regular_price": "1450",
         "sale_price": "",
@@ -11964,12 +11828,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 505,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/256GB международная версия (сиреневый)",
+        "name": "Redmi Note 17 Pro Max 5G - Сиреневый, 8 ГБ, 256 ГБ",
         "price": "1450",
         "regular_price": "1450",
         "sale_price": "",
@@ -11987,12 +11850,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/256GB международная версия (сиреневый)"
+        "enabled": true
       },
       {
         "id": 506,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/256GB международная версия (черный)",
+        "name": "Redmi Note 17 Pro Max 5G - Черный, 8 ГБ, 256 ГБ",
         "price": "1450",
         "regular_price": "1450",
         "sale_price": "",
@@ -12010,12 +11872,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 507,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/512GB международная версия (белый)",
+        "name": "Redmi Note 17 Pro Max 5G - Белый, 8 ГБ, 512 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -12033,12 +11894,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/512GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 508,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/512GB международная версия (зеленый)",
+        "name": "Redmi Note 17 Pro Max 5G - Зеленый, 8 ГБ, 512 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -12056,12 +11916,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/512GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 509,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/512GB международная версия (сиреневый)",
+        "name": "Redmi Note 17 Pro Max 5G - Сиреневый, 8 ГБ, 512 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -12079,12 +11938,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/512GB международная версия (сиреневый)"
+        "enabled": true
       },
       {
         "id": 510,
-        "name": "Смартфон Redmi Note 17 Pro Max 5G 8GB/512GB международная версия (черный)",
+        "name": "Redmi Note 17 Pro Max 5G - Черный, 8 ГБ, 512 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -12102,8 +11960,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Redmi Note 17 Pro Max 5G 8GB/512GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -12164,7 +12021,7 @@
     "variations": [
       {
         "id": 511,
-        "name": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (темно-серый)",
+        "name": "Xiaomi Redmi Pad 2 - Темно-серый, 4 ГБ, 128 ГБ",
         "price": "600",
         "regular_price": "600",
         "sale_price": "",
@@ -12182,12 +12039,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (темно-серый)"
+        "enabled": false
       },
       {
         "id": 512,
-        "name": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (фиолетовый)",
+        "name": "Xiaomi Redmi Pad 2 - Фиолетовый, 4 ГБ, 128 ГБ",
         "price": "600",
         "regular_price": "600",
         "sale_price": "",
@@ -12205,12 +12061,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (фиолетовый)"
+        "enabled": false
       },
       {
         "id": 513,
-        "name": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (мятный)",
+        "name": "Xiaomi Redmi Pad 2 - Мятный, 4 ГБ, 128 ГБ",
         "price": "600",
         "regular_price": "600",
         "sale_price": "",
@@ -12228,12 +12083,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (мятный)"
+        "enabled": false
       },
       {
         "id": 514,
-        "name": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (темно-серый)",
+        "name": "Xiaomi Redmi Pad 2 - Темно-серый, 6 ГБ, 128 ГБ",
         "price": "735",
         "regular_price": "735",
         "sale_price": "",
@@ -12251,12 +12105,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (темно-серый)"
+        "enabled": false
       },
       {
         "id": 515,
-        "name": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (фиолетовый)",
+        "name": "Xiaomi Redmi Pad 2 - Фиолетовый, 6 ГБ, 128 ГБ",
         "price": "735",
         "regular_price": "735",
         "sale_price": "",
@@ -12274,12 +12127,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (фиолетовый)"
+        "enabled": false
       },
       {
         "id": 516,
-        "name": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (мятный)",
+        "name": "Xiaomi Redmi Pad 2 - Мятный, 6 ГБ, 128 ГБ",
         "price": "735",
         "regular_price": "735",
         "sale_price": "",
@@ -12297,12 +12149,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (мятный)"
+        "enabled": false
       },
       {
         "id": 517,
-        "name": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (темно-серый)",
+        "name": "Xiaomi Redmi Pad 2 - Темно-серый, 8 ГБ, 256 ГБ",
         "price": "795",
         "regular_price": "795",
         "sale_price": "",
@@ -12320,12 +12171,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 518,
-        "name": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (фиолетовый)",
+        "name": "Xiaomi Redmi Pad 2 - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "795",
         "regular_price": "795",
         "sale_price": "",
@@ -12343,12 +12193,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 519,
-        "name": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (мятный)",
+        "name": "Xiaomi Redmi Pad 2 - Мятный, 8 ГБ, 256 ГБ",
         "price": "795",
         "regular_price": "795",
         "sale_price": "",
@@ -12366,12 +12215,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (мятный)"
+        "enabled": true
       },
       {
         "id": 520,
-        "name": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (темно-серый)",
+        "name": "Xiaomi Redmi Pad 2 - Темно-серый, 4 ГБ, 128 ГБ",
         "price": "700",
         "regular_price": "700",
         "sale_price": "",
@@ -12389,12 +12237,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 521,
-        "name": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (фиолетовый)",
+        "name": "Xiaomi Redmi Pad 2 - Фиолетовый, 4 ГБ, 128 ГБ",
         "price": "700",
         "regular_price": "700",
         "sale_price": "",
@@ -12412,12 +12259,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 522,
-        "name": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (мятный)",
+        "name": "Xiaomi Redmi Pad 2 - Мятный, 4 ГБ, 128 ГБ",
         "price": "700",
         "regular_price": "700",
         "sale_price": "",
@@ -12435,12 +12281,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 4GB/128GB международная версия (мятный)"
+        "enabled": true
       },
       {
         "id": 523,
-        "name": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (темно-серый)",
+        "name": "Xiaomi Redmi Pad 2 - Темно-серый, 6 ГБ, 128 ГБ",
         "price": "850",
         "regular_price": "850",
         "sale_price": "",
@@ -12458,12 +12303,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 524,
-        "name": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (фиолетовый)",
+        "name": "Xiaomi Redmi Pad 2 - Фиолетовый, 6 ГБ, 128 ГБ",
         "price": "850",
         "regular_price": "850",
         "sale_price": "",
@@ -12481,12 +12325,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 525,
-        "name": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (мятный)",
+        "name": "Xiaomi Redmi Pad 2 - Мятный, 6 ГБ, 128 ГБ",
         "price": "850",
         "regular_price": "850",
         "sale_price": "",
@@ -12504,12 +12347,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 6GB/128GB международная версия (мятный)"
+        "enabled": true
       },
       {
         "id": 526,
-        "name": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (темно-серый)",
+        "name": "Xiaomi Redmi Pad 2 - Темно-серый, 8 ГБ, 256 ГБ",
         "price": "890",
         "regular_price": "890",
         "sale_price": "",
@@ -12527,12 +12369,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 527,
-        "name": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (фиолетовый)",
+        "name": "Xiaomi Redmi Pad 2 - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "890",
         "regular_price": "890",
         "sale_price": "",
@@ -12550,12 +12391,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 528,
-        "name": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (мятный)",
+        "name": "Xiaomi Redmi Pad 2 - Мятный, 8 ГБ, 256 ГБ",
         "price": "890",
         "regular_price": "890",
         "sale_price": "",
@@ -12573,8 +12413,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Redmi Pad 2 8GB/256GB международная версия (мятный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -14169,7 +14008,7 @@
     "variations": [
       {
         "id": 581,
-        "name": "Смартфон POCO C85 6GB/128GB международная версия (мятный)",
+        "name": "POCO C85 - Мятный, 6 ГБ, 128 ГБ",
         "price": "535",
         "regular_price": "535",
         "sale_price": "",
@@ -14187,12 +14026,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон POCO C85 6GB/128GB международная версия (мятный)"
+        "enabled": false
       },
       {
         "id": 582,
-        "name": "Смартфон POCO C85 6GB/128GB международная версия (фиолетовый)",
+        "name": "POCO C85 - Фиолетовый, 6 ГБ, 128 ГБ",
         "price": "535",
         "regular_price": "535",
         "sale_price": "",
@@ -14210,12 +14048,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон POCO C85 6GB/128GB международная версия (фиолетовый)"
+        "enabled": false
       },
       {
         "id": 583,
-        "name": "Смартфон POCO C85 6GB/128GB международная версия (черный)",
+        "name": "POCO C85 - Черный, 6 ГБ, 128 ГБ",
         "price": "535",
         "regular_price": "535",
         "sale_price": "",
@@ -14233,12 +14070,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон POCO C85 6GB/128GB международная версия (черный)"
+        "enabled": false
       },
       {
         "id": 584,
-        "name": "Смартфон POCO C85 8GB/256GB международная версия (мятный)",
+        "name": "POCO C85 - Мятный, 8 ГБ, 256 ГБ",
         "price": "720",
         "regular_price": "720",
         "sale_price": "",
@@ -14256,12 +14092,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO C85 8GB/256GB международная версия (мятный)"
+        "enabled": true
       },
       {
         "id": 585,
-        "name": "Смартфон POCO C85 8GB/256GB международная версия (фиолетовый)",
+        "name": "POCO C85 - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "720",
         "regular_price": "720",
         "sale_price": "",
@@ -14279,12 +14114,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO C85 8GB/256GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 586,
-        "name": "Смартфон POCO C85 8GB/256GB международная версия (черный)",
+        "name": "POCO C85 - Черный, 8 ГБ, 256 ГБ",
         "price": "620",
         "regular_price": "620",
         "sale_price": "",
@@ -14302,8 +14136,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон POCO C85 8GB/256GB международная версия (черный)"
+        "enabled": false
       }
     ],
     "enabled": false,
@@ -15515,7 +15348,7 @@
     "variations": [
       {
         "id": 628,
-        "name": "Смартфон POCO M8 5G 8GB/256GB международная версия (серебристый)",
+        "name": "POCO M8 5G - Серебристый, 8 ГБ, 256 ГБ",
         "price": "799",
         "regular_price": "799",
         "sale_price": "",
@@ -15533,12 +15366,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 8GB/256GB международная версия (серебристый)"
+        "enabled": true
       },
       {
         "id": 629,
-        "name": "Смартфон POCO M8 5G 8GB/256GB международная версия (зеленый)",
+        "name": "POCO M8 5G - Зеленый, 8 ГБ, 256 ГБ",
         "price": "799",
         "regular_price": "799",
         "sale_price": "",
@@ -15556,12 +15388,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 8GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 630,
-        "name": "Смартфон POCO M8 5G 8GB/256GB международная версия (черный)",
+        "name": "POCO M8 5G - Черный, 8 ГБ, 256 ГБ",
         "price": "799",
         "regular_price": "799",
         "sale_price": "",
@@ -15579,12 +15410,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 8GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 631,
-        "name": "Смартфон POCO M8 5G 8GB/512GB международная версия (серебристый)",
+        "name": "POCO M8 5G - Серебристый, 8 ГБ, 512 ГБ",
         "price": "900",
         "regular_price": "900",
         "sale_price": "",
@@ -15602,12 +15432,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 8GB/512GB международная версия (серебристый)"
+        "enabled": true
       },
       {
         "id": 632,
-        "name": "Смартфон POCO M8 5G 8GB/512GB международная версия (зеленый)",
+        "name": "POCO M8 5G - Зеленый, 8 ГБ, 512 ГБ",
         "price": "830",
         "regular_price": "830",
         "sale_price": "",
@@ -15625,12 +15454,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 8GB/512GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 633,
-        "name": "Смартфон POCO M8 5G 8GB/512GB международная версия (черный)",
+        "name": "POCO M8 5G - Черный, 8 ГБ, 512 ГБ",
         "price": "900",
         "regular_price": "900",
         "sale_price": "",
@@ -15648,12 +15476,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 8GB/512GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 634,
-        "name": "Смартфон POCO M8 5G 12GB/512GB международная версия (серебристый)",
+        "name": "POCO M8 5G - Серебристый, 12 ГБ, 512 ГБ",
         "price": "950",
         "regular_price": "950",
         "sale_price": "",
@@ -15671,12 +15498,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 12GB/512GB международная версия (серебристый)"
+        "enabled": true
       },
       {
         "id": 635,
-        "name": "Смартфон POCO M8 5G 12GB/512GB международная версия (зеленый)",
+        "name": "POCO M8 5G - Зеленый, 12 ГБ, 512 ГБ",
         "price": "950",
         "regular_price": "950",
         "sale_price": "",
@@ -15694,12 +15520,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 12GB/512GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 636,
-        "name": "Смартфон POCO M8 5G 12GB/512GB международная версия (черный)",
+        "name": "POCO M8 5G - Черный, 12 ГБ, 512 ГБ",
         "price": "950",
         "regular_price": "950",
         "sale_price": "",
@@ -15717,8 +15542,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 5G 12GB/512GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -15776,7 +15600,7 @@
     "variations": [
       {
         "id": 637,
-        "name": "Смартфон POCO M8 Pro 5G 8GB/256GB международная версия (серебристый)",
+        "name": "POCO M8 Pro 5G - Серебристый, 8 ГБ, 256 ГБ",
         "price": "930",
         "regular_price": "930",
         "sale_price": "",
@@ -15794,12 +15618,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон POCO M8 Pro 5G 8GB/256GB международная версия (серебристый)"
+        "enabled": false
       },
       {
         "id": 638,
-        "name": "Смартфон POCO M8 Pro 5G 8GB/256GB международная версия (зеленый)",
+        "name": "POCO M8 Pro 5G - Зеленый, 8 ГБ, 256 ГБ",
         "price": "930",
         "regular_price": "930",
         "sale_price": "",
@@ -15817,12 +15640,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 Pro 5G 8GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 639,
-        "name": "Смартфон POCO M8 Pro 5G 8GB/256GB международная версия (черный)",
+        "name": "POCO M8 Pro 5G - Черный, 8 ГБ, 256 ГБ",
         "price": "930",
         "regular_price": "930",
         "sale_price": "",
@@ -15840,12 +15662,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 Pro 5G 8GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 640,
-        "name": "Смартфон POCO M8 Pro 5G 12GB/512GB международная версия (серебристый)",
+        "name": "POCO M8 Pro 5G - Серебристый, 12 ГБ, 512 ГБ",
         "price": "1165",
         "regular_price": "1165",
         "sale_price": "",
@@ -15863,12 +15684,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 Pro 5G 12GB/512GB международная версия (серебристый)"
+        "enabled": true
       },
       {
         "id": 641,
-        "name": "Смартфон POCO M8 Pro 5G 12GB/512GB международная версия (зеленый)",
+        "name": "POCO M8 Pro 5G - Зеленый, 12 ГБ, 512 ГБ",
         "price": "1165",
         "regular_price": "1165",
         "sale_price": "",
@@ -15886,12 +15706,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 Pro 5G 12GB/512GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 642,
-        "name": "Смартфон POCO M8 Pro 5G 12GB/512GB международная версия (черный)",
+        "name": "POCO M8 Pro 5G - Черный, 12 ГБ, 512 ГБ",
         "price": "1165",
         "regular_price": "1165",
         "sale_price": "",
@@ -15909,8 +15728,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO M8 Pro 5G 12GB/512GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -15969,7 +15787,7 @@
     "variations": [
       {
         "id": 643,
-        "name": "Смартфон POCO F6 12GB/512GB международная версия (черный)",
+        "name": "POCO F6 - Черный, 12 ГБ, 512 ГБ",
         "price": "965",
         "regular_price": "965",
         "sale_price": "",
@@ -15987,12 +15805,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон POCO F6 12GB/512GB международная версия (черный)"
+        "enabled": false
       },
       {
         "id": 644,
-        "name": "Смартфон POCO F6 12GB/512GB международная версия (зеленый)",
+        "name": "POCO F6 - Зеленый, 12 ГБ, 512 ГБ",
         "price": "965",
         "regular_price": "965",
         "sale_price": "",
@@ -16010,12 +15827,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон POCO F6 12GB/512GB международная версия (зеленый)"
+        "enabled": false
       },
       {
         "id": 645,
-        "name": "Смартфон POCO F6 12GB/512GB международная версия (титановый)",
+        "name": "POCO F6 - Титановый, 12 ГБ, 512 ГБ",
         "price": "930",
         "regular_price": "930",
         "sale_price": "",
@@ -16033,8 +15849,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон POCO F6 12GB/512GB международная версия (титановый)"
+        "enabled": false
       }
     ],
     "enabled": false,
@@ -16110,7 +15925,7 @@
       },
       {
         "id": 647,
-        "name": "Смартфон POCO F6 Pro 12GB/256GB международная версия (белый)",
+        "name": "POCO F6 Pro - Белый, 12 ГБ, 256 ГБ",
         "price": "1030",
         "regular_price": "1030",
         "sale_price": "",
@@ -16128,8 +15943,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон POCO F6 Pro 12GB/256GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 648,
@@ -17189,7 +17003,7 @@
     "variations": [
       {
         "id": 680,
-        "name": "Смартфон Realme C85 6GB/128GB международная версия (темно-серый)",
+        "name": "Realme C85 - Темно-серый, 6 ГБ, 128 ГБ",
         "price": "600",
         "regular_price": "600",
         "sale_price": "",
@@ -17207,12 +17021,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme C85 6GB/128GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 681,
-        "name": "Смартфон Realme C85 6GB/128GB международная версия (синий)",
+        "name": "Realme C85 - Синий, 6 ГБ, 128 ГБ",
         "price": "600",
         "regular_price": "600",
         "sale_price": "",
@@ -17230,12 +17043,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme C85 6GB/128GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 682,
-        "name": "Смартфон Realme C85 6GB/128GB международная версия (фиолетовый)",
+        "name": "Realme C85 - Фиолетовый, 6 ГБ, 128 ГБ",
         "price": "600",
         "regular_price": "600",
         "sale_price": "",
@@ -17253,12 +17065,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme C85 6GB/128GB международная версия (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 686,
-        "name": "Смартфон Realme C85 8GB/256GB международная версия (темно-серый)",
+        "name": "Realme C85 - Темно-серый, 8 ГБ, 256 ГБ",
         "price": "720",
         "regular_price": "720",
         "sale_price": "",
@@ -17276,12 +17087,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme C85 8GB/256GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 687,
-        "name": "Смартфон Realme C85 8GB/256GB международная версия (синий)",
+        "name": "Realme C85 - Синий, 8 ГБ, 256 ГБ",
         "price": "720",
         "regular_price": "720",
         "sale_price": "",
@@ -17299,12 +17109,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme C85 8GB/256GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 688,
-        "name": "Смартфон Realme C85 8GB/256GB международная версия ((фиолетовый)",
+        "name": "Realme C85 - (фиолетовый, 8 ГБ, 256 ГБ",
         "price": "720",
         "regular_price": "720",
         "sale_price": "",
@@ -17322,8 +17131,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme C85 8GB/256GB международная версия ((фиолетовый)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -17380,7 +17188,7 @@
     "variations": [
       {
         "id": 689,
-        "name": "Смартфон Realme C85 Pro 6GB/128GB международная версия (темно-зеленый)",
+        "name": "Realme C85 Pro - Темно-зеленый, 6 ГБ, 128 ГБ",
         "price": "625",
         "regular_price": "625",
         "sale_price": "",
@@ -17398,12 +17206,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Realme C85 Pro 6GB/128GB международная версия (темно-зеленый)"
+        "enabled": false
       },
       {
         "id": 690,
-        "name": "Смартфон Realme C85 Pro 6GB/128GB международная версия (фиолетовый)",
+        "name": "Realme C85 Pro - Фиолетовый, 6 ГБ, 128 ГБ",
         "price": "625",
         "regular_price": "625",
         "sale_price": "",
@@ -17421,12 +17228,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Realme C85 Pro 6GB/128GB международная версия (фиолетовый)"
+        "enabled": false
       },
       {
         "id": 691,
-        "name": "Смартфон Realme C85 Pro 8GB/256GB международная версия (темно-зеленый)",
+        "name": "Realme C85 Pro - Темно-зеленый, 8 ГБ, 256 ГБ",
         "price": "720",
         "regular_price": "720",
         "sale_price": "",
@@ -17444,12 +17250,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Realme C85 Pro 8GB/256GB международная версия (темно-зеленый)"
+        "enabled": false
       },
       {
         "id": 692,
-        "name": "Смартфон Realme C85 Pro 8GB/256GB международная версия (фиолетовый)",
+        "name": "Realme C85 Pro - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "720",
         "regular_price": "720",
         "sale_price": "",
@@ -17467,8 +17272,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme C85 Pro 8GB/256GB международная версия (фиолетовый)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -18109,7 +17913,7 @@
     "variations": [
       {
         "id": 712,
-        "name": "Смартфон Realme 16 5G RMX5171 8GB/128GB международная версия (белый)",
+        "name": "Realme 16 5G RMX5171 - Белый, 8 ГБ, 128 ГБ",
         "price": "1050",
         "regular_price": "1050",
         "sale_price": "",
@@ -18127,12 +17931,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 5G RMX5171 8GB/128GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 713,
-        "name": "Смартфон Realme 16 5G RMX5171 8GB/128GB международная версия (темно-серый)",
+        "name": "Realme 16 5G RMX5171 - Темно-серый, 8 ГБ, 128 ГБ",
         "price": "1050",
         "regular_price": "1050",
         "sale_price": "",
@@ -18150,12 +17953,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 5G RMX5171 8GB/128GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 714,
-        "name": "Смартфон Realme 16 5G RMX5171 8GB/256GB международная версия (белый)",
+        "name": "Realme 16 5G RMX5171 - Белый, 8 ГБ, 256 ГБ",
         "price": "1050",
         "regular_price": "1050",
         "sale_price": "",
@@ -18173,12 +17975,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 5G RMX5171 8GB/256GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 715,
-        "name": "Смартфон Realme 16 5G RMX5171 8GB/256GB международная версия (темно-серый)",
+        "name": "Realme 16 5G RMX5171 - Темно-серый, 8 ГБ, 256 ГБ",
         "price": "1050",
         "regular_price": "1050",
         "sale_price": "",
@@ -18196,12 +17997,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 5G RMX5171 8GB/256GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 716,
-        "name": "Смартфон Realme 16 5G RMX5171 12GB/256GB международная версия (белый)",
+        "name": "Realme 16 5G RMX5171 - Белый, 12 ГБ, 256 ГБ",
         "price": "1150",
         "regular_price": "1150",
         "sale_price": "",
@@ -18219,12 +18019,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 5G RMX5171 12GB/256GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 717,
-        "name": "Смартфон Realme 16 5G RMX5171 12GB/256GB международная версия (темно-серый)",
+        "name": "Realme 16 5G RMX5171 - Темно-серый, 12 ГБ, 256 ГБ",
         "price": "1150",
         "regular_price": "1150",
         "sale_price": "",
@@ -18242,12 +18041,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 5G RMX5171 12GB/256GB международная версия (темно-серый)"
+        "enabled": true
       },
       {
         "id": 718,
-        "name": "Смартфон Realme 16 5G RMX5171 12GB/512GB международная версия (белый)",
+        "name": "Realme 16 5G RMX5171 - Белый, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -18265,12 +18063,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 5G RMX5171 12GB/512GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 719,
-        "name": "Смартфон Realme 16 5G RMX5171 12GB/512GB международная версия (темно-серый)",
+        "name": "Realme 16 5G RMX5171 - Темно-серый, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -18288,8 +18085,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 5G RMX5171 12GB/512GB международная версия (темно-серый)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -18611,7 +18407,7 @@
     "variations": [
       {
         "id": 729,
-        "name": "Смартфон Realme 16 Pro+ 5G 8GB/256GB международная версия (бежевый)",
+        "name": "Realme 16 Pro+ 5G - Бежевый, 8 ГБ, 256 ГБ",
         "price": "1320",
         "regular_price": "1320",
         "sale_price": "",
@@ -18629,12 +18425,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Realme 16 Pro+ 5G 8GB/256GB международная версия (бежевый)"
+        "enabled": false
       },
       {
         "id": 730,
-        "name": "Смартфон Realme 16 Pro+ 5G 8GB/256GB международная версия (серый)",
+        "name": "Realme 16 Pro+ 5G - Серый, 8 ГБ, 256 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -18652,12 +18447,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme 16 Pro+ 5G 8GB/256GB международная версия (серый)"
+        "enabled": true
       },
       {
         "id": 731,
-        "name": "Смартфон Realme 16 Pro+ 5G 12GB/512GB международная версия (бежевый)",
+        "name": "Realme 16 Pro+ 5G - Бежевый, 12 ГБ, 512 ГБ",
         "price": "1700",
         "regular_price": "1700",
         "sale_price": "",
@@ -18675,12 +18469,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Realme 16 Pro+ 5G 12GB/512GB международная версия (бежевый)"
+        "enabled": false
       },
       {
         "id": 732,
-        "name": "Смартфон Realme 16 Pro+ 5G 12GB/512GB международная версия (серый)",
+        "name": "Realme 16 Pro+ 5G - Серый, 12 ГБ, 512 ГБ",
         "price": "1700",
         "regular_price": "1700",
         "sale_price": "",
@@ -18698,8 +18491,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон Realme 16 Pro+ 5G 12GB/512GB международная версия (серый)"
+        "enabled": false
       }
     ],
     "enabled": true,
@@ -19089,7 +18881,7 @@
     "variations": [
       {
         "id": 743,
-        "name": "Смартфон Realme GT8 Pro RMX5210 12GB/256GB международная версия (белый)",
+        "name": "Realme GT8 Pro RMX5210 - Белый, 12 ГБ, 256 ГБ",
         "price": "2570",
         "regular_price": "2570",
         "sale_price": "",
@@ -19107,12 +18899,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme GT8 Pro RMX5210 12GB/256GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 744,
-        "name": "Смартфон Realme GT8 Pro RMX5210 12GB/256GB международная версия (темно-синий)",
+        "name": "Realme GT8 Pro RMX5210 - Темно-синий, 12 ГБ, 256 ГБ",
         "price": "2570",
         "regular_price": "2570",
         "sale_price": "",
@@ -19130,12 +18921,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme GT8 Pro RMX5210 12GB/256GB международная версия (темно-синий)"
+        "enabled": true
       },
       {
         "id": 745,
-        "name": "Смартфон Realme GT8 Pro RMX5210 16GB/512GB международная версия (белый)",
+        "name": "Realme GT8 Pro RMX5210 - Белый, 16 ГБ, 512 ГБ",
         "price": "2800",
         "regular_price": "2800",
         "sale_price": "",
@@ -19153,12 +18943,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme GT8 Pro RMX5210 16GB/512GB международная версия (белый)"
+        "enabled": true
       },
       {
         "id": 746,
-        "name": "Смартфон Realme GT8 Pro RMX5210 16GB/512GB международная версия (темно-синий)",
+        "name": "Realme GT8 Pro RMX5210 - Темно-синий, 16 ГБ, 512 ГБ",
         "price": "2800",
         "regular_price": "2800",
         "sale_price": "",
@@ -19176,8 +18965,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Realme GT8 Pro RMX5210 16GB/512GB международная версия (темно-синий)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -20091,7 +19879,7 @@
     "variations": [
       {
         "id": 776,
-        "name": "Смартфон HONOR 400 8GB/256GB международная версия (голубой)",
+        "name": "HONOR 400 - Голубой, 8 ГБ, 256 ГБ",
         "price": "1160",
         "regular_price": "1160",
         "sale_price": "",
@@ -20109,12 +19897,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 8GB/256GB международная версия (голубой)"
+        "enabled": false
       },
       {
         "id": 777,
-        "name": "Смартфон HONOR 400 8GB/256GB международная версия (золотистый)",
+        "name": "HONOR 400 - Золотистый, 8 ГБ, 256 ГБ",
         "price": "1040",
         "regular_price": "1040",
         "sale_price": "",
@@ -20132,12 +19919,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 8GB/256GB международная версия (золотистый)"
+        "enabled": false
       },
       {
         "id": 778,
-        "name": "Смартфон HONOR 400 8GB/256GB международная версия (серебристый)",
+        "name": "HONOR 400 - Серебристый, 8 ГБ, 256 ГБ",
         "price": "1160",
         "regular_price": "1160",
         "sale_price": "",
@@ -20155,12 +19941,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 400 8GB/256GB международная версия (серебристый)"
+        "enabled": true
       },
       {
         "id": 779,
-        "name": "Смартфон HONOR 400 8GB/256GB международная версия (черный)",
+        "name": "HONOR 400 - Черный, 8 ГБ, 256 ГБ",
         "price": "1160",
         "regular_price": "1160",
         "sale_price": "",
@@ -20178,12 +19963,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 400 8GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 780,
-        "name": "Смартфон HONOR 400 12GB/256GB международная версия (голубой)",
+        "name": "HONOR 400 - Голубой, 12 ГБ, 256 ГБ",
         "price": "1175",
         "regular_price": "1175",
         "sale_price": "",
@@ -20201,12 +19985,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 12GB/256GB международная версия (голубой)"
+        "enabled": false
       },
       {
         "id": 781,
-        "name": "Смартфон HONOR 400 12GB/256GB международная версия (золотистый)",
+        "name": "HONOR 400 - Золотистый, 12 ГБ, 256 ГБ",
         "price": "1175",
         "regular_price": "1175",
         "sale_price": "",
@@ -20224,12 +20007,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 12GB/256GB международная версия (золотистый)"
+        "enabled": false
       },
       {
         "id": 782,
-        "name": "Смартфон HONOR 400 12GB/256GB международная версия (серебристый)",
+        "name": "HONOR 400 - Серебристый, 12 ГБ, 256 ГБ",
         "price": "1175",
         "regular_price": "1175",
         "sale_price": "",
@@ -20247,12 +20029,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 400 12GB/256GB международная версия (серебристый)"
+        "enabled": true
       },
       {
         "id": 783,
-        "name": "Смартфон HONOR 400 12GB/256GB международная версия (черный)",
+        "name": "HONOR 400 - Черный, 12 ГБ, 256 ГБ",
         "price": "1175",
         "regular_price": "1175",
         "sale_price": "",
@@ -20270,12 +20051,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 12GB/256GB международная версия (черный)"
+        "enabled": false
       },
       {
         "id": 784,
-        "name": "Смартфон HONOR 400 12GB/512GB международная версия (голубой)",
+        "name": "HONOR 400 - Голубой, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -20293,12 +20073,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 12GB/512GB международная версия (голубой)"
+        "enabled": false
       },
       {
         "id": 785,
-        "name": "Смартфон HONOR 400 12GB/512GB международная версия (золотистый)",
+        "name": "HONOR 400 - Золотистый, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -20316,12 +20095,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 12GB/512GB международная версия (золотистый)"
+        "enabled": false
       },
       {
         "id": 786,
-        "name": "Смартфон HONOR 400 12GB/512GB международная версия (серебристый)",
+        "name": "HONOR 400 - Серебристый, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -20339,12 +20117,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 12GB/512GB международная версия (серебристый)"
+        "enabled": false
       },
       {
         "id": 787,
-        "name": "Смартфон HONOR 400 12GB/512GB международная версия (черный)",
+        "name": "HONOR 400 - Черный, 12 ГБ, 512 ГБ",
         "price": "1250",
         "regular_price": "1250",
         "sale_price": "",
@@ -20362,8 +20139,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 400 12GB/512GB международная версия (черный)"
+        "enabled": false
       }
     ],
     "enabled": true,
@@ -20609,7 +20385,7 @@
     "variations": [
       {
         "id": 794,
-        "name": "Смартфон HONOR 600 Lite 8GB/256GB международная версия (пустынное золото)",
+        "name": "HONOR 600 Lite - Пустынное золото, 8 ГБ, 256 ГБ",
         "price": "1010",
         "regular_price": "1010",
         "sale_price": "",
@@ -20627,12 +20403,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Lite 8GB/256GB международная версия (пустынное золото)"
+        "enabled": true
       },
       {
         "id": 795,
-        "name": "Смартфон HONOR 600 Lite 8GB/256GB международная версия (зеленый)",
+        "name": "HONOR 600 Lite - Зеленый, 8 ГБ, 256 ГБ",
         "price": "1010",
         "regular_price": "1010",
         "sale_price": "",
@@ -20650,12 +20425,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 600 Lite 8GB/256GB международная версия (зеленый)"
+        "enabled": false
       },
       {
         "id": 796,
-        "name": "Смартфон HONOR 600 Lite 8GB/256GB международная версия (вельветовый серый)",
+        "name": "HONOR 600 Lite - Вельветовый серый, 8 ГБ, 256 ГБ",
         "price": "1010",
         "regular_price": "1010",
         "sale_price": "",
@@ -20673,12 +20447,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Lite 8GB/256GB международная версия (вельветовый серый)"
+        "enabled": true
       },
       {
         "id": 797,
-        "name": "Смартфон HONOR 600 Lite 8GB/256GB международная версия (вельветовый черный)",
+        "name": "HONOR 600 Lite - Вельветовый черный, 8 ГБ, 256 ГБ",
         "price": "1010",
         "regular_price": "1010",
         "sale_price": "",
@@ -20696,12 +20469,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Lite 8GB/256GB международная версия (вельветовый черный)"
+        "enabled": true
       },
       {
         "id": 798,
-        "name": "Смартфон HONOR 600 Lite 12GB/256GB международная версия (пустынное золото)",
+        "name": "HONOR 600 Lite - Пустынное золото, 12 ГБ, 256 ГБ",
         "price": "1299",
         "regular_price": "1299",
         "sale_price": "",
@@ -20719,12 +20491,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 600 Lite 12GB/256GB международная версия (пустынное золото)"
+        "enabled": false
       },
       {
         "id": 799,
-        "name": "Смартфон HONOR 600 Lite 12GB/256GB международная версия (зеленый)",
+        "name": "HONOR 600 Lite - Зеленый, 12 ГБ, 256 ГБ",
         "price": "1299",
         "regular_price": "1299",
         "sale_price": "",
@@ -20742,12 +20513,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 600 Lite 12GB/256GB международная версия (зеленый)"
+        "enabled": false
       },
       {
         "id": 800,
-        "name": "Смартфон HONOR 600 Lite 12GB/256GB международная версия (вельветовый серый)",
+        "name": "HONOR 600 Lite - Вельветовый серый, 12 ГБ, 256 ГБ",
         "price": "1299",
         "regular_price": "1299",
         "sale_price": "",
@@ -20765,12 +20535,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 600 Lite 12GB/256GB международная версия (вельветовый серый)"
+        "enabled": false
       },
       {
         "id": 801,
-        "name": "Смартфон HONOR 600 Lite 12GB/256GB международная версия (вельветовый черный)",
+        "name": "HONOR 600 Lite - Вельветовый черный, 12 ГБ, 256 ГБ",
         "price": "1299",
         "regular_price": "1299",
         "sale_price": "",
@@ -20788,8 +20557,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": false,
-        "csvName": "Смартфон HONOR 600 Lite 12GB/256GB международная версия (вельветовый черный)"
+        "enabled": false
       }
     ],
     "enabled": true,
@@ -21167,7 +20935,7 @@
     "variations": [
       {
         "id": 814,
-        "name": "Смартфон HONOR 600 Pro Dual SIM 12GB/256GB международная версия (бежевый)",
+        "name": "HONOR 600 Pro - Бежевый, 12 ГБ, 256 ГБ",
         "price": "2240",
         "regular_price": "2240",
         "sale_price": "",
@@ -21185,12 +20953,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Pro Dual SIM 12GB/256GB международная версия (бежевый)"
+        "enabled": true
       },
       {
         "id": 815,
-        "name": "Смартфон HONOR 600 Pro Dual SIM 12GB/256GB международная версия (оранжевый)",
+        "name": "HONOR 600 Pro - Оранжевый, 12 ГБ, 256 ГБ",
         "price": "2240",
         "regular_price": "2240",
         "sale_price": "",
@@ -21208,12 +20975,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Pro Dual SIM 12GB/256GB международная версия (оранжевый)"
+        "enabled": true
       },
       {
         "id": 816,
-        "name": "Смартфон HONOR 600 Pro Dual SIM 12GB/256GB международная версия (черный)",
+        "name": "HONOR 600 Pro - Черный, 12 ГБ, 256 ГБ",
         "price": "2240",
         "regular_price": "2240",
         "sale_price": "",
@@ -21231,12 +20997,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Pro Dual SIM 12GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 817,
-        "name": "Смартфон HONOR 600 Pro Dual SIM 12GB/512GB международная версия (бежевый)",
+        "name": "HONOR 600 Pro - Бежевый, 12 ГБ, 512 ГБ",
         "price": "2460",
         "regular_price": "2460",
         "sale_price": "",
@@ -21254,12 +21019,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Pro Dual SIM 12GB/512GB международная версия (бежевый)"
+        "enabled": true
       },
       {
         "id": 818,
-        "name": "Смартфон HONOR 600 Pro Dual SIM 12GB/512GB международная версия (оранжевый)",
+        "name": "HONOR 600 Pro - Оранжевый, 12 ГБ, 512 ГБ",
         "price": "2460",
         "regular_price": "2460",
         "sale_price": "",
@@ -21277,12 +21041,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Pro Dual SIM 12GB/512GB международная версия (оранжевый)"
+        "enabled": true
       },
       {
         "id": 819,
-        "name": "Смартфон HONOR 600 Pro Dual SIM 12GB/512GB международная версия (черный)",
+        "name": "HONOR 600 Pro - Черный, 12 ГБ, 512 ГБ",
         "price": "2460",
         "regular_price": "2460",
         "sale_price": "",
@@ -21300,8 +21063,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон HONOR 600 Pro Dual SIM 12GB/512GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -24695,7 +24457,7 @@
     "variations": [
       {
         "id": 952,
-        "name": "Смартфон Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (желтый)",
+        "name": "Samsung Galaxy S24+ - Желтый, 12 ГБ, 256 ГБ",
         "price": "1950",
         "regular_price": "1950",
         "sale_price": "",
@@ -24713,12 +24475,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (желтый)"
+        "enabled": true
       },
       {
         "id": 953,
-        "name": "Смартфон Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (серый)",
+        "name": "Samsung Galaxy S24+ - Серый, 12 ГБ, 256 ГБ",
         "price": "1950",
         "regular_price": "1950",
         "sale_price": "",
@@ -24736,12 +24497,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (серый)"
+        "enabled": true
       },
       {
         "id": 954,
-        "name": "Смартфон Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (фиолетовый)",
+        "name": "Samsung Galaxy S24+ - Фиолетовый, 12 ГБ, 256 ГБ",
         "price": "1950",
         "regular_price": "1950",
         "sale_price": "",
@@ -24759,12 +24519,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 955,
-        "name": "Смартфон Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (черный)",
+        "name": "Samsung Galaxy S24+ - Черный, 12 ГБ, 256 ГБ",
         "price": "1950",
         "regular_price": "1950",
         "sale_price": "",
@@ -24782,12 +24541,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy S24+ 12GB/256GB SM-S926B Exynos (черный)"
+        "enabled": true
       },
       {
         "id": 956,
-        "name": "Смартфон Samsung Galaxy S24+ 12GB/512GB SM-S926B Exynos (желтый)",
+        "name": "Samsung Galaxy S24+ - Желтый, 12 ГБ, 512 ГБ",
         "price": "2200",
         "regular_price": "2200",
         "sale_price": "",
@@ -24805,12 +24563,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy S24+ 12GB/512GB SM-S926B Exynos (желтый)"
+        "enabled": true
       },
       {
         "id": 957,
-        "name": "Смартфон Samsung Galaxy S24+ 12GB/512GB SM-S926B Exynos (черный)",
+        "name": "Samsung Galaxy S24+ - Черный, 12 ГБ, 512 ГБ",
         "price": "2200",
         "regular_price": "2200",
         "sale_price": "",
@@ -24828,12 +24585,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy S24+ 12GB/512GB SM-S926B Exynos (черный)"
+        "enabled": true
       },
       {
         "id": 958,
-        "name": "Смартфон Samsung Galaxy S24+ 12GB/512GB SM-S926B Exynos (фиолетовый)",
+        "name": "Samsung Galaxy S24+ - Фиолетовый, 12 ГБ, 512 ГБ",
         "price": "2200",
         "regular_price": "2200",
         "sale_price": "",
@@ -24851,12 +24607,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy S24+ 12GB/512GB SM-S926B Exynos (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 959,
-        "name": "Смартфон Samsung Galaxy S24+ 12GB/512GB SM-S926B Exynos (серый)",
+        "name": "Samsung Galaxy S24+ - Серый, 12 ГБ, 512 ГБ",
         "price": "2200",
         "regular_price": "2200",
         "sale_price": "",
@@ -24874,8 +24629,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy S24+ 12GB/512GB SM-S926B Exynos (серый)"
+        "enabled": true
       }
     ],
     "enabled": false,
@@ -28082,7 +27836,7 @@
     "variations": [
       {
         "id": 1083,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/128GB (белый)",
+        "name": "Samsung Galaxy A37 - Белый, 8 ГБ, 128 ГБ",
         "price": "900",
         "regular_price": "900",
         "sale_price": "",
@@ -28100,12 +27854,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/128GB (белый)"
+        "enabled": true
       },
       {
         "id": 1084,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/128GB (зеленый)",
+        "name": "Samsung Galaxy A37 - Зеленый, 8 ГБ, 128 ГБ",
         "price": "900",
         "regular_price": "900",
         "sale_price": "",
@@ -28123,12 +27876,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/128GB (зеленый)"
+        "enabled": true
       },
       {
         "id": 1085,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/128GB (фиолетовый)",
+        "name": "Samsung Galaxy A37 - Фиолетовый, 8 ГБ, 128 ГБ",
         "price": "900",
         "regular_price": "900",
         "sale_price": "",
@@ -28146,12 +27898,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/128GB (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 1086,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/128GB (черный)",
+        "name": "Samsung Galaxy A37 - Черный, 8 ГБ, 128 ГБ",
         "price": "900",
         "regular_price": "900",
         "sale_price": "",
@@ -28169,12 +27920,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/128GB (черный)"
+        "enabled": true
       },
       {
         "id": 1087,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/256GB (белый)",
+        "name": "Samsung Galaxy A37 - Белый, 8 ГБ, 256 ГБ",
         "price": "1065",
         "regular_price": "1065",
         "sale_price": "",
@@ -28192,12 +27942,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/256GB (белый)"
+        "enabled": true
       },
       {
         "id": 1088,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/256GB (зеленый)",
+        "name": "Samsung Galaxy A37 - Зеленый, 8 ГБ, 256 ГБ",
         "price": "1065",
         "regular_price": "1065",
         "sale_price": "",
@@ -28215,12 +27964,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/256GB (зеленый)"
+        "enabled": true
       },
       {
         "id": 1089,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/256GB (фиолетовый)",
+        "name": "Samsung Galaxy A37 - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "1065",
         "regular_price": "1065",
         "sale_price": "",
@@ -28238,12 +27986,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/256GB (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 1090,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/256GB (черный)",
+        "name": "Samsung Galaxy A37 - Черный, 8 ГБ, 256 ГБ",
         "price": "1065",
         "regular_price": "1065",
         "sale_price": "",
@@ -28261,12 +28008,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 8GB/256GB (черный)"
+        "enabled": true
       },
       {
         "id": 1091,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 12GB/256GB (белый)",
+        "name": "Samsung Galaxy A37 - Белый, 12 ГБ, 256 ГБ",
         "price": "1130",
         "regular_price": "1130",
         "sale_price": "",
@@ -28284,12 +28030,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 12GB/256GB (белый)"
+        "enabled": true
       },
       {
         "id": 1092,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 12GB/256GB (зеленый)",
+        "name": "Samsung Galaxy A37 - Зеленый, 12 ГБ, 256 ГБ",
         "price": "1130",
         "regular_price": "1130",
         "sale_price": "",
@@ -28307,12 +28052,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 12GB/256GB (зеленый)"
+        "enabled": true
       },
       {
         "id": 1093,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 12GB/256GB (фиолетовый)",
+        "name": "Samsung Galaxy A37 - Фиолетовый, 12 ГБ, 256 ГБ",
         "price": "1130",
         "regular_price": "1130",
         "sale_price": "",
@@ -28330,12 +28074,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 12GB/256GB (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 1094,
-        "name": "Смартфон Samsung Galaxy A37 SM-A376E 12GB/256GB (черный)",
+        "name": "Samsung Galaxy A37 - Черный, 12 ГБ, 256 ГБ",
         "price": "1130",
         "regular_price": "1130",
         "sale_price": "",
@@ -28353,8 +28096,7 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A37 SM-A376E 12GB/256GB (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -28415,7 +28157,7 @@
     "variations": [
       {
         "id": 1095,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (голубой)",
+        "name": "Samsung Galaxy A57 - Голубой, 8 ГБ, 128 ГБ",
         "price": "1100",
         "regular_price": "1100",
         "sale_price": "",
@@ -28433,12 +28175,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (голубой)"
+        "enabled": true
       },
       {
         "id": 1096,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (серый)",
+        "name": "Samsung Galaxy A57 - Серый, 8 ГБ, 128 ГБ",
         "price": "1100",
         "regular_price": "1100",
         "sale_price": "",
@@ -28456,12 +28197,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (серый)"
+        "enabled": true
       },
       {
         "id": 1097,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (синий)",
+        "name": "Samsung Galaxy A57 - Синий, 8 ГБ, 128 ГБ",
         "price": "1100",
         "regular_price": "1100",
         "sale_price": "",
@@ -28479,12 +28219,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (синий)"
+        "enabled": true
       },
       {
         "id": 1098,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (фиолетовый)",
+        "name": "Samsung Galaxy A57 - Фиолетовый, 8 ГБ, 128 ГБ",
         "price": "1100",
         "regular_price": "1100",
         "sale_price": "",
@@ -28502,12 +28241,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/128GB (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 1099,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/256GB (голубой)",
+        "name": "Samsung Galaxy A57 - Голубой, 8 ГБ, 256 ГБ",
         "price": "1260",
         "regular_price": "1260",
         "sale_price": "",
@@ -28525,12 +28263,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/256GB (голубой)"
+        "enabled": true
       },
       {
         "id": 1100,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/256GB (серый)",
+        "name": "Samsung Galaxy A57 - Серый, 8 ГБ, 256 ГБ",
         "price": "1260",
         "regular_price": "1260",
         "sale_price": "",
@@ -28548,12 +28285,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/256GB (серый)"
+        "enabled": true
       },
       {
         "id": 1101,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/256GB (синий)",
+        "name": "Samsung Galaxy A57 - Синий, 8 ГБ, 256 ГБ",
         "price": "1260",
         "regular_price": "1260",
         "sale_price": "",
@@ -28571,12 +28307,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/256GB (синий)"
+        "enabled": true
       },
       {
         "id": 1102,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/256GB (фиолетовый)",
+        "name": "Samsung Galaxy A57 - Фиолетовый, 8 ГБ, 256 ГБ",
         "price": "1260",
         "regular_price": "1260",
         "sale_price": "",
@@ -28594,12 +28329,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 8GB/256GB (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 1103,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/256GB (голубой)",
+        "name": "Samsung Galaxy A57 - Голубой, 12 ГБ, 256 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -28617,12 +28351,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/256GB (голубой)"
+        "enabled": true
       },
       {
         "id": 1104,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/256GB (серый)",
+        "name": "Samsung Galaxy A57 - Серый, 12 ГБ, 256 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -28640,12 +28373,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/256GB (серый)"
+        "enabled": true
       },
       {
         "id": 1105,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/256GB (синий)",
+        "name": "Samsung Galaxy A57 - Синий, 12 ГБ, 256 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -28663,12 +28395,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/256GB (синий)"
+        "enabled": true
       },
       {
         "id": 1106,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/256GB (фиолетовый)",
+        "name": "Samsung Galaxy A57 - Фиолетовый, 12 ГБ, 256 ГБ",
         "price": "1400",
         "regular_price": "1400",
         "sale_price": "",
@@ -28686,12 +28417,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/256GB (фиолетовый)"
+        "enabled": true
       },
       {
         "id": 1107,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/512GB (голубой)",
+        "name": "Samsung Galaxy A57 - Голубой, 12 ГБ, 512 ГБ",
         "price": "1480",
         "regular_price": "1480",
         "sale_price": "",
@@ -28709,12 +28439,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/512GB (голубой)"
+        "enabled": true
       },
       {
         "id": 1108,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/512GB (серый)",
+        "name": "Samsung Galaxy A57 - Серый, 12 ГБ, 512 ГБ",
         "price": "1480",
         "regular_price": "1480",
         "sale_price": "",
@@ -28732,12 +28461,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/512GB (серый)"
+        "enabled": true
       },
       {
         "id": 1109,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/512GB (синий)",
+        "name": "Samsung Galaxy A57 - Синий, 12 ГБ, 512 ГБ",
         "price": "1480",
         "regular_price": "1480",
         "sale_price": "",
@@ -28755,12 +28483,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/512GB (синий)"
+        "enabled": true
       },
       {
         "id": 1110,
-        "name": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/512GB (фиолетовый)",
+        "name": "Samsung Galaxy A57 - Фиолетовый, 12 ГБ, 512 ГБ",
         "price": "1480",
         "regular_price": "1480",
         "sale_price": "",
@@ -28778,8 +28505,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy A57 SM-A576B 12GB/512GB (фиолетовый)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -29388,7 +29114,7 @@
     "variations": [
       {
         "id": 1130,
-        "name": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (бежевый)",
+        "name": "Samsung Galaxy Z Flip8 - Бежевый, 12 ГБ, 256 ГБ",
         "price": "3200",
         "regular_price": "3200",
         "sale_price": "",
@@ -29406,12 +29132,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (бежевый)"
+        "enabled": true
       },
       {
         "id": 1131,
-        "name": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (мятный)",
+        "name": "Samsung Galaxy Z Flip8 - Мятный, 12 ГБ, 256 ГБ",
         "price": "3200",
         "regular_price": "3200",
         "sale_price": "",
@@ -29429,12 +29154,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (мятный)"
+        "enabled": true
       },
       {
         "id": 1132,
-        "name": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (розовый)",
+        "name": "Samsung Galaxy Z Flip8 - Розовый, 12 ГБ, 256 ГБ",
         "price": "3200",
         "regular_price": "3200",
         "sale_price": "",
@@ -29452,12 +29176,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (розовый)"
+        "enabled": true
       },
       {
         "id": 1133,
-        "name": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (серый)",
+        "name": "Samsung Galaxy Z Flip8 - Серый, 12 ГБ, 256 ГБ",
         "price": "3200",
         "regular_price": "3200",
         "sale_price": "",
@@ -29475,12 +29198,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/256GB (серый)"
+        "enabled": true
       },
       {
         "id": 1134,
-        "name": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/512GB (бежевый)",
+        "name": "Samsung Galaxy Z Flip8 - Бежевый, 12 ГБ, 512 ГБ",
         "price": "3740",
         "regular_price": "3740",
         "sale_price": "",
@@ -29498,12 +29220,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/512GB (бежевый)"
+        "enabled": true
       },
       {
         "id": 1135,
-        "name": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/512GB (мятный)",
+        "name": "Samsung Galaxy Z Flip8 - Мятный, 12 ГБ, 512 ГБ",
         "price": "3740",
         "regular_price": "3740",
         "sale_price": "",
@@ -29521,12 +29242,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/512GB (мятный)"
+        "enabled": true
       },
       {
         "id": 1136,
-        "name": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/512GB (розовый)",
+        "name": "Samsung Galaxy Z Flip8 - Розовый, 12 ГБ, 512 ГБ",
         "price": "3740",
         "regular_price": "3740",
         "sale_price": "",
@@ -29544,12 +29264,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/512GB (розовый)"
+        "enabled": true
       },
       {
         "id": 1137,
-        "name": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/512GB (серый)",
+        "name": "Samsung Galaxy Z Flip8 - Серый, 12 ГБ, 512 ГБ",
         "price": "3740",
         "regular_price": "3740",
         "sale_price": "",
@@ -29567,8 +29286,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Samsung Galaxy Z Flip8 SM-F776B 12GB/512GB (серый)"
+        "enabled": true
       }
     ],
     "enabled": true,
@@ -29624,7 +29342,7 @@
     "variations": [
       {
         "id": 1138,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (серебристый)",
+        "name": "Samsung Galaxy Tab A9 - Серебристый, 4 ГБ, 64 ГБ",
         "price": "450",
         "regular_price": "450",
         "sale_price": "",
@@ -29642,12 +29360,11 @@
             "option": "64 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (серебристый)"
+        "enabled": true
       },
       {
         "id": 1139,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (темно-синий)",
+        "name": "Samsung Galaxy Tab A9 - Темно-синий, 4 ГБ, 64 ГБ",
         "price": "450",
         "regular_price": "450",
         "sale_price": "",
@@ -29665,12 +29382,11 @@
             "option": "64 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (темно-синий)"
+        "enabled": true
       },
       {
         "id": 1140,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (графит)",
+        "name": "Samsung Galaxy Tab A9 - Графит, 4 ГБ, 64 ГБ",
         "price": "450",
         "regular_price": "450",
         "sale_price": "",
@@ -29688,12 +29404,11 @@
             "option": "64 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (графит)"
+        "enabled": true
       },
       {
         "id": 1141,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (серебристый)",
+        "name": "Samsung Galaxy Tab A9 - Серебристый, 8 ГБ, 128 ГБ",
         "price": "520",
         "regular_price": "520",
         "sale_price": "",
@@ -29711,12 +29426,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (серебристый)"
+        "enabled": true
       },
       {
         "id": 1142,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (темно-синий)",
+        "name": "Samsung Galaxy Tab A9 - Темно-синий, 8 ГБ, 128 ГБ",
         "price": "520",
         "regular_price": "520",
         "sale_price": "",
@@ -29734,12 +29448,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (темно-синий)"
+        "enabled": true
       },
       {
         "id": 1143,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (графит)",
+        "name": "Samsung Galaxy Tab A9 - Графит, 8 ГБ, 128 ГБ",
         "price": "520",
         "regular_price": "520",
         "sale_price": "",
@@ -29757,12 +29470,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (графит)"
+        "enabled": true
       },
       {
         "id": 1144,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (серебристый)",
+        "name": "Samsung Galaxy Tab A9 - Серебристый, 4 ГБ, 64 ГБ",
         "price": "484",
         "regular_price": "484",
         "sale_price": "",
@@ -29780,12 +29492,11 @@
             "option": "64 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (серебристый)"
+        "enabled": true
       },
       {
         "id": 1145,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (темно-синий)",
+        "name": "Samsung Galaxy Tab A9 - Темно-синий, 4 ГБ, 64 ГБ",
         "price": "484",
         "regular_price": "484",
         "sale_price": "",
@@ -29803,12 +29514,11 @@
             "option": "64 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (темно-синий)"
+        "enabled": true
       },
       {
         "id": 1146,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (графит)",
+        "name": "Samsung Galaxy Tab A9 - Графит, 4 ГБ, 64 ГБ",
         "price": "484",
         "regular_price": "484",
         "sale_price": "",
@@ -29826,12 +29536,11 @@
             "option": "64 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 4GB/64GB (графит)"
+        "enabled": true
       },
       {
         "id": 1147,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (серебристый)",
+        "name": "Samsung Galaxy Tab A9 - Серебристый, 8 ГБ, 128 ГБ",
         "price": "530",
         "regular_price": "530",
         "sale_price": "",
@@ -29849,12 +29558,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (серебристый)"
+        "enabled": true
       },
       {
         "id": 1148,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (темно-синий)",
+        "name": "Samsung Galaxy Tab A9 - Темно-синий, 8 ГБ, 128 ГБ",
         "price": "530",
         "regular_price": "530",
         "sale_price": "",
@@ -29872,12 +29580,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (темно-синий)"
+        "enabled": true
       },
       {
         "id": 1149,
-        "name": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (графит)",
+        "name": "Samsung Galaxy Tab A9 - Графит, 8 ГБ, 128 ГБ",
         "price": "530",
         "regular_price": "530",
         "sale_price": "",
@@ -29895,8 +29602,7 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Samsung Galaxy Tab A9 Wi-Fi SM-X110 8GB/128GB (графит)"
+        "enabled": true
       }
     ],
     "enabled": false,
@@ -33861,11 +33567,11 @@
     "id": 1288,
     "name": "Blackview Xplore 1 Walkie Talkie",
     "slug": "blackview-xplore-1-walkie-talkie",
-    "type": "variable",
+    "type": "simple",
     "price": "1320",
     "sale_price": "",
     "short_description": "Android, экран 6.78\" IPS 120 Гц, (1080x2460) Mediatek Dimensity 7050, ОЗУ 12/16 ГБ, память 256/512 ГБ, поддержка карт памяти, камера 64 Мп, аккумулятор 20000 мАч, моноблок, влагозащита IP68/IP69K",
-    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2023г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 15 (Doke OS)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.78&amp;quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1080x2460</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IPS</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>120 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>12 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>256 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество точек матрицы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 Мп</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3840x2160 (30 кадров/с)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Быстрая зарядка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>55 Вт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Mediatek Dimensity 7050</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2 600 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (2+6)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Микроархитектура ЦПУ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>ARM Cortex-A78 2600 МГц + ARM Cortex-A55 2000 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>ARM Mali-G68 MC4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>моноблок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>пластик, алюминий</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>пластик</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IP68, IP69K</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>в экране</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>SIM 2 и карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение сканера отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>на боковом торце</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>nano-SIM</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>184 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>83 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>29.5 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>695 г (с антенной)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>16 млн</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>396 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">20:9</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Gorilla Glass v5</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп, f/1.8, широкоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/1.8</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3840x2160 (4K UHD)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE 5G</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11ax (Wi-Fi 6)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 2.0</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-ion</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>20 000 мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплект поставки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>адаптер питания, кабель USB-C - USB-C, скрепка</strong></div></div>\n",
+    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2023г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 15 (Doke OS)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.78&quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1080x2460</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IPS</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>120 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>12 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>256 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество точек матрицы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 Мп</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3840x2160 (30 кадров/с)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Быстрая зарядка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>55 Вт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Mediatek Dimensity 7050</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2 600 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (2+6)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Микроархитектура ЦПУ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>ARM Cortex-A78 2600 МГц + ARM Cortex-A55 2000 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>ARM Mali-G68 MC4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>моноблок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>пластик, алюминий</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>пластик</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IP68, IP69K</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>в экране</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>SIM 2 и карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение сканера отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>на боковом торце</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>nano-SIM</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>184 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>83 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>29.5 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>695 г (с антенной)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>16 млн</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>396 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">20:9</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Gorilla Glass v5</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп, f/1.8, широкоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/1.8</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3840x2160 (4K UHD)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE 5G</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11ax (Wi-Fi 6)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 2.0</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-ion</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>20 000 мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплект поставки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>адаптер питания, кабель USB-C - USB-C, скрепка</strong></div></div>\n",
     "local_images": [
       "/images/blackview-xplore-1-walkie-talkie-1.webp",
       "/images/blackview-xplore-1-walkie-talkie-2.webp",
@@ -33927,11 +33633,7 @@
     "model": "Xplore 1 Walkie Talkie",
     "typePrefix": "Смартфон",
     "deliveryDays": 0,
-    "preorder": false,
-    "part_number": "",
-    "dual_sim": "",
-    "network_module": "",
-    "model_version": ""
+    "preorder": false
   },
   {
     "id": 1289,
@@ -34443,11 +34145,11 @@
     "id": 1307,
     "name": "Nothing Phone (3a) Lite",
     "slug": "nothing-phone-3a-lite",
-    "type": "variable",
+    "type": "simple",
     "price": "880",
     "sale_price": "",
     "short_description": "смартфон, Android, экран 6.77\" (1084x2392) 120 Гц, AMOLED Mediatek Dimensity 7300 Pro, ОЗУ 8 ГБ, память 128/256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 5000 мАч, моноблок, влагозащита IP54",
-    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2025 г.</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Экран</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.77&quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1084×2392</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>AMOLED</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>120 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1.073 млрд</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Плотность пикселей</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>387 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">20:9</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Panda Glass</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размеры и вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>164 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>78 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8.3 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>199 г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Производительность и процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 15</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оболочка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Nothing OS</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 ГБ LPDDR4X</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Виртуальное расширение ОЗУ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>128 ГБ UFS 2.2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Платформа</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>MediaTek Dimensity</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>MediaTek Dimensity 7300 Pro</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2 500 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (4+4)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>ARM Mali-G615 MC2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Основная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп, 24 мм, f/1.88, PDAF — широкоугольная</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 Мп, 15 мм, f/2.2 — сверхширокоугольная</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2 Мп, f/2.4 — макро</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество модулей камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3840×2160 (30 кадров/с)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>16 Мп, f/2.45</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Видео фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1920×1080 (Full HD)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Корпус</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал граней</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>пластик</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>стекло</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IP54</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Сканер отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>оптический, встроен в дисплей</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Связь и интерфейсы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2 × nano-SIM</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Сети</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2G / 3G / 4G LTE / 5G</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11ax (Wi-Fi 6)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 2.0</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-Pol</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ёмкость</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5000 мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Быстрая зарядка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>есть</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Беспроводная зарядка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>нет</strong></div></div>\n",
+    "description": "<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Дата выхода на рынок</div>\r\\n<div class=\"my_item2\">2025 г.</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Экран</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Размер экрана</div>\r\\n<div class=\"my_item2\">6.77\"</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешение экрана</div>\r\\n<div class=\"my_item2\">1084×2392</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Технология экрана</div>\r\\n<div class=\"my_item2\">AMOLED</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Частота обновления экрана</div>\r\\n<div class=\"my_item2\">120 Гц</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество цветов экрана</div>\r\\n<div class=\"my_item2\">1.073 млрд</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Плотность пикселей</div>\r\\n<div class=\"my_item2\">387 ppi</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Соотношение сторон</div>\r\\n<div class=\"my_item2\">20:9</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Защита от царапин</div>\r\\n<div class=\"my_item2\">Panda Glass</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Длина</div>\r\\n<div class=\"my_item2\">164 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Ширина</div>\r\\n<div class=\"my_item2\">78 мм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Толщина</div>\r\\n<div class=\"my_item2\">8.3 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Вес</div>\r\\n<div class=\"my_item2\">199 г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Операционная система</div>\r\\n<div class=\"my_item2\">Android</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\r\\n<div class=\"my_item2\">Android 15</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Оболочка</div>\r\\n<div class=\"my_item2\">Nothing OS</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Оперативная память</div>\r\\n<div class=\"my_item2\">8 ГБ LPDDR4X</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Виртуальное расширение ОЗУ</div>\r\\n<div class=\"my_item2\">8 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Встроенная память</div>\r\\n<div class=\"my_item2\">128 ГБ UFS 2.2</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Платформа</div>\r\\n<div class=\"my_item2\">MediaTek Dimensity</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Процессор</div>\r\\n<div class=\"my_item2\">MediaTek Dimensity 7300 Pro</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тактовая частота</div>\r\\n<div class=\"my_item2\">2 500 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Количество ядер</div>\r\\n<div class=\"my_item2\">8 (4+4)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Графический ускоритель</div>\r\\n<div class=\"my_item2\">ARM Mali-G615 MC2</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Камеры</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Основная камера</div>\r\\n<div class=\"my_item2\">50 Мп, 24 мм, f/1.88, PDAF — широкоугольная\r\\n8 Мп, 15 мм, f/2.2 — сверхширокоугольная\r\\n2 Мп, f/2.4 — макро</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Количество модулей камеры</div>\r\\n<div class=\"my_item2\">3</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\r\\n<div class=\"my_item2\">3840×2160 (30 кадров/с)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Фронтальная камера</div>\r\\n<div class=\"my_item2\">16 Мп, f/2.45</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Видео фронтальной камеры</div>\r\\n<div class=\"my_item2\">1920×1080 (Full HD)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Материал граней</div>\r\\n<div class=\"my_item2\">пластик</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Материал задней крышки</div>\r\\n<div class=\"my_item2\">стекло</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\r\\n<div class=\"my_item2\">IP54</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Сканер отпечатка пальца</div>\r\\n<div class=\"my_item2\">оптический, встроен в дисплей</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Связь и интерфейсы</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">SIM-карты</div>\r\\n<div class=\"my_item2\">2 × nano-SIM</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Сети</div>\r\\n<div class=\"my_item2\">2G / 3G / 4G LTE / 5G</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Bluetooth</div>\r\\n<div class=\"my_item2\">5.4</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Wi-Fi</div>\r\\n<div class=\"my_item2\">802.11ax (Wi-Fi 6)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разъём подключения</div>\r\\n<div class=\"my_item2\">USB Type-C 2.0</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Тип аккумулятора</div>\r\\n<div class=\"my_item2\">Li-Pol</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Ёмкость</div>\r\\n<div class=\"my_item2\">5000 мА·ч</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Быстрая зарядка</div>\r\\n<div class=\"my_item2\">есть</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Беспроводная зарядка</div>\r\\n<div class=\"my_item2\">нет</div>\r\\n</div>",
     "local_images": [
       "/images/nothing-phone-3a-lite-1.webp",
       "/images/nothing-phone-3a-lite-2.webp",
@@ -34460,9 +34162,9 @@
     "brand": "Nothing",
     "attributes": [
       {
-        "name": "Оперативная память",
+        "name": "Цвет корпуса",
         "options": [
-          "8 ГБ"
+          "Черный"
         ]
       },
       {
@@ -34472,9 +34174,9 @@
         ]
       },
       {
-        "name": "Цвет корпуса",
+        "name": "Оперативная память",
         "options": [
-          "Черный"
+          "8 ГБ"
         ]
       }
     ],
@@ -34482,6 +34184,7 @@
       {
         "id": 1307,
         "name": "Смартфон Nothing Phone (3a) Lite 8GB/128GB (черный)",
+        "csvName": "Смартфон Nothing Phone (3a) Lite 8GB/128GB (черный)",
         "price": "880",
         "regular_price": "880",
         "sale_price": "",
@@ -34498,9 +34201,7 @@
             "name": "Встроенная память",
             "option": "128 ГБ"
           }
-        ],
-        "enabled": true,
-        "csvName": "Смартфон Nothing Phone (3a) Lite 8GB/128GB (черный)"
+        ]
       }
     ],
     "enabled": true,
@@ -34509,11 +34210,7 @@
     "model": "Phone (3a) Lite",
     "typePrefix": "Смартфон",
     "deliveryDays": 0,
-    "preorder": false,
-    "part_number": "",
-    "dual_sim": "",
-    "network_module": "",
-    "model_version": ""
+    "preorder": false
   },
   {
     "id": 1308,
@@ -34559,7 +34256,7 @@
     "variations": [
       {
         "id": 1308,
-        "name": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/256GB (белый, международная версия)",
+        "name": "Huawei Pura 90s Pro - Белый, 12 ГБ, 256 ГБ",
         "price": "2180",
         "regular_price": "2180",
         "sale_price": "",
@@ -34577,12 +34274,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/256GB (белый, международная версия)"
+        "enabled": true
       },
       {
         "id": 1309,
-        "name": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/256GB (розово-зеленый, международная версия)",
+        "name": "Huawei Pura 90s Pro - Розово-зеленый, 12 ГБ, 256 ГБ",
         "price": "2180",
         "regular_price": "2180",
         "sale_price": "",
@@ -34600,12 +34296,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/256GB (розово-зеленый, международная версия)"
+        "enabled": true
       },
       {
         "id": 1310,
-        "name": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/256GB (оранжевый, международная версия)",
+        "name": "Huawei Pura 90s Pro - Оранжевый, 12 ГБ, 256 ГБ",
         "price": "2180",
         "regular_price": "2180",
         "sale_price": "",
@@ -34623,12 +34318,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/256GB (оранжевый, международная версия)"
+        "enabled": true
       },
       {
         "id": 1311,
-        "name": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/256GB (черный, международная версия)",
+        "name": "Huawei Pura 90s Pro - Черный, 12 ГБ, 256 ГБ",
         "price": "2180",
         "regular_price": "2180",
         "sale_price": "",
@@ -34646,12 +34340,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/256GB (черный, международная версия)"
+        "enabled": true
       },
       {
         "id": 1312,
-        "name": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/512GB (белый, международная версия)",
+        "name": "Huawei Pura 90s Pro - Белый, 12 ГБ, 512 ГБ",
         "price": "2520",
         "regular_price": "2520",
         "sale_price": "",
@@ -34669,12 +34362,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/512GB (белый, международная версия)"
+        "enabled": true
       },
       {
         "id": 1313,
-        "name": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/512GB (розово-зеленый, международная версия)",
+        "name": "Huawei Pura 90s Pro - Розово-зеленый, 12 ГБ, 512 ГБ",
         "price": "2520",
         "regular_price": "2520",
         "sale_price": "",
@@ -34692,12 +34384,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/512GB (розово-зеленый, международная версия)"
+        "enabled": true
       },
       {
         "id": 1314,
-        "name": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/512GB (оранжевый, международная версия)",
+        "name": "Huawei Pura 90s Pro - Оранжевый, 12 ГБ, 512 ГБ",
         "price": "2520",
         "regular_price": "2520",
         "sale_price": "",
@@ -34715,12 +34406,11 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/512GB (оранжевый, международная версия)"
+        "enabled": true
       },
       {
         "id": 1315,
-        "name": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/512GB (черный, международная версия)",
+        "name": "Huawei Pura 90s Pro - Черный, 12 ГБ, 512 ГБ",
         "price": "2520",
         "regular_price": "2520",
         "sale_price": "",
@@ -34738,8 +34428,7 @@
             "option": "512 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Смартфон Huawei Pura 90s Pro MLN-LX9 12GB/512GB (черный, международная версия)"
+        "enabled": true
       }
     ],
     "enabled": true,

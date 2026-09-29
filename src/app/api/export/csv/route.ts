@@ -50,37 +50,39 @@ function getModel(p: LocalProduct, brand: string): string {
 }
 
 function buildVariationName(p: LocalProduct, attrs: Record<string, string>): string {
+  // Rule: [TypePrefix] [Brand] [Model] [DualSIM] [4G/5G] [PartNumber] [RAM/Storage] [Version] [(color)]
+  // Each block is included ONLY if the attribute is filled. Empty = skip.
   const typePrefix = p.typePrefix || 'Смартфон';
   const brand = getBrand(p);
   let model = getModel(p, brand);
-
-  // Strip memory, color, version from model to avoid duplication
-  model = model
-    .replace(/"/g, '')
-    .replace(/\d+GB\/\d+GB/gi, '')
-    .replace(/\d+GB\/\d+TB/gi, '')
-    .replace(/\d+TB/gi, '')
-    .replace(/\d+GB(?!\s*\/)/gi, '')
-    .replace(/\s*\([^)]+\)\s*$/, '')
-    .replace(/\s+международная версия/i, '')
-    .replace(/\s+европейская версия/i, '')
-    .replace(/\s+SM-[A-Z0-9]+/i, '')
-    .replace(/\s+MLN-[A-Z0-9]+/i, '')
-    .replace(/\s+Wi-Fi/i, '')
-    .replace(/\s+/g, ' ')
-    .trim();
+  model = model.replace(/"/g, '').replace(/\s+/g, ' ').trim();
 
   const parts: string[] = [typePrefix];
   if (brand) parts.push(brand);
   if (model) parts.push(model);
 
+  // dual_sim
+  if (p.dual_sim) parts.push(p.dual_sim);
+
+  // network_module (4G/5G/LTE) — skip if already in model name
+  const netMod = p.network_module || '';
+  if (netMod && !model.toLowerCase().includes(netMod.toLowerCase())) parts.push(netMod);
+
+  // part_number (SM-xxx, MLN-LX9, etc.)
+  if (p.part_number) parts.push(p.part_number);
+
+  // RAM/Storage
   const ram = normalizeMemory(attrs['Оперативная память'] || '');
   const storage = normalizeMemory(attrs['Встроенная память'] || '');
   if (ram && storage) parts.push(`${ram}/${storage}`);
   else if (storage) parts.push(storage);
   else if (ram) parts.push(ram);
 
-  const color = attrs['Цвет корпуса'] || '';
+  // version (международная/индийская/европейская)
+  if (p.model_version) parts.push(p.model_version);
+
+  // color — always last, in parentheses, lowercase
+  const color = (attrs['Цвет корпуса'] || '').toLowerCase();
   if (color) parts.push(`(${color})`);
 
   return parts.join(' ');
