@@ -886,12 +886,12 @@
   {
     "id": 25,
     "name": "Google Pixel 10 Pro XL",
-    "slug": "pixel-10-pro-xl",
+    "slug": "google-pixel-10-pro-xl",
     "type": "variable",
     "price": "2940",
     "sale_price": "",
     "short_description": "смартфон, Android, OLED (1344x2992) экран 6.8\" 120 Гц, Google Tensor G5, ОЗУ 16 ГБ, память 256/512/1024 ГБ, камера 50 Мп, аккумулятор 5200 мАч, 1 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
-    "description": "<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Дата выхода на рынок</div>\r\\n<div class=\"my_item2\">2025г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Экран</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Размер экрана</div>\r\\n<div class=\"my_item2\"><b>6,3</b>\"</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешение экрана</div>\r\\n<div class=\"my_item2\">1344x2992</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Технология экрана</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">OLED  </span></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Частота обновления экрана</div>\r\\n<div class=\"my_item2\">120 Гц</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество цветов экрана</div>\r\\n<div class=\"my_item2\">16 млн</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\r\\n<div class=\"my_item2\">422 ppi</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Соотношение сторон</div>\r\\n<div class=\"my_item2\">20:9</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Защита от царапин</div>\r\\n<div class=\"my_item2\">Gorilla Glass Victus 2</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Длина</div>\r\\n<div class=\"my_item2\">162.8 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Ширина</div>\r\\n<div class=\"my_item2\">76.6мм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Толщина</div>\r\\n<div class=\"my_item2\">8.5 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Вес</div>\r\\n<div class=\"my_item2\">232 г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Операционная система</div>\r\\n<div class=\"my_item2\">Android</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\r\\n<div class=\"my_item2\">Android 16</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Оперативная память</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">16 ГБ</span></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Встроенная память</div>\r\\n<div class=\"my_item2\">256/512/1024 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Платформа</div>\r\\n<div class=\"my_item2\">Google</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Процессор</div>\r\\n<div class=\"my_item2\">Google Tensor G5</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тактовая частота процессора</div>\r\\n<div class=\"my_item2\">3 780 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Количество ядер</div>\r\\n<div class=\"my_item2\">8 (1+5+2)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\r\\n<div class=\"my_item2\">ARM Cortex-X4 3.78 ГГц + ARM Cortex-A725 3.05 ГГц + ARM Cortex-A520 2.25 ГГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрядность процессора</div>\r\\n<div class=\"my_item2\">64 бита</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Техпроцесс</div>\r\\n<div class=\"my_item2\">3 нм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Графический ускоритель</div>\r\\n<div class=\"my_item2\">IMG DXT-48-1536</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Частота ГПУ</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Характеристики камер</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество точек матрицы</div>\r\\n<div class=\"my_item2\">50 Мп</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Характеристики камеры</div>\r\\n<div class=\"my_item2\">50 Мп, f/1.68, 25мм, 1/1.3\", 1.2мкм, 82°, оптическая стабилизация, широкоугольный\r\\n48 Мп, f/1.7, 123˚, 1/2.55\", 123°, сверхширокоугольный\r\\n48 Мп, f/2.8, 113мм, 1/2.55\", 22°, 5x оптический зум, оптическая стабилизация, телеобъектив</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество основных камер</div>\r\\n<div class=\"my_item2\">2</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Дополнительные модули камеры</div>\r\\n<div class=\"my_item2\">телеобъектив, широкоугольный, сверхширокоугольный</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Диафрагма основной камеры</div>\r\\n<div class=\"my_item2\">f/1.68</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Максимальное количество кадров в секунду</div>\r\\n<div class=\"my_item2\">240 кадров/с</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Фронтальная камера</div>\r\\n<div class=\"my_item2\">10.5 Мп</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Диафрагма</div>\r\\n<div class=\"my_item2\">f/2.2</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\r\\n<div class=\"my_item2\">7680×4320 (30 кадров/с)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Конструкция корпуса</div>\r\\n<div class=\"my_item2\">моноблок</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Материал корпуса</div>\r\\n<div class=\"my_item2\">металл</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Материал задней крышки</div>\r\\n<div class=\"my_item2\">стекло</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\r\\n<div class=\"my_item2\">IP68</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\r\\n<div class=\"my_item2\">в экране</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Раздельные слоты</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение сканера отпечатка пальца</div>\r\\n<div class=\"my_item2\">встроен в дисплей</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Формат SIM-карты</div>\r\\n<div class=\"my_item2\">nano-SIM, eSIM</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество SIM-карт</div>\r\\n<div class=\"my_item2\">1</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Поддержка карт памяти</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальная емкость карты памяти</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Передача данных</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Передача данных</div>\r\\n<div class=\"my_item2\">EDGE HSPA HSPA+ LTE 5G</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Интерфейсы</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Bluetooth</div>\r\\n<div class=\"my_item2\">6.0</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Аудиовыход</div>\r\\n<div class=\"my_item2\">USB Type-C</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Wi-Fi</div>\r\\n<div class=\"my_item2\">Wi-Fi 802.11 a/b/g/n/ac/6e/7</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разъём подключения</div>\r\\n<div class=\"my_item2\">USB Type-C 3.2 Gen2</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тип аккумулятора</div>\r\\n<div class=\"my_item2\">Li-ion</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Емкость аккумулятора</div>\r\\n<div class=\"my_item2\">5 200 мА·ч</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Аккумулятор</div>\r\\n<div class=\"my_item2\">несъёмный</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Комплектация</strong></div>\r\\n</div>",
+    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2025г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Экран</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6,3&quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1344x2992</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>OLED</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>120 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>16 млн</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>422 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">20:9</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Gorilla Glass Victus 2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размеры и вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>162.8 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>76.6мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8.5 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>232 г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Производительность и процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 16</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>16 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>256/512/1024 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Платформа</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Google</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Google Tensor G5</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3 780 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (1+5+2)</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Микроархитектура ЦПУ</div><div class=\"my_item2\">ARM Cortex-X4 3.78 ГГц + ARM Cortex-A725 3.05 ГГц + ARM Cortex-A520 2.25 ГГц</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IMG DXT-48-1536</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота ГПУ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Характеристики камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество точек матрицы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Характеристики камеры</div><div class=\"my_item2\">50 Мп, f/1.68, 25мм, 1/1.3&quot;, 1.2мкм, 82°, оптическая стабилизация, широкоугольный</div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">48 Мп, f/1.7, 123˚, 1/2.55&quot;, 123°, сверхширокоугольный</div><div class=\"my_item2\">48 Мп, f/2.8, 113мм, 1/2.55&quot;, 22°, 5x оптический зум, оптическая стабилизация, телеобъектив</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество основных камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дополнительные модули камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>телеобъектив, широкоугольный, сверхширокоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма основной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/1.68</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное количество кадров в секунду</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>240 кадров/с</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>10.5 Мп</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/2.2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>7680×4320 (30 кадров/с)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Корпус</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>моноблок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>металл</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>стекло</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IP68</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>в экране</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение сканера отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>встроен в дисплей</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>nano-SIM, eSIM</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Поддержка карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальная емкость карты памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE 5G</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Интерфейсы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.0</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi 802.11 a/b/g/n/ac/6e/7</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 3.2 Gen2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-ion</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5 200 мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплектация</strong></div></div>\n",
     "local_images": [
       "/images/pixel-10-pro-xl-1.webp",
       "/images/pixel-10-pro-xl-2.webp",
@@ -904,12 +904,9 @@
     "brand": "",
     "attributes": [
       {
-        "name": "Цвет корпуса",
+        "name": "Оперативная память",
         "options": [
-          "Лунный камень",
-          "Нефрит",
-          "Обсидиан",
-          "Фарфор"
+          "16 ГБ"
         ]
       },
       {
@@ -920,17 +917,19 @@
         ]
       },
       {
-        "name": "Оперативная память",
+        "name": "Цвет корпуса",
         "options": [
-          "16 ГБ"
+          "Лунный камень",
+          "Нефрит",
+          "Обсидиан",
+          "Фарфор"
         ]
       }
     ],
     "variations": [
       {
         "id": 25,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (фарфор)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (фарфор)",
+        "name": "Google Pixel 10 Pro XL - Фарфор, 16 ГБ, 256 ГБ",
         "price": "2940",
         "regular_price": "2940",
         "sale_price": "",
@@ -947,12 +946,12 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 26,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (нефрит)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (нефрит)",
+        "name": "Google Pixel 10 Pro XL - Нефрит, 16 ГБ, 256 ГБ",
         "price": "2940",
         "regular_price": "2940",
         "sale_price": "",
@@ -969,12 +968,12 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 27,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (лунный камень)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (лунный камень)",
+        "name": "Google Pixel 10 Pro XL - Лунный камень, 16 ГБ, 256 ГБ",
         "price": "2940",
         "regular_price": "2940",
         "sale_price": "",
@@ -991,12 +990,12 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": false
       },
       {
         "id": 28,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (обсидиан)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/256GB (обсидиан)",
+        "name": "Google Pixel 10 Pro XL - Обсидиан, 16 ГБ, 256 ГБ",
         "price": "2940",
         "regular_price": "2940",
         "sale_price": "",
@@ -1013,12 +1012,12 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 29,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (фарфор)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (фарфор)",
+        "name": "Google Pixel 10 Pro XL - Фарфор, 16 ГБ, 512 ГБ",
         "price": "3430",
         "regular_price": "3430",
         "sale_price": "",
@@ -1035,12 +1034,12 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 30,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (нефрит)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (нефрит)",
+        "name": "Google Pixel 10 Pro XL - Нефрит, 16 ГБ, 512 ГБ",
         "price": "3430",
         "regular_price": "3430",
         "sale_price": "",
@@ -1057,12 +1056,12 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 31,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (лунный камень)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (лунный камень)",
+        "name": "Google Pixel 10 Pro XL - Лунный камень, 16 ГБ, 512 ГБ",
         "price": "3430",
         "regular_price": "3430",
         "sale_price": "",
@@ -1079,12 +1078,12 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": false
       },
       {
         "id": 32,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (обсидиан)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/512GB (обсидиан)",
+        "name": "Google Pixel 10 Pro XL - Обсидиан, 16 ГБ, 512 ГБ",
         "price": "3430",
         "regular_price": "3430",
         "sale_price": "",
@@ -1101,12 +1100,12 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 33,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/1TB (фарфор)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/1TB (фарфор)",
+        "name": "Google Pixel 10 Pro XL - Фарфор",
         "price": "5200",
         "regular_price": "5200",
         "sale_price": "",
@@ -1115,12 +1114,12 @@
             "name": "Цвет корпуса",
             "option": "Фарфор"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 34,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/1TB (нефрит)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/1TB (нефрит)",
+        "name": "Google Pixel 10 Pro XL - Нефрит",
         "price": "5200",
         "regular_price": "5200",
         "sale_price": "",
@@ -1129,12 +1128,12 @@
             "name": "Цвет корпуса",
             "option": "Нефрит"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 35,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/1TB (лунный камень)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/1TB (лунный камень)",
+        "name": "Google Pixel 10 Pro XL - Лунный камень",
         "price": "5200",
         "regular_price": "5200",
         "sale_price": "",
@@ -1143,12 +1142,12 @@
             "name": "Цвет корпуса",
             "option": "Лунный камень"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 36,
-        "name": "Смартфон Google Pixel 10 Pro XL 16GB/1TB (обсидиан)",
-        "csvName": "Смартфон Google Pixel 10 Pro XL 16GB/1TB (обсидиан)",
+        "name": "Google Pixel 10 Pro XL - Обсидиан",
         "price": "3700",
         "regular_price": "3700",
         "sale_price": "",
@@ -1157,278 +1156,21 @@
             "name": "Цвет корпуса",
             "option": "Обсидиан"
           }
-        ]
+        ],
+        "enabled": true
       }
     ],
     "enabled": true,
-    "specs": [
-      {
-        "section": "Основные характеристики",
-        "items": [
-          {
-            "param": "Дата выхода на рынок",
-            "value": "2025г"
-          }
-        ]
-      },
-      {
-        "section": "Экран",
-        "items": [
-          {
-            "param": "Размер экрана",
-            "value": "6,3\""
-          },
-          {
-            "param": "Разрешение экрана",
-            "value": "1344x2992"
-          },
-          {
-            "param": "Технология экрана",
-            "value": "OLED"
-          },
-          {
-            "param": "Частота обновления экрана",
-            "value": "120 Гц"
-          },
-          {
-            "param": "Количество цветов экрана",
-            "value": "16 млн"
-          },
-          {
-            "param": "Разрешающая способность экрана",
-            "value": "422 ppi"
-          },
-          {
-            "param": "Соотношение сторон",
-            "value": "20:9"
-          },
-          {
-            "param": "Защита от царапин",
-            "value": "Gorilla Glass Victus 2"
-          },
-          {
-            "param": "Длина",
-            "value": "162.8 мм"
-          },
-          {
-            "param": "Ширина",
-            "value": "76.6мм"
-          },
-          {
-            "param": "Толщина",
-            "value": "8.5 мм"
-          },
-          {
-            "param": "Вес",
-            "value": "232 г"
-          }
-        ]
-      },
-      {
-        "section": "Производительность и процессор",
-        "items": [
-          {
-            "param": "Операционная система",
-            "value": "Android"
-          },
-          {
-            "param": "Версия ОС на момент выхода",
-            "value": "Android 16"
-          },
-          {
-            "param": "Оперативная память",
-            "value": "16 ГБ"
-          },
-          {
-            "param": "Встроенная память",
-            "value": "256/512/1024 ГБ"
-          },
-          {
-            "param": "Платформа",
-            "value": "Google"
-          },
-          {
-            "param": "Процессор",
-            "value": "Google Tensor G5"
-          },
-          {
-            "param": "Тактовая частота процессора",
-            "value": "3 780 МГц"
-          },
-          {
-            "param": "Количество ядер",
-            "value": "8 (1+5+2)"
-          },
-          {
-            "param": "Микроархитектура ЦПУ",
-            "value": "ARM Cortex-X4 3.78 ГГц + ARM Cortex-A725 3.05 ГГц + ARM Cortex-A520 2.25 ГГц"
-          },
-          {
-            "param": "Разрядность процессора",
-            "value": "64 бита"
-          },
-          {
-            "param": "Техпроцесс",
-            "value": "3 нм"
-          },
-          {
-            "param": "Графический ускоритель",
-            "value": "IMG DXT-48-1536"
-          },
-          {
-            "param": "Частота ГПУ",
-            "value": "-"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камер",
-        "items": [
-          {
-            "param": "Количество точек матрицы",
-            "value": "50 Мп"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камеры",
-        "items": [
-          {
-            "param": "Характеристики камеры",
-            "value": "50 Мп, f/1.68, 25мм, 1/1.3\", 1.2мкм, 82°, оптическая стабилизация, широкоугольный 48 Мп, f/1.7, 123˚, 1/2.55\", 123°, сверхширокоугольный 48 Мп, f/2.8, 113мм, 1/2.55\", 22°, 5x оптический зум, оптическая стабилизация, телеобъектив"
-          },
-          {
-            "param": "Количество основных камер",
-            "value": "2"
-          },
-          {
-            "param": "Дополнительные модули камеры",
-            "value": "телеобъектив, широкоугольный, сверхширокоугольный"
-          },
-          {
-            "param": "Диафрагма основной камеры",
-            "value": "f/1.68"
-          },
-          {
-            "param": "Максимальное количество кадров в секунду",
-            "value": "240 кадров/с"
-          },
-          {
-            "param": "Фронтальная камера",
-            "value": "10.5 Мп"
-          },
-          {
-            "param": "Диафрагма",
-            "value": "f/2.2"
-          },
-          {
-            "param": "Максимальное разрешение видео",
-            "value": "7680×4320 (30 кадров/с)"
-          }
-        ]
-      },
-      {
-        "section": "Корпус",
-        "items": [
-          {
-            "param": "Конструкция корпуса",
-            "value": "моноблок"
-          },
-          {
-            "param": "Материал корпуса",
-            "value": "металл"
-          },
-          {
-            "param": "Материал задней крышки",
-            "value": "стекло"
-          },
-          {
-            "param": "Пыле- и влагозащита",
-            "value": "IP68"
-          },
-          {
-            "param": "Расположение фронтальной камеры",
-            "value": "в экране"
-          },
-          {
-            "param": "Раздельные слоты",
-            "value": "-"
-          },
-          {
-            "param": "Расположение сканера отпечатка пальца",
-            "value": "встроен в дисплей"
-          },
-          {
-            "param": "Формат SIM-карты",
-            "value": "nano-SIM, eSIM"
-          },
-          {
-            "param": "Количество SIM-карт",
-            "value": "1"
-          },
-          {
-            "param": "Поддержка карт памяти",
-            "value": "-"
-          },
-          {
-            "param": "Максимальная емкость карты памяти",
-            "value": "-"
-          }
-        ]
-      },
-      {
-        "section": "Передача данных",
-        "items": [
-          {
-            "param": "Передача данных",
-            "value": "EDGE HSPA HSPA+ LTE 5G"
-          }
-        ]
-      },
-      {
-        "section": "Интерфейсы",
-        "items": [
-          {
-            "param": "Bluetooth",
-            "value": "6.0"
-          },
-          {
-            "param": "Аудиовыход",
-            "value": "USB Type-C"
-          },
-          {
-            "param": "Wi-Fi",
-            "value": "Wi-Fi 802.11 a/b/g/n/ac/6e/7"
-          },
-          {
-            "param": "Разъём подключения",
-            "value": "USB Type-C 3.2 Gen2"
-          },
-          {
-            "param": "Тип аккумулятора",
-            "value": "Li-ion"
-          },
-          {
-            "param": "Емкость аккумулятора",
-            "value": "5 200 мА·ч"
-          }
-        ]
-      },
-      {
-        "section": "Аккумулятор",
-        "items": [
-          {
-            "param": "Аккумулятор",
-            "value": "несъёмный"
-          }
-        ]
-      }
-    ],
+    "specs": [],
     "vendor": "",
     "model": "Google Pixel 10 Pro XL",
     "typePrefix": "Смартфон",
     "deliveryDays": 0,
-    "preorder": false
+    "preorder": false,
+    "part_number": "",
+    "dual_sim": "",
+    "network_module": "",
+    "model_version": ""
   },
   {
     "id": 37,
@@ -11748,7 +11490,7 @@
     "price": "2590",
     "sale_price": "",
     "short_description": "смартфон, Android, экран OLED (1220x2656) 120 Гц, 6.3\" Qualcomm Snapdragon 8 Elite Gen 5, ОЗУ 12 ГБ, память 256/512 ГБ, камера 50 Мп, аккумулятор 7000 мАч, моноблок, влагозащита IP68",
-    "description": "<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Дата выхода на рынок</div>\r\\n<div class=\"my_item2\">2025г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Экран</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Размер экрана</div>\r\\n<div class=\"my_item2\"><b>6.3</b>\"</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешение экрана</div>\r\\n<div class=\"my_item2\">1220x2656</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Технология экрана</div>\r\\n<div class=\"my_item2\">OLED</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Частота обновления экрана</div>\r\\n<div class=\"my_item2\">120 Гц</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\r\\n<div class=\"my_item2\">Android 16</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\r\\n<div class=\"my_item2\">464 ppi</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Соотношение сторон</div>\r\\n<div class=\"my_item2\">19.6:9</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Защита от царапин</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">Xiaomi Dragon Crystal Glass</span></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Длина</div>\r\\n<div class=\"my_item2\">151.1 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Ширина</div>\r\\n<div class=\"my_item2\">71.8 мм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Толщина</div>\r\\n<div class=\"my_item2\">8.06 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Вес</div>\r\\n<div class=\"my_item2\">191 г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Операционная система</div>\r\\n<div class=\"my_item2\">Android 16</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Оперативная память</div>\r\\n<div class=\"my_item2\">12 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Встроенная память</div>\r\\n<div class=\"my_item2\">256/512 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Платформа</div>\r\\n<div class=\"my_item2\">Qualcomm Snapdragon</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Процессор</div>\r\\n<div class=\"my_item2\">Qualcomm Snapdragon 8 Elite Gen 5</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Количество ядер</div>\r\\n<div class=\"my_item2\">8 (2+6)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\r\\n<div class=\"my_item2\">Oryon V3 Phoenix L 4600 МГц + Oryon V3 Phoenix M 3620 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрядность процессора</div>\r\\n<div class=\"my_item2\">64 бита</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Техпроцесс</div>\r\\n<div class=\"my_item2\">3 нм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Графический ускоритель</div>\r\\n<div class=\"my_item2\">Adreno 840</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Модем</div>\r\\n<div class=\"my_item2\">Qualcomm Snapdragon X80</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Характеристики камер</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество точек матрицы</div>\r\\n<div class=\"my_item2\">50 Мп</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Характеристики камеры</div>\r\\n<div class=\"my_item2\">50 Мп, f/1.67, 23мм, 1/1.31\", 1.2мкм, оптическая стабилизация, щирокоугольный\r\\n50 Мп, f/2.0, 60мм, 1/2.76\", 0.64мкм, PDAF (10см - ∞), оптическая стабилизация, 2.6x оптический зум, оптическая стабилизация, телеобъектив\r\\n50 Мп f/2.4, 17мм, 102˚, 1/2.76\", 0.64мкм, сверхширокоугольный</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество основных камер</div>\r\\n<div class=\"my_item2\">3</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Дополнительные модули камеры</div>\r\\n<div class=\"my_item2\">телеобъектив, широкоугольный, сверхширокоугольный</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Максимальное количество кадров в секунду</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">1920 кадров/с</span> (Slow motion 720p)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Фронтальная камера</div>\r\\n<div class=\"my_item2\">50 Мп</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Макс. разрешение видео фронтальной камеры</div>\r\\n<div class=\"my_item2\">3840x2160 (4K UHD)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Конструкция корпуса</div>\r\\n<div class=\"my_item2\">моноблок</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Материал граней</div>\r\\n<div class=\"my_item2\">алюминий</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Материал задней крышки</div>\r\\n<div class=\"my_item2\">стекло</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\r\\n<div class=\"my_item2\">IP68</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\r\\n<div class=\"my_item2\">в экране</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Раздельные слоты</div>\r\\n<div class=\"my_item2\">SIM 2 и карт памяти</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение сканера отпечатка пальца</div>\r\\n<div class=\"my_item2\">встроен в дисплей</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Формат SIM-карты</div>\r\\n<div class=\"my_item2\">nano-SIM</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество SIM-карт</div>\r\\n<div class=\"my_item2\">2</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Поддержка карт памяти</div>\r\\n<div class=\"my_item2\">microSD, microSDHC, microSDXC</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальная емкость карты памяти</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Передача данных</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Передача данных</div>\r\\n<div class=\"my_item2\">EDGE HSPA HSPA+ LTE 5G</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Интерфейсы</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Bluetooth</div>\r\\n<div class=\"my_item2\">5.4</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Аудиовыход</div>\r\\n<div class=\"my_item2\">USB Type-C</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Wi-Fi</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">802.11be (Wi-Fi 7)</span></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разъём подключения</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">USB Type-C 3.2 Gen1</span></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тип аккумулятора</div>\r\\n<div class=\"my_item2\">Li-ion</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Емкость аккумулятора</div>\r\\n<div class=\"my_item2\">7 000  мА·ч</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Аккумулятор</div>\r\\n<div class=\"my_item2\">несъёмный</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Комплектация</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Комплект поставки</div>\r\\n<div class=\"my_item2\">адаптер питания, USB кабель</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Китайский смартфон, для школьника</div>\r\\n</div>\r\\n<div class=\"my_div2\"></div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"></div>\r\\n</div>",
+    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2025г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Экран</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.3&quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1220x2656</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>OLED</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>120 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 16</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>464 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">19.6:9</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Xiaomi Dragon Crystal Glass</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размеры и вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>151.1 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>71.8 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8.06 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>191 г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Производительность и процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 16</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>12 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>256/512 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Платформа</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon 8 Elite Gen 5</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (2+6)</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Микроархитектура ЦПУ</div><div class=\"my_item2\">Oryon V3 Phoenix L 4600 МГц + Oryon V3 Phoenix M 3620 МГц</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Adreno 840</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Модем</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon X80</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Характеристики камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество точек матрицы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Характеристики камеры</div><div class=\"my_item2\">50 Мп, f/1.67, 23мм, 1/1.31&quot;, 1.2мкм, оптическая стабилизация, щирокоугольный</div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">50 Мп, f/2.0, 60мм, 1/2.76&quot;, 0.64мкм, PDAF (10см - ∞), оптическая стабилизация, 2.6x оптический зум, оптическая стабилизация, телеобъектив</div><div class=\"my_item2\">50 Мп f/2.4, 17мм, 102˚, 1/2.76&quot;, 0.64мкм, сверхширокоугольный</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество основных камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дополнительные модули камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>телеобъектив, широкоугольный, сверхширокоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное количество кадров в секунду</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1920 кадров/с (Slow motion 720p)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Макс. разрешение видео фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3840x2160 (4K UHD)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Корпус</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>моноблок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал граней</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>алюминий</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>стекло</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IP68</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>в экране</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>SIM 2 и карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение сканера отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>встроен в дисплей</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>nano-SIM</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Поддержка карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>microSD, microSDHC, microSDXC</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальная емкость карты памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE 5G</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Интерфейсы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11be (Wi-Fi 7)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 3.2 Gen1</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-ion</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>7 000  мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплектация</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплект поставки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>адаптер питания, USB кабель</strong></div></div>\n",
     "local_images": [
       "/images/xiaomi-17-1.webp",
       "/images/xiaomi-17-2.webp",
@@ -11761,12 +11503,9 @@
     "brand": "Xiaomi",
     "attributes": [
       {
-        "name": "Цвет корпуса",
+        "name": "Оперативная память",
         "options": [
-          "Голубой",
-          "Зеленый",
-          "Розовый",
-          "Черный"
+          "12 ГБ"
         ]
       },
       {
@@ -11777,19 +11516,21 @@
         ]
       },
       {
-        "name": "Оперативная память",
+        "name": "Цвет корпуса",
         "options": [
-          "12 ГБ"
+          "Голубой",
+          "Зеленый",
+          "Розовый",
+          "Черный"
         ]
       }
     ],
     "variations": [
       {
         "id": 313,
-        "name": "Смартфон Xiaomi 17 12GB/256GB международная версия (голубой)",
-        "csvName": "Смартфон Xiaomi 17 12GB/256GB международная версия (голубой)",
-        "price": "2590",
-        "regular_price": "2590",
+        "name": "Xiaomi 17 - Голубой, 12 ГБ, 256 ГБ",
+        "price": "2750",
+        "regular_price": "2750",
         "sale_price": "",
         "attributes": [
           {
@@ -11804,14 +11545,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 314,
-        "name": "Смартфон Xiaomi 17 12GB/256GB международная версия (зеленый)",
-        "csvName": "Смартфон Xiaomi 17 12GB/256GB международная версия (зеленый)",
-        "price": "2590",
-        "regular_price": "2590",
+        "name": "Xiaomi 17 - Зеленый, 12 ГБ, 256 ГБ",
+        "price": "2750",
+        "regular_price": "2750",
         "sale_price": "",
         "attributes": [
           {
@@ -11826,14 +11567,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 315,
-        "name": "Смартфон Xiaomi 17 12GB/256GB международная версия (розовый)",
-        "csvName": "Смартфон Xiaomi 17 12GB/256GB международная версия (розовый)",
-        "price": "2590",
-        "regular_price": "2590",
+        "name": "Xiaomi 17 - Розовый, 12 ГБ, 256 ГБ",
+        "price": "2750",
+        "regular_price": "2750",
         "sale_price": "",
         "attributes": [
           {
@@ -11848,14 +11589,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 316,
-        "name": "Смартфон Xiaomi 17 12GB/256GB международная версия (черный)",
-        "csvName": "Смартфон Xiaomi 17 12GB/256GB международная версия (черный)",
-        "price": "2590",
-        "regular_price": "2590",
+        "name": "Xiaomi 17 - Черный, 12 ГБ, 256 ГБ",
+        "price": "2750",
+        "regular_price": "2750",
         "sale_price": "",
         "attributes": [
           {
@@ -11870,14 +11611,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 317,
-        "name": "Смартфон Xiaomi 17 12GB/512GB международная версия (голубой)",
-        "csvName": "Смартфон Xiaomi 17 12GB/512GB международная версия (голубой)",
-        "price": "2760",
-        "regular_price": "2760",
+        "name": "Xiaomi 17 - Голубой, 12 ГБ, 512 ГБ",
+        "price": "2900",
+        "regular_price": "2900",
         "sale_price": "",
         "attributes": [
           {
@@ -11892,14 +11633,14 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 318,
-        "name": "Смартфон Xiaomi 17 12GB/512GB международная версия (зеленый)",
-        "csvName": "Смартфон Xiaomi 17 12GB/512GB международная версия (зеленый)",
-        "price": "2760",
-        "regular_price": "2760",
+        "name": "Xiaomi 17 - Зеленый, 12 ГБ, 512 ГБ",
+        "price": "2900",
+        "regular_price": "2900",
         "sale_price": "",
         "attributes": [
           {
@@ -11914,14 +11655,14 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 319,
-        "name": "Смартфон Xiaomi 17 12GB/512GB международная версия (розовый)",
-        "csvName": "Смартфон Xiaomi 17 12GB/512GB международная версия (розовый)",
-        "price": "2760",
-        "regular_price": "2760",
+        "name": "Xiaomi 17 - Розовый, 12 ГБ, 512 ГБ",
+        "price": "2900",
+        "regular_price": "2900",
         "sale_price": "",
         "attributes": [
           {
@@ -11936,14 +11677,14 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 320,
-        "name": "Смартфон Xiaomi 17 12GB/512GB международная версия (черный)",
-        "csvName": "Смартфон Xiaomi 17 12GB/512GB международная версия (черный)",
-        "price": "2760",
-        "regular_price": "2760",
+        "name": "Xiaomi 17 - Черный, 12 ГБ, 512 ГБ",
+        "price": "2900",
+        "regular_price": "2900",
         "sale_price": "",
         "attributes": [
           {
@@ -11958,271 +11699,21 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       }
     ],
     "enabled": true,
-    "specs": [
-      {
-        "section": "Основные характеристики",
-        "items": [
-          {
-            "param": "Дата выхода на рынок",
-            "value": "2025г"
-          }
-        ]
-      },
-      {
-        "section": "Экран",
-        "items": [
-          {
-            "param": "Размер экрана",
-            "value": "6.3\""
-          },
-          {
-            "param": "Разрешение экрана",
-            "value": "1220x2656"
-          },
-          {
-            "param": "Технология экрана",
-            "value": "OLED"
-          },
-          {
-            "param": "Частота обновления экрана",
-            "value": "120 Гц"
-          },
-          {
-            "param": "Версия ОС на момент выхода",
-            "value": "Android 16"
-          },
-          {
-            "param": "Разрешающая способность экрана",
-            "value": "464 ppi"
-          },
-          {
-            "param": "Соотношение сторон",
-            "value": "19.6:9"
-          },
-          {
-            "param": "Защита от царапин",
-            "value": "Xiaomi Dragon Crystal Glass"
-          },
-          {
-            "param": "Длина",
-            "value": "151.1 мм"
-          },
-          {
-            "param": "Ширина",
-            "value": "71.8 мм"
-          },
-          {
-            "param": "Толщина",
-            "value": "8.06 мм"
-          },
-          {
-            "param": "Вес",
-            "value": "191 г"
-          }
-        ]
-      },
-      {
-        "section": "Производительность и процессор",
-        "items": [
-          {
-            "param": "Операционная система",
-            "value": "Android 16"
-          },
-          {
-            "param": "Оперативная память",
-            "value": "12 ГБ"
-          },
-          {
-            "param": "Встроенная память",
-            "value": "256/512 ГБ"
-          },
-          {
-            "param": "Платформа",
-            "value": "Qualcomm Snapdragon"
-          },
-          {
-            "param": "Процессор",
-            "value": "Qualcomm Snapdragon 8 Elite Gen 5"
-          },
-          {
-            "param": "Количество ядер",
-            "value": "8 (2+6)"
-          },
-          {
-            "param": "Микроархитектура ЦПУ",
-            "value": "Oryon V3 Phoenix L 4600 МГц + Oryon V3 Phoenix M 3620 МГц"
-          },
-          {
-            "param": "Разрядность процессора",
-            "value": "64 бита"
-          },
-          {
-            "param": "Техпроцесс",
-            "value": "3 нм"
-          },
-          {
-            "param": "Графический ускоритель",
-            "value": "Adreno 840"
-          },
-          {
-            "param": "Модем",
-            "value": "Qualcomm Snapdragon X80"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камер",
-        "items": [
-          {
-            "param": "Количество точек матрицы",
-            "value": "50 Мп"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камеры",
-        "items": [
-          {
-            "param": "Характеристики камеры",
-            "value": "50 Мп, f/1.67, 23мм, 1/1.31\", 1.2мкм, оптическая стабилизация, щирокоугольный 50 Мп, f/2.0, 60мм, 1/2.76\", 0.64мкм, PDAF (10см - ∞), оптическая стабилизация, 2.6x оптический зум, оптическая стабилизация, телеобъектив 50 Мп f/2.4, 17мм, 102˚, 1/2.76\", 0.64мкм, сверхширокоугольный"
-          },
-          {
-            "param": "Количество основных камер",
-            "value": "3"
-          },
-          {
-            "param": "Дополнительные модули камеры",
-            "value": "телеобъектив, широкоугольный, сверхширокоугольный"
-          },
-          {
-            "param": "Максимальное количество кадров в секунду",
-            "value": "1920 кадров/с (Slow motion 720p)"
-          },
-          {
-            "param": "Фронтальная камера",
-            "value": "50 Мп"
-          },
-          {
-            "param": "Макс. разрешение видео фронтальной камеры",
-            "value": "3840x2160 (4K UHD)"
-          }
-        ]
-      },
-      {
-        "section": "Корпус",
-        "items": [
-          {
-            "param": "Конструкция корпуса",
-            "value": "моноблок"
-          },
-          {
-            "param": "Материал граней",
-            "value": "алюминий"
-          },
-          {
-            "param": "Материал задней крышки",
-            "value": "стекло"
-          },
-          {
-            "param": "Пыле- и влагозащита",
-            "value": "IP68"
-          },
-          {
-            "param": "Расположение фронтальной камеры",
-            "value": "в экране"
-          },
-          {
-            "param": "Раздельные слоты",
-            "value": "SIM 2 и карт памяти"
-          },
-          {
-            "param": "Расположение сканера отпечатка пальца",
-            "value": "встроен в дисплей"
-          },
-          {
-            "param": "Формат SIM-карты",
-            "value": "nano-SIM"
-          },
-          {
-            "param": "Количество SIM-карт",
-            "value": "2"
-          },
-          {
-            "param": "Поддержка карт памяти",
-            "value": "microSD, microSDHC, microSDXC"
-          },
-          {
-            "param": "Максимальная емкость карты памяти",
-            "value": "-"
-          }
-        ]
-      },
-      {
-        "section": "Передача данных",
-        "items": [
-          {
-            "param": "Передача данных",
-            "value": "EDGE HSPA HSPA+ LTE 5G"
-          }
-        ]
-      },
-      {
-        "section": "Интерфейсы",
-        "items": [
-          {
-            "param": "Bluetooth",
-            "value": "5.4"
-          },
-          {
-            "param": "Аудиовыход",
-            "value": "USB Type-C"
-          },
-          {
-            "param": "Wi-Fi",
-            "value": "802.11be (Wi-Fi 7)"
-          },
-          {
-            "param": "Разъём подключения",
-            "value": "USB Type-C 3.2 Gen1"
-          },
-          {
-            "param": "Тип аккумулятора",
-            "value": "Li-ion"
-          },
-          {
-            "param": "Емкость аккумулятора",
-            "value": "7 000 мА·ч"
-          }
-        ]
-      },
-      {
-        "section": "Аккумулятор",
-        "items": [
-          {
-            "param": "Аккумулятор",
-            "value": "несъёмный"
-          }
-        ]
-      },
-      {
-        "section": "Комплект поставки",
-        "items": [
-          {
-            "param": "Комплект поставки",
-            "value": "адаптер питания, USB кабель"
-          }
-        ]
-      }
-    ],
+    "specs": [],
     "vendor": "Xiaomi",
     "model": "17",
     "typePrefix": "Смартфон",
     "deliveryDays": 0,
-    "preorder": false
+    "preorder": false,
+    "part_number": "",
+    "dual_sim": "",
+    "network_module": "",
+    "model_version": ""
   },
   {
     "id": 321,
@@ -16045,7 +15536,7 @@
     "price": "1350",
     "sale_price": "",
     "short_description": "11.2\" 144 Гц IPS, (2136x3200), Android, Qualcomm Snapdragon 8s Gen3, ОЗУ 8/12 ГБ, флэш-память 128/256/512 ГБ",
-    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2026г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Экран</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>11.2&quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3200x2136</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IPS LCD</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>144 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>68.7 млрд</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>344 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">3:2</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Закаленное стекло</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размеры и вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>251.22 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>173.42 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.75 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>485 г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Производительность и процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 16</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оболочка UI</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>HyperOS 3</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8/12 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>128/256/512 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Платформа</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon 8s Gen 4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3 210 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (1+3+2+2)</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Микроархитектура ЦПУ</div><div class=\"my_item2\">1 ядро по 3.21 ГГц: Cortex-X4 + 3 ядра по 3 ГГц: Cortex-A720 + 2 ядра по 2.8 ГГц: Cortex-A720 + 2 ядра по 2.02 ГГц: Cortex-A720</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>4 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Adreno 825</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>AnTuTu v10 Total Score</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2 077 165</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Характеристики камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество точек матрицы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Характеристики камеры</div><div class=\"my_item2\">50 Мп, f/1.8, 1/2.76&quot;, 1.28мкм, PDAF, широкоугольный</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество основных камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дополнительные модули камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>широкоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма основной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/1.8</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное количество кадров в секунду</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>30 кадров/с</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>32 Мп</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/2.2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1920x1080 (Full HD)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Корпус</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>моноблок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>металл</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>металл</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Нет</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение сканера отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>в кнопке</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Поддержка карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Нет</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальная емкость карты памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Интерфейсы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11be (Wi-Fi 7)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 2.0</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Беспроводная зарядка/Быстрая зарядка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Нет / Да</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-Pol</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>9 200 мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплектация</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплект поставки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>адаптер питания, кабель USB</strong></div></div>\n",
+    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2026г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Экран</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>11.2&amp;quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3200x2136</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IPS LCD</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>144 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>68.7 млрд</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>344 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">3:2</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Закаленное стекло</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размеры и вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>251.22 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>173.42 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.75 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>485 г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Производительность и процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 16</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оболочка UI</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>HyperOS 3</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8/12 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>128/256/512 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Платформа</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon 8s Gen 4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3 210 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (1+3+2+2)</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Микроархитектура ЦПУ</div><div class=\"my_item2\">1 ядро по 3.21 ГГц: Cortex-X4 + 3 ядра по 3 ГГц: Cortex-A720 + 2 ядра по 2.8 ГГц: Cortex-A720 + 2 ядра по 2.02 ГГц: Cortex-A720</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>4 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Adreno 825</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>AnTuTu v10 Total Score</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2 077 165</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Характеристики камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество точек матрицы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Характеристики камеры</div><div class=\"my_item2\">50 Мп, f/1.8, 1/2.76&amp;quot;, 1.28мкм, PDAF, широкоугольный</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество основных камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дополнительные модули камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>широкоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма основной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/1.8</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное количество кадров в секунду</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>30 кадров/с</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>32 Мп</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/2.2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1920x1080 (Full HD)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Корпус</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>моноблок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>металл</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>металл</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Нет</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение сканера отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>в кнопке</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Поддержка карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Нет</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальная емкость карты памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Интерфейсы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11be (Wi-Fi 7)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 2.0</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Беспроводная зарядка/Быстрая зарядка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Нет / Да</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-Pol</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>9 200 мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплектация</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплект поставки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>адаптер питания, кабель USB</strong></div></div>\n",
     "local_images": [
       "/images/xiaomi-pad-8-1.webp",
       "/images/xiaomi-pad-8-2.webp",
@@ -16084,7 +15575,7 @@
     "variations": [
       {
         "id": 383,
-        "name": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (зеленый)",
+        "name": "Xiaomi Pad 8 - Зеленый, 8 ГБ, 128 ГБ",
         "price": "1350",
         "regular_price": "1350",
         "sale_price": "",
@@ -16102,12 +15593,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 384,
-        "name": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (синий)",
+        "name": "Xiaomi Pad 8 - Синий, 8 ГБ, 128 ГБ",
         "price": "1350",
         "regular_price": "1350",
         "sale_price": "",
@@ -16125,12 +15615,11 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 385,
-        "name": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (черный)",
+        "name": "Xiaomi Pad 8 - Черный, 8 ГБ, 128 ГБ",
         "price": "1350",
         "regular_price": "1350",
         "sale_price": "",
@@ -16148,14 +15637,13 @@
             "option": "128 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/128GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 386,
-        "name": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (зеленый)",
-        "price": "1490",
-        "regular_price": "1490",
+        "name": "Xiaomi Pad 8 - Зеленый, 8 ГБ, 256 ГБ",
+        "price": "1410",
+        "regular_price": "1410",
         "sale_price": "",
         "attributes": [
           {
@@ -16171,14 +15659,13 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 387,
-        "name": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (синий)",
-        "price": "1490",
-        "regular_price": "1490",
+        "name": "Xiaomi Pad 8 - Синий, 8 ГБ, 256 ГБ",
+        "price": "1410",
+        "regular_price": "1410",
         "sale_price": "",
         "attributes": [
           {
@@ -16194,14 +15681,13 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 388,
-        "name": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (черный)",
-        "price": "1490",
-        "regular_price": "1490",
+        "name": "Xiaomi Pad 8 - Черный, 8 ГБ, 256 ГБ",
+        "price": "1410",
+        "regular_price": "1410",
         "sale_price": "",
         "attributes": [
           {
@@ -16217,12 +15703,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 8GB/256GB международная версия (черный)"
+        "enabled": true
       },
       {
         "id": 389,
-        "name": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (зеленый)",
+        "name": "Xiaomi Pad 8 - Зеленый, 12 ГБ, 256 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -16240,12 +15725,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (зеленый)"
+        "enabled": true
       },
       {
         "id": 390,
-        "name": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (синий)",
+        "name": "Xiaomi Pad 8 - Синий, 12 ГБ, 256 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -16263,12 +15747,11 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (синий)"
+        "enabled": true
       },
       {
         "id": 391,
-        "name": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (черный)",
+        "name": "Xiaomi Pad 8 - Черный, 12 ГБ, 256 ГБ",
         "price": "1550",
         "regular_price": "1550",
         "sale_price": "",
@@ -16286,288 +15769,20 @@
             "option": "256 ГБ"
           }
         ],
-        "enabled": true,
-        "csvName": "Планшет Xiaomi Pad 8 12GB/256GB международная версия (черный)"
+        "enabled": true
       }
     ],
     "enabled": true,
-    "specs": [
-      {
-        "section": "Основные характеристики",
-        "items": [
-          {
-            "param": "Дата выхода на рынок",
-            "value": "2026г"
-          }
-        ]
-      },
-      {
-        "section": "Экран",
-        "items": [
-          {
-            "param": "Размер экрана",
-            "value": "11.2\""
-          },
-          {
-            "param": "Разрешение экрана",
-            "value": "3200x2136"
-          },
-          {
-            "param": "Технология экрана",
-            "value": "IPS LCD"
-          },
-          {
-            "param": "Частота обновления экрана",
-            "value": "144 Гц"
-          },
-          {
-            "param": "Количество цветов экрана",
-            "value": "68.7 млрд"
-          },
-          {
-            "param": "Разрешающая способность экрана",
-            "value": "344 ppi"
-          },
-          {
-            "param": "Соотношение сторон",
-            "value": "3:2"
-          },
-          {
-            "param": "Защита от царапин",
-            "value": "Закаленное стекло"
-          }
-        ]
-      },
-      {
-        "section": "Размеры и вес",
-        "items": [
-          {
-            "param": "Длина",
-            "value": "251.22 мм"
-          },
-          {
-            "param": "Ширина",
-            "value": "173.42 мм"
-          },
-          {
-            "param": "Толщина",
-            "value": "5.75 мм"
-          },
-          {
-            "param": "Вес",
-            "value": "485 г"
-          }
-        ]
-      },
-      {
-        "section": "Производительность и процессор",
-        "items": [
-          {
-            "param": "Операционная система",
-            "value": "Android"
-          },
-          {
-            "param": "Версия ОС на момент выхода",
-            "value": "Android 16"
-          },
-          {
-            "param": "Оболочка UI",
-            "value": "HyperOS 3"
-          },
-          {
-            "param": "Оперативная память",
-            "value": "8/12 ГБ"
-          },
-          {
-            "param": "Встроенная память",
-            "value": "128/256/512 ГБ"
-          },
-          {
-            "param": "Платформа",
-            "value": "Qualcomm Snapdragon"
-          },
-          {
-            "param": "Процессор",
-            "value": "Qualcomm Snapdragon 8s Gen 4"
-          },
-          {
-            "param": "Тактовая частота процессора",
-            "value": "3 210 МГц"
-          },
-          {
-            "param": "Количество ядер",
-            "value": "8 (1+3+2+2)"
-          },
-          {
-            "param": "Микроархитектура ЦПУ",
-            "value": "1 ядро по 3.21 ГГц: Cortex-X4 + 3 ядра по 3 ГГц: Cortex-A720 + 2 ядра по 2.8 ГГц: Cortex-A720 + 2 ядра по 2.02 ГГц: Cortex-A720"
-          },
-          {
-            "param": "Разрядность процессора",
-            "value": "64 бита"
-          },
-          {
-            "param": "Техпроцесс",
-            "value": "4 нм"
-          },
-          {
-            "param": "Графический ускоритель",
-            "value": "Adreno 825"
-          },
-          {
-            "param": "AnTuTu v10 Total Score",
-            "value": "2 077 165"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камер",
-        "items": [
-          {
-            "param": "Количество точек матрицы",
-            "value": "50 Мп"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камеры",
-        "items": [
-          {
-            "param": "Характеристики камеры",
-            "value": "50 Мп, f/1.8, 1/2.76\", 1.28мкм, PDAF, широкоугольный"
-          },
-          {
-            "param": "Количество основных камер",
-            "value": "1"
-          },
-          {
-            "param": "Дополнительные модули камеры",
-            "value": "широкоугольный"
-          },
-          {
-            "param": "Диафрагма основной камеры",
-            "value": "f/1.8"
-          },
-          {
-            "param": "Максимальное количество кадров в секунду",
-            "value": "30 кадров/с"
-          },
-          {
-            "param": "Фронтальная камера",
-            "value": "32 Мп"
-          },
-          {
-            "param": "Диафрагма фронтальной камеры",
-            "value": "f/2.2"
-          },
-          {
-            "param": "Максимальное разрешение видео",
-            "value": "1920x1080 (Full HD)"
-          }
-        ]
-      },
-      {
-        "section": "Корпус",
-        "items": [
-          {
-            "param": "Конструкция корпуса",
-            "value": "моноблок"
-          },
-          {
-            "param": "Материал корпуса",
-            "value": "металл"
-          },
-          {
-            "param": "Материал задней крышки",
-            "value": "металл"
-          },
-          {
-            "param": "Пыле- и влагозащита",
-            "value": "Нет"
-          },
-          {
-            "param": "Расположение фронтальной камеры",
-            "value": "—"
-          },
-          {
-            "param": "Раздельные слоты",
-            "value": "—"
-          },
-          {
-            "param": "Расположение сканера отпечатка пальца",
-            "value": "в кнопке"
-          },
-          {
-            "param": "Формат SIM-карты",
-            "value": "—"
-          },
-          {
-            "param": "Количество SIM-карт",
-            "value": "—"
-          },
-          {
-            "param": "Поддержка карт памяти",
-            "value": "Нет"
-          },
-          {
-            "param": "Максимальная емкость карты памяти",
-            "value": "—"
-          }
-        ]
-      },
-      {
-        "section": "Интерфейсы",
-        "items": [
-          {
-            "param": "Bluetooth",
-            "value": "5.4"
-          },
-          {
-            "param": "Аудиовыход",
-            "value": "USB Type-C"
-          },
-          {
-            "param": "Wi-Fi",
-            "value": "802.11be (Wi-Fi 7)"
-          },
-          {
-            "param": "Разъём подключения",
-            "value": "USB Type-C 2.0"
-          }
-        ]
-      },
-      {
-        "section": "Аккумулятор",
-        "items": [
-          {
-            "param": "Беспроводная зарядка/Быстрая зарядка",
-            "value": "Нет / Да"
-          },
-          {
-            "param": "Тип аккумулятора",
-            "value": "Li-Pol"
-          },
-          {
-            "param": "Емкость аккумулятора",
-            "value": "9 200 мА·ч"
-          }
-        ]
-      },
-      {
-        "section": "Комплект поставки",
-        "items": [
-          {
-            "param": "адаптер питания, кабель USB",
-            "value": "адаптер питания, кабель USB"
-          }
-        ]
-      }
-    ],
+    "specs": [],
     "vendor": "Xiaomi",
     "model": "Pad 8",
     "typePrefix": "Планшет",
     "deliveryDays": 0,
-    "preorder": false
+    "preorder": false,
+    "part_number": "",
+    "dual_sim": "",
+    "network_module": "",
+    "model_version": ""
   },
   {
     "id": 392,
@@ -17603,12 +16818,12 @@
   {
     "id": 410,
     "name": "Redmi 15 4G",
-    "slug": "xiaomi-redmi-15-4g",
+    "slug": "redmi-15-4g",
     "type": "variable",
     "price": "530",
     "sale_price": "",
     "short_description": "смартфон, Android, экран 6.9\" (1080x2340) 144 Гц, IPS Qualcomm Snapdragon 685, ОЗУ 6/8 ГБ, память 128/256 ГБ, поддержка карт памяти, камера 50 Мп, аккумулятор 7000 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP64",
-    "description": "<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Дата выхода на рынок</div>\r\\n<div class=\"my_item2\">2025г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Экран</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Размер экрана</div>\r\\n<div class=\"my_item2\">6.9\"</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешение экрана</div>\r\\n<div class=\"my_item2\">1080x2340</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Технология экрана</div>\r\\n<div class=\"my_item2\">IPS</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Частота обновления экрана</div>\r\\n<div class=\"my_item2\">144 Гц</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество цветов экрана</div>\r\\n<div class=\"my_item2\">16 млн</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\r\\n<div class=\"my_item2\">374 ppi</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Соотношение сторон</div>\r\\n<div class=\"my_item2\">20:9</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Защита от царапин</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">Gorilla Glass v3</span></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Длина</div>\r\\n<div class=\"my_item2\"><strong>169.48 мм</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Ширина</div>\r\\n<div class=\"my_item2\"><strong>80.45 мм</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Толщина</div>\r\\n<div class=\"my_item2\"><strong>8.4 мм</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Вес</div>\r\\n<div class=\"my_item2\">214 г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Операционная система</div>\r\\n<div class=\"my_item2\">Android</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\r\\n<div class=\"my_item2\">Android <span class=\"value__text\">15</span></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Оперативная память</div>\r\\n<div class=\"my_item2\">6/8 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Встроенная память</div>\r\\n<div class=\"my_item2\">128/256 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Платформа</div>\r\\n<div class=\"my_item2\">Qualcomm Snapdragon</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Процессор</div>\r\\n<div class=\"my_item2\">Qualcomm Snapdragon 6s Gen 3</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тактовая частота процессора</div>\r\\n<div class=\"my_item2\">2 300 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Количество ядер</div>\r\\n<div class=\"my_item2\">8 (2+6)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\r\\n<div class=\"my_item2\">Kryo Gold (Cortex-A78) 2300 МГц + Kryo Silver (Cortex-A55) 2000 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрядность процессора</div>\r\\n<div class=\"my_item2\">64 бита</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Техпроцесс</div>\r\\n<div class=\"my_item2\">6 нм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Графический ускоритель</div>\r\\n<div class=\"my_item2\">Mali-G52 MC2</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Частота ГПУ</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Характеристики камер</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество точек матрицы</div>\r\\n<div class=\"my_item1\">50 Мп</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Характеристики камеры</div>\r\\n<div class=\"my_item2\">50 Мп, f/1.8, 28мм, 1/2.76\", 0.64мкм, широкоугольный\r\\nQVGA, f/3.0, дополнительный сенсор для портретного режима</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество основных камер</div>\r\\n<div class=\"my_item2\">3</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Диафрагма основной камеры</div>\r\\n<div class=\"my_item2\">f/1.75</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Максимальное количество кадров в секунду</div>\r\\n<div class=\"my_item2\">30 кадров/с</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Фронтальная камера</div>\r\\n<div class=\"my_item2\">13 Мп</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Диафрагма</div>\r\\n<div class=\"my_item2\">f2.45</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\r\\n<div class=\"my_item2\">1920x1080 (Full HD)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Конструкция корпуса</div>\r\\n<div class=\"my_item2\">моноблок</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Материал корпуса</div>\r\\n<div class=\"my_item2\">пластик</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Материал задней крышки</div>\r\\n<div class=\"my_item2\">пластик</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\r\\n<div class=\"my_item2\"><strong>IP53</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Раздельные слоты</div>\r\\n<div class=\"my_item2\">SIM 2 и карт памяти</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Формат SIM-карты</div>\r\\n<div class=\"my_item2\">nano-SIM</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество SIM-карт</div>\r\\n<div class=\"my_item2\">2</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Поддержка карт памяти</div>\r\\n<div class=\"my_item2\">microSD, microSDHC, microSDXC</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальная емкость карты памяти</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Передача данных</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Передача данных</div>\r\\n<div class=\"my_item2\">EDGE HSPA HSPA+ LTE 4G</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Интерфейсы</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Bluetooth</div>\r\\n<div class=\"my_item2\">5.1</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Аудиовыход</div>\r\\n<div class=\"my_item2\">jack 3.5 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Wi-Fi</div>\r\\n<div class=\"my_item2\">802.11ac (Wi-Fi 5)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разъём подключения</div>\r\\n<div class=\"my_item2\">USB Type-C</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тип аккумулятора</div>\r\\n<div class=\"my_item2\">Li-ion</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Емкость аккумулятора</div>\r\\n<div class=\"my_item2\">7 000 мА·ч</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Аккумулятор</div>\r\\n<div class=\"my_item2\">несъёмный</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Комплектация</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Комплект поставки</div>\r\\n<div class=\"my_item2\">адаптер питания, кабель USB-A -&gt; USB-C</div>\r\\n</div>\r\\n<div class=\"my_div2\"></div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"></div>\r\\n</div>",
+    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2025г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Экран</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.9&quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1080x2340</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IPS</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>144 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>16 млн</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>374 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">20:9</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Gorilla Glass v3</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размеры и вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>169.48 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>80.45 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8.4 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>214 г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Производительность и процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 15</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6/8 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>128/256 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Платформа</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon 6s Gen 3</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2 300 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (2+6)</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Микроархитектура ЦПУ</div><div class=\"my_item2\">Kryo Gold (Cortex-A78) 2300 МГц + Kryo Silver (Cortex-A55) 2000 МГц</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Mali-G52 MC2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота ГПУ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Характеристики камер</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Характеристики камеры</div><div class=\"my_item2\">50 Мп, f/1.8, 28мм, 1/2.76&quot;, 0.64мкм, широкоугольный</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>QVGA, f/3.0, дополнительный сенсор для портретного режима</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество основных камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма основной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/1.75</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное количество кадров в секунду</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>30 кадров/с</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>13 Мп</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f2.45</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1920x1080 (Full HD)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Корпус</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>моноблок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>пластик</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>пластик</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IP53</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>SIM 2 и карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>nano-SIM</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Поддержка карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>microSD, microSDHC, microSDXC</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальная емкость карты памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE 4G</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Интерфейсы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.1</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>jack 3.5 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11ac (Wi-Fi 5)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-ion</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>7 000 мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплектация</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплект поставки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>адаптер питания, кабель USB-A -&amp;gt; USB-C</strong></div></div>\n",
     "local_images": [
       "/images/xiaomi-redmi-15-4g-1.webp",
       "/images/xiaomi-redmi-15-4g-2.webp",
@@ -17623,11 +16838,10 @@
     "brand": "Xiaomi",
     "attributes": [
       {
-        "name": "Цвет корпуса",
+        "name": "Оперативная память",
         "options": [
-          "Титановый",
-          "Фиолетовый",
-          "Черный"
+          "6 ГБ",
+          "8 ГБ"
         ]
       },
       {
@@ -17638,20 +16852,20 @@
         ]
       },
       {
-        "name": "Оперативная память",
+        "name": "Цвет корпуса",
         "options": [
-          "6 ГБ",
-          "8 ГБ"
+          "Титановый",
+          "Фиолетовый",
+          "Черный"
         ]
       }
     ],
     "variations": [
       {
         "id": 410,
-        "name": "Смартфон Redmi 15 4G 6GB/128GB международная версия (титановый)",
-        "csvName": "Смартфон Redmi 15 4G 6GB/128GB международная версия (титановый)",
-        "price": "530",
-        "regular_price": "530",
+        "name": "Redmi 15 4G - Титановый, 6 ГБ, 128 ГБ",
+        "price": "600",
+        "regular_price": "600",
         "sale_price": "",
         "attributes": [
           {
@@ -17666,14 +16880,14 @@
             "name": "Встроенная память",
             "option": "128 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 411,
-        "name": "Смартфон Redmi 15 4G 6GB/128GB международная версия (фиолетовый)",
-        "csvName": "Смартфон Redmi 15 4G 6GB/128GB международная версия (фиолетовый)",
-        "price": "530",
-        "regular_price": "530",
+        "name": "Redmi 15 4G - Фиолетовый, 6 ГБ, 128 ГБ",
+        "price": "600",
+        "regular_price": "600",
         "sale_price": "",
         "attributes": [
           {
@@ -17688,14 +16902,14 @@
             "name": "Встроенная память",
             "option": "128 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 412,
-        "name": "Смартфон Redmi 15 4G 6GB/128GB международная версия (черный)",
-        "csvName": "Смартфон Redmi 15 4G 6GB/128GB международная версия (черный)",
-        "price": "530",
-        "regular_price": "530",
+        "name": "Redmi 15 4G - Черный, 6 ГБ, 128 ГБ",
+        "price": "600",
+        "regular_price": "600",
         "sale_price": "",
         "attributes": [
           {
@@ -17710,14 +16924,14 @@
             "name": "Встроенная память",
             "option": "128 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 413,
-        "name": "Смартфон Redmi 15 4G 8GB/256GB международная версия (титановый)",
-        "csvName": "Смартфон Redmi 15 4G 8GB/256GB международная версия (титановый)",
-        "price": "660",
-        "regular_price": "660",
+        "name": "Redmi 15 4G - Титановый, 8 ГБ, 256 ГБ",
+        "price": "700",
+        "regular_price": "700",
         "sale_price": "",
         "attributes": [
           {
@@ -17732,14 +16946,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 414,
-        "name": "Смартфон Redmi 15 4G 8GB/256GB международная версия (фиолетовый)",
-        "csvName": "Смартфон Redmi 15 4G 8GB/256GB международная версия (фиолетовый)",
-        "price": "660",
-        "regular_price": "660",
+        "name": "Redmi 15 4G - Фиолетовый, 8 ГБ, 256 ГБ",
+        "price": "700",
+        "regular_price": "700",
         "sale_price": "",
         "attributes": [
           {
@@ -17754,14 +16968,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 415,
-        "name": "Смартфон Redmi 15 4G 8GB/256GB международная версия (черный)",
-        "csvName": "Смартфон Redmi 15 4G 8GB/256GB международная версия (черный)",
-        "price": "660",
-        "regular_price": "660",
+        "name": "Redmi 15 4G - Черный, 8 ГБ, 256 ГБ",
+        "price": "700",
+        "regular_price": "700",
         "sale_price": "",
         "attributes": [
           {
@@ -17776,266 +16990,21 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       }
     ],
     "enabled": false,
-    "specs": [
-      {
-        "section": "Основные характеристики",
-        "items": [
-          {
-            "param": "Дата выхода на рынок",
-            "value": "2025г"
-          }
-        ]
-      },
-      {
-        "section": "Экран",
-        "items": [
-          {
-            "param": "Размер экрана",
-            "value": "6.9\""
-          },
-          {
-            "param": "Разрешение экрана",
-            "value": "1080x2340"
-          },
-          {
-            "param": "Технология экрана",
-            "value": "IPS"
-          },
-          {
-            "param": "Частота обновления экрана",
-            "value": "144 Гц"
-          },
-          {
-            "param": "Количество цветов экрана",
-            "value": "16 млн"
-          },
-          {
-            "param": "Разрешающая способность экрана",
-            "value": "374 ppi"
-          },
-          {
-            "param": "Соотношение сторон",
-            "value": "20:9"
-          },
-          {
-            "param": "Защита от царапин",
-            "value": "Gorilla Glass v3"
-          },
-          {
-            "param": "Длина",
-            "value": "169.48 мм"
-          },
-          {
-            "param": "Ширина",
-            "value": "80.45 мм"
-          },
-          {
-            "param": "Толщина",
-            "value": "8.4 мм"
-          },
-          {
-            "param": "Вес",
-            "value": "214 г"
-          }
-        ]
-      },
-      {
-        "section": "Производительность и процессор",
-        "items": [
-          {
-            "param": "Операционная система",
-            "value": "Android"
-          },
-          {
-            "param": "Версия ОС на момент выхода",
-            "value": "Android 15"
-          },
-          {
-            "param": "Оперативная память",
-            "value": "6/8 ГБ"
-          },
-          {
-            "param": "Встроенная память",
-            "value": "128/256 ГБ"
-          },
-          {
-            "param": "Платформа",
-            "value": "Qualcomm Snapdragon"
-          },
-          {
-            "param": "Процессор",
-            "value": "Qualcomm Snapdragon 6s Gen 3"
-          },
-          {
-            "param": "Тактовая частота процессора",
-            "value": "2 300 МГц"
-          },
-          {
-            "param": "Количество ядер",
-            "value": "8 (2+6)"
-          },
-          {
-            "param": "Микроархитектура ЦПУ",
-            "value": "Kryo Gold (Cortex-A78) 2300 МГц + Kryo Silver (Cortex-A55) 2000 МГц"
-          },
-          {
-            "param": "Разрядность процессора",
-            "value": "64 бита"
-          },
-          {
-            "param": "Техпроцесс",
-            "value": "6 нм"
-          },
-          {
-            "param": "Графический ускоритель",
-            "value": "Mali-G52 MC2"
-          },
-          {
-            "param": "Частота ГПУ",
-            "value": "-"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камеры",
-        "items": [
-          {
-            "param": "Характеристики камеры",
-            "value": "50 Мп, f/1.8, 28мм, 1/2.76\", 0.64мкм, широкоугольный QVGA, f/3.0, дополнительный сенсор для портретного режима"
-          },
-          {
-            "param": "Количество основных камер",
-            "value": "3"
-          },
-          {
-            "param": "Диафрагма основной камеры",
-            "value": "f/1.75"
-          },
-          {
-            "param": "Максимальное количество кадров в секунду",
-            "value": "30 кадров/с"
-          },
-          {
-            "param": "Фронтальная камера",
-            "value": "13 Мп"
-          },
-          {
-            "param": "Диафрагма",
-            "value": "f2.45"
-          },
-          {
-            "param": "Максимальное разрешение видео",
-            "value": "1920x1080 (Full HD)"
-          }
-        ]
-      },
-      {
-        "section": "Корпус",
-        "items": [
-          {
-            "param": "Конструкция корпуса",
-            "value": "моноблок"
-          },
-          {
-            "param": "Материал корпуса",
-            "value": "пластик"
-          },
-          {
-            "param": "Материал задней крышки",
-            "value": "пластик"
-          },
-          {
-            "param": "Пыле- и влагозащита",
-            "value": "IP53"
-          },
-          {
-            "param": "Раздельные слоты",
-            "value": "SIM 2 и карт памяти"
-          },
-          {
-            "param": "Формат SIM-карты",
-            "value": "nano-SIM"
-          },
-          {
-            "param": "Количество SIM-карт",
-            "value": "2"
-          },
-          {
-            "param": "Поддержка карт памяти",
-            "value": "microSD, microSDHC, microSDXC"
-          },
-          {
-            "param": "Максимальная емкость карты памяти",
-            "value": "-"
-          }
-        ]
-      },
-      {
-        "section": "Передача данных",
-        "items": [
-          {
-            "param": "Передача данных",
-            "value": "EDGE HSPA HSPA+ LTE 4G"
-          }
-        ]
-      },
-      {
-        "section": "Интерфейсы",
-        "items": [
-          {
-            "param": "Bluetooth",
-            "value": "5.1"
-          },
-          {
-            "param": "Аудиовыход",
-            "value": "jack 3.5 мм"
-          },
-          {
-            "param": "Wi-Fi",
-            "value": "802.11ac (Wi-Fi 5)"
-          },
-          {
-            "param": "Разъём подключения",
-            "value": "USB Type-C"
-          },
-          {
-            "param": "Тип аккумулятора",
-            "value": "Li-ion"
-          },
-          {
-            "param": "Емкость аккумулятора",
-            "value": "7 000 мА·ч"
-          }
-        ]
-      },
-      {
-        "section": "Аккумулятор",
-        "items": [
-          {
-            "param": "Аккумулятор",
-            "value": "несъёмный"
-          }
-        ]
-      },
-      {
-        "section": "Комплект поставки",
-        "items": [
-          {
-            "param": "Комплект поставки",
-            "value": "адаптер питания, кабель USB-A -> USB-C"
-          }
-        ]
-      }
-    ],
+    "specs": [],
     "vendor": "Xiaomi",
     "model": "Redmi 15 4G",
     "typePrefix": "Смартфон",
     "deliveryDays": 0,
-    "preorder": false
+    "preorder": false,
+    "part_number": "",
+    "dual_sim": "",
+    "network_module": "",
+    "model_version": ""
   },
   {
     "id": 416,
@@ -23103,7 +22072,7 @@
     "price": "2550",
     "sale_price": "",
     "short_description": "смартфон, Android, экран AMOLED (1272x2772) 165 Гц, 6.78\" Qualcomm Snapdragon 8 Elite Gen 5, ОЗУ 12/16 ГБ, память 256/512/1024 ГБ, камера 50 Мп, аккумулятор 7300 мАч, моноблок, влагозащита IP66/IP68/IP69/IP69K",
-    "description": "<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Дата выхода на рынок</div>\r\\n<div class=\"my_item2\">2025г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Экран</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Размер экрана</div>\r\\n<div class=\"my_item2\">6.78\"</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешение экрана</div>\r\\n<div class=\"my_item2\">1272x2772</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Технология экрана</div>\r\\n<div class=\"my_item2\">AMOLED</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Частота обновления экрана</div>\r\\n<div class=\"my_item2\">165 Гц</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество цветов экрана</div>\r\\n<div class=\"my_item2\">1.073 млрд</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\r\\n<div class=\"my_item2\">450 ppi</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Соотношение сторон</div>\r\\n<div class=\"my_item2\">19.5:9</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Защита от царапин</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Длина</div>\r\\n<div class=\"my_item2\">161.42 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Ширина</div>\r\\n<div class=\"my_item2\">76.67 мм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Толщина</div>\r\\n<div class=\"my_item2\">8.1 мм</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Вес</div>\r\\n<div class=\"my_item2\">211 г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Операционная система</div>\r\\n<div class=\"my_item2\">Android</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\r\\n<div class=\"my_item2\">Android 16</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Оперативная память</div>\r\\n<div class=\"my_item2\">12/16 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Встроенная память</div>\r\\n<div class=\"my_item2\">256/512/1024 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Платформа</div>\r\\n<div class=\"my_item2\">Qualcomm Snapdragon</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Процессор</div>\r\\n<div class=\"my_item2\">Qualcomm Snapdragon 8 Elite Gen 5</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тактовая частота процессора</div>\r\\n<div class=\"my_item2\">4600 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Количество ядер</div>\r\\n<div class=\"my_item2\">8 (2+6)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\r\\n<div class=\"my_item2\">Oryon V3 Phoenix L 4600 МГц + Oryon V3 Phoenix M 3620 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрядность процессора</div>\r\\n<div class=\"my_item2\">64 бита</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Техпроцесс</div>\r\\n<div class=\"my_item2\">3 нм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Графический ускоритель</div>\r\\n<div class=\"my_item2\">Qualcomm Adreno 840</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Частота ГПУ</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Характеристики камер</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество точек матрицы</div>\r\\n<div class=\"my_item2\">50 Мп</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Характеристики камеры</div>\r\\n<div class=\"my_item2\">50 Мп, f/1.8, 24 мм, 1/1.43\", 1.12 мкм, линзы 6P, Multi-Directional PDAF, OIS, широкоугольный\r\\n50 Мп, f/2.0, 16 мм, FOV 116˚, линзы 6P, PDAF, сверхширокоугольный\r\\n50 Мп, f/2.8, 85 мм, 1/2.76\", 0.64 мкм, 3.5x зум, PDAF, OIS, телеобъектив</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество основных камер</div>\r\\n<div class=\"my_item2\">3</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Дополнительные модули камеры</div>\r\\n<div class=\"my_item2\">телеобъектив, широкоугольный, сверхширокоугольный</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Диафрагма основной камеры</div>\r\\n<div class=\"my_item2\">f/1.8</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Максимальное количество кадров в секунду</div>\r\\n<div class=\"my_item2\">480 кадров/с</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Фронтальная камера</div>\r\\n<div class=\"my_item2\">32 Мп</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Диафрагма</div>\r\\n<div class=\"my_item2\">f/2.4</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\r\\n<div class=\"my_item2\">7680x4320</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Конструкция корпуса</div>\r\\n<div class=\"my_item2\">моноблок</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Материал корпуса</div>\r\\n<div class=\"my_item2\">алюминий</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Материал задней крышки</div>\r\\n<div class=\"my_item2\">стекло</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\r\\n<div class=\"my_item2\">IP66 / IP68 / IP69 / IP69K</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\r\\n<div class=\"my_item2\">в экране</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Раздельные слоты</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение сканера отпечатка пальца</div>\r\\n<div class=\"my_item2\">встроен в дисплей</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Формат SIM-карты</div>\r\\n<div class=\"my_item2\">nano-SIM</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество SIM-карт</div>\r\\n<div class=\"my_item2\">2</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Поддержка карт памяти</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальная емкость карты памяти</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Передача данных</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Передача данных</div>\r\\n<div class=\"my_item2\">EDGE HSPA HSPA+ LTE 5G</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Интерфейсы</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Bluetooth</div>\r\\n<div class=\"my_item2\">6.0</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Аудиовыход</div>\r\\n<div class=\"my_item2\">USB Type-C</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Wi-Fi</div>\r\\n<div class=\"my_item2\">802.11be (Wi-Fi 7)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разъём подключения</div>\r\\n<div class=\"my_item2\">USB Type-C 3.2 Gen1</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Беспроводная зарядка/Быстрая зарядка</div>\r\\n<div class=\"my_item2\">50 Вт / 120 Вт</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тип аккумулятора</div>\r\\n<div class=\"my_item2\">Si-C</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Емкость аккумулятора</div>\r\\n<div class=\"my_item2\">7300 мА·ч</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Аккумулятор</div>\r\\n<div class=\"my_item2\">несъёмный</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Комплектация</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Комплект поставки</div>\r\\n<div class=\"my_item2\">-</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Китайский смартфон</div>\r\\n</div>\r\\n<div class=\"my_div2\"></div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"></div>\r\\n</div>",
+    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2025г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Экран</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.78&quot;</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1272x2772</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>AMOLED</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>165 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1.073 млрд</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>450 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">19.5:9</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размеры и вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>161.42 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>76.67 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8.1 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>211 г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Производительность и процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 16</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>12/16 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>256/512/1024 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Платформа</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Snapdragon 8 Elite Gen 5</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>4600 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>8 (2+6)</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Микроархитектура ЦПУ</div><div class=\"my_item2\">Oryon V3 Phoenix L 4600 МГц + Oryon V3 Phoenix M 3620 МГц</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Qualcomm Adreno 840</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота ГПУ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Характеристики камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество точек матрицы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Характеристики камеры</div><div class=\"my_item2\">50 Мп, f/1.8, 24 мм, 1/1.43&quot;, 1.12 мкм, линзы 6P, Multi-Directional PDAF, OIS, широкоугольный</div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">50 Мп, f/2.0, 16 мм, FOV 116˚, линзы 6P, PDAF, сверхширокоугольный</div><div class=\"my_item2\">50 Мп, f/2.8, 85 мм, 1/2.76&quot;, 0.64 мкм, 3.5x зум, PDAF, OIS, телеобъектив</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество основных камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дополнительные модули камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>телеобъектив, широкоугольный, сверхширокоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма основной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/1.8</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное количество кадров в секунду</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>480 кадров/с</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>32 Мп</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/2.4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>7680x4320</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Корпус</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>моноблок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>алюминий</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>стекло</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IP66 / IP68 / IP69 / IP69K</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>в экране</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение сканера отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>встроен в дисплей</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>nano-SIM</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Поддержка карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальная емкость карты памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE 5G</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Интерфейсы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.0</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11be (Wi-Fi 7)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 3.2 Gen1</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Беспроводная зарядка/Быстрая зарядка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Вт / 120 Вт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Si-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>7300 мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплектация</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплект поставки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>-</strong></div></div>\n",
     "local_images": [
       "/images/oneplus-15-1.webp",
       "/images/oneplus-15-2.webp",
@@ -23117,11 +22086,10 @@
     "brand": "OnePlus",
     "attributes": [
       {
-        "name": "Цвет корпуса",
+        "name": "Оперативная память",
         "options": [
-          "Абсолютный черный",
-          "Песчаная дюна",
-          "Туманный сиреневый"
+          "12 ГБ",
+          "16 ГБ"
         ]
       },
       {
@@ -23132,20 +22100,20 @@
         ]
       },
       {
-        "name": "Оперативная память",
+        "name": "Цвет корпуса",
         "options": [
-          "12 ГБ",
-          "16 ГБ"
+          "Абсолютный черный",
+          "Песчаная дюна",
+          "Туманный сиреневый"
         ]
       }
     ],
     "variations": [
       {
         "id": 537,
-        "name": "Смартфон OnePlus 15 12GB/256GB международная версия (песчаная дюна)",
-        "csvName": "Смартфон OnePlus 15 12GB/256GB международная версия (песчаная дюна)",
-        "price": "2550",
-        "regular_price": "2550",
+        "name": "OnePlus 15 - Песчаная дюна, 12 ГБ, 256 ГБ",
+        "price": "2630",
+        "regular_price": "2630",
         "sale_price": "",
         "attributes": [
           {
@@ -23160,14 +22128,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 538,
-        "name": "Смартфон OnePlus 15 12GB/256GB международная версия (туманный сиреневый)",
-        "csvName": "Смартфон OnePlus 15 12GB/256GB международная версия (туманный сиреневый)",
-        "price": "2550",
-        "regular_price": "2550",
+        "name": "OnePlus 15 - Туманный сиреневый, 12 ГБ, 256 ГБ",
+        "price": "2630",
+        "regular_price": "2630",
         "sale_price": "",
         "attributes": [
           {
@@ -23182,14 +22150,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 539,
-        "name": "Смартфон OnePlus 15 12GB/256GB международная версия (абсолютный черный)",
-        "csvName": "Смартфон OnePlus 15 12GB/256GB международная версия (абсолютный черный)",
-        "price": "2550",
-        "regular_price": "2550",
+        "name": "OnePlus 15 - Абсолютный черный, 12 ГБ, 256 ГБ",
+        "price": "2630",
+        "regular_price": "2630",
         "sale_price": "",
         "attributes": [
           {
@@ -23204,12 +22172,12 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 540,
-        "name": "Смартфон OnePlus 15 16GB/512GB международная версия (песчаная дюна)",
-        "csvName": "Смартфон OnePlus 15 16GB/512GB международная версия (песчаная дюна)",
+        "name": "OnePlus 15 - Песчаная дюна, 16 ГБ, 512 ГБ",
         "price": "2900",
         "regular_price": "2900",
         "sale_price": "",
@@ -23226,12 +22194,12 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 541,
-        "name": "Смартфон OnePlus 15 16GB/512GB международная версия (туманный сиреневый)",
-        "csvName": "Смартфон OnePlus 15 16GB/512GB международная версия (туманный сиреневый)",
+        "name": "OnePlus 15 - Туманный сиреневый, 16 ГБ, 512 ГБ",
         "price": "2900",
         "regular_price": "2900",
         "sale_price": "",
@@ -23248,12 +22216,12 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 542,
-        "name": "Смартфон OnePlus 15 16GB/512GB международная версия (абсолютный черный)",
-        "csvName": "Смартфон OnePlus 15 16GB/512GB международная версия (абсолютный черный)",
+        "name": "OnePlus 15 - Абсолютный черный, 16 ГБ, 512 ГБ",
         "price": "2900",
         "regular_price": "2900",
         "sale_price": "",
@@ -23270,291 +22238,21 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       }
     ],
     "enabled": true,
-    "specs": [
-      {
-        "section": "Основные характеристики",
-        "items": [
-          {
-            "param": "Дата выхода на рынок",
-            "value": "2025г"
-          }
-        ]
-      },
-      {
-        "section": "Экран",
-        "items": [
-          {
-            "param": "Размер экрана",
-            "value": "6.78\""
-          },
-          {
-            "param": "Разрешение экрана",
-            "value": "1272x2772"
-          },
-          {
-            "param": "Технология экрана",
-            "value": "AMOLED"
-          },
-          {
-            "param": "Частота обновления экрана",
-            "value": "165 Гц"
-          },
-          {
-            "param": "Количество цветов экрана",
-            "value": "1.073 млрд"
-          },
-          {
-            "param": "Разрешающая способность экрана",
-            "value": "450 ppi"
-          },
-          {
-            "param": "Соотношение сторон",
-            "value": "19.5:9"
-          },
-          {
-            "param": "Защита от царапин",
-            "value": "-"
-          },
-          {
-            "param": "Длина",
-            "value": "161.42 мм"
-          },
-          {
-            "param": "Ширина",
-            "value": "76.67 мм"
-          },
-          {
-            "param": "Толщина",
-            "value": "8.1 мм"
-          },
-          {
-            "param": "Вес",
-            "value": "211 г"
-          }
-        ]
-      },
-      {
-        "section": "Производительность и процессор",
-        "items": [
-          {
-            "param": "Операционная система",
-            "value": "Android"
-          },
-          {
-            "param": "Версия ОС на момент выхода",
-            "value": "Android 16"
-          },
-          {
-            "param": "Оперативная память",
-            "value": "12/16 ГБ"
-          },
-          {
-            "param": "Встроенная память",
-            "value": "256/512/1024 ГБ"
-          },
-          {
-            "param": "Платформа",
-            "value": "Qualcomm Snapdragon"
-          },
-          {
-            "param": "Процессор",
-            "value": "Qualcomm Snapdragon 8 Elite Gen 5"
-          },
-          {
-            "param": "Тактовая частота процессора",
-            "value": "4600 МГц"
-          },
-          {
-            "param": "Количество ядер",
-            "value": "8 (2+6)"
-          },
-          {
-            "param": "Микроархитектура ЦПУ",
-            "value": "Oryon V3 Phoenix L 4600 МГц + Oryon V3 Phoenix M 3620 МГц"
-          },
-          {
-            "param": "Разрядность процессора",
-            "value": "64 бита"
-          },
-          {
-            "param": "Техпроцесс",
-            "value": "3 нм"
-          },
-          {
-            "param": "Графический ускоритель",
-            "value": "Qualcomm Adreno 840"
-          },
-          {
-            "param": "Частота ГПУ",
-            "value": "-"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камер",
-        "items": [
-          {
-            "param": "Количество точек матрицы",
-            "value": "50 Мп"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камеры",
-        "items": [
-          {
-            "param": "Характеристики камеры",
-            "value": "50 Мп, f/1.8, 24 мм, 1/1.43\", 1.12 мкм, линзы 6P, Multi-Directional PDAF, OIS, широкоугольный 50 Мп, f/2.0, 16 мм, FOV 116˚, линзы 6P, PDAF, сверхширокоугольный 50 Мп, f/2.8, 85 мм, 1/2.76\", 0.64 мкм, 3.5x зум, PDAF, OIS, телеобъектив"
-          },
-          {
-            "param": "Количество основных камер",
-            "value": "3"
-          },
-          {
-            "param": "Дополнительные модули камеры",
-            "value": "телеобъектив, широкоугольный, сверхширокоугольный"
-          },
-          {
-            "param": "Диафрагма основной камеры",
-            "value": "f/1.8"
-          },
-          {
-            "param": "Максимальное количество кадров в секунду",
-            "value": "480 кадров/с"
-          },
-          {
-            "param": "Фронтальная камера",
-            "value": "32 Мп"
-          },
-          {
-            "param": "Диафрагма",
-            "value": "f/2.4"
-          },
-          {
-            "param": "Максимальное разрешение видео",
-            "value": "7680x4320"
-          }
-        ]
-      },
-      {
-        "section": "Корпус",
-        "items": [
-          {
-            "param": "Конструкция корпуса",
-            "value": "моноблок"
-          },
-          {
-            "param": "Материал корпуса",
-            "value": "алюминий"
-          },
-          {
-            "param": "Материал задней крышки",
-            "value": "стекло"
-          },
-          {
-            "param": "Пыле- и влагозащита",
-            "value": "IP66 / IP68 / IP69 / IP69K"
-          },
-          {
-            "param": "Расположение фронтальной камеры",
-            "value": "в экране"
-          },
-          {
-            "param": "Раздельные слоты",
-            "value": "-"
-          },
-          {
-            "param": "Расположение сканера отпечатка пальца",
-            "value": "встроен в дисплей"
-          },
-          {
-            "param": "Формат SIM-карты",
-            "value": "nano-SIM"
-          },
-          {
-            "param": "Количество SIM-карт",
-            "value": "2"
-          },
-          {
-            "param": "Поддержка карт памяти",
-            "value": "-"
-          },
-          {
-            "param": "Максимальная емкость карты памяти",
-            "value": "-"
-          }
-        ]
-      },
-      {
-        "section": "Передача данных",
-        "items": [
-          {
-            "param": "Передача данных",
-            "value": "EDGE HSPA HSPA+ LTE 5G"
-          }
-        ]
-      },
-      {
-        "section": "Интерфейсы",
-        "items": [
-          {
-            "param": "Bluetooth",
-            "value": "6.0"
-          },
-          {
-            "param": "Аудиовыход",
-            "value": "USB Type-C"
-          },
-          {
-            "param": "Wi-Fi",
-            "value": "802.11be (Wi-Fi 7)"
-          },
-          {
-            "param": "Разъём подключения",
-            "value": "USB Type-C 3.2 Gen1"
-          },
-          {
-            "param": "Беспроводная зарядка/Быстрая зарядка",
-            "value": "50 Вт / 120 Вт"
-          },
-          {
-            "param": "Тип аккумулятора",
-            "value": "Si-C"
-          },
-          {
-            "param": "Емкость аккумулятора",
-            "value": "7300 мА·ч"
-          }
-        ]
-      },
-      {
-        "section": "Аккумулятор",
-        "items": [
-          {
-            "param": "Аккумулятор",
-            "value": "несъёмный"
-          }
-        ]
-      },
-      {
-        "section": "Комплект поставки",
-        "items": [
-          {
-            "param": "Комплект поставки",
-            "value": "-"
-          }
-        ]
-      }
-    ],
+    "specs": [],
     "vendor": "OnePlus",
     "model": "15",
     "typePrefix": "Смартфон",
     "deliveryDays": 0,
-    "preorder": false
+    "preorder": false,
+    "part_number": "",
+    "dual_sim": "",
+    "network_module": "",
+    "model_version": ""
   },
   {
     "id": 543,
@@ -54221,7 +52919,7 @@
     "price": "2590",
     "sale_price": "",
     "short_description": "смартфон, Android, экран AMOLED (1080x2520) 120 Гц, 6.9\" Exynos 2500, ОЗУ 12 ГБ, память 256/512 ГБ, камера 50 Мп, аккумулятор 4300 мАч, со складным экраном (flip), влагозащита IP48",
-    "description": "<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Дата выхода на рынок</div>\r\\n<div class=\"my_item2\">2025г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Экран</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Размер экрана</div>\r\\n<div class=\"my_item2\">6.9″</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешение экрана</div>\r\\n<div class=\"my_item2\">1080x2520</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Технология экрана</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">AMOLED </span></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Частота обновления экрана</div>\r\\n<div class=\"my_item2\">120 Гц</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество цветов экрана</div>\r\\n<div class=\"my_item2\">16 млн</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрешающая способность экрана</div>\r\\n<div class=\"my_item2\">397 ppi</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Соотношение сторон</div>\r\\n<div class=\"my_item2\">22:9</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Защита от царапин</div>\r\\n<div class=\"my_item2\">Gorilla Glass Victus 2</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Размеры и вес</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Длина</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">166.7 мм (85.5 мм - в закрытом положении)</span></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Ширина</div>\r\\n<div class=\"my_item2\">75.2 мм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Толщина</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">6.5 мм (13.7 мм - в закрытом положении)</span></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Вес</div>\r\\n<div class=\"my_item2\">188 г</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Производительность и процессор</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Операционная система</div>\r\\n<div class=\"my_item2\">Android</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Версия ОС на момент выхода</div>\r\\n<div class=\"my_item2\">Android 16</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Оперативная память</div>\r\\n<div class=\"my_item2\">12 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Встроенная память</div>\r\\n<div class=\"my_item2\">256/512 ГБ</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Платформа</div>\r\\n<div class=\"my_item2\">Samsung Exynos</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Процессор</div>\r\\n<div class=\"my_item2\">Exynos 2500</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тактовая частота процессора</div>\r\\n<div class=\"my_item2\">3 300 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Количество ядер</div>\r\\n<div class=\"my_item2\">10 (1+2+5+2)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Микроархитектура ЦПУ</div>\r\\n<div class=\"my_item2\">ARM Cortex-X925 3300 МГц + Cortex-A725 2740 МГц + Cortex-A725 2360 МГц + Cortex-A520 1800 МГц</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разрядность процессора</div>\r\\n<div class=\"my_item2\">64 бита</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Техпроцесс</div>\r\\n<div class=\"my_item2\">3 нм</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Графический ускоритель</div>\r\\n<div class=\"my_item2\">Xclipse 950</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">AnTuTu v9 Total Score</div>\r\\n<div class=\"my_item2\">—</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Характеристики камер</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество точек матрицы</div>\r\\n<div class=\"my_item2\">50 Мп</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Характеристики камеры</div>\r\\n<div class=\"my_item2\">50 Мп, 23 мм, f/1.8, 1/1.57\", 1.0 мкм, FOV 85°, Dual Pixel AF, оптическая стабилизация, широкоугольный\r\\n12 Мп, 13 мм, f/2.2, 1/3.2\", 1.12 мкм, FOV 123°, сверхширокоугольный</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество основных камер</div>\r\\n<div class=\"my_item2\">2</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Дополнительные модули камеры</div>\r\\n<div class=\"my_item2\">широкоугольный, сверхширокоугольный</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Диафрагма основной камеры</div>\r\\n<div class=\"my_item2\">f/1.8</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Максимальное количество кадров в секунду</div>\r\\n<div class=\"my_item2\"><span class=\"value__text\">240 кадров/с</span> (Slow Motion)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Фронтальная камера</div>\r\\n<div class=\"my_item2\"> <span class=\"value__text\">10 Мп</span>  (1.22мкм, 85˚)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Диафрагма</div>\r\\n<div class=\"my_item2\">f/2.2</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальное разрешение видео</div>\r\\n<div class=\"my_item2\">3840х2160 (4K UHD)</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Корпус</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Конструкция корпуса</div>\r\\n<div class=\"my_item2\">со складным экраном</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Материал корпуса</div>\r\\n<div class=\"my_item2\">металл</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Материал задней крышки</div>\r\\n<div class=\"my_item2\">стекло</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Пыле- и влагозащита</div>\r\\n<div class=\"my_item2\">IP48</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение фронтальной камеры</div>\r\\n<div class=\"my_item2\">в экране</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Раздельные слоты</div>\r\\n<div class=\"my_item2\">—</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Расположение сканера отпечатка пальца</div>\r\\n<div class=\"my_item2\">на боковом торце</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Формат SIM-карты</div>\r\\n<div class=\"my_item2\">nano-SIM, eSIM</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Количество SIM-карт</div>\r\\n<div class=\"my_item2\">1</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Поддержка карт памяти</div>\r\\n<div class=\"my_item2\">—</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Максимальная емкость карты памяти</div>\r\\n<div class=\"my_item2\">—</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Передача данных</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Передача данных</div>\r\\n<div class=\"my_item2\">EDGE HSPA HSPA+ LTE 5G</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Интерфейсы</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Bluetooth</div>\r\\n<div class=\"my_item2\">5.4</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Аудиовыход</div>\r\\n<div class=\"my_item2\">USB Type-C</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Wi-Fi</div>\r\\n<div class=\"my_item2\"> <span class=\"value__text\">802.11be (Wi-Fi 7)</span></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Разъём подключения</div>\r\\n<div class=\"my_item2\">USB Type-C 3.2 Gen1</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\"><strong>Аккумулятор</strong></div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Беспроводная зарядка/Быстрая зарядка</div>\r\\n<div class=\"my_item2\">+ (10 Вт) / + (15 Вт)</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Тип аккумулятора</div>\r\\n<div class=\"my_item2\">Li-ion</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\">Емкость аккумулятора</div>\r\\n<div class=\"my_item2\">4 300  мА·ч</div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Аккумулятор</div>\r\\n<div class=\"my_item2\">несъёмный</div>\r\\n</div>\r\\n<div class=\"my_div1\">\r\\n<div class=\"my_item1\"><strong>Комплектация</strong></div>\r\\n</div>\r\\n<div class=\"my_div2\">\r\\n<div class=\"my_item1\">Комплект поставки</div>\r\\n<div class=\"my_item2\">USB кабель</div>\r\\n</div>",
+    "description": "<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дата выхода на рынок</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2025г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Экран</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размер экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.9″</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешение экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1080x2520</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Технология экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>AMOLED</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Частота обновления экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>120 Гц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество цветов экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>16 млн</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрешающая способность экрана</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>397 ppi</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Соотношение сторон</div><div class=\"my_item2\">22:9</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Защита от царапин</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Gorilla Glass Victus 2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Размеры и вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Длина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>166.7 мм (85.5 мм - в закрытом положении)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Ширина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>75.2 мм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Толщина</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>6.5 мм (13.7 мм - в закрытом положении)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Вес</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>188 г</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Производительность и процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Операционная система</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Версия ОС на момент выхода</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Android 16</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Оперативная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>12 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Встроенная память</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>256/512 ГБ</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Платформа</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Samsung Exynos</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Процессор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Exynos 2500</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тактовая частота процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3 300 МГц</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество ядер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>10 (1+2+5+2)</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Микроархитектура ЦПУ</div><div class=\"my_item2\">ARM Cortex-X925 3300 МГц + Cortex-A725 2740 МГц + Cortex-A725 2360 МГц + Cortex-A520 1800 МГц</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разрядность процессора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>64 бита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Техпроцесс</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3 нм</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Графический ускоритель</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Xclipse 950</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>AnTuTu v9 Total Score</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Характеристики камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество точек матрицы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>50 Мп</strong></div></div>\n<div class=\"my_div2\"><div class=\"my_item1\">Характеристики камеры</div><div class=\"my_item2\">50 Мп, 23 мм, f/1.8, 1/1.57&quot;, 1.0 мкм, FOV 85°, Dual Pixel AF, оптическая стабилизация, широкоугольный</div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>12 Мп, 13 мм, f/2.2, 1/3.2&quot;, 1.12 мкм, FOV 123°, сверхширокоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество основных камер</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Дополнительные модули камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>широкоугольный, сверхширокоугольный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма основной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/1.8</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное количество кадров в секунду</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>240 кадров/с (Slow Motion)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Фронтальная камера</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>10 Мп  (1.22мкм, 85˚)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Диафрагма</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>f/2.2</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальное разрешение видео</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>3840х2160 (4K UHD)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Корпус</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Конструкция корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>со складным экраном</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал корпуса</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>металл</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Материал задней крышки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>стекло</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Пыле- и влагозащита</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>IP48</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение фронтальной камеры</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>в экране</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Раздельные слоты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Расположение сканера отпечатка пальца</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>на боковом торце</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Формат SIM-карты</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>nano-SIM, eSIM</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Количество SIM-карт</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>1</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Поддержка карт памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Максимальная емкость карты памяти</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>—</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Передача данных</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>EDGE HSPA HSPA+ LTE 5G</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Интерфейсы</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Bluetooth</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>5.4</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аудиовыход</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Wi-Fi</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>802.11be (Wi-Fi 7)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Разъём подключения</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB Type-C 3.2 Gen1</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Беспроводная зарядка/Быстрая зарядка</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>+ (10 Вт) / + (15 Вт)</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Тип аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Li-ion</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Емкость аккумулятора</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>4 300  мА·ч</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Аккумулятор</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>несъёмный</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплектация</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>Комплект поставки</strong></div></div>\n<div class=\"my_div1\"><div class=\"my_item1\"><strong>USB кабель</strong></div></div>\n",
     "local_images": [
       "/images/samsung-galaxy-z-flip7-1.webp",
       "/images/samsung-galaxy-z-flip7-2.webp",
@@ -54234,11 +52932,9 @@
     "brand": "Samsung",
     "attributes": [
       {
-        "name": "Цвет корпуса",
+        "name": "Оперативная память",
         "options": [
-          "Коралловый",
-          "Синий",
-          "Черный"
+          "12 ГБ"
         ]
       },
       {
@@ -54249,19 +52945,20 @@
         ]
       },
       {
-        "name": "Оперативная память",
+        "name": "Цвет корпуса",
         "options": [
-          "12 ГБ"
+          "Коралловый",
+          "Синий",
+          "Черный"
         ]
       }
     ],
     "variations": [
       {
         "id": 1111,
-        "name": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/256GB (коралловый)",
-        "csvName": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/256GB (коралловый)",
-        "price": "2590",
-        "regular_price": "2590",
+        "name": "Samsung Galaxy Z Flip7 - Коралловый, 12 ГБ, 256 ГБ",
+        "price": "3000",
+        "regular_price": "3000",
         "sale_price": "",
         "attributes": [
           {
@@ -54276,14 +52973,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 1112,
-        "name": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/256GB (синий)",
-        "csvName": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/256GB (синий)",
-        "price": "2590",
-        "regular_price": "2590",
+        "name": "Samsung Galaxy Z Flip7 - Синий, 12 ГБ, 256 ГБ",
+        "price": "3000",
+        "regular_price": "3000",
         "sale_price": "",
         "attributes": [
           {
@@ -54298,14 +52995,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 1113,
-        "name": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/256GB (черный)",
-        "csvName": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/256GB (черный)",
-        "price": "2590",
-        "regular_price": "2590",
+        "name": "Samsung Galaxy Z Flip7 - Черный, 12 ГБ, 256 ГБ",
+        "price": "3000",
+        "regular_price": "3000",
         "sale_price": "",
         "attributes": [
           {
@@ -54320,14 +53017,14 @@
             "name": "Встроенная память",
             "option": "256 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 1114,
-        "name": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/512GB (коралловый)",
-        "csvName": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/512GB (коралловый)",
-        "price": "2840",
-        "regular_price": "2840",
+        "name": "Samsung Galaxy Z Flip7 - Коралловый, 12 ГБ, 512 ГБ",
+        "price": "3200",
+        "regular_price": "3200",
         "sale_price": "",
         "attributes": [
           {
@@ -54342,14 +53039,14 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 1115,
-        "name": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/512GB (синий)",
-        "csvName": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/512GB (синий)",
-        "price": "2840",
-        "regular_price": "2840",
+        "name": "Samsung Galaxy Z Flip7 - Синий, 12 ГБ, 512 ГБ",
+        "price": "3200",
+        "regular_price": "3200",
         "sale_price": "",
         "attributes": [
           {
@@ -54364,14 +53061,14 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": 1116,
-        "name": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/512GB (черный)",
-        "csvName": "Смартфон Samsung Galaxy Z Flip7 SM-F766B 12GB/512GB (черный)",
-        "price": "2840",
-        "regular_price": "2840",
+        "name": "Samsung Galaxy Z Flip7 - Черный, 12 ГБ, 512 ГБ",
+        "price": "3200",
+        "regular_price": "3200",
         "sale_price": "",
         "attributes": [
           {
@@ -54386,291 +53083,21 @@
             "name": "Встроенная память",
             "option": "512 ГБ"
           }
-        ]
+        ],
+        "enabled": true
       }
     ],
     "enabled": true,
-    "specs": [
-      {
-        "section": "Основные характеристики",
-        "items": [
-          {
-            "param": "Дата выхода на рынок",
-            "value": "2025г"
-          }
-        ]
-      },
-      {
-        "section": "Экран",
-        "items": [
-          {
-            "param": "Размер экрана",
-            "value": "6.9″"
-          },
-          {
-            "param": "Разрешение экрана",
-            "value": "1080x2520"
-          },
-          {
-            "param": "Технология экрана",
-            "value": "AMOLED"
-          },
-          {
-            "param": "Частота обновления экрана",
-            "value": "120 Гц"
-          },
-          {
-            "param": "Количество цветов экрана",
-            "value": "16 млн"
-          },
-          {
-            "param": "Разрешающая способность экрана",
-            "value": "397 ppi"
-          },
-          {
-            "param": "Соотношение сторон",
-            "value": "22:9"
-          },
-          {
-            "param": "Защита от царапин",
-            "value": "Gorilla Glass Victus 2"
-          },
-          {
-            "param": "Длина",
-            "value": "166.7 мм (85.5 мм - в закрытом положении)"
-          },
-          {
-            "param": "Ширина",
-            "value": "75.2 мм"
-          },
-          {
-            "param": "Толщина",
-            "value": "6.5 мм (13.7 мм - в закрытом положении)"
-          },
-          {
-            "param": "Вес",
-            "value": "188 г"
-          }
-        ]
-      },
-      {
-        "section": "Производительность и процессор",
-        "items": [
-          {
-            "param": "Операционная система",
-            "value": "Android"
-          },
-          {
-            "param": "Версия ОС на момент выхода",
-            "value": "Android 16"
-          },
-          {
-            "param": "Оперативная память",
-            "value": "12 ГБ"
-          },
-          {
-            "param": "Встроенная память",
-            "value": "256/512 ГБ"
-          },
-          {
-            "param": "Платформа",
-            "value": "Samsung Exynos"
-          },
-          {
-            "param": "Процессор",
-            "value": "Exynos 2500"
-          },
-          {
-            "param": "Тактовая частота процессора",
-            "value": "3 300 МГц"
-          },
-          {
-            "param": "Количество ядер",
-            "value": "10 (1+2+5+2)"
-          },
-          {
-            "param": "Микроархитектура ЦПУ",
-            "value": "ARM Cortex-X925 3300 МГц + Cortex-A725 2740 МГц + Cortex-A725 2360 МГц + Cortex-A520 1800 МГц"
-          },
-          {
-            "param": "Разрядность процессора",
-            "value": "64 бита"
-          },
-          {
-            "param": "Техпроцесс",
-            "value": "3 нм"
-          },
-          {
-            "param": "Графический ускоритель",
-            "value": "Xclipse 950"
-          },
-          {
-            "param": "AnTuTu v9 Total Score",
-            "value": "—"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камер",
-        "items": [
-          {
-            "param": "Количество точек матрицы",
-            "value": "50 Мп"
-          }
-        ]
-      },
-      {
-        "section": "Характеристики камеры",
-        "items": [
-          {
-            "param": "Характеристики камеры",
-            "value": "50 Мп, 23 мм, f/1.8, 1/1.57\", 1.0 мкм, FOV 85°, Dual Pixel AF, оптическая стабилизация, широкоугольный 12 Мп, 13 мм, f/2.2, 1/3.2\", 1.12 мкм, FOV 123°, сверхширокоугольный"
-          },
-          {
-            "param": "Количество основных камер",
-            "value": "2"
-          },
-          {
-            "param": "Дополнительные модули камеры",
-            "value": "широкоугольный, сверхширокоугольный"
-          },
-          {
-            "param": "Диафрагма основной камеры",
-            "value": "f/1.8"
-          },
-          {
-            "param": "Максимальное количество кадров в секунду",
-            "value": "240 кадров/с (Slow Motion)"
-          },
-          {
-            "param": "Фронтальная камера",
-            "value": "10 Мп (1.22мкм, 85˚)"
-          },
-          {
-            "param": "Диафрагма",
-            "value": "f/2.2"
-          },
-          {
-            "param": "Максимальное разрешение видео",
-            "value": "3840х2160 (4K UHD)"
-          }
-        ]
-      },
-      {
-        "section": "Корпус",
-        "items": [
-          {
-            "param": "Конструкция корпуса",
-            "value": "со складным экраном"
-          },
-          {
-            "param": "Материал корпуса",
-            "value": "металл"
-          },
-          {
-            "param": "Материал задней крышки",
-            "value": "стекло"
-          },
-          {
-            "param": "Пыле- и влагозащита",
-            "value": "IP48"
-          },
-          {
-            "param": "Расположение фронтальной камеры",
-            "value": "в экране"
-          },
-          {
-            "param": "Раздельные слоты",
-            "value": "—"
-          },
-          {
-            "param": "Расположение сканера отпечатка пальца",
-            "value": "на боковом торце"
-          },
-          {
-            "param": "Формат SIM-карты",
-            "value": "nano-SIM, eSIM"
-          },
-          {
-            "param": "Количество SIM-карт",
-            "value": "1"
-          },
-          {
-            "param": "Поддержка карт памяти",
-            "value": "—"
-          },
-          {
-            "param": "Максимальная емкость карты памяти",
-            "value": "—"
-          }
-        ]
-      },
-      {
-        "section": "Передача данных",
-        "items": [
-          {
-            "param": "Передача данных",
-            "value": "EDGE HSPA HSPA+ LTE 5G"
-          }
-        ]
-      },
-      {
-        "section": "Интерфейсы",
-        "items": [
-          {
-            "param": "Bluetooth",
-            "value": "5.4"
-          },
-          {
-            "param": "Аудиовыход",
-            "value": "USB Type-C"
-          },
-          {
-            "param": "Wi-Fi",
-            "value": "802.11be (Wi-Fi 7)"
-          },
-          {
-            "param": "Разъём подключения",
-            "value": "USB Type-C 3.2 Gen1"
-          },
-          {
-            "param": "Беспроводная зарядка/Быстрая зарядка",
-            "value": "+ (10 Вт) / + (15 Вт)"
-          },
-          {
-            "param": "Тип аккумулятора",
-            "value": "Li-ion"
-          },
-          {
-            "param": "Емкость аккумулятора",
-            "value": "4 300 мА·ч"
-          }
-        ]
-      },
-      {
-        "section": "Аккумулятор",
-        "items": [
-          {
-            "param": "Аккумулятор",
-            "value": "несъёмный"
-          }
-        ]
-      },
-      {
-        "section": "Комплект поставки",
-        "items": [
-          {
-            "param": "Комплект поставки",
-            "value": "USB кабель"
-          }
-        ]
-      }
-    ],
+    "specs": [],
     "vendor": "Samsung",
     "model": "Galaxy Z Flip7",
     "typePrefix": "Смартфон",
     "deliveryDays": 0,
-    "preorder": false
+    "preorder": false,
+    "part_number": "",
+    "dual_sim": "",
+    "network_module": "",
+    "model_version": ""
   },
   {
     "id": 1117,
