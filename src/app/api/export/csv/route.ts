@@ -35,11 +35,12 @@ function normalizeMemory(s: string): string {
 }
 
 function getBrand(p: LocalProduct): string {
-  if (p.vendor) return p.vendor;
-  for (const cat of p.categories) {
-    const parts = cat.split(' > ');
-    if (parts.length >= 2) return parts[1];
-  }
+  // Brand is only included if it's a prefix of the product name
+  // (e.g. "Google Pixel 10" → brand "Google", model "Pixel 10")
+  // For "Redmi Note 17 Pro 5G" with vendor "Xiaomi" → brand is NOT included
+  // because the name doesn't start with the brand
+  const vendor = p.vendor || '';
+  if (vendor && p.name.startsWith(vendor)) return vendor;
   return '';
 }
 
@@ -64,8 +65,8 @@ function buildVariationName(p: LocalProduct, attrs: Record<string, string>): str
   // dual_sim
   if (p.dual_sim) parts.push(p.dual_sim);
 
-  // network_module (4G/5G/LTE) — skip if already in model name
-  const netMod = p.network_module || '';
+  // network_module (4G/5G/LTE) — prefer variation-level attribute over product-level
+  const netMod = attrs['Модуль антенны'] || p.network_module || '';
   if (netMod && !model.toLowerCase().includes(netMod.toLowerCase())) parts.push(netMod);
 
   // part_number (SM-xxx, MLN-LX9, etc.)

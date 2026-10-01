@@ -17,6 +17,7 @@ interface SearchResult {
 export default function Header() {
   const [cartCount, setCartCount] = useState(0);
   const [compareCount, setCompareCount] = useState(0);
+  const [isAdmin, setIsAdmin] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -28,6 +29,7 @@ export default function Header() {
     const updateCompare = () => setCompareCount(getCompareCount());
     updateCart();
     updateCompare();
+    fetch('/api/admin/check').then(r => r.json()).then(d => setIsAdmin(!!d.isAdmin)).catch(() => {});
     window.addEventListener('cart-updated', updateCart);
     window.addEventListener('compare-updated', updateCompare);
     return () => {
@@ -178,6 +180,16 @@ export default function Header() {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M11.4 0C7.224 0 3.818 3.406 3.818 7.582v4.436L.59 14.882c-.388.312-.164.882.336.882h2.891c.276 0 .5.224.5.5v2.891c0 .5.67.724.882.336l2.865-4.244h4.336c4.176 0 7.582-3.406 7.582-7.582S15.576 0 11.4 0zm-2.1 4.4c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5zm4.2 0c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5-1.5-.672-1.5-1.5.672-1.5 1.5-1.5zm4.2 2.1c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1z"/></svg>
               </a>
             </div>
+
+            {isAdmin && (
+              <Link href="/admin/products" className="flex flex-col items-center gap-0.5 p-2 text-gray-600 hover:text-black transition-colors" title="Админка">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span className="text-[10px] font-medium hidden sm:block">Админ</span>
+              </Link>
+            )}
 
             <Link href="/compare" className="relative flex flex-col items-center gap-0.5 p-2 text-gray-600 hover:text-blue-600 transition-colors">
               <div className="relative">

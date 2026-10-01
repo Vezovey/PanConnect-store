@@ -51,6 +51,8 @@ const CATEGORIES_TREE: Record<string, string[]> = {
 
 const RAM_OPTIONS = ['3 ГБ', '4 ГБ', '6 ГБ', '8 ГБ', '12 ГБ', '16 ГБ', '24 ГБ', '32 ГБ'];
 const STORAGE_OPTIONS = ['32 ГБ', '64 ГБ', '128 ГБ', '256 ГБ', '512 ГБ', '1 ТБ', '2 ТБ'];
+const NETWORK_OPTIONS = ['Wi-Fi', '4G', '5G', 'LTE'];
+
 const COLOR_OPTIONS = ['Чёрный', 'Белый', 'Синий', 'Зелёный', 'Серебро', 'Серый', 'Голубой', 'Фиолетовый', 'Оранжевый', 'Золото', 'Розовый', 'Красный', 'Бежевый'];
 
 function slugifyRu(s: string): string {
@@ -112,6 +114,10 @@ function parseTextToSpecsHtml(text: string): string {
 }
 
 /* ── HTML → текст (для редактирования) ───────────── */
+function decodeEntities(s: string): string {
+  return s.replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+}
+
 function convertHtmlToPlainText(html: string): string {
   if (!html) return '';
   const normalized = html.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n');
@@ -121,8 +127,8 @@ function convertHtmlToPlainText(html: string): string {
     const item1Match = block.match(/<div class="my_item1">([\s\S]*?)<\/div>/i);
     const item2Match = block.match(/<div class="my_item2">([\s\S]*?)<\/div>/i);
     if (item1Match) {
-      const label = item1Match[1].replace(/<[^>]*>/g, '').trim();
-      const value = item2Match ? item2Match[1].replace(/<[^>]*>/g, '').trim() : '';
+      const label = decodeEntities(item1Match[1].replace(/<[^>]*>/g, '').trim());
+      const value = item2Match ? decodeEntities(item2Match[1].replace(/<[^>]*>/g, '').trim()) : '';
       const isSection = /<strong>/.test(item1Match[1]) && !value;
       if (isSection) { lines.push(''); lines.push(label); }
       else if (value) { lines.push(label); lines.push(value); }
@@ -173,25 +179,31 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
   const [fAttrRam, setFAttrRam] = useState<string[]>([]);
   const [fAttrStorage, setFAttrStorage] = useState<string[]>([]);
   const [fAttrColor, setFAttrColor] = useState<string[]>([]);
+  const [fAttrNetworkModule, setFAttrNetworkModule] = useState<string[]>([]);
   const [fCustomRam, setFCustomRam] = useState('');
   const [fCustomStorage, setFCustomStorage] = useState('');
   const [fCustomColor, setFCustomColor] = useState('');
+  const [fCustomNetworkModule, setFCustomNetworkModule] = useState('');
   const [fVariations, setFVariations] = useState<Variation[]>([]);
   const [newCatName, setNewCatName] = useState('');
   const [newCatParent, setNewCatParent] = useState('');
   const [showNewCat, setShowNewCat] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [dragIdx, setDragIdx] = useState<number | null>(null);
+  const [dropIdx, setDropIdx] = useState<number | null>(null);
+  const [addAttrRow, setAddAttrRow] = useState<number | null>(null);
+  const [editChip, setEditChip] = useState<{ vi: number; attr: string } | null>(null);
   const [uploading, setUploading] = useState(false);
-  const [showPreview, setShowPreview] = useState(true);
   const [isDirty, setIsDirty] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
+  const isTablet = fCategories.some(c => c === 'Планшеты' || c.startsWith('Планшеты'));
 
   // ── Заполнение формы при редактировании ──
   useEffect(() => {
     if (product) {
       setFName(product.name);
       setFSlug(product.slug);
-      setFType(product.type || 'simple');
+      setFType((product.variations && product.variations.length > 0) ? 'variable' : (product.type || 'simple'));
       setFPrice(product.price);
       setFShortDesc(product.short_description || '');
       setFCategories(product.categories || []);
@@ -206,6 +218,7 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
       setFAttrRam(attrs.find(a => a.name === 'Оперативная память')?.options || []);
       setFAttrStorage(attrs.find(a => a.name === 'Встроенная память')?.options || []);
       setFAttrColor(attrs.find(a => a.name === 'Цвет корпуса')?.options || []);
+      setFAttrNetworkModule(attrs.find(a => a.name === 'Модуль антенны')?.options || []);
       setFVariations((product.variations || []).map(v => {
         const attrMap: Record<string, string> = {};
         (v.attributes || []).forEach(a => { attrMap[a.name] = a.option; });
@@ -216,6 +229,14 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
 
   // ── Авто-slug ──
   useEffect(() => { if (!editingId) setFSlug(slugifyRu(fName)); }, [fName, editingId]);
+
+  // Close dropdowns on click outside
+  useEffect(() => {
+    if (addAttrRow === null && editChip === null) return;
+    const handler = () => { setAddAttrRow(null); setEditChip(null); };
+    document.addEventListener('click', handler);
+    return () => document.removeEventListener('click', handler);
+  }, [addAttrRow, editChip]);
 
   // ── Dirty tracking ──
   useEffect(() => { setIsDirty(true); }, [fName, fPrice, fShortDesc, fCategories, fImages, fSpecsHtml, fAttrRam, fAttrStorage, fAttrColor, fVariations, fPartNumber, fDualSim, fNetworkModule, fModelVersion, fPreorder]);
@@ -244,6 +265,7 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
       if (fAttrRam.length > 0) attributes.push({ name: 'Оперативная память', options: fAttrRam });
       if (fAttrStorage.length > 0) attributes.push({ name: 'Встроенная память', options: fAttrStorage });
       if (fAttrColor.length > 0) attributes.push({ name: 'Цвет корпуса', options: fAttrColor });
+      if (fAttrNetworkModule.length > 0) attributes.push({ name: 'Модуль антенны', options: fAttrNetworkModule });
       const description = parseTextToSpecsHtml(fSpecsHtml);
       const body: Record<string, unknown> = {
         name: fName, slug: fSlug || slugifyRu(fName), type: fType, price: fPrice, sale_price: '',
@@ -284,12 +306,14 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
     const ramValues = fAttrRam.length > 0 ? fAttrRam : [''];
     const storageValues = fAttrStorage.length > 0 ? fAttrStorage : [''];
     const colorValues = fAttrColor.length > 0 ? fAttrColor : [''];
+    const netValues = fAttrNetworkModule.length > 0 ? fAttrNetworkModule : [''];
     const newVars: Variation[] = [];
-    for (const ram of ramValues) for (const storage of storageValues) for (const color of colorValues) {
+    for (const ram of ramValues) for (const storage of storageValues) for (const color of colorValues) for (const net of netValues) {
       const attrs: Record<string, string> = {};
       if (ram) attrs['Оперативная память'] = ram;
       if (storage) attrs['Встроенная память'] = storage;
       if (color) attrs['Цвет корпуса'] = color;
+      if (net) attrs['Модуль антенны'] = net;
       newVars.push({ id: Date.now() + newVars.length, attributes: attrs, price: basePrice, sale_price: '', in_stock: true, enabled: true });
     }
     setFVariations(newVars);
@@ -300,6 +324,60 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
     if (!fCategories.includes(name)) setFCategories([...fCategories, name]);
     setNewCatName(''); setNewCatParent(''); setShowNewCat(false);
   };
+  // Available attribute pools from main fields
+  const attrPools: { name: string; values: string[] }[] = [
+    { name: 'Оперативная память', values: fAttrRam },
+    { name: 'Встроенная память', values: fAttrStorage },
+    { name: 'Цвет корпуса', values: fAttrColor },
+    { name: 'Модуль антенны', values: fAttrNetworkModule },
+  ].filter(p => p.values.length > 0);
+
+  const getAvailableAttrs = (vi: number): { name: string; values: string[] }[] => {
+    const existing = fVariations[vi]?.attributes || {};
+    return attrPools.filter(p => !existing[p.name]);
+  };
+
+  const variationSig = (attrs: Record<string, string>) =>
+    Object.entries(attrs).sort().map(([k, v]) => `${k}=${v}`).join('|');
+
+  const isDuplicateVariation = (vi: number, attrs: Record<string, string>) => {
+    const sig = variationSig(attrs);
+    return fVariations.some((v, i) => i !== vi && variationSig(v.attributes) === sig);
+  };
+
+  const addAttrToVariation = (vi: number, attrName: string) => {
+    const pool = attrPools.find(p => p.name === attrName);
+    if (!pool || pool.values.length === 0) return;
+    const val = pool.values[0];
+    const newAttrs = { ...fVariations[vi].attributes, [attrName]: val };
+    if (isDuplicateVariation(vi, newAttrs)) { alert('Такая вариация уже существует'); return; }
+    setFVariations(fVariations.map((x, i) => i === vi ? { ...x, attributes: newAttrs } : x));
+    setAddAttrRow(null);
+  };
+
+  const replaceChipValue = (vi: number, attrName: string, newVal: string) => {
+    const newAttrs = { ...fVariations[vi].attributes, [attrName]: newVal };
+    if (isDuplicateVariation(vi, newAttrs)) { alert('Такая вариация уже существует'); return; }
+    setFVariations(fVariations.map((x, i) => i === vi ? { ...x, attributes: newAttrs } : x));
+    setEditChip(null);
+  };
+
+  const removeChip = (vi: number, attrName: string) => {
+    const newAttrs = { ...fVariations[vi].attributes };
+    delete newAttrs[attrName];
+    setFVariations(fVariations.map((x, i) => i === vi ? { ...x, attributes: newAttrs } : x));
+  };
+
+  const reorderVariations = (from: number, to: number) => {
+    if (from === to) return;
+    const arr = [...fVariations];
+    const [item] = arr.splice(from, 1);
+    arr.splice(to, 0, item);
+    setFVariations(arr);
+    setDragIdx(null);
+    setDropIdx(null);
+  };
+
   const handleUpload = async (files: FileList | null) => {
     if (!files || !fSlug) return;
     setUploading(true);
@@ -444,12 +522,21 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
                   <input type="number" value={fPrice} onChange={e => setFPrice(e.target.value)} required
                          className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
                 </div>
-                <div className="flex items-center gap-3 pt-6">
-                  <button type="button" onClick={() => setFPreorder(!fPreorder)}
-                          className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${fPreorder ? 'bg-amber-500' : 'bg-gray-300'}`}>
-                    <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${fPreorder ? 'translate-x-6' : 'translate-x-1'}`} />
-                  </button>
-                  <span className="text-sm text-gray-600">{fPreorder ? 'Под заказ' : 'В наличии'}</span>
+                <div className="flex items-center gap-4 pt-6">
+                  <div className="flex items-center gap-2">
+                    <button type="button" onClick={() => setFPreorder(!fPreorder)}
+                            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${fPreorder ? 'bg-amber-500' : 'bg-gray-300'}`}>
+                      <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${fPreorder ? 'translate-x-6' : 'translate-x-1'}`} />
+                    </button>
+                    <span className="text-sm text-gray-600">{fPreorder ? 'Под заказ' : 'В наличии'}</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <button type="button" onClick={() => setFType(fType === 'variable' ? 'simple' : 'variable')}
+                            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${fType === 'variable' ? 'bg-blue-500' : 'bg-gray-300'}`}>
+                      <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${fType === 'variable' ? 'translate-x-6' : 'translate-x-1'}`} />
+                    </button>
+                    <span className="text-sm text-gray-600">{fType === 'variable' ? 'Вариативный' : 'Простой'}</span>
+                  </div>
                 </div>
               </div>
               <div>
@@ -532,6 +619,25 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
                 </div>
               </div>
 
+              {/* Модуль антенны — только для планшетов, как атрибут вариаций */}
+              {isTablet && (
+                <div>
+                  <label className="text-sm text-gray-500 mb-1 block">Модуль антенны</label>
+                  <select onChange={e => { if (e.target.value) toggleAttrOption(fAttrNetworkModule, setFAttrNetworkModule, e.target.value); e.target.value = ''; }}
+                          className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black">
+                    <option value="">Выбрать...</option>
+                    {NETWORK_OPTIONS.filter(o => !fAttrNetworkModule.includes(o)).map(o => <option key={o} value={o}>{o}</option>)}
+                  </select>
+                  {fAttrNetworkModule.length > 0 && <div className="flex flex-wrap gap-1.5 mt-2">
+                    {fAttrNetworkModule.map(opt => (
+                      <span key={opt} className="inline-flex items-center gap-1 px-2.5 py-1 bg-gray-900 text-white text-xs rounded-lg">
+                        {opt} <button type="button" onClick={() => setFAttrNetworkModule(fAttrNetworkModule.filter(o=>o!==opt))} className="ml-0.5 hover:text-gray-300">×</button>
+                      </span>
+                    ))}
+                  </div>}
+                </div>
+              )}
+
               {/* Экспортные атрибуты */}
               <div className="grid grid-cols-2 gap-4 pt-2">
                 <div>
@@ -545,12 +651,14 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
                          className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
                   <datalist id="ds-opts"><option value="да" /><option value="нет" /></datalist>
                 </div>
-                <div>
-                  <label className="text-sm text-gray-500 mb-1 block">Модуль антенны</label>
-                  <input type="text" value={fNetworkModule} onChange={e => setFNetworkModule(e.target.value)} list="net-opts"
-                         className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
-                  <datalist id="net-opts"><option value="4G" /><option value="5G" /><option value="LTE" /><option value="Wi-Fi" /></datalist>
-                </div>
+                {!isTablet && (
+                  <div>
+                    <label className="text-sm text-gray-500 mb-1 block">Модуль антенны</label>
+                    <input type="text" value={fNetworkModule} onChange={e => setFNetworkModule(e.target.value)} list="net-opts"
+                           className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
+                    <datalist id="net-opts"><option value="4G" /><option value="5G" /><option value="LTE" /><option value="Wi-Fi" /></datalist>
+                  </div>
+                )}
                 <div>
                   <label className="text-sm text-gray-500 mb-1 block">Версия</label>
                   <input type="text" value={fModelVersion} onChange={e => setFModelVersion(e.target.value)} list="ver-opts"
@@ -568,23 +676,19 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
         <div className="bg-white rounded-2xl border border-gray-100 p-5 mb-8 space-y-4">
           <div className="flex items-center justify-between">
             <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">Характеристики</h3>
-            <button type="button" onClick={() => setShowPreview(!showPreview)}
-                    className="text-xs text-gray-400 hover:text-black transition-colors">
-              {showPreview ? 'Скрыть предпросмотр' : 'Показать предпросмотр'}
-            </button>
           </div>
           <p className="text-xs text-gray-400">
             Заголовки секций — отдельной строкой. Параметры и значения — каждый на своей строке. Или «Параметр: Значение» в одной строке.
           </p>
-          <div className="grid lg:grid-cols-2 gap-6">
+          <div className="grid lg:grid-cols-2 gap-6 items-start">
             {/* Textarea */}
             <textarea value={fSpecsHtml} onChange={e => setFSpecsHtml(e.target.value)} rows={12}
                       placeholder={`Дата выхода на рынок\n2026 г\n\nЭкран\nРазмер экрана\n6.83"\nРазрешение экрана\n1260×2800`}
                       className="w-full px-4 py-3 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black"
-                      style={{ maxHeight: '200px', overflowY: 'auto', resize: 'none' }} />
-            {/* Предпросмотр */}
-            {showPreview && fSpecsHtml && (
-              <div className="bg-gray-50 rounded-xl border border-gray-200 overflow-y-auto" style={{ maxHeight: '500px' }}>
+                      style={{ height: '300px', overflowY: 'auto', resize: 'none' }} />
+            {/* Предпросмотр — всегда видимый */}
+            {fSpecsHtml && (
+              <div className="bg-gray-50 rounded-xl border border-gray-200 overflow-y-auto" style={{ height: '300px' }}>
                 <table className="w-full text-sm">
                   <tbody>
                     {(() => {
@@ -645,6 +749,7 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
                   if (fAttrRam.length > 0) newAttrs['Оперативная память'] = fAttrRam[0];
                   if (fAttrStorage.length > 0) newAttrs['Встроенная память'] = fAttrStorage[0];
                   if (fAttrColor.length > 0) newAttrs['Цвет корпуса'] = fAttrColor[0];
+                  if (fAttrNetworkModule.length > 0) newAttrs['Модуль антенны'] = fAttrNetworkModule[0];
                   setFVariations([...fVariations, { id: Date.now(), attributes: newAttrs, price: fPrice, sale_price: '', in_stock: true, enabled: true }]);
                 }} className="text-xs text-gray-400 hover:text-black transition-colors">+ Вручную</button>
               </div>
@@ -655,29 +760,105 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
               </div>
             )}
             {fVariations.length > 0 && (
-              <div className="space-y-2">
+              <div className="space-y-0">
                 {fVariations.map((v, vi) => (
-                  <div key={vi} className={`bg-gray-50 rounded-xl p-3 flex items-center gap-3 border ${v.enabled === false ? 'border-red-200 opacity-60' : 'border-gray-100'}`}>
-                    <span className="text-xs text-gray-400 shrink-0">#{vi + 1}</span>
-                    <button type="button" onClick={() => setFVariations(fVariations.map((x,i) => i===vi ? {...x, enabled: !x.enabled} : x))}
-                            className={`shrink-0 w-9 h-5 rounded-full transition-colors relative ${v.enabled === false ? 'bg-red-300' : 'bg-green-400'}`}>
-                      <span className={`absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform ${v.enabled === false ? 'left-0.5' : 'left-4'}`} />
-                    </button>
-                    <div className="flex-1 flex flex-wrap gap-2">
-                      {Object.entries(v.attributes).map(([name, value]) => (
-                        <span key={name} className="px-2 py-1 bg-white rounded text-xs border border-gray-200">
-                          <span className="text-gray-500">{name}:</span> <span className="font-medium">{value}</span>
-                        </span>
-                      ))}
+                  <React.Fragment key={v.id ?? vi}>
+                    {/* Drop indicator line */}
+                    {dropIdx === vi && dragIdx !== null && dragIdx !== vi && dragIdx !== vi - 1 && (
+                      <div className="h-0.5 bg-blue-500 rounded-full mx-4 -mt-px" />
+                    )}
+                    <div
+                      draggable
+                      onDragStart={e => { setDragIdx(vi); e.dataTransfer.effectAllowed = 'move'; }}
+                      onDragOver={e => { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; setDropIdx(vi); }}
+                      onDragLeave={() => { if (dropIdx === vi) setDropIdx(null); }}
+                      onDrop={e => { e.preventDefault(); if (dragIdx !== null) reorderVariations(dragIdx, vi); }}
+                      onDragEnd={() => { setDragIdx(null); setDropIdx(null); }}
+                      className={`group/row bg-gray-50 rounded-xl p-3 flex items-center gap-3 border transition-opacity ${v.enabled === false ? 'border-red-200 opacity-60' : 'border-gray-100'} ${dragIdx === vi ? 'opacity-40' : ''}`}
+                    >
+                      {/* Drag handle */}
+                      <span className="text-gray-300 hover:text-gray-500 cursor-grab active:cursor-grabbing shrink-0 select-none text-sm leading-none" title="Перетащить">⋮⋮</span>
+                      <span className="text-xs text-gray-400 shrink-0">#{vi + 1}</span>
+                      <button type="button" onClick={() => setFVariations(fVariations.map((x,i) => i===vi ? {...x, enabled: !x.enabled} : x))}
+                              className={`shrink-0 w-9 h-5 rounded-full transition-colors relative ${v.enabled === false ? 'bg-red-300' : 'bg-green-400'}`}>
+                        <span className={`absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform ${v.enabled === false ? 'left-0.5' : 'left-4'}`} />
+                      </button>
+                      <div className="flex-1 flex flex-wrap gap-2 relative">
+                        {Object.entries(v.attributes).map(([name, value]) => {
+                          const pool = attrPools.find(p => p.name === name);
+                          const isEditing = editChip?.vi === vi && editChip?.attr === name;
+                          return (
+                            <span key={name} className="group/chip relative px-2 py-1 bg-white rounded text-xs border border-gray-200 inline-flex items-center gap-1">
+                              <span className="text-gray-500">{name}:</span> <span className="font-medium">{value}</span>
+                              {/* Hover controls */}
+                              {pool && pool.values.length > 1 && (
+                                <button type="button"
+                                        onClick={e => { e.stopPropagation(); setEditChip(isEditing ? null : { vi, attr: name }); }}
+                                        className="text-gray-300 hover:text-blue-500 opacity-0 group-hover/chip:opacity-100 transition-opacity ml-0.5"
+                                        title="Сменить значение">▾</button>
+                              )}
+                              <button type="button"
+                                      onClick={e => { e.stopPropagation(); removeChip(vi, name); }}
+                                      className="text-gray-300 hover:text-red-500 opacity-0 group-hover/chip:opacity-100 transition-opacity"
+                                      title="Удалить">×</button>
+                              {/* Replace value dropdown */}
+                              {isEditing && pool && (
+                                <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border border-gray-200 z-50 py-1 min-w-[120px]"
+                                     onClick={e => e.stopPropagation()}>
+                                  {pool.values.map(val => (
+                                    <button key={val} type="button"
+                                            onClick={() => replaceChipValue(vi, name, val)}
+                                            className={`w-full text-left px-3 py-1.5 text-xs hover:bg-gray-50 transition-colors ${val === value ? 'bg-blue-50 font-medium' : ''}`}>
+                                      {val}
+                                    </button>
+                                  ))}
+                                </div>
+                              )}
+                            </span>
+                          );
+                        })}
+                        {/* "+" button — visible on row hover */}
+                        {getAvailableAttrs(vi).length > 0 && (
+                          <div className="relative">
+                            <button type="button"
+                                    onClick={e => { e.stopPropagation(); setAddAttrRow(addAttrRow === vi ? null : vi); }}
+                                    className="px-1.5 py-0.5 text-xs text-gray-300 hover:text-black hover:bg-gray-200 rounded transition-colors opacity-0 group-hover/row:opacity-100">
+                              +
+                            </button>
+                            {addAttrRow === vi && (
+                              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border border-gray-200 z-50 py-1 min-w-[160px]">
+                                {getAvailableAttrs(vi).map(pool => (
+                                  <button key={pool.name} type="button"
+                                          onClick={e => { e.stopPropagation(); addAttrToVariation(vi, pool.name); }}
+                                          className="w-full text-left px-3 py-1.5 text-xs hover:bg-gray-50 transition-colors">
+                                    <span className="text-gray-500">{pool.name}</span>
+                                    <span className="text-gray-300 ml-1">({pool.values[0]})</span>
+                                  </button>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                      <input type="number" value={v.price} placeholder="Цена"
+                             onChange={e => setFVariations(fVariations.map((x,i) => i===vi ? {...x, price: e.target.value} : x))}
+                             className="w-24 px-2 py-1.5 bg-white rounded-lg text-xs border border-gray-200 focus:outline-none focus:border-black" />
+                      <span className="text-xs text-gray-400">Br</span>
+                      <button type="button" onClick={() => setFVariations(fVariations.filter((_,i)=>i!==vi))}
+                              className="text-gray-300 hover:text-red-500 transition-colors shrink-0">×</button>
                     </div>
-                    <input type="number" value={v.price} placeholder="Цена"
-                           onChange={e => setFVariations(fVariations.map((x,i) => i===vi ? {...x, price: e.target.value} : x))}
-                           className="w-24 px-2 py-1.5 bg-white rounded-lg text-xs border border-gray-200 focus:outline-none focus:border-black" />
-                    <span className="text-xs text-gray-400">Br</span>
-                    <button type="button" onClick={() => setFVariations(fVariations.filter((_,i)=>i!==vi))}
-                            className="text-gray-300 hover:text-red-500 transition-colors shrink-0">×</button>
-                  </div>
+                  </React.Fragment>
                 ))}
+                {/* Drop zone at the very end */}
+                <div
+                  onDragOver={e => { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; setDropIdx(fVariations.length); }}
+                  onDrop={e => { e.preventDefault(); if (dragIdx !== null) reorderVariations(dragIdx, fVariations.length - 1); }}
+                  className="h-2"
+                >
+                  {dropIdx === fVariations.length && dragIdx !== null && (
+                    <div className="h-0.5 bg-blue-500 rounded-full mx-4" />
+                  )}
+                </div>
               </div>
             )}
           </div>
