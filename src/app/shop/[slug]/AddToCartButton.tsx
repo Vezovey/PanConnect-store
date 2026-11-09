@@ -14,10 +14,11 @@ export default function AddToCartButton({ product, variations }: AddToCartButton
   const [quantity, setQuantity] = useState(1);
   const [added, setAdded] = useState(false);
 
+  const HIDDEN_ATTRS = new Set(['Парт-номер']);
   const attrNames = [...new Set([
     ...product.attributes.map(a => a.name),
     ...variations.flatMap(v => v.attributes.map(a => a.name))
-  ])];
+  ])].filter(n => !HIDDEN_ATTRS.has(n));
 
   // All possible values per attribute (sorted)
   const allAttrValues: Record<string, string[]> = {};
@@ -147,15 +148,15 @@ export default function AddToCartButton({ product, variations }: AddToCartButton
   };
 
   return (
-    <div className="space-y-4 sm:space-y-5 overflow-hidden max-w-full">
+    <div className="space-y-4 sm:space-y-5 overflow-hidden max-w-full box-border">
       {attrNames.map((attrName) => {
         const available = availableValues[attrName] || [];
         return (
-          <div key={attrName}>
-            <p className="text-sm font-medium text-gray-900 mb-2.5">
+          <div key={attrName} className="min-w-0">
+            <p className="text-sm font-medium text-gray-900 mb-2.5 overflow-hidden text-ellipsis whitespace-nowrap">
               {attrName} : {selectedAttrs[attrName] || ''}
             </p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 min-w-0">
               {allAttrValues[attrName].map((val) => {
                 const isAvailable = available.includes(val);
                 const isSelected = selectedAttrs[attrName] === val;
@@ -164,7 +165,7 @@ export default function AddToCartButton({ product, variations }: AddToCartButton
                     key={val}
                     onClick={() => isAvailable && handleSelect(attrName, val)}
                     disabled={!isAvailable}
-                    className={`px-3 sm:px-4 py-2 text-sm rounded-lg border transition-all ${
+                    className={`px-3 sm:px-4 py-2 text-sm rounded-lg border transition-all max-w-full break-words ${
                       isSelected
                         ? 'bg-gray-900 text-white border-gray-900'
                         : isAvailable
@@ -182,8 +183,8 @@ export default function AddToCartButton({ product, variations }: AddToCartButton
       })}
 
       {selectedVariation && (
-        <div className="flex items-center justify-between bg-gray-50 rounded-xl px-4 py-3 overflow-hidden">
-          <span className="text-sm text-gray-500 truncate mr-3">{selectedVariation.name}</span>
+        <div className="flex items-center justify-between bg-gray-50 rounded-xl px-4 py-3 overflow-hidden max-w-full min-w-0">
+          <span className="text-sm text-gray-500 truncate mr-3 min-w-0 break-words">{selectedVariation.name}</span>
           <span className="text-lg font-semibold shrink-0">{selectedVariation.price} Br</span>
         </div>
       )}

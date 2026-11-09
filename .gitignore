@@ -69,3 +69,12 @@ AGENTS.md
 /uploads/
 
 src/data/orders.json
+  
+# product backups  
+src/data/products_backup_*.json  
+src/data/products_visibility_*.json  
+src/data/orders_snapshot_*.json  
+  
+# temp analysis scripts  
+scripts/_*.js  
+scripts/_*.txt 

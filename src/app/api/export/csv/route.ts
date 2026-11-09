@@ -34,57 +34,63 @@ function normalizeMemory(s: string): string {
   return s.replace(/(\d+)\s*ГБ/g, '$1GB').replace(/(\d+)\s*ТБ/g, '$1TB');
 }
 
-function getBrand(p: LocalProduct): string {
-  // Brand is only included if it's a prefix of the product name
-  // (e.g. "Google Pixel 10" → brand "Google", model "Pixel 10")
-  // For "Redmi Note 17 Pro 5G" with vendor "Xiaomi" → brand is NOT included
-  // because the name doesn't start with the brand
-  const vendor = p.vendor || '';
-  if (vendor && p.name.startsWith(vendor)) return vendor;
-  return '';
-}
-
-function getModel(p: LocalProduct, brand: string): string {
-  if (p.model) return p.model;
-  if (brand && p.name.startsWith(brand)) return p.name.slice(brand.length).trim();
-  return p.name;
-}
-
-function buildVariationName(p: LocalProduct, attrs: Record<string, string>): string {
-  // Rule: [TypePrefix] [Brand] [Model] [DualSIM] [4G/5G] [PartNumber] [RAM/Storage] [Version] [(color)]
-  // Each block is included ONLY if the attribute is filled. Empty = skip.
+function buildExportName(p: LocalProduct, attrs: Record<string, string>): string {
   const typePrefix = p.typePrefix || 'Смартфон';
-  const brand = getBrand(p);
-  let model = getModel(p, brand);
-  model = model.replace(/"/g, '').replace(/\s+/g, ' ').trim();
+  let model = (p.model || p.name).replace(/^(Смартфон|Планшет|Наушники|Электронная книга|Ноутбук)\s+/, '').trim();
+  model = model.replace(/\s+/g, ' ').trim();
 
-  const parts: string[] = [typePrefix];
-  if (brand) parts.push(brand);
-  if (model) parts.push(model);
+  const ef = p.exportFields;
+  const isHuawei = model.startsWith('Huawei') || model.startsWith('Pura');
+  const isSamsungTab = model.includes('Tab');
+  const isSamsung = model.includes('Samsung') || model.includes('Galaxy');
+  const isEarphone = (p.categories || []).some(c => c.includes('Наушники'));
 
-  // dual_sim
-  if (p.dual_sim) parts.push(p.dual_sim);
-
-  // network_module (4G/5G/LTE) — prefer variation-level attribute over product-level
-  const netMod = attrs['Модуль антенны'] || p.network_module || '';
-  if (netMod && !model.toLowerCase().includes(netMod.toLowerCase())) parts.push(netMod);
-
-  // part_number (SM-xxx, MLN-LX9, etc.)
-  if (p.part_number) parts.push(p.part_number);
-
-  // RAM/Storage
+  const netMod = (ef?.antenna !== false) ? (attrs['Модуль связи'] || attrs['Модуль антенны'] || p.network_module || '') : '';
   const ram = normalizeMemory(attrs['Оперативная память'] || '');
   const storage = normalizeMemory(attrs['Встроенная память'] || '');
-  if (ram && storage) parts.push(`${ram}/${storage}`);
-  else if (storage) parts.push(storage);
-  else if (ram) parts.push(ram);
-
-  // version (международная/индийская/европейская)
-  if (p.model_version) parts.push(p.model_version);
-
-  // color — always last, in parentheses, lowercase
   const color = (attrs['Цвет корпуса'] || '').toLowerCase();
-  if (color) parts.push(`(${color})`);
+  const version = (ef?.version && p.model_version) ? p.model_version : '';
+  const kit = (ef?.kit && attrs['Комплектация']) ? attrs['Комплектация'] : '';
+  const processor = (ef?.processor && p.processor) ? p.processor : '';
+
+  const tokens: Record<string, string> = {};
+  tokens.typePrefix = typePrefix;
+  tokens.model = model;
+  tokens.dualSim = (ef?.dualSim && p.dual_sim && !isSamsung) ? 'Dual SIM' : '';
+  tokens.netMod = (netMod && !model.toLowerCase().includes(netMod.toLowerCase())) ? netMod : '';
+  const partNum = attrs['Парт-номер'] || p.part_number || '';
+  if (ef?.partNumber && partNum) {
+    let pn = partNum;
+    if (isSamsung && ef?.dualSim && p.dual_sim && !pn.endsWith('/DS')) pn += '/DS';
+    tokens.partNumber = pn;
+  } else tokens.partNumber = '';
+  tokens.ramStorage = (ram && storage) ? `${ram}/${storage}` : (storage || ram);
+  tokens.processor = processor;
+  tokens.version = version;
+  tokens.kit = kit;
+  tokens.color = color;
+
+  const DEFAULT_ORDER = ['typePrefix','model','dualSim','netMod','partNumber','ramStorage','processor','version','kit','color'];
+  const rawOrder = p.exportOrder && p.exportOrder.length > 0 ? p.exportOrder : DEFAULT_ORDER.map(k => ({ key: k, brackets: k === 'color' || k === 'kit' }));
+  
+  const parts: string[] = [];
+  const bracketGroup: string[] = [];
+  for (const item of rawOrder) {
+    const key = typeof item === 'string' ? item : item.key;
+    const brackets = typeof item === 'string' ? (key === 'color' || key === 'kit') : item.brackets;
+    const val = tokens[key];
+    if (!val) continue;
+    if (brackets) {
+      bracketGroup.push(val);
+    } else {
+      if (bracketGroup.length > 0) {
+        parts.push(`(${bracketGroup.join(', ')})`);
+        bracketGroup.length = 0;
+      }
+      parts.push(val);
+    }
+  }
+  if (bracketGroup.length > 0) parts.push(`(${bracketGroup.join(', ')})`);
 
   return parts.join(' ');
 }
@@ -92,8 +98,11 @@ function buildVariationName(p: LocalProduct, attrs: Record<string, string>): str
 function getCsvCategory(p: LocalProduct): string {
   const root = p.categories?.[0] || '';
   const map: Record<string, string> = {
-    'Смартфоны': 'Телефоны', 'Планшеты': 'Планшеты',
-    'Наушники и аксессуары': 'Наушники и гарнитуры', 'Электронные книги': 'Электронные книги',
+    'Смартфон': 'Телефоны', 'Смартфоны': 'Телефоны',
+    'Планшет': 'Планшеты', 'Планшеты': 'Планшеты',
+    'Наушники': 'Наушники и гарнитуры', 'Наушники и аксессуары': 'Наушники и гарнитуры',
+    'Электронная книга': 'Электронные книги', 'Электронные книги': 'Электронные книги',
+    'Ноутбук': 'Ноутбуки', 'Ноутбуки': 'Ноутбуки',
   };
   return map[root] || 'Телефоны';
 }
@@ -120,39 +129,33 @@ function productToRows(p: LocalProduct): CsvRow[] {
   const imgUrl = p.local_images?.[0] ? `${SITE_URL}${p.local_images[0]}` : '';
   const description = stripHtml(p.short_description || '');
   const csvCategory = getCsvCategory(p);
-  // delivery_days: auto for preorder, or from product data
-  const deliveryDays = p.preorder ? '21' : String(p.deliveryDays || '');
+  // delivery_days: from variation (if preorder) or product
+  const baseDeliveryDays = String(p.deliveryDays || '');
 
   if (p.type === 'variable' && p.variations && p.variations.length > 0) {
     for (const v of p.variations) {
       if (v.enabled === false) continue;
       const attrs: Record<string, string> = {};
-      for (const a of v.attributes) attrs[a.name] = a.option;
-      // For headphones: always use full card name; for others: csvName || buildVariationName
-      if (v.name?.includes('AirPods') || p?.name?.includes('AirPods')) {
-        console.log('=== AIRPODS DEBUG ===');
-        console.log('csvCategory =', JSON.stringify(csvCategory));
-        console.log('typeof csvCategory =', typeof csvCategory);
-        console.log('v.name =', JSON.stringify(v.name));
-        console.log('v.csvName =', JSON.stringify(v.csvName));
-        console.log('p.name =', JSON.stringify(p?.name));
-        console.log('p.categories =', JSON.stringify(p?.categories));
-        console.log('attrs =', JSON.stringify(attrs));
-        console.log('====================');
+      const raw = v.attributes;
+      if (Array.isArray(raw)) {
+        for (const a of raw) attrs[a.name] = a.option;
+      } else if (raw && typeof raw === 'object') {
+        Object.assign(attrs, raw as Record<string, string>);
       }
+      // For headphones: always use full card name; for others: csvName || buildVariationName
       const varName = csvCategory === 'Наушники и гарнитуры'
-        ? v.name
-        : (v.csvName || buildVariationName(p, attrs));
+        ? (v.csvName || buildExportName(p, attrs))
+        : (v.csvName || buildExportName(p, attrs));
       const varPrice = v.sale_price || v.price || p.price;
 
       rows.push({
         id: String(v.id),
-        available: p.preorder ? 'false' : 'true',
+        available: 'true',
         url,
         price: String(varPrice),
         oldprice: '', // Always empty per spec
         currencyId: 'BYN',
-        delivery_days: deliveryDays,
+        delivery_days: String(v.deliveryDays || baseDeliveryDays),
         category: csvCategory,
         picture: imgUrl,
         name: varName,
@@ -161,16 +164,16 @@ function productToRows(p: LocalProduct): CsvRow[] {
     }
   } else {
     const simpleName = csvCategory === 'Наушники и гарнитуры'
-      ? (p.name.startsWith('Наушники') ? p.name : `Наушники ${p.name}`)
-      : buildVariationName(p, {});
+      ? (p.csvName || buildExportName(p, {}))
+      : buildExportName(p, {});
     rows.push({
       id: String(p.id),
-      available: p.preorder ? 'false' : 'true',
+      available: 'true',
       url,
       price: p.price,
       oldprice: '', // Always empty per spec
       currencyId: 'BYN',
-      delivery_days: deliveryDays,
+      delivery_days: baseDeliveryDays,
       category: csvCategory,
       picture: imgUrl,
       name: simpleName,

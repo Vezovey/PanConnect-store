@@ -30,6 +30,22 @@ export function getProductBySlugLocal(slug: string): LocalProduct | null {
   return readProducts().find(p => p.slug === slug) || null;
 }
 
+export function getNextProductId(): number {
+  const products = readProducts();
+  return products.reduce((max, p) => Math.max(max, p.id), 0) + 1;
+}
+
+export function getNextVariationId(): number {
+  const products = readProducts();
+  let max = 0;
+  for (const p of products) {
+    for (const v of p.variations || []) {
+      if (v.id > max) max = v.id;
+    }
+  }
+  return max + 1;
+}
+
 export function addProduct(product: Omit<LocalProduct, 'id'>): LocalProduct {
   const products = readProducts();
   const maxId = products.reduce((max, p) => Math.max(max, p.id), 0);

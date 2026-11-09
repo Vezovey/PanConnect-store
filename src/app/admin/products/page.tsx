@@ -118,7 +118,13 @@ export default function AdminProductsPage() {
                   <tr key={p.id} className={`border-b border-gray-50 transition-colors ${p.enabled ? 'bg-white' : 'bg-gray-50 opacity-60'}`}>
                     <td className="px-4 py-3">
                       <div className="w-12 h-12 bg-gray-100 rounded-lg overflow-hidden relative">
-                        <Image src={p.local_images?.[0] || `/images/${p.slug}-1.webp`} alt={p.name} fill className="object-contain p-1" sizes="48px" />
+                        {p.local_images?.[0] ? (
+                          <Image src={p.local_images[0]} alt={p.name} fill className="object-contain p-1" sizes="48px" />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center text-gray-300">
+                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                          </div>
+                        )}
                       </div>
                     </td>
                     <td className="px-4 py-3">

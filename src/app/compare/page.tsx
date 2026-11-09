@@ -46,7 +46,9 @@ function parseSpecs(html: string): { label: string; value: string; isSection?: b
 }
 
 function getSpecs(p: Product): { label: string; value: string; isSection?: boolean }[] {
-  if (p.specs && p.specs.length > 0) return p.specs;
+  if (p.specs && p.specs.length > 0) {
+    return p.specs.map(s => ({ label: s.label, value: s.value }));
+  }
   return parseSpecs(p.description);
 }
 

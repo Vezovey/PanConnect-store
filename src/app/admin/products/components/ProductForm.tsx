@@ -20,6 +20,7 @@ export interface AdminProduct {
   in_stock: boolean;
   enabled: boolean;
   preorder: boolean;
+  deliveryDays?: number;
   variations_count: number;
   attributes: { name: string; options: string[] }[];
   variations: { id: number; name: string; price: string; regular_price: string; sale_price: string; attributes: { name: string; option: string }[]; enabled?: boolean }[];
@@ -28,6 +29,17 @@ export interface AdminProduct {
   dual_sim?: string;
   network_module?: string;
   model_version?: string;
+  exportFields?: {
+    dualSim: boolean;
+    partNumber: boolean;
+    version: boolean;
+    connectivity: boolean;
+    antenna: boolean;
+    kit: boolean;
+    processor: boolean;
+  };
+  exportOrder?: { key: string; brackets: boolean }[];
+  processor?: string;
 }
 
 interface Variation {
@@ -37,21 +49,29 @@ interface Variation {
   sale_price: string;
   in_stock: boolean;
   enabled: boolean;
+  deliveryDays?: number;
 }
 
 /* ── Константы ─────────────────────────────────────── */
 
 const CATEGORIES_TREE: Record<string, string[]> = {
-  'Смартфоны': ['Apple', 'Samsung', 'Xiaomi', 'Google', 'Honor', 'Realme', 'OnePlus', 'Poco', 'Infinix', 'Tecno', 'Oukitel', 'Doogee', 'Huawei', 'ZTE', 'Nokia', 'Motorola', 'Asus', 'Sony', 'Nothing'],
-  'Планшеты': [],
-  'Наушники и аксессуары': [],
-  'Электронные книги': [],
-  'Ноутбуки': [],
+  'Смартфон': ['Apple', 'Samsung', 'Xiaomi', 'Google', 'Honor', 'Realme', 'OnePlus', 'Poco', 'Infinix', 'Tecno', 'Oukitel', 'Doogee', 'Huawei', 'ZTE', 'Nokia', 'Motorola', 'Asus', 'Sony', 'Nothing'],
+  'Планшет': [],
+  'Наушники': [],
+  'Электронная книга': [],
+  'Ноутбук': [],
 };
 
-const RAM_OPTIONS = ['3 ГБ', '4 ГБ', '6 ГБ', '8 ГБ', '12 ГБ', '16 ГБ', '24 ГБ', '32 ГБ'];
-const STORAGE_OPTIONS = ['32 ГБ', '64 ГБ', '128 ГБ', '256 ГБ', '512 ГБ', '1 ТБ', '2 ТБ'];
+const RAM_OPTIONS = ['3GB', '4GB', '6GB', '8GB', '12GB', '16GB', '24GB', '32GB'];
+const STORAGE_OPTIONS = ['32GB', '64GB', '128GB', '256GB', '512GB', '1TB', '2TB'];
 const NETWORK_OPTIONS = ['Wi-Fi', '4G', '5G', 'LTE'];
+const KIT_OPTIONS = ['с активным шумоподавлением', 'без активного шумоподавления', 'с разъемом USB Type-C'];
+const DEFAULT_EXPORT_ORDER = ['typePrefix','model','dualSim','netMod','partNumber','ramStorage','processor','version','kit','color'];
+const TOKEN_LABELS: Record<string, string> = {
+  typePrefix: 'Категория', model: 'Модель', dualSim: 'Dual SIM', netMod: 'Модуль',
+  partNumber: 'Парт-номер', ramStorage: 'ОЗУ/Память', processor: 'Процессор',
+  version: 'Версия', kit: 'Комплектация', color: 'Цвет',
+};
 
 const COLOR_OPTIONS = ['Чёрный', 'Белый', 'Синий', 'Зелёный', 'Серебро', 'Серый', 'Голубой', 'Фиолетовый', 'Оранжевый', 'Золото', 'Розовый', 'Красный', 'Бежевый'];
 
@@ -171,20 +191,40 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
   const [fCategories, setFCategories] = useState<string[]>([]);
   const [fImages, setFImages] = useState<string[]>([]);
   const [fPreorder, setFPreorder] = useState(false);
+  const [fDeliveryDays, setFDeliveryDays] = useState('');
   const [fPartNumber, setFPartNumber] = useState('');
   const [fDualSim, setFDualSim] = useState('');
   const [fNetworkModule, setFNetworkModule] = useState('');
   const [fModelVersion, setFModelVersion] = useState('');
+  const [fExportFields, setFExportFields] = useState({
+    dualSim: false, partNumber: false, version: false, connectivity: false, antenna: true, kit: false, processor: false,
+  });
   const [fSpecsHtml, setFSpecsHtml] = useState('');
   const [fAttrRam, setFAttrRam] = useState<string[]>([]);
   const [fAttrStorage, setFAttrStorage] = useState<string[]>([]);
   const [fAttrColor, setFAttrColor] = useState<string[]>([]);
   const [fAttrNetworkModule, setFAttrNetworkModule] = useState<string[]>([]);
+  const [fAttrKit, setFAttrKit] = useState<string[]>([]);
   const [fCustomRam, setFCustomRam] = useState('');
   const [fCustomStorage, setFCustomStorage] = useState('');
   const [fCustomColor, setFCustomColor] = useState('');
   const [fCustomNetworkModule, setFCustomNetworkModule] = useState('');
+  const [fCustomKit, setFCustomKit] = useState('');
+  const [fAttrProcessor, setFAttrProcessor] = useState('');
+  const [fExportOrder, setFExportOrder] = useState<{ key: string; brackets: boolean }[]>([]);
+  const [fCustomVersion, setFCustomVersion] = useState('');
+  const [fVersionOptions, setFVersionOptions] = useState<string[]>(['международная версия', 'индийская версия', 'европейская версия']);
   const [fVariations, setFVariations] = useState<Variation[]>([]);
+  const nextVarId = useRef(1);
+  // For new products, fetch next variation ID from server
+  useEffect(() => {
+    if (!editingId) {
+      fetch('/api/admin/products/next-ids')
+        .then(r => r.json())
+        .then(d => { if (d.nextVariationId) nextVarId.current = d.nextVariationId; })
+        .catch(() => {});
+    }
+  }, [editingId]);
   const [newCatName, setNewCatName] = useState('');
   const [newCatParent, setNewCatParent] = useState('');
   const [showNewCat, setShowNewCat] = useState(false);
@@ -193,10 +233,11 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
   const [dropIdx, setDropIdx] = useState<number | null>(null);
   const [addAttrRow, setAddAttrRow] = useState<number | null>(null);
   const [editChip, setEditChip] = useState<{ vi: number; attr: string } | null>(null);
+  const [editChipText, setEditChipText] = useState<{ vi: number; attr: string; value: string } | null>(null);
   const [uploading, setUploading] = useState(false);
   const [isDirty, setIsDirty] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
-  const isTablet = fCategories.some(c => c === 'Планшеты' || c.startsWith('Планшеты'));
+  const isTablet = fCategories.some(c => c === 'Планшет' || c.startsWith('Планшет'));
 
   // ── Заполнение формы при редактировании ──
   useEffect(() => {
@@ -209,21 +250,69 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
       setFCategories(product.categories || []);
       setFImages(product.local_images || []);
       setFPreorder(product.preorder || false);
+      setFDeliveryDays(product.deliveryDays ? String(product.deliveryDays) : '');
       setFPartNumber(product.part_number || '');
       setFDualSim(product.dual_sim || '');
       setFNetworkModule(product.network_module || '');
       setFModelVersion(product.model_version || '');
+      setFExportFields(product.exportFields || { dualSim: false, partNumber: false, version: false, connectivity: false, antenna: true, kit: false, processor: false });
       setFSpecsHtml(convertHtmlToPlainText(product.description || ''));
       const attrs = product.attributes || [];
       setFAttrRam(attrs.find(a => a.name === 'Оперативная память')?.options || []);
       setFAttrStorage(attrs.find(a => a.name === 'Встроенная память')?.options || []);
       setFAttrColor(attrs.find(a => a.name === 'Цвет корпуса')?.options || []);
       setFAttrNetworkModule(attrs.find(a => a.name === 'Модуль антенны')?.options || []);
+      setFAttrKit(attrs.find(a => a.name === 'Комплектация')?.options || []);
+      setFAttrProcessor(product.processor || '');
+      // Auto-populate export order if empty
+      const savedOrder = product.exportOrder || [];
+      if (savedOrder.length > 0) {
+        setFExportOrder(savedOrder);
+      } else {
+        const ef = product.exportFields || { dualSim: false, partNumber: false, version: false, connectivity: false, antenna: true, kit: false, processor: false };
+        const auto: { key: string; brackets: boolean }[] = [
+          { key: 'typePrefix', brackets: false }, { key: 'model', brackets: false },
+        ];
+        if (ef.dualSim && product.dual_sim) auto.push({ key: 'dualSim', brackets: false });
+        if (ef.partNumber && product.part_number) auto.push({ key: 'partNumber', brackets: false });
+        auto.push({ key: 'ramStorage', brackets: false });
+        if (ef.processor && product.processor) auto.push({ key: 'processor', brackets: false });
+        if (ef.version && product.model_version) auto.push({ key: 'version', brackets: false });
+        if (ef.kit) auto.push({ key: 'kit', brackets: true });
+        auto.push({ key: 'color', brackets: true });
+        if (ef.antenna && product.network_module) auto.push({ key: 'netMod', brackets: false });
+        setFExportOrder(auto);
+      }
       setFVariations((product.variations || []).map(v => {
         const attrMap: Record<string, string> = {};
-        (v.attributes || []).forEach(a => { attrMap[a.name] = a.option; });
-        return { id: v.id, attributes: attrMap, price: v.price || '', sale_price: v.sale_price || '', in_stock: true, enabled: v.enabled !== false };
+        const raw = v.attributes;
+        if (Array.isArray(raw)) {
+          raw.forEach(a => { attrMap[a.name] = a.option; });
+        } else if (raw && typeof raw === 'object') {
+          Object.entries(raw as Record<string, string>).forEach(([k, val]) => { attrMap[k] = val; });
+        }
+        return { id: v.id, attributes: attrMap, price: v.price || '', sale_price: v.sale_price || '', in_stock: true, enabled: v.enabled !== false, deliveryDays: (v as Record<string, unknown>).deliveryDays as number || 0 };
       }));
+      // Auto-increment: next ID = max existing + 1
+      const maxVarId = Math.max(0, ...(product.variations || []).map(v => v.id));
+      nextVarId.current = maxVarId + 1;
+
+      // If product.attributes is empty, populate from variation attributes
+      if (!product.attributes || product.attributes.length === 0) {
+        const varAttrs = (product.variations || []).map(v => {
+          const m: Record<string, string> = {};
+          const raw = v.attributes;
+          if (Array.isArray(raw)) raw.forEach(a => { m[a.name] = a.option; });
+          else if (raw && typeof raw === 'object') Object.entries(raw as Record<string, string>).forEach(([k, val]) => { m[k] = val; });
+          return m;
+        });
+        const unique = (key: string) => [...new Set(varAttrs.map(a => a[key]).filter(Boolean))] as string[];
+        setFAttrRam(unique('Оперативная память'));
+        setFAttrStorage(unique('Встроенная память'));
+        setFAttrColor(unique('Цвет корпуса'));
+        setFAttrNetworkModule(unique('Модуль связи') .length > 0 ? unique('Модуль связи') : unique('Модуль антенны'));
+        setFAttrKit(unique('Комплектация'));
+      }
     }
   }, [product]);
 
@@ -239,7 +328,7 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
   }, [addAttrRow, editChip]);
 
   // ── Dirty tracking ──
-  useEffect(() => { setIsDirty(true); }, [fName, fPrice, fShortDesc, fCategories, fImages, fSpecsHtml, fAttrRam, fAttrStorage, fAttrColor, fVariations, fPartNumber, fDualSim, fNetworkModule, fModelVersion, fPreorder]);
+  useEffect(() => { setIsDirty(true); }, [fName, fPrice, fShortDesc, fCategories, fImages, fSpecsHtml, fAttrRam, fAttrStorage, fAttrColor, fAttrKit, fVariations, fPartNumber, fDualSim, fNetworkModule, fModelVersion, fPreorder]);
 
   // ── Диалог несохранённых изменений ──
   useEffect(() => {
@@ -266,17 +355,23 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
       if (fAttrStorage.length > 0) attributes.push({ name: 'Встроенная память', options: fAttrStorage });
       if (fAttrColor.length > 0) attributes.push({ name: 'Цвет корпуса', options: fAttrColor });
       if (fAttrNetworkModule.length > 0) attributes.push({ name: 'Модуль антенны', options: fAttrNetworkModule });
+      if (fAttrKit.length > 0) attributes.push({ name: 'Комплектация', options: fAttrKit });
       const description = parseTextToSpecsHtml(fSpecsHtml);
       const body: Record<string, unknown> = {
         name: fName, slug: fSlug || slugifyRu(fName), type: fType, price: fPrice, sale_price: '',
         short_description: fShortDesc, description, categories: fCategories, local_images: fImages,
         part_number: fPartNumber, dual_sim: fDualSim, network_module: fNetworkModule, model_version: fModelVersion,
+        exportFields: fExportFields,
+        processor: fAttrProcessor,
+        exportOrder: fExportOrder,
+        deliveryDays: fPreorder ? (parseInt(fDeliveryDays) || 0) : 0,
         attributes, specs: [], preorder: fPreorder,
         variations: fVariations.map((v, i) => ({
-          id: v.id || Date.now() + i, name: fName + ' - ' + Object.values(v.attributes).join(', '),
+          id: v.id || nextVarId.current++, name: buildPreviewName(v),
           price: v.price || fPrice, regular_price: v.price || fPrice, sale_price: '',
           attributes: Object.entries(v.attributes).map(([name, option]) => ({ name, option })),
           enabled: v.enabled !== false,
+          deliveryDays: v.deliveryDays || 0,
         })),
       };
       if (editingId) {
@@ -307,29 +402,152 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
     const storageValues = fAttrStorage.length > 0 ? fAttrStorage : [''];
     const colorValues = fAttrColor.length > 0 ? fAttrColor : [''];
     const netValues = fAttrNetworkModule.length > 0 ? fAttrNetworkModule : [''];
+    const kitValues = fAttrKit.length > 0 ? fAttrKit : [''];
     const newVars: Variation[] = [];
-    for (const ram of ramValues) for (const storage of storageValues) for (const color of colorValues) for (const net of netValues) {
+    for (const ram of ramValues) for (const storage of storageValues) for (const color of colorValues) for (const net of netValues) for (const kit of kitValues) {
       const attrs: Record<string, string> = {};
       if (ram) attrs['Оперативная память'] = ram;
       if (storage) attrs['Встроенная память'] = storage;
       if (color) attrs['Цвет корпуса'] = color;
       if (net) attrs['Модуль антенны'] = net;
-      newVars.push({ id: Date.now() + newVars.length, attributes: attrs, price: basePrice, sale_price: '', in_stock: true, enabled: true });
+      if (kit) attrs['Комплектация'] = kit;
+      if (fExportFields.partNumber && fPartNumber) attrs['Парт-номер'] = fPartNumber;
+      newVars.push({ id: nextVarId.current++, attributes: attrs, price: basePrice, sale_price: '', in_stock: true, enabled: true, deliveryDays: fPreorder ? (parseInt(fDeliveryDays) || 21) : 0 });
     }
     setFVariations(newVars);
+    // Populate export order with active tokens
+    const activeTokens: { key: string; brackets: boolean }[] = [
+      { key: 'typePrefix', brackets: false },
+      { key: 'model', brackets: false },
+    ];
+    if (fExportFields.dualSim && fDualSim) activeTokens.push({ key: 'dualSim', brackets: false });
+    if (fExportFields.partNumber && fPartNumber) activeTokens.push({ key: 'partNumber', brackets: false });
+    if (fAttrRam.length > 0 || fAttrStorage.length > 0) activeTokens.push({ key: 'ramStorage', brackets: false });
+    if (fExportFields.processor && fAttrProcessor) activeTokens.push({ key: 'processor', brackets: false });
+    if (fExportFields.version && fModelVersion) activeTokens.push({ key: 'version', brackets: false });
+    if (fExportFields.kit && fAttrKit.length > 0) activeTokens.push({ key: 'kit', brackets: true });
+    if (fAttrColor.length > 0) activeTokens.push({ key: 'color', brackets: true });
+    if (fAttrNetworkModule.length > 0) activeTokens.push({ key: 'netMod', brackets: false });
+    setFExportOrder(activeTokens);
   };
+  // Load custom versions from localStorage
+  useEffect(() => {
+    try {
+      const saved = JSON.parse(localStorage.getItem('customVersions') || '[]');
+      if (saved.length > 0) setFVersionOptions(prev => [...new Set([...prev, ...saved])]);
+    } catch { /* empty */ }
+  }, []);
+
+  const addCustomVersion = () => {
+    const v = fCustomVersion.trim();
+    if (!v) return;
+    setFVersionOptions(prev => prev.includes(v) ? prev : [...prev, v]);
+    setFModelVersion(v);
+    setFCustomVersion('');
+    try {
+      const saved = JSON.parse(localStorage.getItem('customVersions') || '[]');
+      if (!saved.includes(v)) localStorage.setItem('customVersions', JSON.stringify([...saved, v]));
+    } catch { /* empty */ }
+  };
+
+  // Load custom categories from localStorage
+  const [customCats, setCustomCats] = useState<Record<string, string[]>>({});
+  useEffect(() => {
+    try {
+      const saved = JSON.parse(localStorage.getItem('customCategories') || '{}');
+      if (Object.keys(saved).length > 0) setCustomCats(saved);
+    } catch { /* empty */ }
+  }, []);
+
+  const allCategories = { ...CATEGORIES_TREE };
+  for (const [k, v] of Object.entries(customCats)) {
+    allCategories[k] = [...(allCategories[k] || []), ...v.filter(x => !(allCategories[k] || []).includes(x))];
+  }
+
   const addCategory = () => {
-    const name = newCatParent ? `${newCatParent} > ${newCatName}` : newCatName;
+    const name = newCatParent ? newCatName : newCatName;
     if (!name.trim()) return;
     if (!fCategories.includes(name)) setFCategories([...fCategories, name]);
+    // Save to localStorage
+    if (newCatParent && newCatName) {
+      try {
+        const saved = JSON.parse(localStorage.getItem('customCategories') || '{}');
+        if (!saved[newCatParent]) saved[newCatParent] = [];
+        if (!saved[newCatParent].includes(newCatName)) saved[newCatParent].push(newCatName);
+        localStorage.setItem('customCategories', JSON.stringify(saved));
+        setCustomCats(saved);
+      } catch { /* empty */ }
+    }
     setNewCatName(''); setNewCatParent(''); setShowNewCat(false);
   };
   // Available attribute pools from main fields
+  // ── Живое превью имени экспорта ──
+  const buildPreviewName = (v: Variation): string => {
+    const primaryCat = fCategories.find(c => !c.includes('>')) || '';
+    const typePrefix = primaryCat === 'Планшет' ? 'Планшет' :
+                       primaryCat.includes('Наушники') ? 'Наушники' :
+                       primaryCat === 'Ноутбук' ? 'Ноутбук' :
+                       primaryCat === 'Электронная книга' ? 'Электронная книга' : 'Смартфон';
+    const model = fName.replace(/^(Смартфон|Планшет|Наушники|Электронная книга|Ноутбук)\s+/, '').trim();
+    const isHuawei = model.startsWith('Huawei') || model.startsWith('Pura');
+    const isSamsung = model.includes('Samsung') || model.includes('Galaxy');
+    const isSamsungTab = model.includes('Tab');
+    const isEarphone = fCategories.some(c => c.includes('Наушники'));
+    const netMod = (fExportFields.antenna !== false) ? (v.attributes['Модуль связи'] || v.attributes['Модуль антенны'] || (isTablet ? '' : fNetworkModule)) : '';
+    const ram = v.attributes['Оперативная память'] || '';
+    const storage = v.attributes['Встроенная память'] || '';
+    const color = (v.attributes['Цвет корпуса'] || '').toLowerCase();
+    const version = (fExportFields.version && fModelVersion) ? fModelVersion : '';
+    const kit = (fExportFields.kit && v.attributes['Комплектация']) ? v.attributes['Комплектация'] : '';
+    const processor = (fExportFields.processor && fAttrProcessor) ? fAttrProcessor : '';
+
+    const tokens: Record<string, string> = {};
+    tokens.typePrefix = typePrefix;
+    tokens.model = model;
+    tokens.dualSim = (fExportFields.dualSim && fDualSim && !isSamsung) ? 'Dual SIM' : '';
+    tokens.netMod = (netMod && !model.toLowerCase().includes(netMod.toLowerCase())) ? netMod : '';
+    if (fExportFields.partNumber && fPartNumber) {
+      let pn = fPartNumber;
+      if (isSamsung && fExportFields.dualSim && fDualSim && !pn.endsWith('/DS')) pn += '/DS';
+      tokens.partNumber = pn;
+    } else tokens.partNumber = '';
+    tokens.ramStorage = (ram && storage) ? `${ram}/${storage}` : (storage || ram);
+    tokens.processor = processor;
+    tokens.version = version;
+    tokens.kit = kit;
+    tokens.color = color;
+
+    const order = fExportOrder.length > 0 ? fExportOrder : DEFAULT_EXPORT_ORDER.map(k => ({ key: k, brackets: k === 'color' || k === 'kit' }));
+    const parts: string[] = [];
+    const bracketGroup: string[] = [];
+    for (const item of order) {
+      const key = typeof item === 'string' ? item : item.key;
+      const brackets = typeof item === 'string' ? (key === 'color' || key === 'kit') : item.brackets;
+      const val = tokens[key];
+      if (!val) continue;
+      if (brackets) {
+        bracketGroup.push(val);
+      } else {
+        // Flush bracket group before adding non-bracket token
+        if (bracketGroup.length > 0) {
+          parts.push(`(${bracketGroup.join(', ')})`);
+          bracketGroup.length = 0;
+        }
+        parts.push(val);
+      }
+    }
+    // Flush remaining bracket group
+    if (bracketGroup.length > 0) parts.push(`(${bracketGroup.join(', ')})`);
+    return parts.join(' ');
+  };
+
   const attrPools: { name: string; values: string[] }[] = [
     { name: 'Оперативная память', values: fAttrRam },
     { name: 'Встроенная память', values: fAttrStorage },
     { name: 'Цвет корпуса', values: fAttrColor },
     { name: 'Модуль антенны', values: fAttrNetworkModule },
+    { name: 'Комплектация', values: fAttrKit },
+    { name: 'Парт-номер', values: fPartNumber ? [fPartNumber] : [] },
   ].filter(p => p.values.length > 0);
 
   const getAvailableAttrs = (vi: number): { name: string; values: string[] }[] => {
@@ -436,8 +654,8 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
                   <span className="absolute top-2 left-2 px-2 py-0.5 bg-gray-900 text-white text-[10px] rounded-md">Главная</span>
                 </div>
               ) : (
-                <div className="aspect-square bg-gray-50 rounded-xl border-2 border-dashed border-gray-200 flex items-center justify-center text-gray-300 text-sm">
-                  Нет фото
+                <div className="aspect-square bg-gray-50 rounded-xl border-2 border-dashed border-gray-200 flex items-center justify-center text-gray-300">
+                  <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
                 </div>
               )}
               {/* Миниатюры */}
@@ -485,11 +703,11 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
                         className="flex-1 px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black">
                   <option value="">Выбрать категорию...</option>
                   <optgroup label="Категории">
-                    {Object.keys(CATEGORIES_TREE).map(p => <option key={p} value={p}>{p}</option>)}
+                    {Object.keys(allCategories).map(p => <option key={p} value={p}>{p}</option>)}
                   </optgroup>
-                  {Object.entries(CATEGORIES_TREE).filter(([,ch]) => ch.length > 0).map(([p, ch]) => (
-                    <optgroup key={p} label={p}>
-                      {ch.map(c => <option key={`${p} > ${c}`} value={`${p} > ${c}`}>{c}</option>)}
+                  {Object.entries(allCategories).filter(([,ch]) => ch.length > 0).map(([p, ch]) => (
+                    <optgroup key={p} label={p === 'Смартфон' ? 'Бренды' : p}>
+                      {ch.map(c => <option key={`${p} > ${c}`} value={c}>{c}</option>)}
                     </optgroup>
                   ))}
                 </select>
@@ -638,6 +856,33 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
                 </div>
               )}
 
+              {/* Комплектация */}
+              <div>
+                <label className="text-sm text-gray-500 mb-1 block">Комплектация</label>
+                <select onChange={e => { if (e.target.value) toggleAttrOption(fAttrKit, setFAttrKit, e.target.value); e.target.value = ''; }}
+                        className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black">
+                  <option value="">Выбрать...</option>
+                  {KIT_OPTIONS.filter(o => !fAttrKit.includes(o)).map(o => <option key={o} value={o}>{o}</option>)}
+                </select>
+                {fAttrKit.length > 0 && <div className="flex flex-wrap gap-1.5 mt-2">
+                  {fAttrKit.map(opt => (
+                    <span key={opt} className="inline-flex items-center gap-1 px-2.5 py-1 bg-gray-900 text-white text-xs rounded-lg">
+                      {opt} <button type="button" onClick={() => setFAttrKit(fAttrKit.filter(o=>o!==opt))} className="ml-0.5 hover:text-gray-300">×</button>
+                    </span>
+                  ))}
+                </div>}
+                <div className="flex gap-2 mt-1.5">
+                  <input type="text" value={fCustomKit} onChange={e => setFCustomKit(e.target.value)}
+                         placeholder="Своя комплектация"
+                         className="flex-1 px-3 py-1.5 bg-gray-50 rounded-lg text-xs border border-gray-200 focus:outline-none focus:border-black"
+                         onKeyDown={e => { if (e.key === 'Enter') { e.preventDefault(); addCustomAttr(fCustomKit, fAttrKit, setFAttrKit, setFCustomKit); } }} />
+                  <button type="button" onClick={() => addCustomAttr(fCustomKit, fAttrKit, setFAttrKit, setFCustomKit)}
+                          className="px-3 py-1.5 bg-gray-100 hover:bg-gray-200 rounded-lg text-xs font-medium transition-colors shrink-0">
+                    Добавить
+                  </button>
+                </div>
+              </div>
+
               {/* Экспортные атрибуты */}
               <div className="grid grid-cols-2 gap-4 pt-2">
                 <div>
@@ -661,13 +906,270 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
                 )}
                 <div>
                   <label className="text-sm text-gray-500 mb-1 block">Версия</label>
-                  <input type="text" value={fModelVersion} onChange={e => setFModelVersion(e.target.value)} list="ver-opts"
+                  <select value={fModelVersion} onChange={e => setFModelVersion(e.target.value)}
+                          className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black">
+                    <option value="">Не указана</option>
+                    {fVersionOptions.map(v => <option key={v} value={v}>{v}</option>)}
+                  </select>
+                  <div className="flex gap-2 mt-1.5">
+                    <input type="text" value={fCustomVersion} onChange={e => setFCustomVersion(e.target.value)}
+                           placeholder="Своя версия"
+                           className="flex-1 px-3 py-1.5 bg-gray-50 rounded-lg text-xs border border-gray-200 focus:outline-none focus:border-black"
+                           onKeyDown={e => { if (e.key === 'Enter') { e.preventDefault(); addCustomVersion(); } }} />
+                    <button type="button" onClick={addCustomVersion}
+                            className="px-3 py-1.5 bg-gray-100 hover:bg-gray-200 rounded-lg text-xs font-medium transition-colors shrink-0">
+                      Добавить
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <label className="text-sm text-gray-500 mb-1 block">Процессор</label>
+                  <input type="text" value={fAttrProcessor} onChange={e => setFAttrProcessor(e.target.value)} placeholder="Snapdragon 8 Elite"
                          className="w-full px-4 py-2.5 bg-gray-50 rounded-xl text-sm border border-gray-200 focus:outline-none focus:border-black" />
-                  <datalist id="ver-opts"><option value="международная версия" /><option value="индийская версия" /><option value="европейская версия" /></datalist>
+                </div>
+              </div>
+
+              {/* Участие в экспорте */}
+              <div className="pt-3 border-t border-gray-100 space-y-2">
+                <h4 className="text-xs font-medium text-gray-500 uppercase tracking-wide">Участие в экспорте</h4>
+                <div className="flex flex-wrap gap-x-4 gap-y-1.5">
+                  {([
+                    ['dualSim', 'Dual SIM'],
+                    ['partNumber', 'Парт-номер'],
+                    ['version', 'Версия'],
+                    ['antenna', 'Модуль антенны'],
+                    ['kit', 'Комплектация'],
+                    ['processor', 'Процессор'],
+                  ] as [string, string][]).map(([key, label]) => (
+                    <label key={key} className="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer">
+                      <input type="checkbox" checked={fExportFields[key as keyof typeof fExportFields]}
+                             onChange={e => setFExportFields({ ...fExportFields, [key]: e.target.checked })}
+                             className="rounded border-gray-300" />
+                      {label}
+                    </label>
+                  ))}
                 </div>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* ════════════════════════════════════════════ */}
+        {/* ── ВАРИАЦИИ ──────────────────────────────── */}
+        {/* ════════════════════════════════════════════ */}
+        {fType === 'variable' && (
+          <div className="bg-white rounded-2xl border border-gray-100 p-5 mb-8 space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">
+                Вариации {fVariations.length > 0 && `(${fVariations.length})`}
+              </h3>
+              <div className="flex gap-2">
+                <button type="button" onClick={generateVariations}
+                        className="px-3 py-1.5 bg-blue-500 text-white text-xs font-medium rounded-lg hover:bg-blue-600 transition-colors">
+                  Сгенерировать вариации
+                </button>
+                <button type="button" onClick={() => {
+                  const newAttrs: Record<string, string> = {};
+                  if (fAttrRam.length > 0) newAttrs['Оперативная память'] = fAttrRam[0];
+                  if (fAttrStorage.length > 0) newAttrs['Встроенная память'] = fAttrStorage[0];
+                  if (fAttrColor.length > 0) newAttrs['Цвет корпуса'] = fAttrColor[0];
+                  if (fAttrNetworkModule.length > 0) newAttrs['Модуль антенны'] = fAttrNetworkModule[0];
+                  if (fAttrKit.length > 0) newAttrs['Комплектация'] = fAttrKit[0];
+                  setFVariations([...fVariations, { id: nextVarId.current++, attributes: newAttrs, price: fPrice, sale_price: '', in_stock: true, enabled: true }]);
+                }} className="text-xs text-gray-400 hover:text-black transition-colors">+ Вручную</button>
+              </div>
+            </div>
+            {fVariations.length === 0 && (
+              <div className="bg-blue-50 rounded-xl p-4 border border-blue-200 text-sm text-blue-700">
+                Добавьте атрибуты выше и нажмите «Сгенерировать вариации».
+              </div>
+            )}
+            {fVariations.length > 0 && (
+              <div className="space-y-0">
+                {fVariations.map((v, vi) => (
+                  <React.Fragment key={v.id ?? vi}>
+                    {dropIdx === vi && dragIdx !== null && dragIdx !== vi && dragIdx !== vi - 1 && (
+                      <div className="h-0.5 bg-blue-500 rounded-full mx-4 -mt-px" />
+                    )}
+                    <div
+                      draggable
+                      onDragStart={e => { setDragIdx(vi); e.dataTransfer.effectAllowed = 'move'; }}
+                      onDragOver={e => { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; setDropIdx(vi); }}
+                      onDragLeave={() => { if (dropIdx === vi) setDropIdx(null); }}
+                      onDrop={e => { e.preventDefault(); if (dragIdx !== null) reorderVariations(dragIdx, vi); }}
+                      onDragEnd={() => { setDragIdx(null); setDropIdx(null); }}
+                      className={`group/row bg-gray-50 rounded-xl p-3 flex items-center gap-3 border transition-opacity ${v.enabled === false ? 'border-red-200 opacity-60' : 'border-gray-100'} ${dragIdx === vi ? 'opacity-40' : ''}`}
+                    >
+                      <span className="text-gray-300 hover:text-gray-500 cursor-grab active:cursor-grabbing shrink-0 select-none text-sm leading-none" title="Перетащить">⋮⋮</span>
+                      <span className="text-xs text-gray-400 shrink-0">#{vi + 1}</span>
+                      <button type="button" onClick={() => setFVariations(fVariations.map((x,i) => i===vi ? {...x, enabled: !x.enabled} : x))}
+                              className={`shrink-0 w-9 h-5 rounded-full transition-colors relative ${v.enabled === false ? 'bg-red-300' : 'bg-green-400'}`}>
+                        <span className={`absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform ${v.enabled === false ? 'left-0.5' : 'left-4'}`} />
+                      </button>
+                      <div className="flex-1 flex flex-wrap gap-2 relative">
+                        {Object.entries(v.attributes).map(([name, value]) => {
+                          const pool = attrPools.find(p => p.name === name);
+                          const isEditing = editChip?.vi === vi && editChip?.attr === name;
+                          return (
+                            <span key={name} onDoubleClick={() => setEditChipText({ vi, attr: name, value })}
+                                  className="group/chip relative px-2 py-1 bg-white rounded text-xs border border-gray-200 inline-flex items-center gap-1 cursor-pointer">
+                              {editChipText && editChipText.vi === vi && editChipText.attr === name ? (
+                                <input type="text" value={editChipText.value}
+                                       onChange={e => setEditChipText({ ...editChipText, value: e.target.value })}
+                                       onKeyDown={e => {
+                                         if (e.key === 'Enter') {
+                                           setFVariations(fVariations.map((x,i) => i===vi ? {...x, attributes: {...x.attributes, [name]: editChipText.value}} : x));
+                                           setEditChipText(null);
+                                         }
+                                         if (e.key === 'Escape') setEditChipText(null);
+                                       }}
+                                       onBlur={() => {
+                                         setFVariations(fVariations.map((x,i) => i===vi ? {...x, attributes: {...x.attributes, [name]: editChipText.value}} : x));
+                                         setEditChipText(null);
+                                       }}
+                                       autoFocus
+                                       className="px-1 py-0.5 text-xs border border-blue-300 rounded focus:outline-none w-24" />
+                              ) : (
+                                <>
+                                  <span className="text-gray-500">{name}:</span> <span className="font-medium">{value}</span>
+                                </>
+                              )}
+                              {pool && pool.values.length > 1 && (
+                                <button type="button"
+                                        onClick={e => { e.stopPropagation(); setEditChip(isEditing ? null : { vi, attr: name }); }}
+                                        className="text-gray-300 hover:text-blue-500 opacity-0 group-hover/chip:opacity-100 transition-opacity ml-0.5"
+                                        title="Сменить значение">▾</button>
+                              )}
+                              <button type="button"
+                                      onClick={e => { e.stopPropagation(); removeChip(vi, name); }}
+                                      className="text-gray-300 hover:text-red-500 opacity-0 group-hover/chip:opacity-100 transition-opacity"
+                                      title="Удалить">×</button>
+                              {isEditing && pool && (
+                                <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border border-gray-200 z-50 py-1 min-w-[120px]"
+                                     onClick={e => e.stopPropagation()}>
+                                  {pool.values.map(val => (
+                                    <button key={val} type="button"
+                                            onClick={() => replaceChipValue(vi, name, val)}
+                                            className={`w-full text-left px-3 py-1.5 text-xs hover:bg-gray-50 transition-colors ${val === value ? 'bg-blue-50 font-medium' : ''}`}>
+                                      {val}
+                                    </button>
+                                  ))}
+                                </div>
+                              )}
+                            </span>
+                          );
+                        })}
+                        {getAvailableAttrs(vi).length > 0 && (
+                          <div className="relative">
+                            <button type="button"
+                                    onClick={e => { e.stopPropagation(); setAddAttrRow(addAttrRow === vi ? null : vi); }}
+                                    className="px-1.5 py-0.5 text-xs text-gray-300 hover:text-black hover:bg-gray-200 rounded transition-colors opacity-0 group-hover/row:opacity-100">
+                              +
+                            </button>
+                            {addAttrRow === vi && (
+                              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border border-gray-200 z-50 py-1 min-w-[160px]">
+                                {getAvailableAttrs(vi).map(pool => (
+                                  <button key={pool.name} type="button"
+                                          onClick={e => { e.stopPropagation(); addAttrToVariation(vi, pool.name); }}
+                                          className="w-full text-left px-3 py-1.5 text-xs hover:bg-gray-50 transition-colors">
+                                    <span className="text-gray-500">{pool.name}</span>
+                                    <span className="text-gray-300 ml-1">({pool.values[0]})</span>
+                                  </button>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                      <input type="number" value={v.price} placeholder="Цена"
+                             onChange={e => setFVariations(fVariations.map((x,i) => i===vi ? {...x, price: e.target.value} : x))}
+                             className="w-24 px-2 py-1.5 bg-white rounded-lg text-xs border border-gray-200 focus:outline-none focus:border-black" />
+                      <span className="text-xs text-gray-400">Br</span>
+                      {fPreorder && (
+                        <input type="number" value={v.deliveryDays || ''} placeholder="Дней"
+                               onChange={e => setFVariations(fVariations.map((x,i) => i===vi ? {...x, deliveryDays: parseInt(e.target.value) || 0} : x))}
+                               className="w-16 px-2 py-1.5 bg-white rounded-lg text-xs border border-gray-200 focus:outline-none focus:border-black" title="Дней доставки" />
+                      )}
+                      <button type="button" onClick={() => setFVariations(fVariations.filter((_,i)=>i!==vi))}
+                              className="text-gray-300 hover:text-red-500 transition-colors shrink-0">×</button>
+                    </div>
+                  </React.Fragment>
+                ))}
+                <div
+                  onDragOver={e => { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; setDropIdx(fVariations.length); }}
+                  onDrop={e => { e.preventDefault(); if (dragIdx !== null) reorderVariations(dragIdx, fVariations.length - 1); }}
+                  className="h-2"
+                >
+                  {dropIdx === fVariations.length && dragIdx !== null && (
+                    <div className="h-0.5 bg-blue-500 rounded-full mx-4" />
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* ════════════════════════════════════════════ */}
+        {/* ── ПОРЯДОК ЭКСПОРТА (drag & drop) ─────────── */}
+        {/* ════════════════════════════════════════════ */}
+        <div className="bg-white rounded-2xl border border-gray-100 p-5 mb-8 space-y-4">
+          <div className="flex items-center justify-between">
+            <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">Порядок экспорта</h3>
+            {fExportOrder.length > 0 && (
+              <button type="button" onClick={() => setFExportOrder([])}
+                      className="px-3 py-1.5 bg-gray-100 hover:bg-gray-200 rounded-lg text-xs font-medium transition-colors">
+                Сбросить порядок
+              </button>
+            )}
+          </div>
+          {/* Active tokens only */}
+          {fExportOrder.length > 0 ? (
+            <>
+              <div className="flex flex-wrap gap-2">
+                {fExportOrder.map((item, idx) => {
+                  const label = TOKEN_LABELS[item.key] || item.key;
+                  return (
+                    <div key={item.key} draggable
+                         onDragStart={e => { e.dataTransfer.setData('text/plain', String(idx)); }}
+                         onDragOver={e => e.preventDefault()}
+                         onDrop={e => {
+                           e.preventDefault();
+                           const from = parseInt(e.dataTransfer.getData('text/plain'));
+                           const order = [...fExportOrder];
+                           const [moved] = order.splice(from, 1);
+                           order.splice(idx, 0, moved);
+                           setFExportOrder(order);
+                         }}
+                         className={`inline-flex items-center gap-2 px-3 py-2 border rounded-xl text-sm cursor-grab active:cursor-grabbing transition-colors ${item.brackets ? 'bg-amber-50 border-amber-200' : 'bg-gray-50 border-gray-200 hover:border-gray-400'}`}>
+                      <span className="text-gray-300 text-xs">⋮⋮</span>
+                      <span className="font-medium text-gray-700">{item.brackets ? `(${label})` : label}</span>
+                      <button type="button"
+                              onClick={() => setFExportOrder(fExportOrder.map((x,i) => i===idx ? {...x, brackets: !x.brackets} : x))}
+                              className="text-gray-300 hover:text-amber-500 text-xs transition-colors"
+                              title={item.brackets ? 'Убрать скобки' : 'Добавить скобки'}>
+                        {item.brackets ? '✕' : '( )'}
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
+              {/* Live preview */}
+              <div className="bg-blue-50 rounded-xl p-3 border border-blue-100 space-y-1">
+                <p className="text-xs text-blue-400 font-medium">Превью имени в экспорте:</p>
+                <div className="text-xs text-blue-900 font-mono">
+                  {fVariations.slice(0, 3).map((v, i) => (
+                    <div key={i}>{buildPreviewName(v)}</div>
+                  ))}
+                  {fVariations.length > 3 && <div className="text-blue-400">... +{fVariations.length - 3} вариаций</div>}
+                  {fVariations.length === 0 && <div className="text-blue-400">Нет вариаций</div>}
+                </div>
+              </div>
+            </>
+          ) : (
+            <div className="bg-gray-50 rounded-xl p-4 border border-gray-200 text-sm text-gray-500 text-center">
+              Сгенерируйте вариации товара для отображения порядка экспорта
+            </div>
+          )}
         </div>
 
         {/* ════════════════════════════════════════════ */}
@@ -730,139 +1232,6 @@ export default function ProductForm({ product, onSaved, onCancel }: ProductFormP
           </div>
         </div>
 
-        {/* ════════════════════════════════════════════ */}
-        {/* ── ВАРИАЦИИ ──────────────────────────────── */}
-        {/* ════════════════════════════════════════════ */}
-        {fType === 'variable' && (
-          <div className="bg-white rounded-2xl border border-gray-100 p-5 mb-8 space-y-4">
-            <div className="flex items-center justify-between">
-              <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide">
-                Вариации {fVariations.length > 0 && `(${fVariations.length})`}
-              </h3>
-              <div className="flex gap-2">
-                <button type="button" onClick={generateVariations}
-                        className="px-3 py-1.5 bg-blue-500 text-white text-xs font-medium rounded-lg hover:bg-blue-600 transition-colors">
-                  Сгенерировать вариации
-                </button>
-                <button type="button" onClick={() => {
-                  const newAttrs: Record<string, string> = {};
-                  if (fAttrRam.length > 0) newAttrs['Оперативная память'] = fAttrRam[0];
-                  if (fAttrStorage.length > 0) newAttrs['Встроенная память'] = fAttrStorage[0];
-                  if (fAttrColor.length > 0) newAttrs['Цвет корпуса'] = fAttrColor[0];
-                  if (fAttrNetworkModule.length > 0) newAttrs['Модуль антенны'] = fAttrNetworkModule[0];
-                  setFVariations([...fVariations, { id: Date.now(), attributes: newAttrs, price: fPrice, sale_price: '', in_stock: true, enabled: true }]);
-                }} className="text-xs text-gray-400 hover:text-black transition-colors">+ Вручную</button>
-              </div>
-            </div>
-            {fVariations.length === 0 && (
-              <div className="bg-blue-50 rounded-xl p-4 border border-blue-200 text-sm text-blue-700">
-                Добавьте атрибуты выше и нажмите «Сгенерировать вариации».
-              </div>
-            )}
-            {fVariations.length > 0 && (
-              <div className="space-y-0">
-                {fVariations.map((v, vi) => (
-                  <React.Fragment key={v.id ?? vi}>
-                    {/* Drop indicator line */}
-                    {dropIdx === vi && dragIdx !== null && dragIdx !== vi && dragIdx !== vi - 1 && (
-                      <div className="h-0.5 bg-blue-500 rounded-full mx-4 -mt-px" />
-                    )}
-                    <div
-                      draggable
-                      onDragStart={e => { setDragIdx(vi); e.dataTransfer.effectAllowed = 'move'; }}
-                      onDragOver={e => { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; setDropIdx(vi); }}
-                      onDragLeave={() => { if (dropIdx === vi) setDropIdx(null); }}
-                      onDrop={e => { e.preventDefault(); if (dragIdx !== null) reorderVariations(dragIdx, vi); }}
-                      onDragEnd={() => { setDragIdx(null); setDropIdx(null); }}
-                      className={`group/row bg-gray-50 rounded-xl p-3 flex items-center gap-3 border transition-opacity ${v.enabled === false ? 'border-red-200 opacity-60' : 'border-gray-100'} ${dragIdx === vi ? 'opacity-40' : ''}`}
-                    >
-                      {/* Drag handle */}
-                      <span className="text-gray-300 hover:text-gray-500 cursor-grab active:cursor-grabbing shrink-0 select-none text-sm leading-none" title="Перетащить">⋮⋮</span>
-                      <span className="text-xs text-gray-400 shrink-0">#{vi + 1}</span>
-                      <button type="button" onClick={() => setFVariations(fVariations.map((x,i) => i===vi ? {...x, enabled: !x.enabled} : x))}
-                              className={`shrink-0 w-9 h-5 rounded-full transition-colors relative ${v.enabled === false ? 'bg-red-300' : 'bg-green-400'}`}>
-                        <span className={`absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform ${v.enabled === false ? 'left-0.5' : 'left-4'}`} />
-                      </button>
-                      <div className="flex-1 flex flex-wrap gap-2 relative">
-                        {Object.entries(v.attributes).map(([name, value]) => {
-                          const pool = attrPools.find(p => p.name === name);
-                          const isEditing = editChip?.vi === vi && editChip?.attr === name;
-                          return (
-                            <span key={name} className="group/chip relative px-2 py-1 bg-white rounded text-xs border border-gray-200 inline-flex items-center gap-1">
-                              <span className="text-gray-500">{name}:</span> <span className="font-medium">{value}</span>
-                              {/* Hover controls */}
-                              {pool && pool.values.length > 1 && (
-                                <button type="button"
-                                        onClick={e => { e.stopPropagation(); setEditChip(isEditing ? null : { vi, attr: name }); }}
-                                        className="text-gray-300 hover:text-blue-500 opacity-0 group-hover/chip:opacity-100 transition-opacity ml-0.5"
-                                        title="Сменить значение">▾</button>
-                              )}
-                              <button type="button"
-                                      onClick={e => { e.stopPropagation(); removeChip(vi, name); }}
-                                      className="text-gray-300 hover:text-red-500 opacity-0 group-hover/chip:opacity-100 transition-opacity"
-                                      title="Удалить">×</button>
-                              {/* Replace value dropdown */}
-                              {isEditing && pool && (
-                                <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border border-gray-200 z-50 py-1 min-w-[120px]"
-                                     onClick={e => e.stopPropagation()}>
-                                  {pool.values.map(val => (
-                                    <button key={val} type="button"
-                                            onClick={() => replaceChipValue(vi, name, val)}
-                                            className={`w-full text-left px-3 py-1.5 text-xs hover:bg-gray-50 transition-colors ${val === value ? 'bg-blue-50 font-medium' : ''}`}>
-                                      {val}
-                                    </button>
-                                  ))}
-                                </div>
-                              )}
-                            </span>
-                          );
-                        })}
-                        {/* "+" button — visible on row hover */}
-                        {getAvailableAttrs(vi).length > 0 && (
-                          <div className="relative">
-                            <button type="button"
-                                    onClick={e => { e.stopPropagation(); setAddAttrRow(addAttrRow === vi ? null : vi); }}
-                                    className="px-1.5 py-0.5 text-xs text-gray-300 hover:text-black hover:bg-gray-200 rounded transition-colors opacity-0 group-hover/row:opacity-100">
-                              +
-                            </button>
-                            {addAttrRow === vi && (
-                              <div className="absolute top-full left-0 mt-1 bg-white rounded-lg shadow-lg border border-gray-200 z-50 py-1 min-w-[160px]">
-                                {getAvailableAttrs(vi).map(pool => (
-                                  <button key={pool.name} type="button"
-                                          onClick={e => { e.stopPropagation(); addAttrToVariation(vi, pool.name); }}
-                                          className="w-full text-left px-3 py-1.5 text-xs hover:bg-gray-50 transition-colors">
-                                    <span className="text-gray-500">{pool.name}</span>
-                                    <span className="text-gray-300 ml-1">({pool.values[0]})</span>
-                                  </button>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                        )}
-                      </div>
-                      <input type="number" value={v.price} placeholder="Цена"
-                             onChange={e => setFVariations(fVariations.map((x,i) => i===vi ? {...x, price: e.target.value} : x))}
-                             className="w-24 px-2 py-1.5 bg-white rounded-lg text-xs border border-gray-200 focus:outline-none focus:border-black" />
-                      <span className="text-xs text-gray-400">Br</span>
-                      <button type="button" onClick={() => setFVariations(fVariations.filter((_,i)=>i!==vi))}
-                              className="text-gray-300 hover:text-red-500 transition-colors shrink-0">×</button>
-                    </div>
-                  </React.Fragment>
-                ))}
-                {/* Drop zone at the very end */}
-                <div
-                  onDragOver={e => { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; setDropIdx(fVariations.length); }}
-                  onDrop={e => { e.preventDefault(); if (dragIdx !== null) reorderVariations(dragIdx, fVariations.length - 1); }}
-                  className="h-2"
-                >
-                  {dropIdx === fVariations.length && dragIdx !== null && (
-                    <div className="h-0.5 bg-blue-500 rounded-full mx-4" />
-                  )}
-                </div>
-              </div>
-            )}
-          </div>
-        )}
       </div>
 
       {/* ════════════════════════════════════════════ */}

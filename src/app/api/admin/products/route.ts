@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { verifyAdmin } from '@/lib/admin-auth';
-import { getAllProducts, addProduct, updateProduct, deleteProduct, toggleProductEnabled, slugify } from '@/lib/admin-products';
+import { getAllProducts, addProduct, updateProduct, deleteProduct, toggleProductEnabled, slugify, getNextVariationId } from '@/lib/admin-products';
 
 export async function GET() {
   if (!await verifyAdmin()) {
@@ -30,6 +30,10 @@ export async function GET() {
     dual_sim: p.dual_sim || '',
     network_module: p.network_module || '',
     model_version: p.model_version || '',
+    exportFields: p.exportFields || { dualSim: false, partNumber: false, version: false, connectivity: false, antenna: false, kit: false, processor: false },
+    processor: p.processor || '',
+    exportOrder: p.exportOrder || [],
+    deliveryDays: p.deliveryDays || 0,
   }));
   return NextResponse.json({ total: summary.length, products: summary });
 }
@@ -41,11 +45,18 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { name, price, sale_price, short_description, description, categories, type, attributes, variations, local_images, specs, preorder, part_number, dual_sim, network_module, model_version } = body;
+    const { name, price, sale_price, short_description, description, categories, type, attributes, variations, local_images, specs, preorder, part_number, dual_sim, network_module, model_version, exportFields, deliveryDays } = body;
 
     if (!name || !price) {
       return NextResponse.json({ error: 'Название и цена обязательны' }, { status: 400 });
     }
+
+    // Assign variation IDs server-side
+    let nextVarId = getNextVariationId();
+    const safeVariations = (variations || []).map((v: { id?: number; [key: string]: unknown }) => ({
+      ...v,
+      id: nextVarId++,
+    }));
 
     const product = addProduct({
       name,
@@ -59,7 +70,7 @@ export async function POST(req: NextRequest) {
       categories: categories || [],
       brand: '',
       attributes: attributes || [],
-      variations: variations || [],
+      variations: safeVariations,
       enabled: true,
       specs: specs || [],
       preorder: preorder || false,
@@ -67,6 +78,8 @@ export async function POST(req: NextRequest) {
       dual_sim: dual_sim || '',
       network_module: network_module || '',
       model_version: model_version || '',
+      exportFields: exportFields || { dualSim: false, partNumber: false, version: false, connectivity: false, antenna: false, kit: false, processor: false },
+      deliveryDays: deliveryDays || 0,
     });
 
     return NextResponse.json({ id: product.id, slug: product.slug, ok: true });

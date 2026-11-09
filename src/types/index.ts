@@ -79,4 +79,5 @@ export interface LocalVariation {
   attributes: { name: string; option: string }[];
   csvName?: string;
   enabled?: boolean;
+  deliveryDays?: number;
 }

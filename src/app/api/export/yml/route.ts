@@ -46,18 +46,66 @@ function stripHtml(html: string): string {
     .trim();
 }
 
-function buildVariationName(p: LocalProduct, attrs: Record<string, string>): string {
-  const parts: string[] = [];
-  if (p.typePrefix) parts.push(p.typePrefix);
-  if (p.vendor) parts.push(p.vendor);
-  if (p.model) parts.push(p.model);
-  else parts.push(p.name);
+function normalizeMemory(s: string): string {
+  return s.replace(/(\d+)\s*ГБ/g, '$1GB').replace(/(\d+)\s*ТБ/g, '$1TB');
+}
 
-  const extras: string[] = [];
-  for (const [, v] of Object.entries(attrs)) {
-    if (v) extras.push(v);
+function buildExportName(p: LocalProduct, attrs: Record<string, string>): string {
+  const typePrefix = p.typePrefix || 'Смартфон';
+  let model = (p.model || p.name).replace(/^(Смартфон|Планшет|Наушники|Электронная книга|Ноутбук)\s+/, '').trim();
+  model = model.replace(/\s+/g, ' ').trim();
+
+  const ef = p.exportFields;
+  const isHuawei = model.startsWith('Huawei') || model.startsWith('Pura');
+  const isSamsung = model.includes('Samsung') || model.includes('Galaxy');
+  const isEarphone = (p.categories || []).some(c => c.includes('Наушники'));
+
+  const netMod = (ef?.antenna !== false) ? (attrs['Модуль связи'] || attrs['Модуль антенны'] || p.network_module || '') : '';
+  const ram = normalizeMemory(attrs['Оперативная память'] || '');
+  const storage = normalizeMemory(attrs['Встроенная память'] || '');
+  const color = (attrs['Цвет корпуса'] || '').toLowerCase();
+  const version = (ef?.version && p.model_version) ? p.model_version : '';
+  const kit = (ef?.kit && attrs['Комплектация']) ? attrs['Комплектация'] : '';
+  const processor = (ef?.processor && p.processor) ? p.processor : '';
+
+  const tokens: Record<string, string> = {};
+  tokens.typePrefix = typePrefix;
+  tokens.model = model;
+  tokens.dualSim = (ef?.dualSim && p.dual_sim && !isSamsung) ? 'Dual SIM' : '';
+  tokens.netMod = (netMod && !model.toLowerCase().includes(netMod.toLowerCase())) ? netMod : '';
+  const partNum = attrs['Парт-номер'] || p.part_number || '';
+  if (ef?.partNumber && partNum) {
+    let pn = partNum;
+    if (isSamsung && ef?.dualSim && p.dual_sim && !pn.endsWith('/DS')) pn += '/DS';
+    tokens.partNumber = pn;
+  } else tokens.partNumber = '';
+  tokens.ramStorage = (ram && storage) ? `${ram}/${storage}` : (storage || ram);
+  tokens.processor = processor;
+  tokens.version = version;
+  tokens.kit = kit;
+  tokens.color = color;
+
+  const DEFAULT_ORDER = ['typePrefix','model','dualSim','netMod','partNumber','ramStorage','processor','version','kit','color'];
+  const rawOrder = p.exportOrder && p.exportOrder.length > 0 ? p.exportOrder : DEFAULT_ORDER.map(k => ({ key: k, brackets: k === 'color' || k === 'kit' }));
+
+  const parts: string[] = [];
+  const bracketGroup: string[] = [];
+  for (const item of rawOrder) {
+    const key = typeof item === 'string' ? item : item.key;
+    const brackets = typeof item === 'string' ? (key === 'color' || key === 'kit') : item.brackets;
+    const val = tokens[key];
+    if (!val) continue;
+    if (brackets) {
+      bracketGroup.push(val);
+    } else {
+      if (bracketGroup.length > 0) {
+        parts.push(`(${bracketGroup.join(', ')})`);
+        bracketGroup.length = 0;
+      }
+      parts.push(val);
+    }
   }
-  if (extras.length) parts.push('(' + extras.join(', ') + ')');
+  if (bracketGroup.length > 0) parts.push(`(${bracketGroup.join(', ')})`);
 
   return parts.join(' ');
 }
@@ -105,7 +153,7 @@ function productToOffers(p: LocalProduct): string[] {
   const url = SITE_URL + '/shop/' + p.slug + '/';
   const imgUrl = p.local_images?.[0] ? SITE_URL + p.local_images[0] : '';
   const description = stripHtml(p.short_description || '');
-  const deliveryDays = p.preorder ? 21 : (p.deliveryDays ?? 1);
+  const baseDeliveryDays = p.deliveryDays ?? 1;
   const orderBefore = p.orderBefore ?? 18;
   const catId = p.shopByCategory ?? 1;
   const marketCat = MARKET_CATEGORY_MAP[catId] || 'Мобильные телефоны';
@@ -117,7 +165,7 @@ function productToOffers(p: LocalProduct): string[] {
       for (const a of v.attributes) {
         attrs[a.name] = a.option;
       }
-      const varName = buildVariationName(p, attrs);
+      const varName = buildExportName(p, attrs);
       const varId = String(v.id);
       const varPrice = v.sale_price || v.price || p.price;
       const oldprice = v.sale_price ? (v.price || p.price) : '';
@@ -128,10 +176,11 @@ function productToOffers(p: LocalProduct): string[] {
         params += '        <param name="' + escapeXml(a.name) + '">' + escapeXml(a.option) + '</param>\n';
       }
 
-      offers.push(buildOffer(varId, url, imgUrl, varPrice, oldprice, catId, marketCat, varName, description, deliveryDays, orderBefore, params, !p.preorder));
+      const varDelivery = v.deliveryDays || baseDeliveryDays;
+      offers.push(buildOffer(varId, url, imgUrl, varPrice, oldprice, catId, marketCat, varName, description, varDelivery, orderBefore, params, true));
     }
   } else {
-    const simpleName = buildVariationName(p, {});
+    const simpleName = buildExportName(p, {});
     let params = '';
     params += '        <param name="Производитель">' + escapeXml(p.vendor || '') + '</param>\n';
     for (const a of p.attributes || []) {
@@ -140,7 +189,7 @@ function productToOffers(p: LocalProduct): string[] {
       }
     }
 
-    offers.push(buildOffer(shopId, url, imgUrl, p.price, p.sale_price || '', catId, marketCat, simpleName, description, deliveryDays, orderBefore, params, !p.preorder));
+    offers.push(buildOffer(shopId, url, imgUrl, p.price, p.sale_price || '', catId, marketCat, simpleName, description, baseDeliveryDays, orderBefore, params, true));
   }
 
   return offers;

@@ -18,11 +18,19 @@ export const metadata: Metadata = {
   },
   description: "Магазин мобильных телефонов Apple, Samsung, Xiaomi с гарантией и доставкой по Минску. Лучшие цены!",
   keywords: ["телефон", "смартфон", "iPhone", "Samsung", "Xiaomi", "Минск", "купить"],
+  robots: { index: true, follow: true },
   openGraph: {
     title: "PanConnect — Купить телефон в Минске",
     description: "Магазин мобильных телефонов с гарантией и доставкой",
     locale: "ru_RU",
     type: "website",
+    siteName: "PanConnect",
+    url: "https://panconnect.by",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PanConnect — Купить телефон в Минске",
+    description: "Магазин мобильных телефонов с гарантией и доставкой",
   },
 };
 

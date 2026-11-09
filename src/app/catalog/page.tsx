@@ -16,8 +16,8 @@ export async function generateMetadata({ searchParams }: CatalogPageProps): Prom
   const category = params.category as string;
   const search = params.search as string;
 
-  if (search) return { title: `Поиск: ${search}` };
-  if (category) return { title: `Каталог — ${category.charAt(0).toUpperCase() + category.slice(1)}` };
+  if (search) return { title: `Поиск: ${search}`, robots: { index: false, follow: false } };
+  if (category) return { title: `Каталог — ${category.charAt(0).toUpperCase() + category.slice(1)}`, robots: { index: true, follow: true } };
   return { title: 'Каталог телефонов' };
 }
 

@@ -53,8 +53,20 @@ export interface LocalProduct {
   // New export attributes
   part_number?: string;
   dual_sim?: string;
+  csvName?: string;
   network_module?: string;
   model_version?: string;
+  exportFields?: {
+    dualSim: boolean;
+    partNumber: boolean;
+    version: boolean;
+    connectivity: boolean;
+    antenna: boolean;
+    kit: boolean;
+    processor: boolean;
+  };
+  exportOrder?: string[];
+  processor?: string;
 }
 
 function cleanText(text: string): string {
@@ -82,7 +94,8 @@ function isRootType(leaf: string): boolean {
 }
 
 function toProduct(p: LocalProduct): Product {
-  const images = p.local_images.map((src, i) => ({
+  const rawImages = Array.isArray(p.local_images) ? p.local_images : [];
+  const images = rawImages.filter(Boolean).map((src, i) => ({
     id: i,
     src,
     name: p.name,
@@ -97,20 +110,28 @@ function toProduct(p: LocalProduct): Product {
 
   const variations: ProductVariation[] = (p.variations || [])
     .filter(v => v.enabled !== false)
-    .map((v) => ({
-    id: v.id,
-    name: v.name,
-    price: v.price,
-    regular_price: v.regular_price,
-    sale_price: v.sale_price,
-    image: { id: 0, src: '', name: '', alt: '' },
-    attributes: v.attributes.map((a, i) => ({
-      id: i,
-      name: a.name,
-      options: [],
-      option: a.option,
-    })),
-  }));
+    .map((v) => {
+    const rawAttrs = v.attributes;
+    const attrArr: { name: string; option: string }[] = Array.isArray(rawAttrs)
+      ? rawAttrs
+      : (rawAttrs && typeof rawAttrs === 'object')
+        ? Object.entries(rawAttrs as Record<string, string>).map(([name, option]) => ({ name, option }))
+        : [];
+    return {
+      id: v.id,
+      name: v.name,
+      price: v.price,
+      regular_price: v.regular_price,
+      sale_price: v.sale_price,
+      image: { id: 0, src: '', name: '', alt: '' },
+      attributes: attrArr.map((a, i) => ({
+        id: i,
+        name: a.name,
+        options: [],
+        option: a.option,
+      })),
+    };
+    });
 
   const hasVariationsWithPrice = variations.some(v => v.price);
   let displayPrice = p.price;
@@ -267,20 +288,28 @@ export async function getProductVariations(slug: string): Promise<ProductVariati
 
   return (found.variations || [])
     .filter(v => v.enabled !== false)
-    .map((v) => ({
+    .map((v) => {
+    const rawAttrs = v.attributes;
+    const attrArr: { name: string; option: string }[] = Array.isArray(rawAttrs)
+      ? rawAttrs
+      : (rawAttrs && typeof rawAttrs === 'object')
+        ? Object.entries(rawAttrs as Record<string, string>).map(([name, option]) => ({ name, option }))
+        : [];
+    return {
       id: v.id,
       name: v.name,
       price: v.price,
       regular_price: v.regular_price,
       sale_price: v.sale_price,
       image: { id: 0, src: '', name: '', alt: '' },
-      attributes: v.attributes.map((a, i) => ({
+      attributes: attrArr.map((a, i) => ({
         id: i,
         name: a.name,
         options: [],
         option: a.option,
       })),
-    }));
+    };
+    });
 }
 
 export async function getCategories(): Promise<{ id: number; name: string; slug: string; count: number }[]> {

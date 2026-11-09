@@ -31,26 +31,26 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
 function parseSpecs(html: string): { label: string; value: string; isSection?: boolean }[] {
   if (!html) return [];
-  // Normalize literal \r\n to real newlines
   const normalized = html.replace(/\\r\\n/g, '\n').replace(/\\n/g, '\n');
   const specs: { label: string; value: string; isSection?: boolean }[] = [];
 
-  // Try div format
+  // WordPress format: my_div1 (section) or my_div2 (label/value) with my_item1/my_item2
   const divBlocks = normalized.split(/<div class="my_div[12]">/i).slice(1);
   for (const block of divBlocks) {
     const item1Match = block.match(/<div class="my_item1">([\s\S]*?)<\/div>/i);
     const item2Match = block.match(/<div class="my_item2">([\s\S]*?)<\/div>/i);
     if (item1Match) {
       const label = item1Match[1].replace(/<[^>]*>/g, '').trim();
-      const value = item2Match ? item2Match[1].replace(/<[^>]*>/g, '').trim() : '';
+      const value = item2Match ? item2Match[1].replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim() : '';
       if (label) {
-        const isSection = /<strong>/.test(item1Match[1]) && !value;
+        // Section = strong tag in my_item1 AND no my_item2
+        const isSection = /<strong>/i.test(item1Match[1]) && !item2Match;
         specs.push({ label, value, isSection });
       }
     }
   }
 
-  // Fallback: try table format
+  // Fallback: table format
   if (specs.length === 0 && normalized.includes('<table')) {
     const trRegex = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
     const tdRegex = /<td[^>]*>([\s\S]*?)<\/td>/gi;
@@ -68,6 +68,63 @@ function parseSpecs(html: string): { label: string; value: string; isSection?: b
   }
 
   return specs;
+}
+
+// Parse raw text into label/value pairs with multi-line value support
+function parseTextSpecs(text: string): { label: string; value: string; isSection?: boolean }[] {
+  if (!text) return [];
+  const lines = text.split('\n').map(l => l.trim()).filter(l => l);
+  const rows: { label: string; value: string; isSection?: boolean }[] = [];
+
+  // Known section headers (short, no commas, no colons)
+  const sectionKeywords = ['Экран', 'Камера', 'Характеристики камеры', 'Процессор', 'Память', 'Батарея', 'Связь', 'Корпус', 'Общие', 'Основные характеристики', 'Размеры и вес', 'Комплектация', 'Интерфейсы', 'Аккумулятор', 'Передача данных', 'Производительность и процессор', 'Характеристики камер'];
+
+  const isLabelLike = (s: string) => {
+    if (s.length > 60) return false;
+    if (s.includes(',')) return false;
+    return /^[А-Яа-яЁёA-Za-z]/.test(s);
+  };
+
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    const isSection = sectionKeywords.some(k => line.toLowerCase() === k.toLowerCase());
+    if (isSection) {
+      rows.push({ label: line, value: '', isSection: true });
+      i++;
+      continue;
+    }
+
+    // Check if this is a label (next line is value-like) or start of multi-line value
+    const next = i + 1 < lines.length ? lines[i + 1] : '';
+    if (isLabelLike(line) && next && (isLabelLike(next) || next.length > 0)) {
+      // Check if next line is also label-like (means current is section)
+      if (isLabelLike(next) && !next.includes(',')) {
+        rows.push({ label: line, value: '', isSection: true });
+        i++;
+        continue;
+      }
+      // Collect value lines (may span multiple lines until next label)
+      const valueLines: string[] = [];
+      i++;
+      while (i < lines.length) {
+        const v = lines[i];
+        // Stop if this looks like a new label (short, no commas, and next line exists)
+        if (isLabelLike(v) && !v.includes(',') && i + 1 < lines.length && isLabelLike(lines[i + 1])) break;
+        if (isLabelLike(v) && !v.includes(',') && sectionKeywords.some(k => v.toLowerCase() === k.toLowerCase())) break;
+        valueLines.push(v);
+        i++;
+        // Stop if we've collected enough and next line is label-like
+        if (i < lines.length && isLabelLike(lines[i]) && !lines[i].includes(',')) break;
+      }
+      rows.push({ label: line, value: valueLines.join(' ') });
+    } else {
+      // Orphan line — treat as section
+      rows.push({ label: line, value: '', isSection: true });
+      i++;
+    }
+  }
+  return rows;
 }
 
 export default async function ProductPage({ params }: ProductPageProps) {
@@ -96,14 +153,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <span className="text-gray-600 truncate">{product.name}</span>
       </nav>
 
-      <div className="grid md:grid-cols-2 gap-6 lg:gap-12">
+      <div className="grid md:grid-cols-2 gap-6 lg:gap-12 overflow-hidden">
         {/* Галерея */}
-        <div className="overflow-hidden min-w-0">
+        <div className="overflow-hidden min-w-0 max-w-full">
           <ProductGallery images={product.images} productName={product.name} />
         </div>
 
         {/* Информация */}
-        <div className="flex flex-col">
+        <div className="flex flex-col min-w-0">
           <h1 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-3 sm:mb-4">{product.name}</h1>
 
           <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-5 flex-wrap">
@@ -161,34 +218,35 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
       {/* Характеристики */}
       {(() => {
-        const allSpecs = product.specs && product.specs.length > 0 ? product.specs : parseSpecs(product.description);
+        // Priority: structured specs → parse description HTML → parse raw text
+        let allSpecs: { label: string; value: string; isSection?: boolean }[] = [];
+        if (product.specs && product.specs.length > 0) {
+          allSpecs = product.specs.map(s => ({ label: s.label, value: s.value }));
+        } else if (product.description) {
+          allSpecs = parseSpecs(product.description);
+          if (allSpecs.length === 0) allSpecs = parseTextSpecs(product.description.replace(/<[^>]*>/g, ''));
+        }
         if (allSpecs.length === 0 && !product.description) return null;
         return (
           <div className="mt-12 sm:mt-16">
             <h2 className="text-xl sm:text-2xl font-semibold tracking-tight mb-4 sm:mb-6">Характеристики</h2>
             {allSpecs.length > 0 ? (
-              <div className="bg-gray-50 rounded-2xl overflow-hidden">
-                <table className="w-full text-sm">
-                  <tbody>
-                    {allSpecs.map((row, i) => {
-                      if ('isSection' in row && row.isSection) {
-                        return (
-                          <tr key={i}>
-                            <td colSpan={2} className="px-4 sm:px-5 py-3 sm:py-3.5 font-semibold text-gray-900 bg-gray-100">
-                              {row.label}
-                            </td>
-                          </tr>
-                        );
-                      }
-                      return (
-                        <tr key={i} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                          <td className="px-4 sm:px-5 py-3 sm:py-3.5 text-gray-500 w-[40%]">{row.label}</td>
-                          <td className="px-4 sm:px-5 py-3 sm:py-3.5 font-medium text-gray-900">{row.value}</td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
+              <div className="rounded-2xl overflow-hidden border border-gray-100">
+                {allSpecs.map((row, i) => {
+                  if (row.isSection) {
+                    return (
+                      <div key={i} className="bg-gray-100 px-5 py-3 font-semibold text-gray-900 text-sm">
+                        {row.label}
+                      </div>
+                    );
+                  }
+                  return (
+                    <div key={i} className={`grid grid-cols-[35%_65%] ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
+                      <div className="px-5 py-3 text-gray-600 text-sm leading-relaxed break-words">{row.label}</div>
+                      <div className="px-5 py-3 text-gray-900 text-sm font-medium leading-relaxed break-words">{row.value}</div>
+                    </div>
+                  );
+                })}
               </div>
             ) : (
               <div
