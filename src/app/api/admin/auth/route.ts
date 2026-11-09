@@ -4,7 +4,7 @@ import { getSessionCookieName, getPassword, getSessionToken } from '@/lib/admin-
 export async function POST(req: NextRequest) {
   const { password } = await req.json();
 
-  if (!getPassword() || password !== getPassword()) {
+  if (password !== getPassword()) {
     return NextResponse.json({ error: 'Неверный пароль' }, { status: 401 });
   }
 

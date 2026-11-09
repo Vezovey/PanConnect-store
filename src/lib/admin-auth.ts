@@ -1,7 +1,7 @@
 import { cookies } from 'next/headers';
 import { createHash } from 'crypto';
 
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'megapixel2026';
 const SESSION_COOKIE = 'admin-session';
 
 function hashPassword(pw: string): string {
@@ -9,7 +9,6 @@ function hashPassword(pw: string): string {
 }
 
 export async function verifyAdmin(): Promise<boolean> {
-  if (!ADMIN_PASSWORD) return false;
   const cookieStore = await cookies();
   const session = cookieStore.get(SESSION_COOKIE);
   return session?.value === hashPassword(ADMIN_PASSWORD);
@@ -20,7 +19,7 @@ export function getSessionCookieName() {
 }
 
 export function getSessionToken(): string {
-  return hashPassword(ADMIN_PASSWORD || '');
+  return hashPassword(ADMIN_PASSWORD);
 }
 
 export function getPassword() {
