@@ -219,12 +219,36 @@ export default async function ProductPage({ params }: ProductPageProps) {
       {/* Характеристики */}
       {(() => {
         // Priority: structured specs → parse description HTML → parse raw text
+        // Use same parsing logic as admin preview: raw text line-by-line
         let allSpecs: { label: string; value: string; isSection?: boolean }[] = [];
-        if (product.specs && product.specs.length > 0) {
-          allSpecs = product.specs.map(s => ({ label: s.label, value: s.value }));
-        } else if (product.description) {
-          allSpecs = parseSpecs(product.description);
-          if (allSpecs.length === 0) allSpecs = parseTextSpecs(product.description.replace(/<[^>]*>/g, ''));
+        const rawText = (product.description || '').replace(/<[^>]*>/g, '\n').replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+        const lines = rawText.split('\n').map(l => l.trim()).filter(l => l);
+        let i = 0;
+        while (i < lines.length) {
+          const line = lines[i];
+          const nextLine = i + 1 < lines.length ? lines[i + 1] : '';
+          const isLastLine = i === lines.length - 1;
+          const nextIsEmpty = !nextLine;
+          const nextLooksLikeValue = nextLine && !nextLine.includes(':') && nextLine.length < 50;
+          const hasColonValue = line.includes(':') && line.indexOf(':') < line.length - 1;
+          if (isLastLine || nextIsEmpty || (nextLooksLikeValue && !hasColonValue)) {
+            allSpecs.push({ label: line, value: '', isSection: true });
+            i++;
+          } else if (hasColonValue) {
+            const ci = line.indexOf(':');
+            allSpecs.push({ label: line.substring(0, ci).trim(), value: line.substring(ci + 1).trim() });
+            i++;
+          } else {
+            const param = line;
+            const value = i + 1 < lines.length ? lines[i + 1] : '';
+            if (param && value) {
+              allSpecs.push({ label: param, value });
+              i += 2;
+            } else {
+              allSpecs.push({ label: param, value: '', isSection: true });
+              i++;
+            }
+          }
         }
         if (allSpecs.length === 0 && !product.description) return null;
         return (

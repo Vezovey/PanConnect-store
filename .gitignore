@@ -68,13 +68,23 @@ AGENTS.md
 # uploaded images (persist across deploys, not in git)
 /uploads/
 
+# data files — never in git (server has its own, deploy must not touch)
+src/data/products.json
 src/data/orders.json
-  
-# product backups  
-src/data/products_backup_*.json  
-src/data/products_visibility_*.json  
-src/data/orders_snapshot_*.json  
-  
-# temp analysis scripts  
-scripts/_*.js  
-scripts/_*.txt 
+
+# data backups
+src/data/product_backup_*.json
+src/data/products_backup_*.json
+src/data/products_visibility_*.json
+src/data/orders_backup_*.json
+src/data/orders_snapshot_*.json
+
+# temp analysis scripts
+scripts/_*.js
+scripts/_*.txt
+
+# nested clone
+PanConnect-store/
+
+# temp commit message
+COMMIT_MSG_TMP

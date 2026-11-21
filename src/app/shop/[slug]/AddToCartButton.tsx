@@ -103,8 +103,9 @@ export default function AddToCartButton({ product, variations }: AddToCartButton
   }, [selectedAttrs, variations]);
 
   const currentPrice = selectedVariation?.price || product.price;
-  // Only require selection for attributes that appear in variations
-  const requiredAttrs = attrNames.filter(name => attrInVariations[name]);
+  // Only require RAM, Storage, Color — optional attrs don't block cart
+  const MANDATORY_ATTRS = new Set(['Оперативная память', 'Встроенная память', 'Цвет корпуса']);
+  const requiredAttrs = attrNames.filter(name => MANDATORY_ATTRS.has(name));
   const allSelected = requiredAttrs.every(name => selectedAttrs[name]);
 
   // When user selects a value, clean up selections that became invalid

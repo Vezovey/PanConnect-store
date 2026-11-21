@@ -127,9 +127,11 @@ function buildOffer(
 ): string {
   let xml = '      <offer id="' + escapeXml(id) + '" available="' + (available ? 'true' : 'false') + '">\n';
   xml += '        <url>' + escapeXml(url) + '</url>\n';
-  xml += '        <delivery-options>\n';
-  xml += '          <option days="' + deliveryDays + '" order-before="' + orderBefore + '"/>\n';
-  xml += '        </delivery-options>\n';
+  if (deliveryDays > 0) {
+    xml += '        <delivery-options>\n';
+    xml += '          <option days="' + deliveryDays + '" order-before="' + orderBefore + '"/>\n';
+    xml += '        </delivery-options>\n';
+  }
   xml += '        <price>' + escapeXml(price) + '</price>\n';
   if (oldprice) {
     xml += '        <oldprice>' + escapeXml(oldprice) + '</oldprice>\n';
@@ -153,7 +155,7 @@ function productToOffers(p: LocalProduct): string[] {
   const url = SITE_URL + '/shop/' + p.slug + '/';
   const imgUrl = p.local_images?.[0] ? SITE_URL + p.local_images[0] : '';
   const description = stripHtml(p.short_description || '');
-  const baseDeliveryDays = p.deliveryDays ?? 1;
+  const baseDeliveryDays = p.preorder ? (p.deliveryDays ?? 1) : 0;
   const orderBefore = p.orderBefore ?? 18;
   const catId = p.shopByCategory ?? 1;
   const marketCat = MARKET_CATEGORY_MAP[catId] || 'Мобильные телефоны';
@@ -176,7 +178,7 @@ function productToOffers(p: LocalProduct): string[] {
         params += '        <param name="' + escapeXml(a.name) + '">' + escapeXml(a.option) + '</param>\n';
       }
 
-      const varDelivery = v.deliveryDays || baseDeliveryDays;
+      const varDelivery = p.preorder ? (v.deliveryDays || baseDeliveryDays) : 0;
       offers.push(buildOffer(varId, url, imgUrl, varPrice, oldprice, catId, marketCat, varName, description, varDelivery, orderBefore, params, true));
     }
   } else {

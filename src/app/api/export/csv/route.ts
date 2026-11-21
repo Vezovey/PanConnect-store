@@ -129,8 +129,8 @@ function productToRows(p: LocalProduct): CsvRow[] {
   const imgUrl = p.local_images?.[0] ? `${SITE_URL}${p.local_images[0]}` : '';
   const description = stripHtml(p.short_description || '');
   const csvCategory = getCsvCategory(p);
-  // delivery_days: from variation (if preorder) or product
-  const baseDeliveryDays = String(p.deliveryDays || '');
+  // delivery_days: only when preorder is ON
+  const baseDeliveryDays = p.preorder ? String(p.deliveryDays || '') : '';
 
   if (p.type === 'variable' && p.variations && p.variations.length > 0) {
     for (const v of p.variations) {
@@ -155,7 +155,7 @@ function productToRows(p: LocalProduct): CsvRow[] {
         price: String(varPrice),
         oldprice: '', // Always empty per spec
         currencyId: 'BYN',
-        delivery_days: String(v.deliveryDays || baseDeliveryDays),
+        delivery_days: p.preorder ? String(v.deliveryDays || baseDeliveryDays) : '',
         category: csvCategory,
         picture: imgUrl,
         name: varName,
